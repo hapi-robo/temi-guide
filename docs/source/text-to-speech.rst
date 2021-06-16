@@ -57,10 +57,10 @@ To speak multiple lines of text, you must wait for the robot to finish speaking 
   // Command robot to speak
   sRobot.speak(TtsRequest.create(queue.remove(), false));
 
-For a working example, click `here <>`_.
+For a working example, refer to the `text-to-speech example <https://github.com/hapi-robo/temi-guide/tree/master/examples/text-to-speech>`_.
 
 
 
 References
 ----------
-- `temi SDK: Speech <https://github.com/robotemi/sdk/wiki/Speech#speak>`_
+- `temi SDK: Speech <https://github.com/robotemi/sdk/wiki/Speech>`_

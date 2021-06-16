@@ -22,10 +22,11 @@
         <meta-data
             android:name="com.robotemi.sdk.metadata.SKILL"
             android:value="@string/app_name" />
-        <!-- Uncomment for skill to appear as a kiosk skill -->
-<!--        <meta-data-->
-<!--            android:name="com.robotemi.sdk.metadata.KIOSK"-->
-<!--            android:value="TRUE" />-->
+
+        <!-- Make this a Kiosk app -->
+        <meta-data
+            android:name="com.robotemi.sdk.metadata.KIOSK"
+            android:value="TRUE" />
     </application>
 
 </manifest>
