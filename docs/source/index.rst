@@ -9,6 +9,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
 
    getting-started
    text-to-speech
+   speech-to-text
    user-detection
 
 

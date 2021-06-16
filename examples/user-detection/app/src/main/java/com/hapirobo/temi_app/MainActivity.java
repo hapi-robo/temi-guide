@@ -64,33 +64,24 @@ public class MainActivity extends AppCompatActivity implements
         }
     }
 
-    /**
-     * This is listener will return true if:
-     *  - User is detected
-     *  - User is interacting by touch, voice, or in telepresence-mode
-     *  - Robot is moving
-     * @param isInteracting True is user is interacting with the robot; false otherwise.
-     */
     @Override
     public void onUserInteraction(boolean isInteracting) {
         final TextView textView = findViewById(R.id.userInteraction);
 
         if (isInteracting) {
+            // User is interacting with the robot:
+            // - User is detected
+            // - User is interacting by touch, voice, or in telepresence-mode
+            // - Robot is moving
             Log.i(TAG, "OnUserInteraction: TRUE");
             textView.setText("OnUserInteraction: TRUE");
         } else {
+            // User is not interacting with the robot
             Log.i(TAG, "OnUserInteraction: FALSE");
             textView.setText("OnUserInteraction: FALSE");
         }
     }
 
-    /**
-     * This listener will return the detection state.
-     * @param state
-     *  - IDLE: No active detection and/or 10 seconds have passed since the last detection was lost
-     *  - DETECTED: When human is detected
-     *  - LOST: When human-target is lost
-     */
     @Override
     public void onDetectionStateChanged(int state) {
         final TextView textView = findViewById(R.id.detectionState);

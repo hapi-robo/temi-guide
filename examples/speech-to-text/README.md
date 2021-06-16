@@ -2,7 +2,9 @@
 
 Example app used to test speech callback interfaces.
 
-Note that in order for `OnConversationStatusChangedListener` to work correctly, the app must be selected as a Kiosk app.
+For `OnConversationStatusChangedListener` to work correctly:
+- The skill must be set to [Kiosk Mode](https://github.com/robotemi/sdk/wiki/Kiosk-Mode).
+
 See [documentation](https://github.com/robotemi/sdk/wiki/Speech#onconversationstatuschangedlistener) for details.
 
 ## References:

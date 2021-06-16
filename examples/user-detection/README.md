@@ -2,7 +2,7 @@
 
 Example app used to test user detection interface.
 
-For detection mode to work properly:
+For detection mode to work correctly:
 - The skill must be set to [Kiosk Mode](https://github.com/robotemi/sdk/wiki/Kiosk-Mode).
 - _Settings > General Settings > Tracking User_ should be turned `ON`.
  
