@@ -26,12 +26,12 @@ Speak without text displayed:
 
 Multiple Lines of Text
 ----------------------
-``speak()`` is an asynchronous method. Therefore, you cannot do the following to speak multiple lines of text:
+``speak()`` is an asynchronous method. Therefore, you *cannot* do the following to speak multiple lines of text:
 
 .. code-block:: Java
 
-  sRobot.speak(TtsRequest.create("Hello World", false));
-  sRobot.speak(TtsRequest.create("What is the weather today?", false));
+  sRobot.speak(TtsRequest.create("Hello World"));
+  sRobot.speak(TtsRequest.create("What is the weather today?"));
 
 To speak multiple lines of text, you must wait for the robot to finish speaking the first line of text before starting the second line of text. To check when the robot has finished speaking, you can use the `TtsListener <https://github.com/robotemi/sdk/wiki/Speech#ttsListener>`_ interface. For example:
 
@@ -48,14 +48,14 @@ To speak multiple lines of text, you must wait for the robot to finish speaking 
       public void onTtsStatusChanged(@NotNull TtsRequest ttsRequest) {
           if (ttsRequest.getStatus() == TtsRequest.Status.COMPLETED) {
               if (!queue.isEmpty()) {
-                  sRobot.speak(TtsRequest.create(queue.remove(), false));
+                  sRobot.speak(TtsRequest.create(queue.remove()));
               }
           }
       }
   });
 
   // Command robot to speak
-  sRobot.speak(TtsRequest.create(queue.remove(), false));
+  sRobot.speak(TtsRequest.create(queue.remove()));
 
 For a working example, refer to the `text-to-speech example <https://github.com/hapi-robo/temi-guide/tree/master/examples/text-to-speech>`_.
 
@@ -63,4 +63,4 @@ For a working example, refer to the `text-to-speech example <https://github.com/
 
 References
 ----------
-- `temi SDK: Speech <https://github.com/robotemi/sdk/wiki/Speech>`_
+* `temi SDK: Speech <https://github.com/robotemi/sdk/wiki/Speech>`_

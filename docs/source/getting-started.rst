@@ -68,6 +68,7 @@ Instantiate a ``Robot`` class.
       sRobot = Robot.getInstance();
   }
 
+
 Add and remove ``OnRobotReadyListener`` at the start and end of the app lifecycle.
 
 .. code-block:: Java
@@ -88,7 +89,9 @@ Add and remove ``OnRobotReadyListener`` at the start and end of the app lifecycl
       sRobot.removeOnRobotReadyListener(this);
   }
 
-Log a message to the console and hide temi's top action bar when the ``OnRobotReadyListener`` is called.
+onRobotReady()
+--------------
+In ``MainActivity.java``, log a message to the console and hide temi's top action bar when the ``OnRobotReady()`` is called.
 
 .. code-block:: Java
 
@@ -100,10 +103,10 @@ Log a message to the console and hide temi's top action bar when the ``OnRobotRe
       }
   }
 
-.. note::
-  All of temi's methods will only work correctly after the robot is *ready*. Use ``onRobotReady()`` to verify this. 
+.. warning::
+  temi's methods will only work correctly after the robot is *ready*. Use ``onRobotReady()`` to verify this.
 
 
 References
 ----------
-- `temi SDK Wiki <https://github.com/robotemi/sdk/wiki>`_
+* `temi SDK Wiki <https://github.com/robotemi/sdk/wiki>`_
