@@ -1,0 +1,305 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Getting Started &mdash; temi Guide 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> temi Guide
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Getting Started</a><ul>
+<li><a class="reference internal" href="#create-an-empty-activity-project">Create an Empty Activity Project</a><ul>
+<li><a class="reference internal" href="#build-gradle-app">build.gradle (app)</a></li>
+<li><a class="reference internal" href="#androidmanifest-xml">AndroidManifest.xml</a></li>
+<li><a class="reference internal" href="#mainactivity-java">MainActivity.java</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">temi Guide</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Getting Started</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/getting-started.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<p>The following are instructions for building the most basic Android app that appears in temi’s launcher. You can find a working example <a class="reference external" href="https://github.com/hapi-robo/temi-app-template">here</a>.</p>
+<section id="create-an-empty-activity-project">
+<h2>Create an Empty Activity Project<a class="headerlink" href="#create-an-empty-activity-project" title="Permalink to this headline">¶</a></h2>
+<p>Using <a class="reference external" href="https://developer.android.com/studio/">Android Studio</a>, use the <code class="docutils literal notranslate"><span class="pre">Empty</span> <span class="pre">Activity</span></code> Project Template to create a new project.</p>
+<section id="build-gradle-app">
+<h3>build.gradle (app)<a class="headerlink" href="#build-gradle-app" title="Permalink to this headline">¶</a></h3>
+<p>Add temi’s SDK. You can find the latest release <a class="reference external" href="https://github.com/robotemi/sdk/wiki/Release-Info">here</a>.</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span>dependencies {
+  ...
+  implementation &#39;com.robotemi:sdk:0.10.70&#39;
+  ...
+}
+</pre></div>
+</div>
+</section>
+<section id="androidmanifest-xml">
+<h3>AndroidManifest.xml<a class="headerlink" href="#androidmanifest-xml" title="Permalink to this headline">¶</a></h3>
+<p>Use temi’s <code class="docutils literal notranslate"><span class="pre">SkillTheme</span></code> to remove Android’s default action bar.</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span>&lt;application
+  ...
+  android:theme=&quot;@style/SkillTheme&quot;&gt;
+  ...
+&lt;/application&gt;
+</pre></div>
+</div>
+<p>Add the following <code class="docutils literal notranslate"><span class="pre">meta-data</span></code> tag so that the skill will appear in temi’s launcher.</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span>&lt;application
+  ...
+  &lt;meta-data
+            android:name=&quot;com.robotemi.sdk.metadata.SKILL&quot;
+            android:value=&quot;@string/app_name&quot; /&gt;
+    ...
+&lt;/application&gt;
+</pre></div>
+</div>
+</section>
+<section id="mainactivity-java">
+<h3>MainActivity.java<a class="headerlink" href="#mainactivity-java" title="Permalink to this headline">¶</a></h3>
+<p>Implement <code class="docutils literal notranslate"><span class="pre">OnRobotReadyListener</span></code> in the <code class="docutils literal notranslate"><span class="pre">MainActivity</span></code> class.</p>
+<div class="highlight-Java notranslate"><div class="highlight"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainActivity</span> <span class="kd">extends</span> <span class="n">AppCompatActivity</span> <span class="kd">implements</span> <span class="n">OnRobotReadyListener</span>
+</pre></div>
+</div>
+<p>Instantiate a <code class="docutils literal notranslate"><span class="pre">Robot</span></code> class.</p>
+<div class="highlight-Java notranslate"><div class="highlight"><pre><span></span><span class="nd">@Override</span>
+<span class="kd">protected</span> <span class="kt">void</span> <span class="nf">onCreate</span><span class="p">(</span><span class="n">Bundle</span> <span class="n">savedInstanceState</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">super</span><span class="p">.</span><span class="na">onCreate</span><span class="p">(</span><span class="n">savedInstanceState</span><span class="p">);</span>
+    <span class="n">setContentView</span><span class="p">(</span><span class="n">R</span><span class="p">.</span><span class="na">layout</span><span class="p">.</span><span class="na">activity_main</span><span class="p">);</span>
+
+    <span class="c1">// Initialize robot instance</span>
+    <span class="n">sRobot</span> <span class="o">=</span> <span class="n">Robot</span><span class="p">.</span><span class="na">getInstance</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Add and remove <code class="docutils literal notranslate"><span class="pre">OnRobotReadyListener</span></code> at the start and end of the app lifecycle.</p>
+<div class="highlight-Java notranslate"><div class="highlight"><pre><span></span><span class="nd">@Override</span>
+<span class="kd">protected</span> <span class="kt">void</span> <span class="nf">onStart</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">super</span><span class="p">.</span><span class="na">onStart</span><span class="p">();</span>
+
+    <span class="c1">// Add robot event listeners</span>
+    <span class="n">sRobot</span><span class="p">.</span><span class="na">addOnRobotReadyListener</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nd">@Override</span>
+<span class="kd">protected</span> <span class="kt">void</span> <span class="nf">onStop</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">super</span><span class="p">.</span><span class="na">onStop</span><span class="p">();</span>
+
+    <span class="c1">// Remove robot event listeners</span>
+    <span class="n">sRobot</span><span class="p">.</span><span class="na">removeOnRobotReadyListener</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Log a message to the console and hide temi’s top action bar when the <code class="docutils literal notranslate"><span class="pre">OnRobotReadyListener</span></code> is called.</p>
+<div class="highlight-Java notranslate"><div class="highlight"><pre><span></span><span class="nd">@Override</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">onRobotReady</span><span class="p">(</span><span class="kt">boolean</span> <span class="n">isReady</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">isReady</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">Log</span><span class="p">.</span><span class="na">i</span><span class="p">(</span><span class="n">TAG</span><span class="p">,</span> <span class="s">&quot;Robot is ready&quot;</span><span class="p">);</span>
+        <span class="n">sRobot</span><span class="p">.</span><span class="na">hideTopBar</span><span class="p">();</span> <span class="c1">// hide temi&#39;s top action bar when skill is active</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/robotemi/sdk/wiki">temi SDK Wiki</a></p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, hapi-robo s.t., Inc..
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
