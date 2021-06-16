@@ -1,0 +1,6 @@
+[submodule "templates/temi-app-template"]
+	path = templates/temi-app-template
+	url = https://github.com/hapi-robo/temi-app-template.git
+[submodule "templates/temi-shortcut"]
+	path = templates/temi-shortcut
+	url = https://github.com/hapi-robo/temi-shortcut.git
