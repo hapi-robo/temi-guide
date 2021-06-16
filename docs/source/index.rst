@@ -8,7 +8,6 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    :caption: Contents:
 
    getting-started
-   speech-to-text
    text-to-speech
 
 
