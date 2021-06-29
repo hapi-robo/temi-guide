@@ -7,13 +7,9 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.robotemi.sdk.Robot;
-import com.robotemi.sdk.listeners.OnDetectionDataChangedListener;
 import com.robotemi.sdk.listeners.OnDetectionStateChangedListener;
 import com.robotemi.sdk.listeners.OnRobotReadyListener;
 import com.robotemi.sdk.listeners.OnUserInteractionChangedListener;
-import com.robotemi.sdk.model.DetectionData;
-
-import org.jetbrains.annotations.NotNull;
 
 public class MainActivity extends AppCompatActivity implements
         OnRobotReadyListener,
@@ -38,7 +34,6 @@ public class MainActivity extends AppCompatActivity implements
         // Add robot event listeners
         sRobot.addOnRobotReadyListener(this);
         sRobot.addOnDetectionStateChangedListener(this);
-        sRobot.addOnDetectionStateChangedListener(this);
         sRobot.addOnUserInteractionChangedListener(this);
     }
 
@@ -48,7 +43,6 @@ public class MainActivity extends AppCompatActivity implements
 
         // Remove robot event listeners
         sRobot.removeOnRobotReadyListener(this);
-        sRobot.removeOnDetectionStateChangedListener(this);
         sRobot.removeOnDetectionStateChangedListener(this);
         sRobot.removeOnUserInteractionChangedListener(this);
     }
