@@ -59,24 +59,6 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     @Override
-    public void onUserInteraction(boolean isInteracting) {
-        final TextView textView = findViewById(R.id.userInteraction);
-
-        if (isInteracting) {
-            // User is interacting with the robot:
-            // - User is detected
-            // - User is interacting by touch, voice, or in telepresence-mode
-            // - Robot is moving
-            Log.i(TAG, "OnUserInteraction: TRUE");
-            textView.setText("OnUserInteraction: TRUE");
-        } else {
-            // User is not interacting with the robot
-            Log.i(TAG, "OnUserInteraction: FALSE");
-            textView.setText("OnUserInteraction: FALSE");
-        }
-    }
-
-    @Override
     public void onDetectionStateChanged(int state) {
         final TextView textView = findViewById(R.id.detectionState);
 
@@ -103,4 +85,23 @@ public class MainActivity extends AppCompatActivity implements
                 break;
         }
     }
+    
+    @Override
+    public void onUserInteraction(boolean isInteracting) {
+        final TextView textView = findViewById(R.id.userInteraction);
+
+        if (isInteracting) {
+            // User is interacting with the robot:
+            // - User is detected
+            // - User is interacting by touch, voice, or in telepresence-mode
+            // - Robot is moving
+            Log.i(TAG, "OnUserInteraction: TRUE");
+            textView.setText("OnUserInteraction: TRUE");
+        } else {
+            // User is not interacting with the robot
+            Log.i(TAG, "OnUserInteraction: FALSE");
+            textView.setText("OnUserInteraction: FALSE");
+        }
+    }
+
 }
