@@ -8,6 +8,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    :caption: Contents:
 
    getting-started
+   hide-actionbar
    text-to-speech
    speech-to-text
    user-detection
