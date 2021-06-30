@@ -8,8 +8,9 @@ If you want to detect situations where the user does not respond immediately to 
 .. note::
   For `OnConversationStatusChangedListener` to work correctly, the skill must be set to `Kiosk Mode <https://github.com/robotemi/sdk/wiki/Kiosk-Mode>`_.
 
-For a working example, refer to the `speech-to-text example <https://github.com/hapi-robo/temi-guide/tree/master/examples/speech-to-text>`_.
-
+Example
+-------
+- `Speech-to-Text <https://github.com/hapi-robo/temi-guide/tree/master/examples/speech-to-text>`_.
 
 References
 ----------

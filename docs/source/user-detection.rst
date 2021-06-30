@@ -9,9 +9,9 @@ User Detection
   
   See `official documentation <https://github.com/robotemi/sdk/wiki/Detection-&-Interaction#integration>`_ for details.
 
-For a working example, refer to the `user-detection example <https://github.com/hapi-robo/temi-guide/tree/master/examples/user-detection>`_.
-
-
+Example
+-------
+- `User-Detection <https://github.com/hapi-robo/temi-guide/tree/master/examples/user-detection>`_.
 
 References
 ----------
