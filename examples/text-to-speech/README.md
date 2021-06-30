@@ -1,6 +1,4 @@
 # Text-to-Speech Example
-
 Example app used to test temi's text-to-speech method.
 
-## References:
-- [temi Speech](https://github.com/robotemi/sdk/wiki/Speech)
+See [documentation](https://temi-guide.readthedocs.io/en/latest/text-to-speech.html) for details.
