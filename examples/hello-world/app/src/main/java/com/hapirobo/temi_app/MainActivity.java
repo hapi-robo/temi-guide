@@ -10,7 +10,7 @@ import com.robotemi.sdk.listeners.OnRobotReadyListener;
 
 public class MainActivity extends AppCompatActivity implements OnRobotReadyListener {
     private static final String TAG = MainActivity.class.getSimpleName();
-    private static Robot sRobot;
+    private static Robot mRobot;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements OnRobotReadyListe
         setContentView(R.layout.activity_main);
 
         // Initialize robot instance
-        sRobot = Robot.getInstance();
+        mRobot = Robot.getInstance();
     }
 
     @Override
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements OnRobotReadyListe
         super.onStart();
 
         // Add robot event listeners
-        sRobot.addOnRobotReadyListener(this);
+        mRobot.addOnRobotReadyListener(this);
     }
 
     @Override
@@ -34,14 +34,14 @@ public class MainActivity extends AppCompatActivity implements OnRobotReadyListe
         super.onStop();
 
         // Remove robot event listeners
-        sRobot.removeOnRobotReadyListener(this);
+        mRobot.removeOnRobotReadyListener(this);
     }
 
     @Override
     public void onRobotReady(boolean isReady) {
         if (isReady) {
             Log.i(TAG, "Robot is ready");
-            sRobot.hideTopBar(); // hide temi's ActionBar when skill is active
+            mRobot.hideTopBar(); // hide temi's ActionBar when skill is active
         }
     }
 }
