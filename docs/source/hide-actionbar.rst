@@ -7,8 +7,6 @@ For Kiosk applications, you'll want to hide the temi's `ActionBar <https://devel
   :width: 800
   :alt: temi ActionBar
 
-temi's ActionBar.
-
 You can hide the ActionBar with the following command.
 
 .. code-block:: Java
@@ -21,8 +19,6 @@ But that will still leave a pull-down bar, which users can use to get access to 
   :width: 800
   :alt: temi Pull-Down Bar
 
-Using `Robot.getInstance().hideTopBary()` leaves a pull-down bar.
-
 
 How to
 ------
@@ -31,7 +27,7 @@ To completely hide temi's ActionBar (including the pull-down bar), you'll need t
 
 AndroidManifest.xml
 +++++++++++++++++++
-Add the following `meta-data` to your `MainActivity`.
+Add the following ``meta-data`` to your ``MainActivity``.
 
 .. code-block:: xml
 
@@ -53,8 +49,6 @@ Add the following code after the robot is ready.
   @Override
   public void onRobotReady(boolean isReady) {
       if (isReady) {
-          Log.i(TAG, "Robot is ready");
-          
           try {
             ActivityInfo activityInfo = getPackageManager().getActivityInfo(getComponentName(), PackageManager.GET_META_DATA);
             mRobot.onStart(activityInfo);
