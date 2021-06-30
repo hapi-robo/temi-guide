@@ -3,9 +3,10 @@ Getting Started
 
 The following are instructions for building the a basic Android app that appears in temi's launcher.
 
-Create an Empty Activity Project
---------------------------------
-Using `Android Studio <https://developer.android.com/studio/>`_, use the ``Empty Activity`` Project Template to create a new project.
+
+Changes to an Empty Activity Project
+------------------------------------
+Using `Android Studio <https://developer.android.com/studio/>`_, start with the ``Empty Activity`` Project Template and make the following changes.
 
 
 build.gradle (app)
@@ -19,6 +20,7 @@ Add temi's SDK. You can find the latest release `here <https://github.com/robote
     implementation 'com.robotemi:sdk:0.10.70'
     ...
   }
+
 
 AndroidManifest.xml
 +++++++++++++++++++
@@ -88,6 +90,7 @@ Add and remove ``OnRobotReadyListener`` at the start and end of the app lifecycl
       sRobot.removeOnRobotReadyListener(this);
   }
 
+
 onRobotReady()
 --------------
 In ``MainActivity.java``, log a message to the console and hide temi's ActionBar when the ``OnRobotReady()`` is called.
@@ -105,9 +108,10 @@ In ``MainActivity.java``, log a message to the console and hide temi's ActionBar
 .. warning::
   temi's methods will only work correctly after the robot is *ready*. Use ``onRobotReady()`` to verify this.
 
+
 Example
 -------
-* `Hello World <https://github.com/hapi-robo/temi-guide/tree/master/examples/hello-world>`_.
+* `Hello World <https://github.com/hapi-robo/temi-guide/tree/master/examples/hello-world>`_
 
 
 References
