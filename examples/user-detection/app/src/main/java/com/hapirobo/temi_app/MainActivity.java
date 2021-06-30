@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements
                 break;
         }
     }
-    
+
     @Override
     public void onUserInteraction(boolean isInteracting) {
         final TextView textView = findViewById(R.id.userInteraction);
