@@ -7,16 +7,21 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.robotemi.sdk.Robot;
+import com.robotemi.sdk.listeners.OnDetectionDataChangedListener;
 import com.robotemi.sdk.listeners.OnDetectionStateChangedListener;
 import com.robotemi.sdk.listeners.OnRobotReadyListener;
 import com.robotemi.sdk.listeners.OnUserInteractionChangedListener;
+import com.robotemi.sdk.model.DetectionData;
+
+import org.jetbrains.annotations.NotNull;
 
 public class MainActivity extends AppCompatActivity implements
         OnRobotReadyListener,
         OnDetectionStateChangedListener,
+        OnDetectionDataChangedListener,
         OnUserInteractionChangedListener {
     private static final String TAG = MainActivity.class.getSimpleName();
-    private static Robot sRobot;
+    private static Robot mRobot;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements
         setContentView(R.layout.activity_main);
 
         // Initialize robot instance
-        sRobot = Robot.getInstance();
+        mRobot = Robot.getInstance();
     }
 
     @Override
@@ -32,9 +37,10 @@ public class MainActivity extends AppCompatActivity implements
         super.onStart();
 
         // Add robot event listeners
-        sRobot.addOnRobotReadyListener(this);
-        sRobot.addOnDetectionStateChangedListener(this);
-        sRobot.addOnUserInteractionChangedListener(this);
+        mRobot.addOnRobotReadyListener(this);
+        mRobot.addOnDetectionStateChangedListener(this);
+        mRobot.addOnDetectionDataChangedListener(this);
+        mRobot.addOnUserInteractionChangedListener(this);
     }
 
     @Override
@@ -42,19 +48,33 @@ public class MainActivity extends AppCompatActivity implements
         super.onStop();
 
         // Remove robot event listeners
-        sRobot.removeOnRobotReadyListener(this);
-        sRobot.removeOnDetectionStateChangedListener(this);
-        sRobot.removeOnUserInteractionChangedListener(this);
+        mRobot.removeOnRobotReadyListener(this);
+        mRobot.removeOnDetectionStateChangedListener(this);
+        mRobot.removeOnDetectionDataChangedListener(this);
+        mRobot.removeOnUserInteractionChangedListener(this);
     }
 
     @Override
     public void onRobotReady(boolean isReady) {
         if (isReady) {
             Log.i(TAG, "Robot is ready");
-            sRobot.hideTopBar(); // hide temi's top action bar when skill is active
+            mRobot.hideTopBar(); // hide temi's top action bar when skill is active
 
+            /*
+             * |----------------------|------------------|---------------------------------------------|
+             * | setDetectionModeOn() | setTrackUserOn() | Result                                      |
+             * |----------------------|------------------|---------------------------------------------|
+             * |         true         |       true       | Detection mode is on and tracking is on     |
+             * |         true         |       false      | Detection mode is on and tracking is off    |
+             * |         false        |       true       | Detection mode is **on** and tracking is on |
+             * |         false        |       false      | Detection mode is off and tracking is off   |
+             * |----------------------|------------------|---------------------------------------------|
+             */
             Log.i(TAG, "Set detection mode: ON");
-            sRobot.setDetectionModeOn(true);
+            mRobot.setDetectionModeOn(true, 2.0f);
+
+            Log.i(TAG, "Set track user: ON");
+            mRobot.setTrackUserOn(true); // Note: When exiting the application, track user will still be enabled unless manually disabled
         }
     }
 
@@ -87,6 +107,15 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     @Override
+    public void onDetectionDataChanged(@NotNull DetectionData detectionData) {
+        if (detectionData.isDetected()) {
+            final TextView textView = findViewById(R.id.detectionState);
+            textView.setText("OnDetectionDataChanged: " + detectionData.getDistance() + " m");
+            Log.i(TAG, "OnDetectionDataChanged: " + detectionData.getDistance() + " m");
+        }
+    }
+
+    @Override
     public void onUserInteraction(boolean isInteracting) {
         final TextView textView = findViewById(R.id.userInteraction);
 
@@ -103,5 +132,4 @@ public class MainActivity extends AppCompatActivity implements
             textView.setText("OnUserInteraction: FALSE");
         }
     }
-
 }

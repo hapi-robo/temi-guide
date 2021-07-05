@@ -11,8 +11,8 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    hide-actionbar
    text-to-speech
    speech-to-text
-   user-detection
-
+   user-detection-tracking
+   adb-commands
 
 .. Indices and tables
 .. ==================

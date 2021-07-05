@@ -20,7 +20,7 @@ But that will still leave a pull-down bar, which users can use to get access to 
   :alt: temi Pull-Down Bar
 
 
-How to
+How To
 ------
 To completely hide temi's ActionBar (including the pull-down bar), you'll need to make the following changes.
 
@@ -51,7 +51,7 @@ Add the following code after the robot is ready.
       if (isReady) {
           try {
             ActivityInfo activityInfo = getPackageManager().getActivityInfo(getComponentName(), PackageManager.GET_META_DATA);
-            mRobot.onStart(activityInfo);
+            Robot.getInstance().onStart(activityInfo);
           } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
           }
@@ -67,7 +67,7 @@ To return to the Launcher menu, use the following command.
 
 .. code-block:: Java
 
-  mRobot.showAppList();
+  Robot.getInstance().showAppList();
 
 .. note::
   In case you've made a Kiosk app and forgot to include the exit button, one way to get out of it is to call your robot. Calling the robot bring up temi's ActionBar.
