@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements
     @Override
     public void onDetectionDataChanged(@NotNull DetectionData detectionData) {
         if (detectionData.isDetected()) {
-            final TextView textView = findViewById(R.id.detectionState);
+            final TextView textView = findViewById(R.id.detectionData);
             textView.setText("OnDetectionDataChanged: " + detectionData.getDistance() + " m");
             Log.i(TAG, "OnDetectionDataChanged: " + detectionData.getDistance() + " m");
         }
