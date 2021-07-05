@@ -13,7 +13,7 @@ build.gradle (app)
 ++++++++++++++++++
 Add temi's SDK. You can find the latest release `here <https://github.com/robotemi/sdk/wiki/Release-Info>`_.
 
-.. code-block:: xml
+.. code-block:: groovy
 
   dependencies {
     ...
@@ -28,7 +28,7 @@ Use temi's ``SkillTheme`` to remove the app's default `ActionBar <https://develo
 
 .. code-block:: xml
 
-  <application
+  <application>
     ...
     android:theme="@style/SkillTheme">
     ...
@@ -39,12 +39,12 @@ Add the following ``meta-data`` tag so that the skill will appear in temi's laun
 
 .. code-block:: xml
 
-  <application
+  <application>
     ...
     <meta-data
-              android:name="com.robotemi.sdk.metadata.SKILL"
-              android:value="@string/app_name" />
-      ...
+      android:name="com.robotemi.sdk.metadata.SKILL"
+      android:value="@string/app_name" />
+    ...
   </application>
 
 

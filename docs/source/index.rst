@@ -12,6 +12,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    text-to-speech
    speech-to-text
    user-detection-tracking
+   permissions
    adb-commands
 
 .. Indices and tables

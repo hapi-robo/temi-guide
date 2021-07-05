@@ -11,7 +11,7 @@ Usage
 For detection and/or tracking to work properly, the app must be set to `Kiosk Mode <https://github.com/robotemi/sdk/wiki/Kiosk-Mode>`_.
 
 The app must have `Settings Permissions` in order to use
-`setDetectionModeOn <https://github.com/robotemi/sdk/wiki/Detection-&-Interaction#setdetectionmodeon->`_ and `setTrackUserOn() <https://github.com/robotemi/sdk/wiki/Detection-&-Interaction#setTrackUserOn>`_, which are used to turn on detection mode and tracking mode, respectively. To enable `Settings Permissions` and other permissions, refer to the `official documentation <https://github.com/robotemi/sdk/wiki/permission>`_.
+`setDetectionModeOn <https://github.com/robotemi/sdk/wiki/Detection-&-Interaction#setdetectionmodeon->`_ and `setTrackUserOn() <https://github.com/robotemi/sdk/wiki/Detection-&-Interaction#setTrackUserOn>`_, which are used to turn on detection mode and tracking mode, respectively. To enable `Settings Permissions` and other permissions, refer to :doc:`permissions`.
 
 +--------------------+------------------+-----------------------------------------------------+
 | setDetectionMode() | setTrackUserOn() | Result                                              |
