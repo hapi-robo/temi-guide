@@ -22,6 +22,15 @@ Add temi's SDK. You can find the latest release `here <https://github.com/robote
   }
 
 
+proguard-rules.pro
+++++++++++++++++++
+If you are using `minification, obfuscation, or optimization <https://developer.android.com/studio/build/shrink-code>`_ of any kind, add the following line.
+
+.. code-block::
+
+  -keep class com.robotemi.sdk.** { *; }
+
+
 AndroidManifest.xml
 +++++++++++++++++++
 Use temi's ``SkillTheme`` to remove the app's default `ActionBar <https://developer.android.com/reference/androidx/appcompat/app/ActionBar>`_.
