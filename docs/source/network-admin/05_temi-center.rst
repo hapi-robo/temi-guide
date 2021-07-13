@@ -5,9 +5,9 @@ temi Center
 General Network Requirements
 ============================
 
-#. Broadband internet access. Wired connection preferred, over a CAT-5 ethernet cable.
-#. Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speed. See :ref:`box <temi-center-how-to-measure-bandwidth>` below for measurement instructions.
-#. A connection to temi Cloud. For more details, refer to :ref:`firewall-requirements`.
+- Broadband internet access. Wired connection preferred, over a CAT-5 ethernet cable.
+- Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speed. See :ref:`box <temi-center-how-to-measure-bandwidth>` below for measurement instructions.
+- A connection to temi Cloud. For more details, refer to :ref:`firewall-requirements`.
 
 .. admonition:: Recommendations
 

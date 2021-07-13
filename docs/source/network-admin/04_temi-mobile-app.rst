@@ -5,9 +5,9 @@ temi Mobile App
 General Network Requirements
 ============================
 
-#. Broadband internet access, which can either come from a Wi-Fi LAN or 4G LTE connection.
-#. Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speed. See :ref:`box <temi-mobile-app-how-to-measure-bandwidth>` below for measurement instructions.
-#. A connection to temi Cloud. For more details, refer to :ref:`firewall-requirements`.
+- Broadband internet access, which can either come from a Wi-Fi LAN or 4G LTE connection.
+- Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speed. See :ref:`box <temi-mobile-app-how-to-measure-bandwidth>` below for measurement instructions.
+- A connection to temi Cloud. For more details, refer to :ref:`firewall-requirements`.
 
 .. admonition:: Recommendations
 

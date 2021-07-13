@@ -5,10 +5,10 @@ temi Robot
 General Network Requirements
 ============================
 
-#. Broadband internet access.
-#. Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speed. See :ref:`box <temi-robot-how-to-measure-bandwidth>` below for measurement instructions.
-#. A static IP address or a DHCP server to obtain IPv4 address(es) for temi's wireless interface.
-#. A connection to temi Cloud. For more details, refer to :ref:`firewall-requirements`.
+- Broadband internet access.
+- Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speed. See :ref:`box <temi-robot-how-to-measure-bandwidth>` below for measurement instructions.
+- A static IP address or a DHCP server to obtain IPv4 address(es) for temi's wireless interface.
+- A connection to temi Cloud. For more details, refer to :ref:`firewall-requirements`.
 
 .. admonition:: Recommendations
 
@@ -24,13 +24,13 @@ General Network Requirements
 Wi-Fi Requirements
 ==================
 
-#. Satisfactory Wi-Fi coverage across the device's operating environment. Ideal signal strength (i.e. RSSI) range is -30 dBm to -65 dBm measured using temi's ``Network Settings`` page. See :ref:`measuring-wifi-signal-strength` for measurement instructions.
-#. 802.11a/b/g/n (at 2.4 GHz) or 802.11a/n/ac (at 5.0 GHz) Wi-Fi network coverage over the area where the robot will be used.
-#. Wi-Fi Security can be Open or WPA/WPA2 PSK Personal (recommended). WPA/WPA2 Enterprise is not fully supported at this time (2021/07).
+- Satisfactory Wi-Fi coverage across the device's operating environment. Ideal signal strength (i.e. RSSI) range is -30 dBm to -65 dBm measured using temi's ``Network Settings`` page. See :ref:`measuring-wifi-signal-strength` for measurement instructions.
+- 802.11a/b/g/n (at 2.4 GHz) or 802.11a/n/ac (at 5.0 GHz) Wi-Fi network coverage over the area where the robot will be used.
+- Wi-Fi Security can be Open or WPA/WPA2 PSK Personal (recommended). WPA/WPA2 Enterprise is not fully supported at this time (2021/07).
   
-  #. For WPA/WPA2 PSK, Wi-Fi Encryption can be TKIP or AES. 
+  - For WPA/WPA2 PSK, Wi-Fi Encryption can be TKIP or AES. 
 
-#. Hidden networks are supported on non-DFS frequencies only.
+- Hidden networks are supported on non-DFS frequencies only.
 
 
 Wi-Fi Roaming
