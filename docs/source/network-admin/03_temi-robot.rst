@@ -12,13 +12,13 @@ General Network Requirements
 
 .. admonition:: Recommendations
 
-	Bandwidth of 3 Mbps upload and 3 Mbps download speed
+  Bandwidth of 3 Mbps upload and 3 Mbps download speed
 
 .. _temi-robot-how-to-measure-bandwidth:
 
 .. admonition:: How to measure bandwidth
 
-	One way easy way to test internet bandwidth is to connect a PC to the same LAN as the robot and open a web-browser to the following link https://www.speedtest.net/. Then run the test.
+  One way easy way to test internet bandwidth is to connect a PC to the same LAN as the robot and open a web-browser to the following link https://www.speedtest.net/. Then run the test.
 
 
 Wi-Fi Requirements
@@ -27,7 +27,9 @@ Wi-Fi Requirements
 #. Satisfactory Wi-Fi coverage across the device's operating environment. Ideal signal strength (i.e. RSSI) range is -30 dBm to -65 dBm measured using temi's ``Network Settings`` page. See :ref:`measuring-wifi-signal-strength` for measurement instructions.
 #. 802.11a/b/g/n (at 2.4 GHz) or 802.11a/n/ac (at 5.0 GHz) Wi-Fi network coverage over the area where the robot will be used.
 #. Wi-Fi Security can be Open or WPA/WPA2 PSK Personal (recommended). WPA/WPA2 Enterprise is not fully supported at this time (2021/07).
-	#. For WPA/WPA2 PSK, Wi-Fi Encryption can be TKIP or AES. 
+  
+  #. For WPA/WPA2 PSK, Wi-Fi Encryption can be TKIP or AES. 
+
 #. Hidden networks are supported on non-DFS frequencies only.
 
 
@@ -49,13 +51,13 @@ The following are general recommendations to minimize roaming interuptions:
     - Load-balancing can impact roam times, which can impact voice and video quality for roaming clients. 
     - Load balancing can also make streaming video jittery with dropped frames.
 
-	- Dynamic Transmit Power Control
-	- Dynamic Channel Assignment
-	- 802.11b support
+  - Dynamic Transmit Power Control
+  - Dynamic Channel Assignment
+  - 802.11b support
 
 - Turn **ON** the following access-point features, if/when available
 
-	- 802.11 k/r/v support
+  - 802.11 k/r/v support
 
 
 Quality of Service (QoS) Recommendations

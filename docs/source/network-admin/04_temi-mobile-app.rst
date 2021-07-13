@@ -11,13 +11,13 @@ General Network Requirements
 
 .. admonition:: Recommendations
 
-	Bandwidth of 3 Mbps upload and 3 Mbps download speed
+  Bandwidth of 3 Mbps upload and 3 Mbps download speed
 
 .. _temi-mobile-app-how-to-measure-bandwidth:
 
 .. admonition:: How to measure bandwidth
 
-	One way easy way to test internet bandwidth is to open the device's mobile web-browser to the following link https://www.speedtest.net/. Then run the test.
+  One way easy way to test internet bandwidth is to open the device's mobile web-browser to the following link https://www.speedtest.net/. Then run the test.
 
 
 Quality of Service (QoS) Recommendations

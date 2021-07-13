@@ -11,13 +11,13 @@ General Network Requirements
 
 .. admonition:: Recommendations
 
-	Bandwidth of 3 Mbps upload and 3 Mbps download speed
+  Bandwidth of 3 Mbps upload and 3 Mbps download speed
 
 .. _temi-center-how-to-measure-bandwidth:
 
 .. admonition:: How to measure bandwidth
 
-	One way easy way to test internet bandwidth is to connect a PC to the same LAN as the robot and open a web-browser to the following link https://www.speedtest.net/. Then run the test.
+  One way easy way to test internet bandwidth is to connect a PC to the same LAN as the robot and open a web-browser to the following link https://www.speedtest.net/. Then run the test.
 
 
 PC Hardware Requirements
@@ -26,12 +26,12 @@ PC Hardware Requirements
 - Processor
 
   - 2-core 1.6GHz for video-only (minimum)
-	- 4-core 1.6GHz for screen-sharing (recommended)
-	- Intel i3/i5/i7 or AMD equivalent
+  - 4-core 1.6GHz for screen-sharing (recommended)
+  - Intel i3/i5/i7 or AMD equivalent
 
 - Memory
 
-	- 8GB RAM (minimum)
+  - 8GB RAM (minimum)
 
 - Speaker / Microphone
 
@@ -44,6 +44,8 @@ PC Hardware Requirements
 
 Web-browsers
 ============
+
+temi Center is supported on the following web-browsers:
 
 - `Google Chrome <https://www.google.com/chrome/>`_
 - `Microsoft Edge <https://www.microsoft.com/en-us/edge>`_

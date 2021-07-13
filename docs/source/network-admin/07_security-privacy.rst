@@ -31,6 +31,20 @@ For more information, see temi's Privacy Policies:
 - `USA <https://www.robotemi.com/privacy-policy/>`_
 - `Japan <https://www.robotemi.jp/privacy-policy/>`_
 
+Privacy policies of 3rd-party services used by temi:
+
+.. list-table::
+    :widths: 20 20 30
+    :header-rows: 1
+
+    * - Services
+      - Company
+      - Privacy Policy
+    * - Video Call
+      - Agora
+      - https://www.agora.io/en/compliance/
+
+
 
 Infrastructure
 ==============
@@ -38,6 +52,7 @@ Infrastructure
 The status of temi Cloud can be reviewed online at http://status.robotemi.com/.
 
 [In progress]
+
 - Levels of access
 - Update protocol
 - Certificates

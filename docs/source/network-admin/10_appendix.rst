@@ -12,19 +12,16 @@ Measuring Wi-Fi Signal Strength
 Use the following instructions to measure Wi-Fi signal strength on the robot.
 
 .. figure:: assets/homescreen.png 
-  :align: center
   :alt: Home screen
 
   Tap on the Wi-Fi icon in the top left-hand corner to bring up the Wi-Fi network selection menu.
 
 .. figure:: assets/wifi-selection.png 
-  :align: center
   :alt: Wi-Fi network selection menu
 
   Tap on the information icon on the right-hand side of the connected network to bring up the network settings page.
 
 .. figure:: assets/network-settings.png 
-  :align: center
   :alt: Wi-Fi network settings page
 
   Here you should see a line displaying the ``Signal strength`` in the units of `dBm`. This represents the Wi-Fi signal strength for the robot.
