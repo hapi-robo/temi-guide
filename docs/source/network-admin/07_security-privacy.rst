@@ -15,7 +15,7 @@ Software developers and network administrators should be aware of temi's `Androi
 
 Auditing
 ========
-temi has had security reviews by `McAfee (2020/05) <https://www.mcafee.com/blogs/other-blogs/mcafee-labs/call-an-exorcist-my-robots-possessed/>`_ and `Firedome <https://firedome.io/>`_ (2021). As of release 124 (Launcher OS 14759), temi Robot comes installed with the Firedome client for continuous security monitoring.
+temi has had security reviews by `McAfee <https://www.mcafee.com/blogs/other-blogs/mcafee-labs/call-an-exorcist-my-robots-possessed/>`_ (2020/05) and `Firedome <https://firedome.io/>`_ (2021). As of release 124 (Launcher OS 14759), temi Robot comes installed with the Firedome client for continuous security monitoring.
 
 
 Confidentiality
