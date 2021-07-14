@@ -37,9 +37,10 @@ To request multiple permissions, append and separate them with a comma (,).
 
 Then in ``Settings`` > ``Apps`` > ``Permissions`` menu, select the appropriate permission and enable the permission in your app. 
 
-.. image:: _static/img/permissions/settings-apps-permissions.png
-  :width: 800
+.. figure:: _static/img/permissions/settings-apps-permissions.png
   :alt: Settings > Apps > Permissions
+
+  temi's Settings permissions page (Launcher OS 14759).
 
 
 References
