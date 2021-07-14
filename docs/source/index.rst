@@ -3,6 +3,17 @@ temi Guide
 
 This guide provides some examples of using `temi's SDK <https://github.com/robotemi/sdk/>`_. The official documentation for temi's SDK can be found `here <https://github.com/robotemi/sdk/wiki>`_.
 
+
+.. toctree::
+   :maxdepth: 2
+   :numbered:
+   :caption: Accounts
+
+   accounts/01_overview
+   accounts/02_temi-ecosystem
+   accounts/03_registration-authentication
+   accounts/04_roles-permissions
+
 .. toctree::
    :maxdepth: 2
    :numbered:
