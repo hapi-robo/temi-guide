@@ -78,13 +78,14 @@ Software updates are not required, but strongly recommended. Failure to update t
 
 DHCP
 ====
+temi Robot can use DHCP to obtain its configurations. The DHCP hostnames for each robot are not unique, therefore it is recommended to identify robots by their MAC addresses. The MAC address for temi Robot's Wi-Fi inferface can be found under ``Settings`` > ``About`` > ``Wi-Fi MAC Address`` (Launcher OS 14759).
 
-temi Robot can use DHCP to obtain its configurations. The DHCP hostnames for each robot are not unique, therefore it is recommended to identify robots by their MAC addresses. The MAC address for temi's Wi-Fi network inferface can be found under ``Settings`` > ``About`` > ``Wi-Fi MAC Address`` (Launcher OS 14759).
 
+Captive Portals
+===============
+It is recommended to avoid using captive portals with temi Robot. If the robot is temporarily relocated or rebooted, the captive portal may require the sign-in process to be repeated when it reconnects to the network.
 
-Captive Portal Detection
-========================
-[In progress]
+Instead, it is recommended to whitelist the temi Robot's Wi-Fi interface when deploying at a facility where a captive portal is in place. If the temi Robot's Wi-Fi interface is whitelisted, captive portal registration is not needed. Many captive portals allow a whitelist of MAC addresses to be specified. The MAC address for temi Robot's Wi-Fi inferface can be found under ``Settings`` > ``About`` > ``Wi-Fi MAC Address`` (Launcher OS 14759).
 
 
 References
