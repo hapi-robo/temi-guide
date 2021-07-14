@@ -2,7 +2,7 @@
 Network Architecture
 ********************
 
-.. figure:: assets/network-architecture.png
+.. figure:: assets/images/network_architecture.png
   :alt: Network Architecture
 
   temi network consists of 4 major components: (1) temi Robot, (2) temi Mobile App, (3) temi Center, and (4) temi Cloud.
