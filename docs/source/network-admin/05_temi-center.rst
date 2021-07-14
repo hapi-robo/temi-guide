@@ -53,7 +53,6 @@ Web-browsers
 temi Center is supported on the following web-browsers:
 
 - `Google Chrome <https://www.google.com/chrome/>`_
-- `Microsoft Edge <https://www.microsoft.com/en-us/edge>`_
 - `Apple Safari <https://www.apple.com/safari/>`_
 
 .. Caution:: Some web-browser's like Google Chrome have an `automatic language translation` feature. Do not use this feature with temi Center. Instead, select the preferred language in temi Center. Using `automatic language translation` may result in text/buttons not being shown correctly.
