@@ -73,7 +73,7 @@ The update process should only take a few minutes and the robot will restart its
 
 .. DANGER:: Do not attempt to turn-off the robot during a software update. If the software update is taking longer than expected, call customer support.
 
-Software updates are not required, but strongly recommended. Failure to update your temi Robot software may result in loss of features. 
+Software updates are not required, but strongly recommended. Failure to update temi Robot software may result in loss of features. 
 
 
 DHCP
