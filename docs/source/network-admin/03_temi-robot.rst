@@ -8,7 +8,7 @@ General Network Requirements
 - Broadband internet access.
 - Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speeds. See :ref:`box <temi-robot-how-to-measure-bandwidth>` below for measurement instructions.
 - A static IP address or a DHCP server to obtain IPv4 address(es) for temi's wireless interface.
-- A connection to temi Cloud. For more details, refer to :ref:`firewall-requirements`.
+- A connection to temi Cloud. For more details, refer to :ref:`firewall-settings`.
 
 .. admonition:: Recommendations
 
@@ -62,7 +62,7 @@ The following are general recommendations to minimize roaming interuptions:
 
 Quality of Service (QoS) Recommendations
 ========================================
-[In progress]
+QoS should be set to prioritize any temi media traffic on the Wi-Fi network and on the uplink to the ISP. When using :ref:`firewall-settings`, give high priority to UDP traffic (media traffic) to and from the device.
 
 
 Over-the-Air Updates

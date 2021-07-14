@@ -1,10 +1,10 @@
 .. https://hapirobo.sharepoint.com/:x:/r/sites/hapi-robo/_layouts/15/doc2.aspx?sourcedoc=%7B9F4CB8A6-E544-410E-B1EF-AB44A5743DFB%7D&file=temi_firewall_settings.xlsx&action=default&mobileredirect=true&cid=eab50f22-0111-4f91-aefb-967ccfbe6f33
 
-.. _firewall-requirements:
+.. _firewall-settings:
 
-*********************
-Firewall Requirements
-*********************
+*****************
+Firewall Settings
+*****************
 
 A list of the IP/FQDNs and port numbers that are used by temi Robots, temi Mobile App, and temi Center are provided in the following CSV file. 
 
@@ -58,6 +58,7 @@ temi Mobile App
 iOS
 ^^^
 .. figure:: assets/images/firewall/ios-settings.png 
+  :width: 320px
   :alt: Settings
 
   Tap on ``More`` to bring up the Settings page. Then turn ``ON`` `Firewall Mode`. `[Image taken from iOS mobile app 1.1.45]`
@@ -65,6 +66,7 @@ iOS
 Android
 ^^^^^^^
 .. figure:: assets/images/firewall/android-settings.jpg 
+  :width: 320px
   :alt: Settings
 
   Tap on ``More`` to bring up the Settings page. Then turn ``ON`` `Firewall Mode`. `[Image taken from Android mobile app 1.3.8425]`

@@ -11,7 +11,7 @@ Android Debug Bridge
   Enabling temi's ADB port posses some risks. There exists malware/viruses that specifically target this port. If there are devices on the network that have such malware, temi Robot can be infected. We recommend the following:
 
     - Only connect temi Robot to a closed network that is malware-free for development.
-    - Never enable the ADB port in production.
+    - Never enable the ADB port in production or on a public network.
 
   It is impossible to know if the ADB port was accidentally opened. When in doubt, reboot the robot to close the port. 
 
@@ -21,9 +21,9 @@ Auditing
 temi has had security reviews by `McAfee <https://www.mcafee.com/blogs/other-blogs/mcafee-labs/call-an-exorcist-my-robots-possessed/>`_ (2020/05) and `Firedome <https://firedome.io/>`_ (2021). As of release 124 (Launcher OS 14759), temi Robot comes installed with the Firedome client for continuous security monitoring.
 
 
-Confidentiality
-===============
-[In progress]
+.. Confidentiality
+.. ===============
+.. [In progress]
 
 
 Privacy Policy
@@ -54,10 +54,10 @@ Infrastructure
 
 The status of temi Cloud can be reviewed online at http://status.robotemi.com/.
 
-[In progress]
+.. [In progress]
 
-- Levels of access
-- Update protocol
-- Certificates
-- Password storage
-- Data backup
+.. - Levels of access
+.. - Update protocol
+.. - Certificates
+.. - Password storage
+.. - Data backup
