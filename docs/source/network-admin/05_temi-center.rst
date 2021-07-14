@@ -20,6 +20,11 @@ General Network Requirements
   One way easy way to test internet bandwidth is to connect a PC to the same LAN as the robot and open a web-browser to the following link https://www.speedtest.net/. Then run the test.
 
 
+Quality of Service (QoS) Recommendations
+========================================
+[In progress]
+
+
 PC Hardware Requirements
 ========================
 

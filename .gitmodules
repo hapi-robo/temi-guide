@@ -1,3 +1,6 @@
 [submodule "templates/temi-shortcut"]
 	path = templates/temi-shortcut
 	url = https://github.com/hapi-robo/temi-shortcut.git
+[submodule "templates/temi-welcomingmode-b2b"]
+	path = templates/temi-welcomingmode-b2b
+	url = https://github.com/ROBOTEAM-HOME/temi-welcomingmode-b2b.git
