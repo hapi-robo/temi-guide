@@ -23,4 +23,4 @@ The temi network consists of the following components:
   temi Cloud
     Consists of various web-services. It's primary purposes is to stores user information and assist with establishing telepresence sessions between temi Robot and temi Mobile or temi Center.
 
-When the temi Robot is connected to the internet, it connects to temi Cloud to signal its state. When temi `Clients` (i.e. temi Mobile, temi Center) are started, it also connects to temi Cloud to determine which robots are available. temi Cloud assists both temi Robots and temi Clients in establishing telepresence sessions. It is also used to send software updates, upload diagnotics information, and manage temi Robots and user permissions. 
+When the temi Robot is connected to the internet, it connects to temi Cloud to signal its state. When temi `Clients` (i.e. temi Mobile, temi Center) are started, it also connects to temi Cloud to determine which robots are available. temi Cloud assists both temi Robots and temi Clients in establishing telepresence sessions. It is also used to send software updates, upload diagnostics information, and manage temi Robots and user permissions. 
