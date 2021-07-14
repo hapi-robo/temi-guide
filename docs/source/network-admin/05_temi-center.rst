@@ -6,20 +6,20 @@ General Network Requirements
 ============================
 
 - Broadband internet access. Wired connection preferred, over a CAT-5 ethernet cable.
-- Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speed. See :ref:`box <temi-center-how-to-measure-bandwidth>` below for measurement instructions.
+- Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speeds. See :ref:`box <temi-center-how-to-measure-bandwidth>` below for measurement instructions.
 - A connection to temi Cloud. For more details, refer to :ref:`firewall-requirements`.
 
 .. admonition:: Recommendations
 
-  Bandwidth of 3 Mbps upload and 3 Mbps download speed
+  Internet bandwidth of 3 Mbps upload and 3 Mbps download speeds
 
 .. _temi-center-how-to-measure-bandwidth:
 
 .. admonition:: How to measure bandwidth
 
-  One way easy way to test internet bandwidth is to connect a PC to the same LAN as the robot and open a web-browser to the following link https://www.speedtest.net/. Then run the test.
+  One easy way to test internet bandwidth is to connect a PC to the same LAN as the robot and open a web-browser to the following link https://www.speedtest.net/ to run an in-browser bandwidth test.
 
-
+  
 Quality of Service (QoS) Recommendations
 ========================================
 [In progress]
