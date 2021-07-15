@@ -10,9 +10,8 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    :caption: Accounts
 
    accounts/01_overview
-   accounts/02_temi-ecosystem
-   accounts/03_registration-authentication
-   accounts/04_roles-permissions
+   accounts/02_registration-authentication
+   accounts/03_roles-permissions
 
 .. toctree::
    :maxdepth: 2
