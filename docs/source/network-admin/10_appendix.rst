@@ -11,6 +11,8 @@ Measuring Wi-Fi Signal Strength
 
 Use the following instructions to measure Wi-Fi signal strength on the robot.
 
+.. Important:: Remember to check the robot's Wi-Fi signal strength across its entire operating environment. Signal strength changes depending on where the robot is in the environment, and in general signal strength decreases the further you are away from the Wi-Fi access point.
+
 .. figure:: assets/images/appendix/homescreen.png 
   :alt: Home screen
 
