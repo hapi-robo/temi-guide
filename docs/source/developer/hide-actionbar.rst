@@ -3,7 +3,7 @@ Hide ActionBar & Pull-Down Bar
 
 For Kiosk applications, you'll want to hide the temi's `ActionBar <https://developer.android.com/reference/androidx/appcompat/app/ActionBar>`_.
 
-.. figure:: _static/img/hide-actionbar/temi-actionbar.png 
+.. figure:: assets/hide-actionbar/temi-actionbar.png 
   :alt: temi ActionBar
 
   temi's ActionBar.
@@ -16,7 +16,7 @@ You can hide the ActionBar with the following command.
 
 But that will still leave a pull-down bar, which users can use to get access to temi's ActionBar.
 
-.. figure:: _static/img/hide-actionbar/temi-pull-down-bar.png 
+.. figure:: assets/hide-actionbar/temi-pull-down-bar.png 
   :alt: temi Pull-Down Bar
 
   temi's pull-down bar. By pulling down on this, the user can reveal temi's ActionBar.
