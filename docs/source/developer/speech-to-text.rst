@@ -5,7 +5,7 @@ Conversation Status
 -------------------
 If you want to detect situations where the user does not respond immediately to ``askQuestion()``, you can use the ``OnConversationStatusChangedListener``.
 
-.. note::
+.. Important::
   For `OnConversationStatusChangedListener` to work correctly, the skill must be set to `Kiosk Mode <https://github.com/robotemi/sdk/wiki/Kiosk-Mode>`_.
 
 

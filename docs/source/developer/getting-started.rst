@@ -1,17 +1,18 @@
+***************
 Getting Started
-===============
+***************
 
 The following are instructions for building the a basic Android app that appears in temi's launcher.
 
 
 Changes to an Empty Activity Project
-------------------------------------
+====================================
 Using `Android Studio <https://developer.android.com/studio/>`_, start with the ``Empty Activity`` Project Template and make the following changes.
 
 
 build.gradle (app)
-++++++++++++++++++
-Add temi's SDK. You can find the latest release `here <https://github.com/robotemi/sdk/wiki/Release-Info>`_.
+------------------
+Add temi's SDK. You can find the latest release information `here <https://github.com/robotemi/sdk/wiki/Release-Info>`_.
 
 .. code-block:: groovy
 
@@ -23,7 +24,7 @@ Add temi's SDK. You can find the latest release `here <https://github.com/robote
 
 
 proguard-rules.pro
-++++++++++++++++++
+------------------
 If you are using `minification, obfuscation, or optimization <https://developer.android.com/studio/build/shrink-code>`_ of any kind, add the following line.
 
 .. code-block::
@@ -32,7 +33,7 @@ If you are using `minification, obfuscation, or optimization <https://developer.
 
 
 AndroidManifest.xml
-+++++++++++++++++++
+-------------------
 Use temi's ``SkillTheme`` to remove the app's default `ActionBar <https://developer.android.com/reference/androidx/appcompat/app/ActionBar>`_.
 
 .. code-block:: xml
@@ -58,7 +59,7 @@ Add the following ``meta-data`` tag so that the skill will appear in temi's laun
 
 
 MainActivity.java
-+++++++++++++++++
+-----------------
 Implement ``OnRobotReadyListener`` in the ``MainActivity`` class.
 
 .. code-block:: Java
@@ -68,6 +69,8 @@ Implement ``OnRobotReadyListener`` in the ``MainActivity`` class.
 Instantiate a ``Robot`` class.
 
 .. code-block:: Java
+  :linenos:
+  :emphasize-lines: 6
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -75,20 +78,22 @@ Instantiate a ``Robot`` class.
       setContentView(R.layout.activity_main);
 
       // Initialize robot instance
-      sRobot = Robot.getInstance();
+      mRobot = Robot.getInstance();
   }
 
 
 Add and remove ``OnRobotReadyListener`` at the start and end of the app lifecycle.
 
 .. code-block:: Java
+  :linenos:
+  :emphasize-lines: 6, 14
 
   @Override
   protected void onStart() {
       super.onStart();
 
       // Add robot event listeners
-      sRobot.addOnRobotReadyListener(this);
+      mRobot.addOnRobotReadyListener(this);
   }
 
   @Override
@@ -96,12 +101,12 @@ Add and remove ``OnRobotReadyListener`` at the start and end of the app lifecycl
       super.onStop();
 
       // Remove robot event listeners
-      sRobot.removeOnRobotReadyListener(this);
+      mRobot.removeOnRobotReadyListener(this);
   }
 
 
 onRobotReady()
---------------
+==============
 In ``MainActivity.java``, log a message to the console and hide temi's ActionBar when the ``OnRobotReady()`` is called.
 
 .. code-block:: Java
@@ -110,19 +115,19 @@ In ``MainActivity.java``, log a message to the console and hide temi's ActionBar
   public void onRobotReady(boolean isReady) {
       if (isReady) {
           Log.i(TAG, "Robot is ready");
-          sRobot.hideTopBar(); // hide temi's top action bar when skill is active
+          mRobot.hideTopBar(); // hide temi's top action bar when skill is active
       }
   }
 
-.. warning::
+.. Attention::
   temi's methods will only work correctly after the robot is *ready*. Use ``onRobotReady()`` to verify this.
 
 
 Example
--------
+=======
 * `Hello World <https://github.com/hapi-robo/temi-guide/tree/master/examples/hello-world>`_
 
 
 References
-----------
+==========
 * `temi SDK Wiki <https://github.com/robotemi/sdk/wiki>`_
