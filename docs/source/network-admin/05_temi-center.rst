@@ -6,12 +6,12 @@ General Network Requirements
 ============================
 
 - Broadband internet access. Wired connection preferred, over a CAT-5 ethernet cable.
-- Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speeds. See :ref:`box <temi-center-how-to-measure-bandwidth>` below for measurement instructions.
+- Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speeds. A slower network speed can cause issues during a telepresence session. See :ref:`box <temi-center-how-to-measure-bandwidth>` below for measurement instructions.
 - A connection to temi Cloud. For more details, refer to :ref:`firewall-settings`.
 
 .. admonition:: Recommendations
 
-  Internet bandwidth of 3 Mbps upload and 3 Mbps download speeds
+  Internet bandwidth of `at least` 3 Mbps upload and 3 Mbps download speeds.
 
 .. _temi-center-how-to-measure-bandwidth:
 

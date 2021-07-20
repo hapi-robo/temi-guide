@@ -11,6 +11,8 @@ Measuring Wi-Fi Signal Strength
 
 Use the following instructions to measure Wi-Fi signal strength on the robot.
 
+.. Important:: Remember to check the robot's Wi-Fi signal strength across its entire operating environment. Signal strength changes depending on where the robot is in the environment, and in general signal strength decreases the further you are away from the Wi-Fi access point.
+
 .. figure:: assets/images/appendix/homescreen.png 
   :alt: Home screen
 
@@ -27,6 +29,8 @@ Use the following instructions to measure Wi-Fi signal strength on the robot.
   Here you should see a line displaying the ``Signal strength`` in the units of `dBm`. This represents the Wi-Fi signal strength for the robot.
 
 
+Installing Android CA System Certificates
+=========================================
+temi cannot be used with WPA-Enterprise and/or environments requiring 802.1X EAP authentication (2021/07).
 
-
-  
+Instructions for installing Android CA System Certificates manually over ADB can be found `here <https://github.com/hapi-robo/temi-guide/tree/master/scripts/ca_certificates>`_. This should be applicable to temi and any other Android device.
