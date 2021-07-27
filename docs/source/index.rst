@@ -4,6 +4,14 @@ temi Guide
 This guide provides some examples of using `temi's SDK <https://github.com/robotemi/sdk/>`_. The official documentation for temi's SDK can be found `here <https://github.com/robotemi/sdk/wiki>`_.
 
 .. toctree::
+   :maxdepth: 1
+   :numbered:
+   :caption: Essentials
+
+   essentials/01_connect-wifi
+   essentials/02_keyboard
+
+.. toctree::
    :maxdepth: 2
    :numbered:
    :caption: Network Administration
