@@ -16,7 +16,7 @@ Whitelist only those IP/FQDNs and port numbers that you want to use.
 
   The last column labeled ``Recommended``, in the CSV file, provides the minimum set needed for establishing telepresence sessions and OTA software updates.
 
-The latest firewall settings have been tested on the following software versions.
+The latest firewall settings have been tested on the following software versions using a `Netgate 1100 Security Gateway <https://docs.netgate.com/pfsense/en/latest/solutions/sg-1100/>`_ running `pfSense 21.02.2 <https://www.pfsense.org/>.
 
 +---------------------------+------------+
 |                           | Version    |
