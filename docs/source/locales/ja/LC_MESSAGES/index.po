@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 12:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/index.rst:6 4f6f7ab54d684c2da3ca736de8050fa3
+msgid "Essentials"
+msgstr ""
+
+#: ../../source/index.rst:14 d49bc5a2c21e4d1eaa48bef256627fb7
+msgid "Network Administration"
+msgstr ""
+
+#: ../../source/index.rst:29 e8ae32773cc24145a71fca587913821d
+msgid "Developer / SDK"
+msgstr ""
+
+#: ../../source/index.rst:2 4bd304fa3c3f4a70a5fa0bdb2addb416
+msgid "temi Guide"
+msgstr ""
+
+#: ../../source/index.rst:4 20408701375c4992bac6d5b8615fe916
+msgid ""
+"This guide provides some examples of using `temi's SDK "
+"<https://github.com/robotemi/sdk/>`_. The official documentation for "
+"temi's SDK can be found `here <https://github.com/robotemi/sdk/wiki>`_."
+msgstr ""
+

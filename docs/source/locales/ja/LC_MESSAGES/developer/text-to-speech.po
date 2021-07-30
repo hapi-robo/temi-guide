@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 12:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/developer/text-to-speech.rst:2 aa862cdf27304455983f9695e496fc05
+msgid "Text-to-Speech"
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:5 0bd099baa8d44ac588ec0c3a0b7d50c2
+msgid "Single Line of Text"
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:6 860c7f65b955434798f97feeee0995f8
+msgid "Speak with text displayed:"
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:17
+#: 1407afdd87904b33b87d80b320c8c380
+msgid "Speak without text displayed:"
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:28
+#: 1708cbcb0c36451ca50a0b1011851d6c
+msgid "Multiple Lines of Text"
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:29
+#: faf8ae96cc564a06a4e7450cd77a4c36
+msgid ""
+"``speak()`` is an asynchronous method. Therefore, you *cannot* do the "
+"following to speak multiple lines of text:"
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:36
+#: a2c95e2f46f24cab93aaf6bb0c3723fd
+msgid ""
+"To speak multiple lines of text, you must wait for the robot to finish "
+"speaking the first line of text before starting the second line of text. "
+"To check when the robot has finished speaking, you can use the "
+"`TtsListener <https://github.com/robotemi/sdk/wiki/Speech#ttsListener>`_ "
+"interface. For example:"
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:62
+#: 7ae492a44df44ada875928c6d616db91
+msgid "Example"
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:63
+#: e5aec52ae7e14fb693d527dddbcee8b5
+msgid ""
+"`Text-to-Speech <https://github.com/hapi-robo/temi-"
+"guide/tree/master/examples/text-to-speech>`_"
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:67
+#: 32554005f10143f1939ea7726c4214a7
+msgid "References"
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:68
+#: 2cca1f99f7f14d8f9a308c48cfa126d3
+msgid "`temi SDK: Speech <https://github.com/robotemi/sdk/wiki/Speech>`_"
+msgstr ""
+

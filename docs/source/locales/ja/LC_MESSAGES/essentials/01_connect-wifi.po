@@ -1,0 +1,398 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 12:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/essentials/01_connect-wifi.rst:1
+#: 124dae7fa06d4b4fa83538a56263ee56 467b7de177ca41d68c96639fdd7820ec
+msgid "wifi"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:4
+#: 40af603f773f415cbfd52929dafaea86 9b9721d4218d48e18a8ad8166d06cb8b
+#: b588959d48404f13974e6100e000082d
+msgid "info"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:9
+#: 0e65fc1bc35a491fb1fa9a38ad9e4c0c
+msgid "Robot Wi-Fi Network Setup"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:11
+#: 5d8e80f889064aebaf4ce6e766504c78
+msgid ""
+"Use the following instructions to connect your robot to your local Wi-Fi "
+"network. For detailed network requirements, refer to :doc:`Network "
+"Administration: temi Robot <../network-admin/03_temi-robot>`."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:16
+#: f48299200fbd48f38802acc75435e843
+msgid "Home screen"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:16
+#: 546adb79bec141cf8a85f7f6a8e7dcaa
+msgid ""
+"Tap on the Wi-Fi icon |wifi| in the top left-hand corner of the screen to"
+" bring up the Wi-Fi network selection menu."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:21
+#: 1c4e47d08759427398601a91a9856cbe ecacb6dc47c84c3b8ccb18eccb3c9c63
+msgid "Wi-Fi network selection menu"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:21
+#: 8426739de5964e9faf16428e29087b59
+msgid ""
+"The Wi-Fi network selection menu lists all Wi-Fi networks visible to the "
+"robot."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:25
+#: 5838a13e76954be8adfd9e8d0f1b9be1
+msgid "General Wi-Fi Network"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:29
+#: 126f3918db97466896e6dc8b7232e9b5
+msgid ""
+"Your Wi-Fi network SSID should appear in the list. If it does not, try "
+"resetting the robot's Wi-Fi by switching it ``オフ`` and then ``オン`` again "
+"(see top right-hand corner of the screen)."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:31
+#: f5f31bf927a1437ca3b97ecd9bba3d78
+msgid ""
+"If you see your Wi-Fi network, tap on it. It should ask you to enter the "
+"Wi-Fi network's password."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst 9bd665d7159f44d39c54e68919b0b76b
+msgid "Wi-Fi password page"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:36
+#: 7d46d379267746ddbf05a1b1118a61ea
+msgid ""
+"Enter your Wi-Fi network's password. Your password will be hidden as you "
+"type. To unhide the password, tap ``表示``. If you want to use a different "
+"keyboard layout, refer to the section about :doc:`Switching Keyboards "
+"<02_keyboard>`."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:38
+#: ../../source/essentials/01_connect-wifi.rst:110
+#: 33671a454b4740e58a13eedf114209e0 f140dc73161c45589e96c18429bc1e70
+msgid "Wi-Fi passwords are case-sensitive."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:43
+#: ../../source/essentials/01_connect-wifi.rst:115
+#: c37208f488d3498abdb930025fd77028 cd6f62d659664f43a17392938caecb25
+msgid "Wi-Fi password page (password entered)"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:43
+#: 3feaecd4623e4f25a5796c5b4170d85a
+msgid ""
+"After entering a valid password, ``接続する`` should appear highlighted in "
+"the top right-hand corner of the screen. Tap this to connect to the Wi-Fi"
+" network."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:135
+#: 6b914be2c4604548acbe521c422eee7e ed8b9ee9bbf248738bf0db1065be5d9c
+msgid "Successfully connected to Wi-Fi network"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:48
+#: ../../source/essentials/01_connect-wifi.rst:135
+#: 450a50df17c444b6a81caa8b6b79681a 72a935691c9c4cae9b611ccb6343494b
+msgid ""
+"If your robot is successfully connected to a Wi-Fi network, you will see "
+"``接続されました`` directly below the Wi-Fi network name (or SSID)."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:50
+#: 51ab8b8986f2403993117529501579d0
+msgid ""
+"To the right of your connected Wi-Fi network, there should be an "
+"information icon |info|. Tap this to see some Wi-Fi connection details."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:160
+#: 7350d111cc4a4e7d8de1604c6b3eb138 a47161f07de84d19bedee866309ea499
+msgid "Wi-Fi connection details"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:55
+#: 25ff237048af472897cd55b02a4d2803
+msgid "The Wi-Fi connection details page show:"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:57
+#: affe4f8d3cde4b4a8390af57ec779f3b
+msgid "Network name (or SSID)"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:58
+#: f3b5856933d949e08ea691da440a7313
+msgid "Status information,"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:59
+#: 584105a9c8b1444a91b1c1938301b9fe
+msgid "Signal strength (see :ref:`temi-robot-wifi-requirements` for requirements)"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:60
+#: 8a205ffa911c47a38f1e891db6727b2a
+msgid "Network bandwidth"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:63
+#: d689f52523b143f2baacc445fcc0d10b
+msgid ""
+"The ``network bandwidth`` value in the connection details page is the "
+"connection bandwidth between the robot and Wi-Fi access point. It is "
+"`not` the internet bandwidth."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:67
+#: b0456131d38145b9b3404ee3024869d5
+msgid "Hidden Wi-Fi Network"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:68
+#: 99d1358849a347cdbebf9d403e97984f
+msgid ""
+"If you are using a hidden Wi-Fi network, you will need to enter your Wi-"
+"Fi network details manually. To do this, scroll down to the bottom of the"
+" Wi-Fi network selection menu."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:73
+#: 2b3fe83c227d4024a4918c0690cff874
+msgid "Add Wi-Fi network"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:73
+#: 8462fff5c644471190f52033906db908
+msgid ""
+"At the bottom of the Wi-Fi network selection menu, there should be an "
+"option ``ネットワークを追加``, which will allow you to enter network details "
+"manually. Tap this to get started."
+msgstr ""
+
+#: 100056db1d474b1e8f46be343f86f03c
+msgid "Manually enter Wi-Fi network details"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:78
+#: a663fa968b774b7bbc0a48a3713cc790
+msgid ""
+"This is the ``ネットワークを追加`` page for manually entering Wi-Fi network "
+"details."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:80
+#: 9e2b62c7fa384dd69dcc18eb41febbfc
+msgid "Tap ``ネットワーク名`` to enter the Wi-Fi network's name (or SSID)."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst bd28187bcc76430691817e14b882653e
+msgid "Wi-Fi SSID name"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:85
+#: f8868624affb431fbbadb72807143231
+msgid "Enter the name of your Wi-Fi network (or SSID)."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:87
+#: ebdd6d41a2404c98af61a1ed8e6cb355
+msgid "Wi-Fi network names (or SSIDs) are case-sensitive."
+msgstr ""
+
+#: e27e682d43d14c3bb83fd97b090af85c
+msgid "Wi-Fi SSID name (name entered)"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:92
+#: 726ba48249f64358b64bdfab35a60e00
+msgid ""
+"After entering a name, ``完了`` should appear highlighted in the top right-"
+"hand corner of the screen. Tap this to save and return the ``ネットワークを追加`` "
+"page."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:94
+#: cde6851b7dd34d8b8f9dfd809c7ab5a0
+msgid ""
+"From the ``ネットワークを追加`` page, tap ``セキュリテイ`` to select the Wi-Fi network's"
+" security type."
+msgstr ""
+
+#: b19f37a3c9b944d3b08f6d587d9ea122
+msgid "Wi-Fi security"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:99
+#: 30844dd4b11d46118d0848a420e32987
+msgid ""
+"Select your Wi-Fi network's security type. Tap ``完了`` to save the "
+"selection and return to the ``ネットワークを追加`` page."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:101
+#: 3b9b33c667774521920ae6ca859ce4c4
+msgid ""
+"For general home and/or small business networks, the Wi-Fi network's "
+"security type for a modern access point is usually ``WPA/WPA2 PSK``."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:103
+#: c4e3a3d6b5f4447eb058304f5094cc75
+msgid ""
+"If you have selected a Wi-Fi security type that is not ``なし``, you should"
+" see an option to enter your password. Tap ``パスワード`` to enter your Wi-Fi "
+"network's password."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst 9cd962afe6744425b4e7cb6be83bccdb
+msgid "Wi-Fi password"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:108
+#: aa7e674f87254ab9b0096ae77f0dfbe9
+msgid ""
+"Enter your Wi-Fi network's password. Your password will be hidden as you "
+"type. To unhide the password, tap ``表示``."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:115
+#: f68b5cd3faaf42daa613fdbc15b67acc
+msgid ""
+"After entering a valid password, ``完了`` should appear highlighted in the "
+"top right-hand corner of the screen. Tap this to save the password and "
+"return to the ``ネットワークを追加`` page."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:120
+#: ../../source/essentials/01_connect-wifi.rst:125
+#: 58d2cf1e47cc4c5fba15b467bb9fe24c 703095df43b6496db6a6548b32d3ae1d
+msgid "Hidden network option"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:120
+#: f4254f0b16c54c55a892c06d17b1c05b
+msgid ""
+"Finally, scroll down to the bottom of the ``ネットワークを追加`` page. There "
+"should be an option ``非表示(ステルス)のネットワーク``. Tap this option to make your "
+"selection."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:125
+#: ef6dfbe1e7e742498b1f6da870b6b89c
+msgid ""
+"Select ``はい`` to confirm that the network is hidden. Then tap ``完了`` in "
+"the top right-hand corner of the screen to save the selection and return "
+"to the ``ネットワークを追加`` page."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:130
+#: c9dd7bafbcfe40d5adc667f5e7e9f45a
+msgid "Add Wi-Fi Network page (Complete)"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:130
+#: 4e71862e1bed4189b7001cbb75b2c9a2
+msgid ""
+"In the ``ネットワークを追加`` page, carefully review your network details. If "
+"everything is correct, tap ``追加`` to save these settings and connect to "
+"the Wi-Fi network."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:139
+#: bb09112c86074b5bb7c32099076f9e9f
+msgid "Multiple Wi-Fi Networks"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:141
+#: 947b1b71917143f0b8a0c7c039d7bf6f
+msgid ""
+"If you have connected your robot to multiple Wi-Fi networks, you will see"
+" those networks displayed in the Wi-Fi network selection menu."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:146
+#: 776b7c5b015a42faa601f39f8e4dbdf7
+msgid "Multiple Wi-Fi networks"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:146
+#: 964ff526b4a3484ba7b3767d0b0fe9d6
+msgid ""
+"All Wi-Fi networks that you have previously connected to will be shown in"
+" the Wi-Fi network selection menu as either ``接続されました`` or ``保存しました``."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:148
+#: b40ed514d56e44e398c4e9e043b15c78
+msgid "The robot will automatically switch between Wi-Fi networks."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:150
+#: ec761b7d3b6f4eafbb26077d8eb8b1f3
+msgid ""
+"To improve network stability, it is generally recommended to save and to "
+"connect to only one Wi-Fi network."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:152
+#: 9998e3dae7864b1d8b1695b5c059d211
+msgid ""
+"To forget previously saved Wi-Fi networks: Go to the Wi-Fi network "
+"selection menu, and next to the Wi-Fi network that you want the robot to "
+"forget:"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:154
+#: 19ac0a86a89b4b6fb447398f2bbf683a
+msgid ""
+"Tap on ``解除`` (if the robot is currently not connected to this Wi-Fi "
+"network), or"
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:155
+#: 39c4f84972d841f89fef079fcd269fc2
+msgid ""
+"Tap on the information icon |info| (if the robot is currently connected "
+"to this Wi-Fi network), and select ``解除``."
+msgstr ""
+
+#: ../../source/essentials/01_connect-wifi.rst:160
+#: a62a8964ea4346df855fc8d91d03c2fc
+msgid ""
+"From the Wi-Fi connection details page, tap on ``解除`` to forget this Wi-"
+"Fi network."
+msgstr ""
+

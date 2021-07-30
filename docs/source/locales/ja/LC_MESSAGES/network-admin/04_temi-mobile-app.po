@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 12:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/network-admin/04_temi-mobile-app.rst:3
+#: f51a71b2f9dd448ea43951fdef5dc822
+msgid "temi Mobile App"
+msgstr ""
+
+#: ../../source/network-admin/04_temi-mobile-app.rst:6
+#: 530e646013db401faae6d211c0fcd7b1
+msgid "General Network Requirements"
+msgstr ""
+
+#: ../../source/network-admin/04_temi-mobile-app.rst:8
+#: a7cfeaf3b0bf4e0bb6258f2c8ec37ebc
+msgid ""
+"Broadband internet access, which can either come from a Wi-Fi LAN or 4G "
+"LTE connection."
+msgstr ""
+
+#: ../../source/network-admin/04_temi-mobile-app.rst:9
+#: d94a58763fa046b88a2cc834ee251fe6
+msgid ""
+"Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speeds. A"
+" slower network speed can cause issues during a telepresence session. See"
+" :ref:`box <temi-mobile-app-how-to-measure-bandwidth>` below for "
+"measurement instructions."
+msgstr ""
+
+#: ../../source/network-admin/04_temi-mobile-app.rst:10
+#: 0dfdf825331b4e89ac60d0a59114c325
+msgid ""
+"A connection to temi Cloud. For more details, refer to :ref:`firewall-"
+"settings`."
+msgstr ""
+
+#: ../../source/network-admin/04_temi-mobile-app.rst:12
+#: 9c14248349d14ab089c63276c9ef074d
+msgid "Recommendations"
+msgstr ""
+
+#: ../../source/network-admin/04_temi-mobile-app.rst:14
+#: 9e86fcd6649b4ac3b7d6c5bb30ea5d69
+msgid "Internet bandwidth of `at least` 3 Mbps upload and 3 Mbps download speeds."
+msgstr ""
+
+#: ../../source/network-admin/04_temi-mobile-app.rst:18
+#: 4a3a0267d9174972bd0970a8f363cc9f
+msgid "How to measure bandwidth"
+msgstr ""
+
+#: ../../source/network-admin/04_temi-mobile-app.rst:20
+#: 0efe22ba04d2412aaab1500ebbaf4987
+msgid ""
+"One easy way to test internet bandwidth is to connect a PC to the same "
+"LAN as the robot and open a web-browser to the following link "
+"https://www.speedtest.net/ to run an in-browser bandwidth test."
+msgstr ""
+
+#: ../../source/network-admin/04_temi-mobile-app.rst:24
+#: 4e5fd2236497464fa24d49bb7a665d84
+msgid "Quality of Service (QoS) Recommendations"
+msgstr ""
+
+#: ../../source/network-admin/04_temi-mobile-app.rst:25
+#: 7010cc20ce02488d97ab46fddbd17a47
+msgid ""
+"QoS should be set to prioritize any temi media traffic on the Wi-Fi "
+"network and on the uplink to the ISP. When using :ref:`firewall-"
+"settings`, give high priority to UDP traffic (media traffic) to and from "
+"the device."
+msgstr ""
+
+#: ../../source/network-admin/04_temi-mobile-app.rst:29
+#: 37bdb90428214358940fe654b3e7e823
+msgid "Over-the-Air Updates"
+msgstr ""
+
+#: ../../source/network-admin/04_temi-mobile-app.rst:30
+#: 8b2c73820b80458a896deac3d51cfe63
+msgid ""
+"When temi releases a software update, the app on either iOS or Android "
+"should update itself automatically through the App Store or Google Play "
+"Store, respectively. App versions can be found by going to the app's "
+"``About`` page."
+msgstr ""
+

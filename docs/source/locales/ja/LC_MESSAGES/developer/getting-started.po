@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 12:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/developer/getting-started.rst:3
+#: a0a76d13086e4dd1a1d02318ca2e0e49
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:5
+#: 0b2d6027c17940b48a45e299f295f5a3
+msgid ""
+"The following are instructions for building the a basic Android app that "
+"appears in temi's launcher."
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:9
+#: 6c9c550d6fe946278f4f7e672a6e7577
+msgid "Changes to an Empty Activity Project"
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:10
+#: 4b8312ac432b49c08e05a743b546d924
+msgid ""
+"Using `Android Studio <https://developer.android.com/studio/>`_, start "
+"with the ``Empty Activity`` Project Template and make the following "
+"changes."
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:14
+#: eef7a66b86464534a8bbd43355de9a7a
+msgid "build.gradle (app)"
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:15
+#: 1457254ab43543448d62398a8c703a70
+msgid ""
+"Add temi's SDK. You can find the latest release information `here "
+"<https://github.com/robotemi/sdk/wiki/Release-Info>`_."
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:27
+#: acb90aa3146d47dc9fd70604787fec32
+msgid "proguard-rules.pro"
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:28
+#: 2bcffca021b040f7b130faf0227e44d6
+msgid ""
+"If you are using `minification, obfuscation, or optimization "
+"<https://developer.android.com/studio/build/shrink-code>`_ of any kind, "
+"add the following line."
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:36
+#: 8b553ad1673943d5b1f57578dfdffef6
+msgid "AndroidManifest.xml"
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:37
+#: ebb76b67912f40539bf549278aadead4
+msgid ""
+"Use temi's ``SkillTheme`` to remove the app's default `ActionBar "
+"<https://developer.android.com/reference/androidx/appcompat/app/ActionBar>`_."
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:48
+#: d68da9af37b44995ab26bac908993d5f
+msgid ""
+"Add the following ``meta-data`` tag so that the skill will appear in "
+"temi's launcher."
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:62
+#: a7ddd09406fd4948bff8c8a61940554a
+msgid "MainActivity.java"
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:63
+#: 107774389e8a4fc3ab3598e414203885
+msgid "Implement ``OnRobotReadyListener`` in the ``MainActivity`` class."
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:69
+#: 81fd4efc71da4cc690264789cabadb87
+msgid "Instantiate a ``Robot`` class."
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:85
+#: f7ff135194e84da1a3df5efa6b38b73b
+msgid ""
+"Add and remove ``OnRobotReadyListener`` at the start and end of the app "
+"lifecycle."
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:109
+#: e834f306fbb64259a527368804556143
+msgid "onRobotReady()"
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:110
+#: 503e48f54aed4e20ad20edcf6fda4826
+msgid ""
+"In ``MainActivity.java``, log a message to the console and hide temi's "
+"ActionBar when the ``OnRobotReady()`` is called."
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:123
+#: 214063a67e234457a51fdcab00914f1b
+msgid ""
+"temi's methods will only work correctly after the robot is *ready*. Use "
+"``onRobotReady()`` to verify this."
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:127
+#: bd0bb2bc3a644f928dc4cc6077dca1b4
+msgid "Example"
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:128
+#: 6e56c58232cc4e23bfeb8760de997528
+msgid ""
+"`Hello World <https://github.com/hapi-robo/temi-"
+"guide/tree/master/examples/hello-world>`_"
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:132
+#: 1a551ba95c0f40e589d4312fec938cb9
+msgid "References"
+msgstr ""
+
+#: ../../source/developer/getting-started.rst:133
+#: a898220928d04fb686e686bb6220ecab
+msgid "`temi SDK Wiki <https://github.com/robotemi/sdk/wiki>`_"
+msgstr ""
+

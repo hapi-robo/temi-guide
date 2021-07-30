@@ -55,5 +55,6 @@ html_theme = 'sphinx_rtd_theme'
 # html_static_path = ['_static']
 
 # -- Options for Localization -------------------------------------------------
+locale_dirs = ['locales/']
 gettext_uuid = True # https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-gettext_uuid
 gettext_compact = False # https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-gettext_compact
