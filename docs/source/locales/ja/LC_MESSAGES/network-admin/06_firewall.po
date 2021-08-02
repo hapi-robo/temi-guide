@@ -20,7 +20,7 @@ msgstr ""
 #: ../../source/network-admin/06_firewall.rst:7
 #: 53686e18ff22470789c2ff8753db66c4
 msgid "Firewall Settings"
-msgstr ""
+msgstr "ファイヤウォール設定"
 
 #: ../../source/network-admin/06_firewall.rst:9
 #: 489751ea88284fa48e320fbe6146a61c
@@ -28,6 +28,8 @@ msgid ""
 "A list of the IP/FQDNs and port numbers that are used by temi Robots, "
 "temi Mobile App, and temi Center are provided in the following CSV file."
 msgstr ""
+"temi（本体）、temiモバイルアプリ、temiセンターで使われるIP/FQDNｓ*とポートナンバーのリストは以下のCSVファイルで提供されています。"
+"「FQDN」とは「Fully Qualified Domain Name」の略で「絶対ドメイン名」と呼ばれることもあります。"
 
 #: ../../source/network-admin/06_firewall.rst:11
 #: 6adc153d793c4282b7996c6856f23522
@@ -39,12 +41,12 @@ msgstr ""
 #: ../../source/network-admin/06_firewall.rst:13
 #: 59161df1acb3499cab6e9ff90d619215
 msgid "Whitelist only those IP/FQDNs and port numbers that you want to use."
-msgstr ""
+msgstr "使用するIP / FQDNとポート番号をホワイトリストに登録します。"
 
 #: ../../source/network-admin/06_firewall.rst:15
 #: 5096578cd0dc4016b1c4998baeb55d69
 msgid "Recommendations"
-msgstr ""
+msgstr "推奨"
 
 #: ../../source/network-admin/06_firewall.rst:17
 #: 87f9b0bb705f441cb144109cebde2b98
@@ -53,6 +55,7 @@ msgid ""
 "minimum set needed for establishing telepresence sessions and OTA "
 "software updates."
 msgstr ""
+"CSVファイルの ``推奨`` という最後の列は、テレプレゼンスセッションとOTAソフトウェア・アップデートの確立に必要な最小限の項目です。"
 
 #: ../../source/network-admin/06_firewall.rst:19
 #: eb1cf750c2304fd08bd186be0dee0628
@@ -60,16 +63,17 @@ msgid ""
 "The latest firewall settings have been tested on the following software "
 "versions."
 msgstr ""
+"最新ファイヤウォール設定は以下のソフトウエアバージョンでテストされました。"
 
 #: ../../source/network-admin/06_firewall.rst:22
 #: 9ec68d021f2349b2bf0f997176819823
 msgid "Version"
-msgstr ""
+msgstr "バージョン"
 
 #: ../../source/network-admin/06_firewall.rst:24
 #: f70d7bdab58541b2bc348ab342d8e94e
 msgid "temi Robot (Launcher)"
-msgstr ""
+msgstr "temi本体（Launcher）"
 
 #: ../../source/network-admin/06_firewall.rst:24
 #: 4fe1b422d5334ad7ba07d3d5da3bc145
@@ -79,7 +83,7 @@ msgstr ""
 #: ../../source/network-admin/06_firewall.rst:26
 #: d20969502cfb4f34b962ee127a8ef8e4
 msgid "temi Mobile App (Android)"
-msgstr ""
+msgstr "temiモバイルアプリ（Android）"
 
 #: ../../source/network-admin/06_firewall.rst:26
 #: 6a563c31463c4181aef4c8fd9404ca8b
@@ -89,7 +93,7 @@ msgstr ""
 #: ../../source/network-admin/06_firewall.rst:28
 #: 36b40c7a9edd44a781270e4a5d42b1a3
 msgid "temi Mobile App (iOS)"
-msgstr ""
+msgstr "temiモバイルアプリ（iOS）"
 
 #: ../../source/network-admin/06_firewall.rst:28
 #: cb9792534c334668a43d99621b461ab9
@@ -100,7 +104,7 @@ msgstr ""
 #: ../../source/network-admin/06_firewall.rst:76
 #: 7bd0f77b4ce34efd843e6319c02dd898 db3f4c0bd7d8443fa62e4ab0572c1d7d
 msgid "temi Center"
-msgstr ""
+msgstr "temiセンター　"
 
 #: ../../source/network-admin/06_firewall.rst:30
 #: 295fc615180548e5a52b3354b54025ad
@@ -110,7 +114,7 @@ msgstr ""
 #: ../../source/network-admin/06_firewall.rst:35
 #: e6dab9a67c7c49868f517ad2e430153b
 msgid "Enabling Firewall"
-msgstr ""
+msgstr "ファイヤーウォールの有効化"
 
 #: ../../source/network-admin/06_firewall.rst:37
 #: b7c06089c0234e8caf6ebe0d7fdd7aa3
@@ -118,16 +122,17 @@ msgid ""
 "If a firewall is used, you must enable this mode on your device(s). The "
 "instructions for each device can be found in the following sections."
 msgstr ""
+"ファイアウォールを使用している場合は、各デバイスでこのモードを有効にする必要があります。各デバイスの手順は、次のセクションに記載されています。"
 
 #: ../../source/network-admin/06_firewall.rst:41
 #: 98fabe1de3174552935a9fde709103fa
 msgid "temi Robot"
-msgstr ""
+msgstr "temi本体"
 
 #: ../../source/network-admin/06_firewall.rst:42
 #: 905dc78ba3244024ae7a6957a0d350c9
 msgid "Under ``Settings`` > ``General Settings``, turn ``ON`` `Firewall Mode`."
-msgstr ""
+msgstr "設定画面から　``設定`` > ``一般設定`` > ``ファイアウォール・モード``　``オン``"
 
 #: ../../source/network-admin/06_firewall.rst:47
 #: ../../source/network-admin/06_firewall.rst:64
@@ -136,7 +141,7 @@ msgstr ""
 #: 0add2a47732b4879bbc0dc4f50d754a2 22420d76ec444442a232787bba4429ed
 #: 49ad64854f7a4362bc944df9cce42118 a6b8f51222a64d53b0703a07e60b7654
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: ../../source/network-admin/06_firewall.rst:47
 #: 606a6866959045e2b1b4b38be2291b33
@@ -148,22 +153,22 @@ msgstr ""
 #: ../../source/network-admin/06_firewall.rst:52
 #: aa7c6c5c5ea1431b95f7f8c23e48fdd2
 msgid "General Settings"
-msgstr ""
+msgstr "一般設定"
 
 #: ../../source/network-admin/06_firewall.rst:52
 #: 1ec7ffa0324143398465ecbd119d8b83
 msgid "Turn ``ON`` `Firewall Mode`. `[Image taken from Launcher OS 14759]`"
-msgstr ""
+msgstr "設定画面から ``設定`` > ``一般設定`` > ``ファイアウォール・モード`` ``オン`` ［LauncherOS14759のイメージ］"
 
 #: ../../source/network-admin/06_firewall.rst:56
 #: 472f6331bc614c52b1b448c004653919
 msgid "temi Mobile App"
-msgstr ""
+msgstr "temiモバイルアプリ"
 
 #: ../../source/network-admin/06_firewall.rst:59
 #: f91c1140614643b5a5d13b04ef593bff
 msgid "iOS"
-msgstr ""
+msgstr "iOS"
 
 #: ../../source/network-admin/06_firewall.rst:64
 #: 1015a2d9b6d7484280face085fae17b3
@@ -171,11 +176,12 @@ msgid ""
 "Tap on ``More`` to bring up the Settings page. Then turn ``ON`` `Firewall"
 " Mode`. `[Image taken from iOS mobile app 1.1.45]`"
 msgstr ""
+"モバイルアプリの ``もっと`` をタップして設定ページを開き。ファイヤーウォールモードを ``オン`` ［iOSモバイルアプリ1.1.45のイメージ］"
 
 #: ../../source/network-admin/06_firewall.rst:67
 #: 2095d962b6494377afbcc7857c4c210f
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: ../../source/network-admin/06_firewall.rst:72
 #: ea29ff051a5c435e8428d1083a70ba0c
@@ -183,6 +189,7 @@ msgid ""
 "Tap on ``More`` to bring up the Settings page. Then turn ``ON`` `Firewall"
 " Mode`. `[Image taken from Android mobile app 1.3.8425]`"
 msgstr ""
+"モバイルアプリの ``もっと`` をタップして設定ページを開き。ファイヤーウォールモードを ``オン`` ［Androidモバイルアプリ1.3.8425のイメージ］"
 
 #: ../../source/network-admin/06_firewall.rst:80
 #: 39ac8c5bff1b4e32ac336b9e3696d99c
@@ -191,4 +198,4 @@ msgid ""
 "Settings`` to bring up the Account Settings page. Then enable `Firewall "
 "Mode`. `[Image taken from temi Center 2021/07/14]`"
 msgstr ""
-
+"トップ画面の右上のコーナーのユーザーアイコンをクリックして ``アカウント設定`` ページを開いて、ファイヤーウォール・モードを有効にします。［temiセンター21.05.3101のイメージ］"

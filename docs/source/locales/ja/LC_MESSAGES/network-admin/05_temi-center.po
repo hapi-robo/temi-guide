@@ -20,12 +20,12 @@ msgstr ""
 #: ../../source/network-admin/05_temi-center.rst:3
 #: 6b233a5e197f4832b4e6dee75146214a
 msgid "temi Center"
-msgstr ""
+msgstr "temiセンター"
 
 #: ../../source/network-admin/05_temi-center.rst:6
 #: 1408e9d8991c4722aed92f25597bef58
 msgid "General Network Requirements"
-msgstr ""
+msgstr "ネットワーク要件"
 
 #: ../../source/network-admin/05_temi-center.rst:8
 #: d3e11090f72e4ca0b51e54777955f47f
@@ -33,6 +33,7 @@ msgid ""
 "Broadband internet access. Wired connection preferred, over a CAT-5 "
 "ethernet cable."
 msgstr ""
+"ブロードバンド・インターネット・アクセスができること。ＣAT5ケーブルでのイーサーネット接続が望ましい。"
 
 #: ../../source/network-admin/05_temi-center.rst:9
 #: 70e867c607fa47df8a0edff6c0eb2db0
@@ -42,28 +43,31 @@ msgid ""
 " :ref:`box <temi-center-how-to-measure-bandwidth>` below for measurement "
 "instructions."
 msgstr ""
+"3Mbps以上のアップロード速度と3Mbps以上のダウンロード速度のインターネット帯域幅。"
+" **ネットワーク速度が遅いと、テレプレゼンスセッション中に問題が発生する可能性があります。** "
+"測定手順については、下記の :ref:`box <temi-robot-how-to-measure-bandwidth>` を参照してください。"
 
 #: ../../source/network-admin/05_temi-center.rst:10
 #: 8a477f45311b4da8b3be4b52f99c0123
 msgid ""
-"A connection to temi Cloud. For more details, refer to :ref:`firewall-"
-"settings`."
+"A connection to temi Cloud. For more details, refer to :ref:`firewall-settings`."
 msgstr ""
+"temiクラウドへの接続ができること。（ :ref:`firewall-settings` が必要な場合には、6章を参照ください。）"
 
 #: ../../source/network-admin/05_temi-center.rst:12
 #: 61fb6d09689642aaaf11445d990a97e2
 msgid "Recommendations"
-msgstr ""
+msgstr "推奨"
 
 #: ../../source/network-admin/05_temi-center.rst:14
 #: 45503421153b45da900de8ea640031a8
 msgid "Internet bandwidth of `at least` 3 Mbps upload and 3 Mbps download speeds."
-msgstr ""
+msgstr "3Mbps以上のアップロード速度と3Mbps以上のダウンロード速度のインターネット帯域幅。"
 
 #: ../../source/network-admin/05_temi-center.rst:18
 #: 080a5d07550142c9b5ca7a6604f8c390
 msgid "How to measure bandwidth"
-msgstr ""
+msgstr "帯域幅を測定する方法"
 
 #: ../../source/network-admin/05_temi-center.rst:20
 #: c3701bf1b4ca4ac589cbd09aedfeca8d
@@ -72,11 +76,12 @@ msgid ""
 "LAN as the robot and open a web-browser to the following link "
 "https://www.speedtest.net/ to run an in-browser bandwidth test."
 msgstr ""
+"インターネット帯域幅を確認する簡単な方法は、temiと同じLANにPCを接続し、https://www.speedtest.net/のWebブラウザーを開いて、ブラウザー内で帯域幅テストを実行して確認ください。"
 
 #: ../../source/network-admin/05_temi-center.rst:24
 #: 889bb3948f8c4503b4d12d6771588249
 msgid "Quality of Service (QoS) Recommendations"
-msgstr ""
+msgstr "サービス品質（QoS）での推奨"
 
 #: ../../source/network-admin/05_temi-center.rst:25
 #: cfc4c5d74b2244cfb247689bd5dbe954
@@ -86,4 +91,4 @@ msgid ""
 "settings`, give high priority to UDP traffic (media traffic) to and from "
 "the device."
 msgstr ""
-
+"QoSを確保するため、temiのメディアトラフックをWi-Fiネットワーク上とISPのアップリンクでも上優先設定をしてください。 :ref:`firewall-settings` を行う時はUDPトラフィック（メディアトラフィック）とtemiからのトラフィックに優先権を与えてください。"

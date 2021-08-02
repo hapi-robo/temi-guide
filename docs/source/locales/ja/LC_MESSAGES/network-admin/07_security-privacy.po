@@ -20,12 +20,12 @@ msgstr ""
 #: ../../source/network-admin/07_security-privacy.rst:3
 #: 6ffe3aedaa754b0ca0e70aebcaa5f446
 msgid "Security and Privacy"
-msgstr ""
+msgstr "セキュリティーとプライバシー"
 
 #: ../../source/network-admin/07_security-privacy.rst:6
 #: bbc8175c28fa48da8f49cd80a35c4344
 msgid "Android Debug Bridge"
-msgstr ""
+msgstr "Android Debug Bridge"
 
 #: ../../source/network-admin/07_security-privacy.rst:7
 #: b3995a6ba3904a9dab0428843c318e92
@@ -37,6 +37,7 @@ msgid ""
 "on the robot. To disable this feature and close the port, you must reboot"
 " the robot."
 msgstr ""
+"`Android Debug Bridge (ADB) <https://developer.android.com/studio/command-line/adb>`_ は、開発者がtemiと通信できるようにするツールです。 ``設定`` > ``開発者ツール`` でこの機能を有効にしてから、[ADBポートを開く]をタップします。これにより、ロボットのポート ``5555`` が開きます。この機能を無効にしてポートを閉じるには、ロボットを再起動する必要があります。"
 
 #: ../../source/network-admin/07_security-privacy.rst:11
 #: 7a4baca4803349cfa479b8f6241e065d
@@ -46,6 +47,7 @@ msgid ""
 "that have such malware, temi Robot can be infected. We recommend the "
 "following:"
 msgstr ""
+"temiのADBポートを有効にすると、いくつかのリスクがあります。このポートを特に標的とするマルウェア/ウイルスが存在します。このようなマルウェアを含むデバイスがネットワーク上にある場合、temiが感染する可能性があります。次のことをお勧めします。"
 
 #: ../../source/network-admin/07_security-privacy.rst:13
 #: ea0e76e348c640c18b4490a74ec9c744
@@ -53,11 +55,12 @@ msgid ""
 "Only connect temi Robot to a closed network that is malware-free for "
 "development."
 msgstr ""
+"temi は、マルウェアが存在しない開発用の閉じたネットワークにのみ接続してください。"
 
 #: ../../source/network-admin/07_security-privacy.rst:14
 #: 86793186f9554ecf9aa336ecc1ee537a
 msgid "Never enable the ADB port in production or on a public network."
-msgstr ""
+msgstr "使用環境またはパブリックネットワークでADBポートを有効にしないでください。"
 
 #: ../../source/network-admin/07_security-privacy.rst:16
 #: 10cebfa3b49a4f1bba831c1bb028352e
@@ -65,11 +68,12 @@ msgid ""
 "It is impossible to know if the ADB port was accidentally opened. When in"
 " doubt, reboot the robot to close the port."
 msgstr ""
+"ADBポートが誤って開かれたかどうかを知ることは不可能です。疑わしい場合は、temiを再起動してポートを閉じます。"
 
 #: ../../source/network-admin/07_security-privacy.rst:20
 #: 2cfbc99c40764fb3a5ca8bfa388f67f4
 msgid "Auditing"
-msgstr ""
+msgstr "セキュリティ監査"
 
 #: ../../source/network-admin/07_security-privacy.rst:21
 #: 6b78abc40c2248bd9ea9413248c28900
@@ -80,32 +84,35 @@ msgid ""
 "124 (Launcher OS 14759), temi Robot comes installed with the Firedome "
 "client for continuous security monitoring."
 msgstr ""
+"temiは `McAfee <https://www.mcafee.com/blogs/other-blogs/mcafee-labs/call-an-exorcist-my-robots-possessed/>`_ "
+"(2020/05)と `Firedome <https://firedome.io/>`_ (2021)でセキュリティ対策をしました。"
+"Version 124（Launcher OS 14759）をリリースしてからtemiロボットは継続したセキュリティ監視のために クライアントをインストールしています。"
 
 #: ../../source/network-admin/07_security-privacy.rst:30
 #: ../../source/network-admin/07_security-privacy.rst:45
 #: 1da970195a934da0a777cf1086ae0fa7 f8e6f72444f04d91a54be083ea157ae9
 msgid "Privacy Policy"
-msgstr ""
+msgstr "プライバシーポリシー"
 
 #: ../../source/network-admin/07_security-privacy.rst:32
 #: e0096dae628847d1a58bf21685c2c6d2
 msgid "For more information, see temi's Privacy Policies:"
-msgstr ""
+msgstr "詳細な情報は、下記のtemiのプライバシーポリシーを参照ください。"
 
 #: ../../source/network-admin/07_security-privacy.rst:34
 #: ac83e9188b1547cbbf255836ebb2168c
 msgid "`USA <https://www.robotemi.com/privacy-policy/>`_"
-msgstr ""
+msgstr "`米国 <https://www.robotemi.com/privacy-policy/>`_"
 
 #: ../../source/network-admin/07_security-privacy.rst:35
 #: 73db5c0b27fb4e73824cb6ef5592bfb7
 msgid "`Japan <https://www.robotemi.jp/privacy-policy/>`_"
-msgstr ""
+msgstr "`日本 <https://www.robotemi.jp/privacy-policy/>`_"
 
 #: ../../source/network-admin/07_security-privacy.rst:37
 #: dfe6db14aef04d7ab4e8f4254d1bd565
 msgid "Privacy policies of 3rd-party services used by temi:"
-msgstr ""
+msgstr "temiが使用するサードパーティサービスのプライバシーポリシー： "
 
 #: ../../source/network-admin/07_security-privacy.rst:43
 #: b08323be5ceb49c8a4b8e38682de99c0
@@ -135,7 +142,7 @@ msgstr ""
 #: ../../source/network-admin/07_security-privacy.rst:53
 #: 67a5a79fad3e42f789ee876099af8a06
 msgid "Infrastructure"
-msgstr ""
+msgstr "インフラストラクチャー"
 
 #: ../../source/network-admin/07_security-privacy.rst:55
 #: 3a524974490c4e1ab4ec7911a521ef4b
@@ -143,4 +150,4 @@ msgid ""
 "The status of temi Cloud can be reviewed online at "
 "http://status.robotemi.com/."
 msgstr ""
-
+"temiクラウドのステータスは http://status.robotemi.com/ から、オンライン確認出来ます。"
