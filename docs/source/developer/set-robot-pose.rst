@@ -25,6 +25,11 @@ The robot's Home Base represents the origin of the coordinate reference frame. T
   :alt: Home Base coordinate frame
 
 
+Positioning Error
+=================
+Based on tests conducted in an enclosed 8 meter square area (with 3 robots), the positioning error is roughly +/- 10 cm. Note that this value may change depending on the distance to LIDAR features in the environment.
+
+
 goToPosition()
 --------------
 Go to a position on the map.
