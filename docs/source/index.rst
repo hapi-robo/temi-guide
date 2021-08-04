@@ -27,6 +27,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    developer/text-to-speech
    developer/speech-to-text
    developer/user-detection-tracking
+   developer/goto-position
    developer/permissions
    developer/adb-commands
 

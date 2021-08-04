@@ -104,6 +104,7 @@ Add and remove ``OnRobotReadyListener`` at the start and end of the app lifecycl
       mRobot.removeOnRobotReadyListener(this);
   }
 
+.. _sdk-robot-ready:
 
 onRobotReady()
 ==============
