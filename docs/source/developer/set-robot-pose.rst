@@ -1,6 +1,6 @@
-***************************
-Go to an Arbitrary Position
-***************************
+**************
+Set Robot Pose
+**************
 
 The temi SDK allows the developer to send the robot to an arbitrary location on a saved map.
 
