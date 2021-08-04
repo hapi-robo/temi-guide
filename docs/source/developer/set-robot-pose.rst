@@ -57,7 +57,7 @@ Syntax
 
 Example
 =======
-* `Go to Position <https://github.com/hapi-robo/temi-guide/tree/master/examples/map-goto-position>`_
+* `Go to Position <https://github.com/hapi-robo/temi-guide/tree/master/examples/set-robot-pose>`_
 
 
 References
