@@ -4,7 +4,7 @@ Set Robot Pose
 
 The temi SDK allows the developer to send the robot to an arbitrary location on a saved map.
 
-For example, to send the robot to 1 m in front of the Home Base, use the following code after the robot is :ref:`ready <sdk-robot-ready>`.
+For example, to send the robot to 1 meter in front of the Home Base, use the following code after the robot is :ref:`ready <sdk-robot-ready>`.
 
 .. code-block:: Java
 
@@ -40,13 +40,13 @@ Syntax
 
   goToPosition(position);
 
-:position: :ref:`sdk-class-position` instance. Note that the tilt attribute is not used.
+:position: :ref:`sdk-class-position` instance. Note that the tilt attribute of the Position instance is not used in this method.
 
 .. _sdk-class-position:
 
 Position
 --------
-Position class can be used to instantiate an object that holds the robot pose information.
+Position class can be used to instantiate an object that holds the robot's pose information.
 
 Syntax
 ++++++
@@ -56,8 +56,8 @@ Syntax
 
 :posX: Position along the X-coordinate frame in meters.
 :posY: Position along the Y-coordinate frame in meters.
-:yaw: Yaw rotation in degrees.
-:tilt: Robot's screen tilt angle in degrees. This value ranges between -25 degrees (screen tilted downwards) to +55 degrees (screen tilted upwards).
+:yaw: Yaw rotation in degrees, with respect to the coordinate frame.
+:tilt: Robot's screen tilt angle in degrees. This value ranges between -25 degrees (screen tilted fully downwards) to +55 degrees (screen tilted fully upwards).
 
 
 Example
@@ -67,4 +67,4 @@ Example
 
 References
 ==========
-* `temi SDK: Navigation & Map: <https://github.com/robotemi/sdk/wiki/Locations#navigation--map>`_
+* `temi SDK: Navigation & Map <https://github.com/robotemi/sdk/wiki/Locations#navigation--map>`_
