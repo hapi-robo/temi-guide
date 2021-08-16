@@ -6,9 +6,9 @@
 Firewall Settings
 *****************
 
-A list of the IP/FQDNs and port numbers that are used by temi Robots, temi Mobile App, and temi Center are provided in the following CSV file. 
+A list of the IP/FQDNs and port numbers that are used by temi Robots, temi Mobile App, and temi Center are provided in the following CSV file. For changes and previous versions, see :ref:`firewall-changelogs`.
 
-:download:`Latest Firewall Settings (2021/07) <assets/temi_firewall_settings_202107.csv>`
+:download:`Latest Firewall Settings (2021/08) <assets/temi_firewall_settings_202108.csv>`
 
 Whitelist only those IP/FQDNs and port numbers that you want to use. 
 
@@ -16,18 +16,16 @@ Whitelist only those IP/FQDNs and port numbers that you want to use.
 
   The last column labeled ``Recommended``, in the CSV file, provides the minimum set needed for establishing telepresence sessions and OTA software updates.
 
-The latest firewall settings have been tested on the following software versions using a `Netgate 1100 Security Gateway <https://docs.netgate.com/pfsense/en/latest/solutions/sg-1100/>`_ running `pfSense 21.02.2 <https://www.pfsense.org/>.
+The latest firewall settings have been tested on the following software versions using a `Netgate 1100 Security Gateway <https://docs.netgate.com/pfsense/en/latest/solutions/sg-1100/>`_ running `pfSense 21.02.2 <https://www.pfsense.org/>`_.
 
 +---------------------------+------------+
 |                           | Version    |
 +===========================+============+
-| temi Robot (Launcher)     | 14654      |
+| temi Robot (Launcher)     | 15029      |
 +---------------------------+------------+
-| temi Mobile App (Android) | 1.3.8399   |
+| temi Mobile App (Android) | 1.3.8460   |
 +---------------------------+------------+
-| temi Mobile App (iOS)     | 1.1.45     |
-+---------------------------+------------+
-| temi Center               | 21.05.3101 |
+| temi Mobile App (iOS)     | 1.1.46     |
 +---------------------------+------------+
 
 
@@ -78,3 +76,17 @@ temi Center
   :alt: Settings
 
   Hover over the user icon in the top right-hand corner and tap ``Account Settings`` to bring up the Account Settings page. Then enable `Firewall Mode`. `[Image taken from temi Center 2021/07/14]`
+
+
+.. _firewall-changelogs:
+
+Changelogs
+==========
+**temi_firewall_settings_202108.csv**
+
+- Fixes a typo in row 29. Previously wrote port 444. It should be port 443.
+
+Previous Versions
+-----------------
+
+:download:`Latest Firewall Settings (2021/07) <assets/temi_firewall_settings_202107.csv>`
