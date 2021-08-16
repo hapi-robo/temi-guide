@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-30 12:27+0900\n"
+"POT-Creation-Date: 2021-08-16 15:24+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #: ../../source/developer/getting-started.rst:5
 #: 0b2d6027c17940b48a45e299f295f5a3
 msgid ""
-"The following are instructions for building the a basic Android app that "
+"The following are instructions for building a basic Android app that "
 "appears in temi's launcher."
 msgstr ""
 
@@ -108,44 +108,50 @@ msgid ""
 "lifecycle."
 msgstr ""
 
-#: ../../source/developer/getting-started.rst:109
+#: ../../source/developer/getting-started.rst:110
 #: e834f306fbb64259a527368804556143
 msgid "onRobotReady()"
 msgstr ""
 
-#: ../../source/developer/getting-started.rst:110
+#: ../../source/developer/getting-started.rst:111
 #: 503e48f54aed4e20ad20edcf6fda4826
 msgid ""
 "In ``MainActivity.java``, log a message to the console and hide temi's "
 "ActionBar when the ``OnRobotReady()`` is called."
 msgstr ""
 
-#: ../../source/developer/getting-started.rst:123
+#: ../../source/developer/getting-started.rst:124
 #: 214063a67e234457a51fdcab00914f1b
 msgid ""
 "temi's methods will only work correctly after the robot is *ready*. Use "
 "``onRobotReady()`` to verify this."
 msgstr ""
 
-#: ../../source/developer/getting-started.rst:127
+#: ../../source/developer/getting-started.rst:128
 #: bd0bb2bc3a644f928dc4cc6077dca1b4
 msgid "Example"
 msgstr ""
 
-#: ../../source/developer/getting-started.rst:128
+#: ../../source/developer/getting-started.rst:129
 #: 6e56c58232cc4e23bfeb8760de997528
 msgid ""
 "`Hello World <https://github.com/hapi-robo/temi-"
 "guide/tree/master/examples/hello-world>`_"
 msgstr ""
 
-#: ../../source/developer/getting-started.rst:132
+#: ../../source/developer/getting-started.rst:133
 #: 1a551ba95c0f40e589d4312fec938cb9
 msgid "References"
 msgstr ""
 
-#: ../../source/developer/getting-started.rst:133
+#: ../../source/developer/getting-started.rst:134
 #: a898220928d04fb686e686bb6220ecab
 msgid "`temi SDK Wiki <https://github.com/robotemi/sdk/wiki>`_"
 msgstr ""
+
+#~ msgid ""
+#~ "The following are instructions for "
+#~ "building the a basic Android app "
+#~ "that appears in temi's launcher."
+#~ msgstr ""
 

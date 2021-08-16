@@ -47,14 +47,14 @@ msgid ""
 "Wi-Fi signal strength measurements different."
 msgstr ""
 "Wi-Fi信号強度はWi-Fiを使用しているデバイスを使って測ってください。例えば、temiの使用しているWi-Fi信号は"
-"、スマートフォンを使ってWi-Fi信号強度測定をしないでくださいと言うことです。temiとスマートフォンで使用しているアンテナが違うからです"
+"、スマートフォンを使ってWi-Fi信号強度測定をしないでくださいと言うことです。temiとスマートフォンで使用しているアンテナが違うからです。"
 
 #: ../../source/network-admin/10_appendix.rst:18
 #: 565dd94560994e36a2135e4b6657735b
 msgid ""
 "Use the following instructions to measure Wi-Fi signal strength on the "
 "robot."
-msgstr ""
+msgstr "temiのWi-Fi信号強度を測定するには次の方法で確認ください。"
 
 #: ../../source/network-admin/10_appendix.rst:20
 #: 9504346b2df44b66bfa75c2b8b3a4d0b
@@ -78,7 +78,7 @@ msgstr ""
 msgid ""
 "Tap on the Wi-Fi icon |wifi| in the top left-hand corner of the screen to"
 " bring up the Wi-Fi network selection menu."
-msgstr "左上隅にあるWi-Fiアイコンをタップして、Wi-Fiネットワーク選択メニューを表示します。"
+msgstr "左上隅にあるWi-Fiアイコン |wifi| をタップして、Wi-Fiネットワーク選択メニューを表示します。"
 
 #: ../../source/network-admin/10_appendix.rst:30
 #: 1a5423a7b2f0490a9e0ae5a08932129d
@@ -90,7 +90,7 @@ msgstr ""
 msgid ""
 "Tap on the information icon |info| on the right-hand side of the "
 "connected network to bring up the network settings page."
-msgstr "ネットワーク設定画面を開くために接続されたネットワークの右の情報アイコンをタップして下さい。"
+msgstr "ネットワーク設定画面を開くために接続されたネットワークの右の情報アイコン |info| をタップして下さい。"
 
 #: ../../source/network-admin/10_appendix.rst:35
 #: 961eec2325f3426c9fca52102fc490fb

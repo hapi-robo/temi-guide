@@ -6,7 +6,7 @@ General Network Requirements
 ============================
 
 - Broadband internet access.
-- Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speeds. A slower network speed can cause issues during a telepresence session. See :ref:`box <temi-robot-how-to-measure-bandwidth>` below for measurement instructions.
+- Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speeds. A slower network speed can cause issues during a telepresence session. See the note below for measurement instructions.
 - A static IP address or a DHCP server to obtain IPv4 address(es) for temi's wireless interface.
 - A connection to temi Cloud. For more details, refer to :ref:`firewall-settings`.
 
@@ -14,11 +14,7 @@ General Network Requirements
 
   Internet bandwidth of `at least` 3 Mbps upload and 3 Mbps download speeds.
 
-.. _temi-robot-how-to-measure-bandwidth:
-
-.. admonition:: How to measure bandwidth
-
-  One easy way to test internet bandwidth is to connect a PC to the same LAN as the robot and open a web-browser to the following link https://www.speedtest.net/ to run an in-browser bandwidth test.
+.. Note:: One easy way to test internet bandwidth is to connect a PC to the same LAN as the robot and open a web-browser to the following link https://www.speedtest.net/ to run an in-browser bandwidth test.
 
 
 .. _temi-robot-wifi-requirements:
@@ -37,7 +33,7 @@ Wi-Fi Requirements
 
 Wi-Fi Roaming
 -------------
-Roaming is when a wireless client leaves one BSSID and authenticates/associates with a new BSSID. If the device is to be used for telepresence in a large environment, roaming becomes critical as it can affect control, voice, and video quality as the device transitions between access points.
+Roaming is when a wireless client leaves one :term:`BSSID` and authenticates/associates with a new BSSID. If the device is to be used for telepresence in a large environment, roaming becomes critical as it can affect control, voice, and video quality as the device transitions between access points.
 
 The following are general recommendations to minimize roaming interuptions:
 
@@ -90,8 +86,16 @@ It is recommended to avoid using captive portals with temi Robot. If the robot i
 Instead, it is recommended to whitelist the temi Robot's Wi-Fi interface when deploying at a facility where a captive portal is in place. If the temi Robot's Wi-Fi interface is whitelisted, captive portal registration is not needed. Many captive portals allow a whitelist of MAC addresses to be specified. The MAC address for temi Robot's Wi-Fi inferface can be found under ``Settings`` > ``About`` > ``Wi-Fi MAC Address`` (Launcher OS 14759).
 
 
-References
-==========
+Glossary
+========
 
-- `temi Robot Wi-Fi Module AP6356 Datasheet <https://rockchip.fr/ampak/AP6356_datasheet_V1.0_07252014.pdf>`_
-- `Roaming over Wi-Fi <https://wlanprofessionals.com/roaming-over-wi-fi/>`_
+.. glossary::
+
+  BSSID
+    For a definition of BSSID, see `Wikipedia Service set (802.11 network) <https://en.wikipedia.org/wiki/Service_set_(802.11_network)#SSID>`_.
+
+
+.. References
+.. ==========
+.. - `temi Robot Wi-Fi Module AP6356 Datasheet <https://rockchip.fr/ampak/AP6356_datasheet_V1.0_07252014.pdf>`_
+.. - `Roaming over Wi-Fi <https://wlanprofessionals.com/roaming-over-wi-fi/>`_

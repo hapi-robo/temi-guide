@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-16 15:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/developer/set-robot-pose.rst:3 92e5140858b243a8a1278912b19b3c2b
+msgid "Set Robot Pose"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:5 598d46a56f59448fb9c4652ae4c4a4f5
+msgid ""
+"The temi SDK allows the developer to send the robot to an arbitrary "
+"location on a saved map."
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:7 dd2cdf12d10d4a2e96a89af2f51257c2
+msgid ""
+"For example, to send the robot to 1 meter in front of the Home Base, use "
+"the following code after the robot is :ref:`ready <sdk-robot-ready>`."
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:21
+#: 48f89d45f8364d6c99c9a2ca65c0218b
+msgid "Coordinate Reference Frame"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:22
+#: b38d0563814a4b21b019d01fdcc054e3
+msgid ""
+"The robot's Home Base represents the origin of the coordinate reference "
+"frame. The orientation of this frame is shown in the figure below."
+msgstr ""
+
+#: 75e64574ff704320b7d4202b2a7e625b
+msgid "Home Base coordinate frame"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:29
+#: 7d3e26612b094de2a377000acb19fcf4
+msgid "Positioning Error"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:30
+#: cd8460f038fd4e00a29b6869757fbdf3
+msgid ""
+"Based on tests conducted in an enclosed 8 meter square area (with 3 "
+"robots), the positioning error is roughly +/- 10 cm. Note that this value"
+" may change depending on the distance to LIDAR features in the "
+"environment."
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:34
+#: 9cc36f7205ab4a309d575f55195d9255
+msgid "goToPosition()"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:35
+#: 19c8ad80e1314c9ba3c9827087f8b6e9
+msgid "Go to a position on the map."
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:38
+#: ../../source/developer/set-robot-pose.rst:52
+#: 74c253158f5f47789f16cf556cf34e00 a78ffa69185e4c29878ef2bb95a9a9ac
+msgid "Syntax"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst eb54c6c18af7443dbde03d0a03717d00
+msgid "position"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:43
+#: e2f866f1a1ef4f019e3364febfa83ce4
+msgid ""
+":ref:`sdk-class-position` instance. Note that the tilt attribute of the "
+"Position instance is not used in this method."
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:48
+#: b59b0ec2e3834057a7ff9dbe6a99da70
+msgid "Position"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:49
+#: d7043a1dbe3f40a5b91e1e1115fde023
+msgid ""
+"Position class can be used to instantiate an object that holds the "
+"robot's pose information."
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst 10648a808c7b420a9789e654959333e7
+msgid "posX"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:57
+#: fcc308c26dd140a1843aa9895a48affa
+msgid "Position along the X-coordinate frame in meters."
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst a75c88bcc8eb4562875bd1a25b94a8b0
+msgid "posY"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:58
+#: 387125ee021647e88eab04cda73fc2b6
+msgid "Position along the Y-coordinate frame in meters."
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst 7fdfe361c08044fe87133a8a01c25842
+msgid "yaw"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:59
+#: 96d34b6ab35c422d92716ef21eef0649
+msgid "Yaw rotation in degrees, with respect to the coordinate frame."
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst bbb818c47604484690100f37df1d6d8d
+msgid "tilt"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:60
+#: d16726978757432bb6cf200a51459232
+msgid ""
+"Robot's screen tilt angle in degrees. This value ranges between -25 "
+"degrees (screen tilted fully downwards) to +55 degrees (screen tilted "
+"fully upwards)."
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:64
+#: 5756153ed32d473da3acdcc054c76ce7
+msgid "Example"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:65
+#: 70895dc8935d497a93faf3838f040f8e
+msgid ""
+"`Go to Position <https://github.com/hapi-robo/temi-"
+"guide/tree/master/examples/set-robot-pose>`_"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:69
+#: f4ac952454464bef85e5a1fec6014270
+msgid "References"
+msgstr ""
+
+#: ../../source/developer/set-robot-pose.rst:70
+#: b5b7bd16c26d4e79a7261e0af850636c
+msgid ""
+"`temi SDK: Navigation & Map "
+"<https://github.com/robotemi/sdk/wiki/Locations#navigation--map>`_"
+msgstr ""
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-30 12:27+0900\n"
+"POT-Creation-Date: 2021-08-16 17:00+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,12 +37,8 @@ msgstr "ブロードバンドインターネットアクセス。"
 msgid ""
 "Minimum internet bandwidth of 2 Mbps upload and 2 Mbps download speeds. A"
 " slower network speed can cause issues during a telepresence session. See"
-" :ref:`box <temi-robot-how-to-measure-bandwidth>` below for measurement "
-"instructions."
-msgstr ""
-"3Mbps以上のアップロード速度と3Mbps以上のダウンロード速度のインターネット帯域幅。"
-" **ネットワーク速度が遅いと、テレプレゼンスセッション中に問題が発生する可能性があります。** "
-"測定手順については、下記の :ref:`box <temi-robot-how-to-measure-bandwidth>` を参照してください。"
+" the note below for measurement instructions."
+msgstr "3Mbps以上のアップロード速度と3Mbps以上のダウンロード速度のインターネット帯域幅。**ネットワーク速度が遅いと、テレプレゼンスセッション中に問題が発生する可能性があります。** 測定手順については、下記の注釈を参照してください。"
 
 #: ../../source/network-admin/03_temi-robot.rst:10
 #: e790f47a49214a3fbe54dd6b9c4761e5
@@ -56,7 +52,7 @@ msgstr "temiのワイヤレスインターフェイスのIPv4アドレスを取�
 msgid ""
 "A connection to temi Cloud. For more details, refer to :ref:`firewall-"
 "settings`."
-msgstr "temiクラウドへの接続。（ :ref:`firewall-settings` が必要な場合には、お問い合わせください）。"
+msgstr "temiクラウドへの接続。:ref:`firewall-settings` が必要な場合には、お問い合わせください。"
 
 #: ../../source/network-admin/03_temi-robot.rst:13
 #: 20d80c4b238c476482d3f3a29b75db0d
@@ -68,12 +64,7 @@ msgstr "推奨"
 msgid "Internet bandwidth of `at least` 3 Mbps upload and 3 Mbps download speeds."
 msgstr "3Mbps以上のアップロード速度と3Mbps以上のダウンロード速度のインターネット帯域幅。"
 
-#: ../../source/network-admin/03_temi-robot.rst:19
-#: 9626c3f044ee48b6bf5af6250430abbb
-msgid "How to measure bandwidth"
-msgstr "帯域幅を測定する方法"
-
-#: ../../source/network-admin/03_temi-robot.rst:21
+#: ../../source/network-admin/03_temi-robot.rst:17
 #: f1a8a0e291884c358853ff2ef4ffd85b
 msgid ""
 "One easy way to test internet bandwidth is to connect a PC to the same "
@@ -81,146 +72,144 @@ msgid ""
 "https://www.speedtest.net/ to run an in-browser bandwidth test."
 msgstr "インターネット帯域幅をテストする簡単な方法の1つは、PCをロボットと同じLANに接続し、https://www.speedtest.net/のWebブラウザーを開いて、ブラウザー内で帯域幅テストを実行することです。"
 
-#: ../../source/network-admin/03_temi-robot.rst:27
+#: ../../source/network-admin/03_temi-robot.rst:23
 #: 86f0312f64ef4a54831a6ebe65314c36
 msgid "Wi-Fi Requirements"
 msgstr "Wi-Fi要件"
 
-#: ../../source/network-admin/03_temi-robot.rst:29
+#: ../../source/network-admin/03_temi-robot.rst:25
 #: 5b7003a684404fe6916219863d17c12b
 msgid ""
 "Satisfactory Wi-Fi coverage across the device's operating environment. "
 "Ideal signal strength (i.e. RSSI) range is -30 dBm to -65 dBm measured "
 "using temi's ``Network Settings`` page. See :ref:`measuring-wifi-signal-"
 "strength` for measurement instructions."
-msgstr "デバイスの動作環境全体で十分にWi-Fi範囲がカバーされていること。信号強度（RSSIなど）の範囲は、temiの ``設定`` > ``WIFI`` で使用しているネットワークのSSIDを選択して、その値が-30dBm 〜 -65dBmが適正です。See :ref:`measuring-wifi-signal-strength` for measurement instructions."
+msgstr ""
+"デバイスの動作環境全体で十分にWi-Fi範囲がカバーされていること。信号強度（RSSIなど）の範囲は、temiの ``設定`` > "
+"``WIFI`` で使用しているネットワークのSSIDを選択して、その値が-30dBm 〜 -65dBmが適正です。:ref"
+":`measuring-wifi-signal-strength` を参照ください。"
 
-#: ../../source/network-admin/03_temi-robot.rst:30
+#: ../../source/network-admin/03_temi-robot.rst:26
 #: acac5da25bb246ab8566635d5bad715e
 msgid ""
 "802.11a/b/g/n (at 2.4 GHz) or 802.11a/n/ac (at 5.0 GHz) Wi-Fi network "
 "coverage over the area where the robot will be used."
 msgstr ""
-"802.11a/b/g/n（2.4 GHzの場合）、又は802.11a/n/ac（5.0 GHzの場合）でtemiが使用されるエリア全体をWi-Fiがカバーしていること。"
+"802.11a/b/g/n（2.4 GHzの場合）、又は802.11a/n/ac（5.0 GHzの場合）でtemiが使用されるエリア全体をWi-"
+"Fiがカバーしていること。"
 
-#: ../../source/network-admin/03_temi-robot.rst:31
+#: ../../source/network-admin/03_temi-robot.rst:27
 #: 218ef85b44f04f6e8678e2989b921eca
 msgid ""
 "Wi-Fi Security can be Open or WPA/WPA2 PSK Personal (recommended). "
 "WPA/WPA2 Enterprise is not fully supported at this time (2021/07)."
 msgstr ""
-"Wi-Fiセキュリティはオープン、またはWPA / WPA2 PSKパーソナル（推奨）。現時点では、WPA / WPA2 Enterpriseは完全にはサポートされていません（2021/07）。"
+"Wi-Fiセキュリティはオープン、またはWPA / WPA2 PSKパーソナル（推奨）。現時点では、WPA / WPA2 "
+"Enterpriseは完全にはサポートされていません（2021/07）。"
 
-#: ../../source/network-admin/03_temi-robot.rst:33
+#: ../../source/network-admin/03_temi-robot.rst:29
 #: 173f1b869a4246a99ad9b29ab9df4059
 msgid "For WPA/WPA2 PSK, Wi-Fi Encryption can be either TKIP or AES."
-msgstr ""
-"WPA / WPA2 PSKの場合、Wi-Fi暗号化はTKIPまたはAESのいずれかになります。"
+msgstr "WPA / WPA2 PSKの場合、Wi-Fi暗号化はTKIPまたはAESのいずれかになります。"
 
-#: ../../source/network-admin/03_temi-robot.rst:35
+#: ../../source/network-admin/03_temi-robot.rst:31
 #: bef9b58aa1d94f2d8433f74358be1a53
 msgid "Hidden networks are supported on non-DFS frequencies only."
-msgstr ""
-"非表示設定のステルスのネットワークはDFS以外の周波数でのみサポートされます。"
+msgstr "非表示設定のステルスのネットワークはDFS以外の周波数でのみサポートされます。"
 
-#: ../../source/network-admin/03_temi-robot.rst:39
+#: ../../source/network-admin/03_temi-robot.rst:35
 #: a884cd31179248cab0149001e5966ec4
 msgid "Wi-Fi Roaming"
 msgstr "Wi-Fiローミング"
 
-#: ../../source/network-admin/03_temi-robot.rst:40
+#: ../../source/network-admin/03_temi-robot.rst:36
 #: 38e5f2e38aee42c49ee3103e3a498a59
 msgid ""
-"Roaming is when a wireless client leaves one BSSID and "
+"Roaming is when a wireless client leaves one :term:`BSSID` and "
 "authenticates/associates with a new BSSID. If the device is to be used "
 "for telepresence in a large environment, roaming becomes critical as it "
 "can affect control, voice, and video quality as the device transitions "
 "between access points."
-msgstr ""
-"ローミングとは、ワイヤレスのクライアントが1つのBSSID*を離れ、新しいBSSIDを認証/関連付けることです。デバイスを大規模な環境でテレプレゼンスに使用する場合、デバイスがアクセスポイント間を移行するときに、制御、音声、およびビデオの品質に影響を与える可能性があるため、ローミングが重要になります。"
+msgstr "ローミングとは、ワイヤレスのクライアントが1つの :term:`BSSID` を離れ、新しいBSSIDを認証/関連付けることです。デバイスを大規模な環境でテレプレゼンスに使用する場合、デバイスがアクセスポイント間を移行するときに、制御、音声、およびビデオの品質に影響を与える可能性があるため、ローミングが重要になります。"
 
-#: ../../source/network-admin/03_temi-robot.rst:42
+#: ../../source/network-admin/03_temi-robot.rst:38
 #: 81d3eace379d48109a93c690d9098051
 msgid ""
 "The following are general recommendations to minimize roaming "
 "interuptions:"
-msgstr ""
-"以下は、ローミングの中断を最小限に抑えるための一般的な推奨事項です。"
+msgstr "以下は、ローミングの中断を最小限に抑えるための一般的な推奨事項です。"
 
-#: ../../source/network-admin/03_temi-robot.rst:44
+#: ../../source/network-admin/03_temi-robot.rst:40
 #: c6eb8814f08e4997ba1690339f9a0e81
 msgid "5.0 GHz is highly recommended and using (n) is preferred"
 msgstr "5.0 GHzを強くお勧めし、（11n）を使用することをお勧めします"
 
-#: ../../source/network-admin/03_temi-robot.rst:46
+#: ../../source/network-admin/03_temi-robot.rst:42
 #: fa930e494fc44516aa723655cd7925ff
 msgid "5.0 GHz is generally less contentious."
 msgstr "5.0 GHzは、一般的にそれほど干渉などの問題はありません。"
 
-#: ../../source/network-admin/03_temi-robot.rst:47
+#: ../../source/network-admin/03_temi-robot.rst:43
 #: f94b24d688dc4718a7954412473fae33
 msgid ""
 "802.11n provides the highest possible bandwidth without beam-forming "
 "(ac). Beam-forming can impact roam times, which can impact voice and "
 "video quality for roaming clients."
-msgstr ""
-"802.11nは、ビームフォーミング（11ac）なしで可能な限り高い帯域幅を提供します。ビームフォーミングはローミング時間に影響を与える可能性があり、ローミングクライアントの音声およびビデオの品質に影響を与える可能性があります。"
+msgstr "802.11nは、ビームフォーミング（11ac）なしで可能な限り高い帯域幅を提供します。ビームフォーミングはローミング時間に影響を与える可能性があり、ローミングクライアントの音声およびビデオの品質に影響を与える可能性があります。"
 
-#: ../../source/network-admin/03_temi-robot.rst:49
+#: ../../source/network-admin/03_temi-robot.rst:45
 #: 968c8dda30e346ff8edf2b1acdd3cfbf
 msgid "Turn **OFF** the following access-point features, if/when available:"
 msgstr "利用可能な場合は、次のアクセスポイント機能を **オフ** にします。"
 
-#: ../../source/network-admin/03_temi-robot.rst:51
+#: ../../source/network-admin/03_temi-robot.rst:47
 #: b32e9e9ec2304a918cbc0e84da3adb2d
 msgid "Load-balancing"
 msgstr "負荷分散"
 
-#: ../../source/network-admin/03_temi-robot.rst:53
+#: ../../source/network-admin/03_temi-robot.rst:49
 #: 239175d99f8e4920a74ec97ae3224c4f
 msgid ""
 "Load-balancing can impact roam times, which can impact voice and video "
 "quality for roaming clients."
-msgstr ""
-"ロードバランシングはローミング時間に影響を与える可能性があり、ローミングクライアントの音声およびビデオの品質に影響を与える可能性があります。"
+msgstr "ロードバランシングはローミング時間に影響を与える可能性があり、ローミングクライアントの音声およびビデオの品質に影響を与える可能性があります。"
 
-#: ../../source/network-admin/03_temi-robot.rst:54
+#: ../../source/network-admin/03_temi-robot.rst:50
 #: 1a8efe5ac97d44ac9523f2ba21cd2a94
 msgid "Load balancing can also make streaming video jittery with dropped frames."
-msgstr ""
-"負荷分散により、フレームがドロップされるとストリーミングビデオが不安定になる可能性もあります。"
+msgstr "負荷分散により、フレームがドロップされるとストリーミングビデオが不安定になる可能性もあります。"
 
-#: ../../source/network-admin/03_temi-robot.rst:56
+#: ../../source/network-admin/03_temi-robot.rst:52
 #: 2c0ba77be5f3480bb60d05d11994cf99
 msgid "Dynamic Transmit Power Control"
 msgstr "動的送信電力制御"
 
-#: ../../source/network-admin/03_temi-robot.rst:57
+#: ../../source/network-admin/03_temi-robot.rst:53
 #: d0a17638acf64f6893fb438bdacb5cd0
 msgid "Dynamic Channel Assignment"
 msgstr "動的チャネル割り当て"
 
-#: ../../source/network-admin/03_temi-robot.rst:58
+#: ../../source/network-admin/03_temi-robot.rst:54
 #: 69dc3d838f004805a2b50f0d837bf8cc
 msgid "802.11b support"
 msgstr "802.11bのサポート"
 
-#: ../../source/network-admin/03_temi-robot.rst:60
+#: ../../source/network-admin/03_temi-robot.rst:56
 #: 74746d9d70a146eaad775a815899f325
 msgid "Turn **ON** the following access-point features, if/when available:"
 msgstr "利用可能な場合は、次のアクセスポイント機能を **オン** にします。"
 
-#: ../../source/network-admin/03_temi-robot.rst:62
+#: ../../source/network-admin/03_temi-robot.rst:58
 #: c7740165aa084e26b7afdd026b132ee6
 msgid "802.11 k/r/v support"
 msgstr "802.11 k / r / vのサポート"
 
-#: ../../source/network-admin/03_temi-robot.rst:66
+#: ../../source/network-admin/03_temi-robot.rst:62
 #: acd52f39989349b5a7f53086cbb460ca
 msgid "Quality of Service (QoS) Recommendations"
 msgstr "サービス品質（QoS）の推奨事項"
 
-#: ../../source/network-admin/03_temi-robot.rst:67
+#: ../../source/network-admin/03_temi-robot.rst:63
 #: a2a400e9f0c8419bb7a285cb091a2c37
 msgid ""
 "QoS should be set to prioritize any temi media traffic on the Wi-Fi "
@@ -228,14 +217,16 @@ msgid ""
 "settings`, give high priority to UDP traffic (media traffic) to and from "
 "the device."
 msgstr ""
-"QoSは、Wi-FiネットワークおよびISPへのアップリンク上のすべてのtemiメディアトラフィックを優先するように設定する必要があります。:ref:`firewall-settings` を使用する場合は、デバイスとの間のUDPトラフィック（メディアトラフィック）を優先します。"
+"QoSは、Wi-"
+"FiネットワークおよびISPへのアップリンク上のすべてのtemiメディアトラフィックを優先するように設定する必要があります。:ref"
+":`firewall-settings` を使用する場合は、デバイスとの間のUDPトラフィック（メディアトラフィック）を優先します。"
 
-#: ../../source/network-admin/03_temi-robot.rst:71
+#: ../../source/network-admin/03_temi-robot.rst:67
 #: a22fb2c04a03404ca1c16423ce2b8118
 msgid "Over-the-Air Updates"
 msgstr "OTA（over-the-air）ソフトウエア・アップデート"
 
-#: ../../source/network-admin/03_temi-robot.rst:72
+#: ../../source/network-admin/03_temi-robot.rst:68
 #: 032065c890fa439eb4c660b10d58909f
 msgid ""
 "When temi releases a software update, the default behaviour of the robot "
@@ -244,12 +235,10 @@ msgid ""
 "Software versions can be found under ``Settings`` > ``About``. The 3 most"
 " important ones are: ``Launcher OS``, ``Robox OS``, and ``Firmware``."
 msgstr ""
-"temiにソフトウエアのアップデートがリリースされるのは夜間に自動的に更新されます。"
-"アップデートを受信したtemiはソフトウエア・アップデートがあった旨をスクリーンに表示します。"
-"ソフトウエアのバージョンは設定画面から確認することができます。"
-"3つのバージョンがあります。：``Launcher OS``、``Robox OS``、``Firmware`` です。"
+"temiにソフトウエアのアップデートがリリースされるのは夜間に自動的に更新されます。アップデートを受信したtemiはソフトウエア・アップデートがあった旨をスクリーンに表示します。ソフトウエアのバージョンは設定画面から確認することができます。3つのバージョンがあります。：``ランチャーOS``、``Robox"
+" OS``、``ファームウエア`` です。"
 
-#: ../../source/network-admin/03_temi-robot.rst:74
+#: ../../source/network-admin/03_temi-robot.rst:70
 #: 6e1952a8da804186b4e2aa071241336f
 msgid ""
 "The update process should only take a few minutes and the robot will "
@@ -257,31 +246,29 @@ msgid ""
 "Fi configurations will be preserved across software updates and should "
 "not require user interaction."
 msgstr ""
-"アップデート自体は短い時間で、アップデートが終了次第、temiは再起動します。temiで既に設定されているWi-Fi構成などは、そのままアプデート時にも保存されており、ユーザーの再度の設定などは不要です。"
+"アップデート自体は短い時間で、アップデートが終了次第、temiは再起動します。temiで既に設定されているWi-"
+"Fi構成などは、そのままアプデート時にも保存されており、ユーザーの再度の設定などは不要です。"
 
-#: ../../source/network-admin/03_temi-robot.rst:76
+#: ../../source/network-admin/03_temi-robot.rst:72
 #: 596f131011af477d9813a003602ed42d
 msgid ""
 "Do not attempt to turn-off the robot during a software update. If the "
 "software update is taking longer than expected, call customer support."
-msgstr ""
-"temiのソフトウエア・アップデート中に電源を落とさないでください。もしもソフトウエア・アップデートが思ったよりも長い時間かかるような場合には、カスタマーサポートに連絡して下さい。"
+msgstr "temiのソフトウエア・アップデート中に電源を落とさないでください。もしもソフトウエア・アップデートが思ったよりも長い時間かかるような場合には、カスタマーサポートに連絡して下さい。"
 
-#: ../../source/network-admin/03_temi-robot.rst:78
+#: ../../source/network-admin/03_temi-robot.rst:74
 #: faa4878762bc42ab80a23473412040ca
 msgid ""
 "Software updates are not required, but strongly recommended. Failure to "
 "update temi Robot software may result in loss of features."
-msgstr ""
-"ソフトウエア・アップデートは必須ではありませんが、アップデートをなさることを強くお勧めします。"
-"temiのソフトウエア・アップデートに失敗した場合、機能を損失する結果になるかもしれません。"
+msgstr "ソフトウエア・アップデートは必須ではありませんが、アップデートをなさることを強くお勧めします。temiのソフトウエア・アップデートに失敗した場合、機能を損失する結果になるかもしれません。"
 
-#: ../../source/network-admin/03_temi-robot.rst:82
+#: ../../source/network-admin/03_temi-robot.rst:78
 #: b8ce578360844f0db29a60590be8b9ab
 msgid "DHCP"
 msgstr "DHCP"
 
-#: ../../source/network-admin/03_temi-robot.rst:83
+#: ../../source/network-admin/03_temi-robot.rst:79
 #: 00c754b839974bb484e5fcb4e8435dcd
 msgid ""
 "temi Robot can use DHCP to obtain its configurations. The DHCP hostnames "
@@ -290,24 +277,25 @@ msgid ""
 "inferface can be found under ``Settings`` > ``About`` > ``Wi-Fi MAC "
 "Address`` (Launcher OS 14759)."
 msgstr ""
-"temiはDHCPを使用して、構成することができます。各temiのDHCPのホストネームは固有のものではありませんので、MACアドレスで識別することをお勧めします。temiのWi-FiインターフェースのMACアドレスは ``設定`` > ``情報`` > ``Wi-Fi　MAC　アドレス`` で確認することが出来ます。（Launcher OS14759の場合)"
+"temiはDHCPを使用して、構成することができます。各temiのDHCPのホストネームは固有のものではありませんので、MACアドレスで識別することをお勧めします"
+"。temiのWi-FiインターフェースのMACアドレスは ``設定`` > ``情報`` > ``Wi-Fi　MAC　アドレス`` "
+"で確認することが出来ます。（Launcher OS14759の場合)"
 
-#: ../../source/network-admin/03_temi-robot.rst:87
+#: ../../source/network-admin/03_temi-robot.rst:83
 #: e22fecbe889e4ad1951431433837bd4f
 msgid "Captive Portals"
 msgstr "キャプティブ・ポータル機能"
 
-#: ../../source/network-admin/03_temi-robot.rst:88
+#: ../../source/network-admin/03_temi-robot.rst:84
 #: de44f41b03cf4766a7b9055ac7c3ce9b
 msgid ""
 "It is recommended to avoid using captive portals with temi Robot. If the "
 "robot is temporarily relocated or rebooted, the captive portal may "
 "require the sign-in process to be repeated when it reconnects to the "
 "network."
-msgstr ""
-"temiではキャプティブ・ポータル認証機能は使用しないでください。もしtemiが一時的に再配置、或いは再起動した際、ネットワークに再接続した時にサインインのプロセスを要求されるためです。"
+msgstr "temiではキャプティブ・ポータル認証機能は使用しないでください。もしtemiが一時的に再配置、或いは再起動した際、ネットワークに再接続した時にサインインのプロセスを要求されるためです。"
 
-#: ../../source/network-admin/03_temi-robot.rst:90
+#: ../../source/network-admin/03_temi-robot.rst:86
 #: 59fd615575584208a24b04ec1c4d18c4
 msgid ""
 "Instead, it is recommended to whitelist the temi Robot's Wi-Fi interface "
@@ -318,22 +306,49 @@ msgid ""
 "found under ``Settings`` > ``About`` > ``Wi-Fi MAC Address`` (Launcher OS"
 " 14759)."
 msgstr ""
-"代わりに、キャプティブ・ポータルが設置されている環境でtemiを使用する場合にはtemiのWi-Fiインターフェースをホワイトリストに登録することをお勧めします。 temi のWi-Fiインターフェースがホワイトリストに登録されている場合、キャプティブ・ポータルの登録は必要無くなります。多くのキャプティブ・ポータルでは、MACアドレスをホワイト・リストに指定できます。MACアドレスは ``設定`` > ``情報`` > ``Wi-Fi　MAC　アドレス`` で確認できます。（Launcher OS14759の場合)"
+"代わりに、キャプティブ・ポータルが設置されている環境でtemiを使用する場合にはtemiのWi-"
+"Fiインターフェースをホワイトリストに登録することをお勧めします。 temi のWi-"
+"Fiインターフェースがホワイトリストに登録されている場合、キャプティブ・ポータルの登録は必要無くなります。多くのキャプティブ・ポータルでは、MACアドレスをホワイト・リストに指定できます。MACアドレスは"
+" ``設定`` > ``情報`` > ``Wi-Fi　MAC　アドレス`` で確認できます。（Launcher OS14759の場合)"
 
-#: ../../source/network-admin/03_temi-robot.rst:94
-#: da67a98ff1954b0790b0d6507134a3e4
-msgid "References"
+#: ../../source/network-admin/03_temi-robot.rst:90
+#: 24995528036d439a9ac3cd0e78cd744d
+msgid "Glossary"
 msgstr ""
 
-#: ../../source/network-admin/03_temi-robot.rst:96
-#: a8f705ec1e5f4527b5fc532baf156326
+#: ../../source/network-admin/03_temi-robot.rst:93
+#: e4ec736c7585472488b8f8e854234280
+msgid "BSSID"
+msgstr ""
+
+#: ../../source/network-admin/03_temi-robot.rst:95
+#: 251e38e3c21340c4ab2f8e3000c3cdcd
 msgid ""
-"`temi Robot Wi-Fi Module AP6356 Datasheet "
-"<https://rockchip.fr/ampak/AP6356_datasheet_V1.0_07252014.pdf>`_"
+"For a definition of BSSID, see `Wikipedia Service set (802.11 network) "
+"<https://en.wikipedia.org/wiki/Service_set_(802.11_network)#SSID>`_."
 msgstr ""
+"(BSSID: Basic Service Set Identifier) "
+"無線LANのインフラストラクチャモード（APを介して端末間を繋ぐ通信モード）では、一台のAPと配下の端末で構成される最も単純なネットワークをBSS（Basic"
+" Service "
+"Set）と呼び、その識別名としてBSSIDを用います。一方、複数のAPを一つのネットワークとして一体的に運用することができるESS（Extended"
+" Service "
+"Set）では、管理者がネットワークに32バイトまでの任意の名称を付けて識別名とすることができ、これをESSIDという。両者を合わせてSSIDといいますが、現在では単にSSIDといった場合はESSIDを指します。）"
 
-#: ../../source/network-admin/03_temi-robot.rst:97
-#: a8b4fe7ce0fa4e1c97b9ff4d1c6cf874
-msgid "`Roaming over Wi-Fi <https://wlanprofessionals.com/roaming-over-wi-fi/>`_"
-msgstr ""
+#~ msgid ""
+#~ "`temi Robot Wi-Fi Module AP6356 "
+#~ "Datasheet "
+#~ "<https://rockchip.fr/ampak/AP6356_datasheet_V1.0_07252014.pdf>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Roaming over Wi-Fi "
+#~ "<https://wlanprofessionals.com/roaming-over-wi-"
+#~ "fi/>`_"
+#~ msgstr ""
+
+#~ msgid "How to measure bandwidth"
+#~ msgstr "帯域幅を測定する方法"
+
+#~ msgid "References"
+#~ msgstr "リファレンス（参照）"
 

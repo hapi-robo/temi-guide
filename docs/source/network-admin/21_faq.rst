@@ -18,7 +18,7 @@ Frequently Asked Questions
 
 `Q: When trying to start an app, I get the following error: "This feature is not available while temi is offline"`
 
-  .. figure:: assets/images/faq/offline-error-en.jpg
+  .. figure:: assets/images/faq/offline-error.jpg
     :alt: Offline error
 
     This error message may appear when selecting an app while temi is not connected to the internet.
