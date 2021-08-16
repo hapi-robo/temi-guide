@@ -89,4 +89,4 @@ Changelogs
 Previous Versions
 -----------------
 
-:download:`Latest Firewall Settings (2021/07) <assets/temi_firewall_settings_202107.csv>`
+:download:`Firewall Settings (2021/07) <assets/temi_firewall_settings_202107.csv>`
