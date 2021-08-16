@@ -26,7 +26,7 @@ roboteam-assets.s3.eu-central-1.amazonaws.com,443,TCP,Tutorial videos,Worldwide,
 s3.eu-central-1.amazonaws.com,443,TCP,Custom wallpapers,Worldwide,O,,,,
 temi-media-public.s3.amazonaws.com,443,TCP,User profile image,Worldwide,O,,O,,
 oss-us-east-1.aliyuncs.com,"80, 443",TCP,"User uploaded media (e.g. Sequences, Facial Recognition, etc.)",Worldwide,O,,,O,O
-production-user-storage-private-virginia.oss-us-east-1.aliyuncs.com,"80, 444",TCP,"User uploaded media (e.g. Sequences, Facial Recognition, etc.)",Worldwide,O,,O,O,O
+production-user-storage-private-virginia.oss-us-east-1.aliyuncs.com,"80, 443",TCP,"User uploaded media (e.g. Sequences, Facial Recognition, etc.)",Worldwide,O,,O,O,O
 www.youtube.com,443,TCP,YouTube Videos Skill,Worldwide,O,,,,
 i.ytimg.com,443,TCP,YouTube Videos Skill,Worldwide,O,,,,
 www.googleapis.com,443,TCP,YouTube Videos Skill,Worldwide,O,,,,

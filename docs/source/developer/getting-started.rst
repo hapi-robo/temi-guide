@@ -2,7 +2,7 @@
 Getting Started
 ***************
 
-The following are instructions for building the a basic Android app that appears in temi's launcher.
+The following are instructions for building a basic Android app that appears in temi's launcher.
 
 
 Changes to an Empty Activity Project
@@ -104,6 +104,7 @@ Add and remove ``OnRobotReadyListener`` at the start and end of the app lifecycl
       mRobot.removeOnRobotReadyListener(this);
   }
 
+.. _sdk-robot-ready:
 
 onRobotReady()
 ==============

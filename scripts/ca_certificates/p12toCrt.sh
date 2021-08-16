@@ -7,13 +7,13 @@
 # positional arguments:
 #
 #   filename             Path to .p12 file
-#
+#   output               Path to output
 #
 
-# abort if any command fails
+# Abort if any command fails
 set -e
 
-# display usage instructions
+# Display usage instructions
 usage()
 {
   echo ""
@@ -24,11 +24,12 @@ usage()
   echo "positional arguments:"
   echo ""
   echo "  filename             Path to PKCS#12 (.pfx or .p12) file"
+  echo "  output               Path to output"
   echo ""
   exit 1
 }
 
-# check for .p12 name
+# Check for PKCS#12 file (.p12)
 if [ -z "$1" ]; then
   echo "Missing PKCS#12 (.pfx or .p12) file"
   usage
@@ -38,9 +39,18 @@ else
   NAME="$(echo "${FILENAME}" | cut -f 1 -d '.')"
 fi
 
-# convert .p12 to .crt
+# Convert .p12 to .crt
 openssl pkcs12 -in ${FILENAME} -clcerts -nokeys -out ${NAME}.crt
 
-# done
+# Done
 echo ${NAME}.crt
+
+# Move file to output folder
+if [ -z "$2" ]; then
+  exit 0
+else
+  # Move file silently
+  mv "${NAME}.crt" "$2" 2>/dev/null
+fi
+
 exit 0
