@@ -6,10 +6,10 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
 .. toctree::
    :maxdepth: 1
    :numbered:
-   :caption: Essentials
+   :caption: Basics
 
-   essentials/01_connect-wifi
-   essentials/02_keyboard
+   basics/01_connect-wifi
+   basics/02_keyboard
 
 .. toctree::
    :maxdepth: 2
