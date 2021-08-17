@@ -4,6 +4,17 @@ Make document (default: English)
 make html
 ```
 
+Extract document's translatable messages into pot (.po) files
+```
+make gettext
+```
+This invokes the sphinx gettext builder that generates pot files under `build/gettext` folder.
+
+Update your local pot files:
+```
+sphinx-intl update -p build/gettext -l ja
+```
+
 Make translated document
 ```
 make -e SPHINXOPTS="-Dlanguage='ja'" html

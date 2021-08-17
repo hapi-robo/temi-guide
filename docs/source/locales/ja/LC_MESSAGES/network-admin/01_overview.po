@@ -52,7 +52,7 @@ msgstr ""
 msgid ""
 "This guide is written for system administrators responsible for managing "
 "business networks and hardware. It assumes that you are familiar with:"
-msgstr ""
+msgstr "このガイドは、ビジネスネットワークとハードウェアの管理を担当するシステム管理者で、下記の内容を良く理解されていることを前提としています："
 
 #: ../../source/network-admin/01_overview.rst:17
 #: b2892751f8a44928977a8bf2222a0759

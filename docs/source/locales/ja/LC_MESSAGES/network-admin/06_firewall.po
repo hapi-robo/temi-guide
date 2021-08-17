@@ -64,7 +64,7 @@ msgid ""
 "versions using a `Netgate 1100 Security Gateway "
 "<https://docs.netgate.com/pfsense/en/latest/solutions/sg-1100/>`_ running"
 " `pfSense 21.02.2 <https://www.pfsense.org/>`_."
-msgstr ""
+msgstr "最新のファイアウォール設定は、`pfSense 21.02.2 <https://www.pfsense.org/>`_ を `Netgate 1100 Security Gateway <https://docs.netgate.com/pfsense/en/latest/solutions/sg-1100/>`_ を使用して確認されています。"
 
 #: ../../source/network-admin/06_firewall.rst:22
 #: 9ec68d021f2349b2bf0f997176819823
@@ -185,7 +185,7 @@ msgstr ""
 #: ../../source/network-admin/06_firewall.rst:74
 #: db3f4c0bd7d8443fa62e4ab0572c1d7d
 msgid "temi Center"
-msgstr "temiセンター　"
+msgstr "temiセンター"
 
 #: ../../source/network-admin/06_firewall.rst:78
 #: 39ac8c5bff1b4e32ac336b9e3696d99c
@@ -200,7 +200,7 @@ msgstr ""
 #: ../../source/network-admin/06_firewall.rst:84
 #: 9d0cffe22df94b63a0ffbd8180d6d35f
 msgid "Changelogs"
-msgstr ""
+msgstr "変更履歴"
 
 #: ../../source/network-admin/06_firewall.rst:85
 #: 6adc153d793c4282b7996c6856f23522
@@ -214,7 +214,7 @@ msgstr ""
 
 #: ../../source/network-admin/06_firewall.rst:90
 #: 170f2c2db49c4b82b62fe1cf5c9df590
-msgid "Previous Versions"
+msgid "以前のバージョン"
 msgstr ""
 
 #: ../../source/network-admin/06_firewall.rst:92
