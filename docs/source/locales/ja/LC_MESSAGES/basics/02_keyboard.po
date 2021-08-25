@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-25 15:08+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/basics/02_keyboard.rst:1 62f003f16714455a80d1f1be9ea664b2
+#: 7587d5be0d67409393634f985a72b129 8487b6506c8542cb81b5e54dc3ff8939
+msgid "globe"
+msgstr ""
+
+#: ../../source/basics/02_keyboard.rst:6 fa308f10f0524c16a3993acd8c29f033
+msgid "Switching Keyboards"
+msgstr ""
+
+#: ../../source/basics/02_keyboard.rst:9 6950a833bea74d72936691ba752a0959
+msgid "From Japanese to English Keyboard"
+msgstr ""
+
+#: ../../source/basics/02_keyboard.rst:14
+#: ../../source/basics/02_keyboard.rst:43 78d38e373a624baea3f148c6aa967e92
+#: c0dc6ae6b20c4a17bd79b76e0b20dff8
+msgid "Japanese keyboard"
+msgstr ""
+
+#: ../../source/basics/02_keyboard.rst:14 267849affa844a1f9103d8e6f3332c24
+msgid ""
+"To switch from a Japanese keyboard to an English keyboard, press and hold"
+" the globe button |globe|."
+msgstr ""
+
+#: ../../source/basics/02_keyboard.rst:19
+#: ../../source/basics/02_keyboard.rst:38 bd9d0f6d14bc46c196a64e895126f971
+#: cae54ff237d34c66ba8c0cb7395601a3
+msgid "Japanese keyboard popup menu"
+msgstr ""
+
+#: ../../source/basics/02_keyboard.rst:19 55fd2cbe9d614ae382689965e8a95f4d
+msgid ""
+"A popup menu should appear. Selecting 英語(米国) should immediately switch to"
+" the English keyboard."
+msgstr ""
+
+#: ../../source/basics/02_keyboard.rst:24
+#: ../../source/basics/02_keyboard.rst:33 50ae39d7ea1a4b5b92ffa9096d1b115f
+#: b535d713738e4d35956f58da27df951e
+msgid "English keyboard"
+msgstr ""
+
+#: ../../source/basics/02_keyboard.rst:24 b5e5bf352dd341bea2370e7e9df8603d
+msgid "The English keyboard."
+msgstr ""
+
+#: ../../source/basics/02_keyboard.rst:28 92c9caa7d6cc44a3b48fe8c79a8d2004
+msgid "From English to Japanese Keyboard"
+msgstr ""
+
+#: ../../source/basics/02_keyboard.rst:33 cbecdd8d7db54a7e9ef243b76ee2b9ac
+msgid ""
+"To switch from an English keyboard to a Japanese keyboard, press and hold"
+" the globe button |globe|."
+msgstr ""
+
+#: ../../source/basics/02_keyboard.rst:38 464fd23ec7dd404ab9d9f6f4cc2872c6
+msgid ""
+"A popup menu should appear. Selecting 日本語 should immediately switch to "
+"the Japanese keyboard."
+msgstr ""
+
+#: ../../source/basics/02_keyboard.rst:43 36cbf2d24bee46fe9f55727f8b41f170
+msgid "The Japanese keyboard."
+msgstr ""
+

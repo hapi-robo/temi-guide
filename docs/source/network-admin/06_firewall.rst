@@ -86,7 +86,6 @@ Changelogs
 
 - Fixes a typo in row 29. Previously wrote port 444. It should be port 443.
 
-Previous Versions
------------------
+**temi_firewall_settings_202107.csv**
 
-:download:`Firewall Settings (2021/07) <assets/temi_firewall_settings_202107.csv>`
+- Initial release
