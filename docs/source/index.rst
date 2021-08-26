@@ -10,6 +10,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
 
    basics/01_connect-wifi
    basics/02_keyboard
+   basics/10_environment
 
 .. toctree::
    :maxdepth: 2
