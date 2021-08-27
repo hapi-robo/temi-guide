@@ -15,7 +15,9 @@ Storage Conditions
 | Temperature      | 0°C      | 45°C     | 25°C        |
 +-----------------------------+----------+-------------+
 
-:download:`temi S1 CE Technical Specifications (2020/11) <assets/docs/temi_s1_ce_technical_specifications.pdf>`
+References
+----------
+:download:`temi S1 CE Technical Specifications (2020/11) <assets/docs/temi_s1_ce_technical_specifications_20201123.pdf>`
 
 Operating Conditions
 ====================
@@ -26,3 +28,8 @@ Operating Conditions
 | Temperature      | 0°C      | 40°C     |
 +-----------------------------+----------+
 
+References
+----------
+Available from temi's `Helpdesk <https://www.robotemi.com/helpdesk/>`_.
+
+:download:`temi User Manual (2020/11) <assets/docs/temi_user_manual_20210720.pdf>`
