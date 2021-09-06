@@ -249,7 +249,7 @@ msgstr "最新のファイヤウォール設定を使用していますか？最
 msgid ""
 "Do not convert FQDN addresses to IP addresses. FQDNs are used because the"
 " underlying IP addresses may change without notice."
-msgstr "FQDNアドレスをIPアドレスに変換しないでください。基になるIPアドレスが予告なしに変更される可能性があるため、FQDNが使用してください。"
+msgstr "FQDNアドレスをIPアドレスに変換しないでください。基になるIPアドレスが予告なしに変更される可能性があるため、FQDNを使用してください。"
 
 #: ../../source/network-admin/06_firewall.rst:97
 #: f7e41fc5f5f049f9898304d1e2398210
