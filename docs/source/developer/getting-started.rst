@@ -70,7 +70,7 @@ Instantiate a ``Robot`` class.
 
 .. code-block:: Java
   :linenos:
-  :emphasize-lines: 6
+  :emphasize-lines: 7
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
