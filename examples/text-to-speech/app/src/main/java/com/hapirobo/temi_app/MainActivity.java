@@ -25,35 +25,39 @@ public class MainActivity extends AppCompatActivity implements OnRobotReadyListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Declare a queue of phrases
-        final Queue<String> queue = new LinkedList<>();
-        queue.add("こんにちは");
-        queue.add("元気ですか");
-
         // Initialize robot instance
         sRobot = Robot.getInstance();
 
-        // Register TTS listener
-        sRobot.addTtsListener(new Robot.TtsListener() {
-            @Override
-            public void onTtsStatusChanged(@NotNull TtsRequest ttsRequest) {
-                Log.i(TAG, "Status:" + ttsRequest.getStatus());
-                if (ttsRequest.getStatus() == TtsRequest.Status.COMPLETED) {
-                    if (!queue.isEmpty()) {
-                        sRobot.speak(TtsRequest.create(queue.remove(), false));
-                    }
-                }
-            }
-        });
+        final Queue<String> queue = new LinkedList<>();
 
         // Initialize test button
         final Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               // Command robot to speak
-               sRobot.speak(TtsRequest.create(queue.remove(), false, TtsRequest.Language.SYSTEM)); // In Japanese, uses Google Text-to-Speech
-//               sRobot.speak(TtsRequest.create(queue.remove(), false, TtsRequest.Language.JA_JP)); // In Japanese uses Microsoft Text-to-Speech
+                // Declare a queue of phrases
+                queue.add("Hello World");
+                queue.add("What is the weather today?");
+
+                // Register TTS listener
+                sRobot.addTtsListener(new Robot.TtsListener() {
+                    @Override
+                    public void onTtsStatusChanged(@NotNull TtsRequest ttsRequest) {
+                        Log.i(TAG, "Status:" + ttsRequest.getStatus());
+                        if (ttsRequest.getStatus() == TtsRequest.Status.COMPLETED) {
+                            if (!queue.isEmpty()) {
+                                sRobot.speak(TtsRequest.create(queue.remove(), false)); // do not display text; uses Google Text-to-Speech
+                            }
+                        }
+                    }
+                });
+
+                // Command robot to speak
+//                sRobot.speak(TtsRequest.create(queue.remove())); // display text; uses Google Text-to-Speech
+                sRobot.speak(TtsRequest.create(queue.remove(), false)); // do not display text, uses Google Text-to-Speech
+//                sRobot.speak(TtsRequest.create(queue.remove(), false, TtsRequest.Language.SYSTEM)); // do not display text; uses Google Text-to-Speech
+//                sRobot.speak(TtsRequest.create(queue.remove(), false, TtsRequest.Language.EN_US)); // do not display text; uses Microsoft Text-to-Speech
+//                sRobot.speak(TtsRequest.create(queue.remove(), false, TtsRequest.Language.JA_JP)); // do not display text; uses Microsoft Text-to-Speech
             }
         });
     }
