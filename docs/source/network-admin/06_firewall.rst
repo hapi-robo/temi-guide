@@ -87,11 +87,12 @@ Proxy Settings
 ==============
 temi Center uses WebSockets for establishing video connection and for controlling the robot remotely. Therefore, proxy servers should be configured to allow for WebSocket connections. The :ref:`firewall-settings` document at the top of this page has a column labelled ``WebSockets`` that indicates which FQDN/IPs and ports use WebSockets.
 
-
 Troubleshooting
 ===============
 After configuring your network with the settings described above, if you are still not able to use the temi Robot, temi Mobile App, and/or temi Center, please check the following:
 
+Firewall Settings
+-----------------
 - Use the most recent firewall settings. The latest version is provided as a CSV file at the top of this page. 
 - Do not convert FQDN addresses to IP addresses. FQDNs are used because the underlying IP addresses may change without notice.
 - Connect a PC to your firewall-configured network and check if it is able to reach each of the FQDN/IPs listed in your firewall settings. Note that some domains block/drop ICMP packets (there is an ``ICMP Blocked`` column of the :ref:`firewall-settings` document), so `ping` cannot reliably be used to check this. In this case, one can use one of the following::
@@ -99,7 +100,14 @@ After configuring your network with the settings described above, if you are sti
     nmap -sn center.robotemi.com
     host center.robotemi.com
 
-temi Center
+Proxy Settings
+--------------
+Your proxy servers may not allow for WebSocket connections. You can test your WebSocket with `this <https://libwebsockets.org/testserver/>`_. If the WebSocket connection is working, you should see:
+
+- You should see a number incrementing
+- The number resets if you click on the `Reset counter` button
+
+Web Browser
 -----------
 - Are you using the latest version of a supported web-browser?
 - Do you have any additional web-browser security features (apart from the default set) enabled?
