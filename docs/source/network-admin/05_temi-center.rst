@@ -2,6 +2,8 @@
 temi Center
 ***********
 
+.. _temi-center-network-requirements:
+
 General Network Requirements
 ============================
 
