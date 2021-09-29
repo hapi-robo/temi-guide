@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-30 12:27+0900\n"
+"POT-Creation-Date: 2021-09-29 13:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,37 +17,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/developer/text-to-speech.rst:2 aa862cdf27304455983f9695e496fc05
+#: ../../source/developer/text-to-speech.rst:3 bf09a30bc4644632832ce5cdf5b931eb
 msgid "Text-to-Speech"
 msgstr ""
 
-#: ../../source/developer/text-to-speech.rst:5 0bd099baa8d44ac588ec0c3a0b7d50c2
+#: ../../source/developer/text-to-speech.rst:6 cc86c380a6f54d89b41991d6158caf63
 msgid "Single Line of Text"
 msgstr ""
 
-#: ../../source/developer/text-to-speech.rst:6 860c7f65b955434798f97feeee0995f8
+#: ../../source/developer/text-to-speech.rst:7 6ce7d92406d445c7bc651a58bab5298e
 msgid "Speak with text displayed:"
 msgstr ""
 
-#: ../../source/developer/text-to-speech.rst:17
-#: 1407afdd87904b33b87d80b320c8c380
+#: ../../source/developer/text-to-speech.rst:18
+#: b8d7a74d79fa4d74947a8d323dc3bd3e
 msgid "Speak without text displayed:"
 msgstr ""
 
-#: ../../source/developer/text-to-speech.rst:28
-#: 1708cbcb0c36451ca50a0b1011851d6c
+#: ../../source/developer/text-to-speech.rst:30
+#: 8339307656f74eb6bca9c72a1e20e2ac
 msgid "Multiple Lines of Text"
 msgstr ""
 
-#: ../../source/developer/text-to-speech.rst:29
-#: faf8ae96cc564a06a4e7450cd77a4c36
+#: ../../source/developer/text-to-speech.rst:31
+#: 0a75da48565a41f79c88e37f955048c1
 msgid ""
 "``speak()`` is an asynchronous method. Therefore, you *cannot* do the "
 "following to speak multiple lines of text:"
 msgstr ""
 
-#: ../../source/developer/text-to-speech.rst:36
-#: a2c95e2f46f24cab93aaf6bb0c3723fd
+#: ../../source/developer/text-to-speech.rst:38
+#: 0665b48848ad4128a2e134c205f9d6a1
 msgid ""
 "To speak multiple lines of text, you must wait for the robot to finish "
 "speaking the first line of text before starting the second line of text. "
@@ -56,25 +56,82 @@ msgid ""
 "interface. For example:"
 msgstr ""
 
-#: ../../source/developer/text-to-speech.rst:62
-#: 7ae492a44df44ada875928c6d616db91
+#: ../../source/developer/text-to-speech.rst:64
+#: c60be684057c401a8e310e7dad487266
+msgid "Languages"
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:65
+#: 054dd5a037dd49939cfaeff554605d51
+msgid ""
+"The 3rd parameter (```Language``) of ``Tts.create()`` allows the user to "
+"set the language of the TTS system, independent of the system's language "
+"settings. This may be useful if a developer wants to create an app with "
+"TTS that supports multiple languages within the app without having to "
+"switch system language settings."
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:67
+#: ac985cbcf3e3485fa38a2432ffede524
+msgid ""
+"For example, to command the robot to speak in Japanese while the system's"
+" language is set to English:"
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:80
+#: eb481f960dcb47fe96d7e189c92253ce
+msgid ""
+"When using the ``language`` parameter, TTS may redirect to a different "
+"TTS service provider. For example in Japanese:"
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:82
+#: 9693e4208a374f1494bd5eb2a6badda6
+msgid ""
+"When the parameter is set to ``TtsRequest.Language.SYSTEM`` (or not set "
+"at all), the robot will use `Google's Text-to-Speech "
+"<https://cloud.google.com/text-to-speech/>`_ service."
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:84
+#: e3e16005b3ee4665baaf2711381849df
+msgid ""
+"When the parameter is set to ``TtsRequest.Language.JA_JP``, the device "
+"will use `Microsoft's Speech-to-Text service <https://azure.microsoft.com"
+"/en-us/services/cognitive-services/text-to-speech/>`_."
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:86
+#: 4dad843bc2aa4fc99aab9c3a9e377b3b
+msgid ""
+"Since these are different service providers, this may have an impact on "
+"latency."
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:88
+#: d82261e181444165831310d35a8e4d76
+msgid "Please note that this may also affect :ref:`firewall-settings`."
+msgstr ""
+
+#: ../../source/developer/text-to-speech.rst:92
+#: 8c0bdc7ddc8d40279b46545081526050
 msgid "Example"
 msgstr ""
 
-#: ../../source/developer/text-to-speech.rst:63
-#: e5aec52ae7e14fb693d527dddbcee8b5
+#: ../../source/developer/text-to-speech.rst:93
+#: e7d678dbc4334546b85eeaecccc00843
 msgid ""
 "`Text-to-Speech <https://github.com/hapi-robo/temi-"
 "guide/tree/master/examples/text-to-speech>`_"
 msgstr ""
 
-#: ../../source/developer/text-to-speech.rst:67
-#: 32554005f10143f1939ea7726c4214a7
+#: ../../source/developer/text-to-speech.rst:97
+#: 575abd5858f646c8baf40d6d36e3a11f
 msgid "References"
 msgstr ""
 
-#: ../../source/developer/text-to-speech.rst:68
-#: 2cca1f99f7f14d8f9a308c48cfa126d3
+#: ../../source/developer/text-to-speech.rst:98
+#: 1106690eb4b743a18a0a006236ffb474
 msgid "`temi SDK: Speech <https://github.com/robotemi/sdk/wiki/Speech>`_"
 msgstr ""
 

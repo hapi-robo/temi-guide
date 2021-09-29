@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-06 17:44+0900\n"
+"POT-Creation-Date: 2021-09-29 14:02+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,8 @@ msgid "Firewall & Proxy Settings"
 msgstr "ファイヤウォールとプロキシ設定"
 
 #: ../../source/network-admin/06_firewall.rst:10
-#: 00f9f9d7bcab4ca2a87a4899f002adf9
+#: ../../source/network-admin/06_firewall.rst:95
+#: 00f9f9d7bcab4ca2a87a4899f002adf9 b5fa1b1fedfa4de7960d408ade00c09d
 msgid "Firewall Settings"
 msgstr "ファイヤウォール設定"
 
@@ -40,8 +41,8 @@ msgstr ""
 #: ../../source/network-admin/06_firewall.rst:14
 #: 19c9902e84d940b6922b33adbc78fc4c
 msgid ""
-":download:`Firewall Settings (2021/09) "
-"<assets/temi_firewall_settings_202109.csv>`"
+":download:`Firewall Settings (2021/09/27) "
+"<assets/temi_firewall_settings_20210927.csv>`"
 msgstr ""
 
 #: ../../source/network-admin/06_firewall.rst:16
@@ -192,7 +193,6 @@ msgstr ""
 "［Androidモバイルアプリ1.3.8425のイメージ］"
 
 #: ../../source/network-admin/06_firewall.rst:77
-#: ../../source/network-admin/06_firewall.rst:103
 #: ed78ff165e274fc2a635d8cf23565929
 msgid "temi Center"
 msgstr "temiセンター"
@@ -208,7 +208,8 @@ msgstr ""
 "ページを開いて、ファイヤーウォール・モードを有効にします。［temiセンター2021/07/14のイメージ］"
 
 #: ../../source/network-admin/06_firewall.rst:87
-#: 00f9f9d7bcab4ca2a87a4899f002adf9
+#: ../../source/network-admin/06_firewall.rst:104
+#: 00f9f9d7bcab4ca2a87a4899f002adf9 1077afbfc34e4ef8b1ee18be8a737dbf
 msgid "Proxy Settings"
 msgstr "プロキシ設定"
 
@@ -226,12 +227,12 @@ msgstr ""
 " :ref:`firewall-settings` ドキュメント（CSVファイル）には、どのFQDN / "
 "IPとポートがWebSocketを使用するかを示すWebSocketsというラベルの付いた列（フィールド）があります。参照ください。"
 
-#: ../../source/network-admin/06_firewall.rst:92
+#: ../../source/network-admin/06_firewall.rst:91
 #: 00f9f9d7bcab4ca2a87a4899f002adf9
 msgid "Troubleshooting"
 msgstr "トラブルシューティング"
 
-#: ../../source/network-admin/06_firewall.rst:93
+#: ../../source/network-admin/06_firewall.rst:92
 #: c4dad1577aea41498908a8a6e303d722
 msgid ""
 "After configuring your network with the settings described above, if you "
@@ -241,21 +242,21 @@ msgstr ""
 "上記の設定でネットワークを構成した後、それでもtemi ロボット、temi モバイル、またはtemi "
 "センターを使用できない場合は、以下を確認してください。"
 
-#: ../../source/network-admin/06_firewall.rst:95
+#: ../../source/network-admin/06_firewall.rst:96
 #: 4da14189c1bd45c38d80e7a4ae08019f
 msgid ""
 "Use the most recent firewall settings. The latest version is provided as "
 "a CSV file at the top of this page."
 msgstr "最新のファイヤウォール設定を使用していますか？最新バージョンは、このページの上部にCSVファイルとして提供されています。"
 
-#: ../../source/network-admin/06_firewall.rst:96
+#: ../../source/network-admin/06_firewall.rst:97
 #: ee753ccf61ef45f6b19b87c81593c7f6
 msgid ""
 "Do not convert FQDN addresses to IP addresses. FQDNs are used because the"
 " underlying IP addresses may change without notice."
 msgstr "FQDNアドレスをIPアドレスに変換しないでください。基になるIPアドレスが予告なしに変更される可能性があるため、FQDNを使用してください。"
 
-#: ../../source/network-admin/06_firewall.rst:97
+#: ../../source/network-admin/06_firewall.rst:98
 #: f7e41fc5f5f049f9898304d1e2398210
 msgid ""
 "Connect a PC to your firewall-configured network and check if it is able "
@@ -270,75 +271,123 @@ msgstr ""
 "ドキュメントの`ICMP "
 "Blocked`列を参照ください。）、pingを使用してこれを確認することができないことがあります。この場合、次のいずれかを使用できます::"
 
-#: ../../source/network-admin/06_firewall.rst:104
+#: ../../source/network-admin/06_firewall.rst:105
+#: 680048bac32f40e2b56341d4c3de5521
+msgid ""
+"Your proxy servers may not allow for WebSocket connections. You can test "
+"your WebSocket with `this <https://libwebsockets.org/testserver/>`_. If "
+"the WebSocket connection is working, you should see:"
+msgstr ""
+"あなたのネットワークのプロキシサーバーがWebSocket接続を許可していない可能性があります。`ここ "
+"<https://libwebsockets.org/testserver/>`_ からWebSocketの状態を確認できます。 "
+"WebSocket接続が機能している場合は、次のように表示されます。"
+
+#: ../../source/network-admin/06_firewall.rst:107
+#: 09e2b1059e96419787578c2449d8c6bf
+msgid "You should see a number incrementing"
+msgstr "数字が増加するのが見えるはずです。"
+
+#: ../../source/network-admin/06_firewall.rst:108
+#: d5acd0fc8f274c92a6cf5df977b6063a
+msgid "The number resets if you click on the ``Reset counter`` button"
+msgstr "``Reset counter`` ボタンをクリックすると、番号がリセットされます。"
+
+#: ../../source/network-admin/06_firewall.rst:111
+#: d4e4f53e8f484cf8a5f4cb09224b2ed4
+msgid "Web Browser"
+msgstr ""
+
+#: ../../source/network-admin/06_firewall.rst:112
 #: 628aef34b8bb41f5ac77f986b1795e0c
 msgid "Are you using the latest version of a supported web-browser?"
 msgstr "サポートされているWebブラウザの最新バージョンを使用していますか？"
 
-#: ../../source/network-admin/06_firewall.rst:105
+#: ../../source/network-admin/06_firewall.rst:113
 #: ed05e135e8264b01b20fdfbd9c3e2f34
 msgid ""
 "Do you have any additional web-browser security features (apart from the "
 "default set) enabled?"
 msgstr "（デフォルトセット以外の）追加のWebブラウザセキュリティ機能を有効にしていますか？"
 
-#: ../../source/network-admin/06_firewall.rst:106
+#: ../../source/network-admin/06_firewall.rst:114
 #: 69356c4337c64f85a2866966f799a32a
 msgid "Are microphone and video allowed to operate through the web-browser?"
 msgstr "マイクとビデオはWebブラウザを介して操作できますか？"
 
-#: ../../source/network-admin/06_firewall.rst:108
+#: ../../source/network-admin/06_firewall.rst:116
 #: 7a6daa59c4374420bbe855fcb7ad9416
 msgid "Test microphone: https://webcammictest.com/check-mic.html"
 msgstr "マイクテスト: https://webcammictest.com/check-mic.html"
 
-#: ../../source/network-admin/06_firewall.rst:109
+#: ../../source/network-admin/06_firewall.rst:117
 #: 745f38722c4a4937872f8a4d868380a4
 msgid "Test video: https://webcammictest.com/"
 msgstr "ビデオテスト: https://webcammictest.com/"
 
-#: ../../source/network-admin/06_firewall.rst:115
+#: ../../source/network-admin/06_firewall.rst:123
 #: a26e92174bc441618b351368e4079815
 msgid "Changelogs"
 msgstr "変更履歴"
 
-#: ../../source/network-admin/06_firewall.rst:116
+#: ../../source/network-admin/06_firewall.rst:124
+#: ef0969d6a59f43ccb52b895bfe5e7c22
+msgid "**temi_firewall_settings_20210927.csv**"
+msgstr ""
+
+#: ../../source/network-admin/06_firewall.rst:126
+#: 3d737a9c106f426fb4b528169dcb457c
+msgid "Removed duplicate host: ``eastus.tts.speech.microsoft.com``"
+msgstr "重複するホストを削除しました：``eastus.tts.speech.microsoft.com``"
+
+#: ../../source/network-admin/06_firewall.rst:127
+#: fc62eba8f24d4cf18d5eb05f2d6c02a5
+msgid ""
+"Added ``Notes`` field, and included some comments about text-to-speech "
+"services"
+msgstr "``Notes`` フィールドを追加し、テキスト読み上げサービスに関するコメントを含めました。"
+
+#: ../../source/network-admin/06_firewall.rst:129
 #: b5fa1b1fedfa4de7960d408ade00c09d
 msgid "**temi_firewall_settings_202109.csv**"
 msgstr ""
 
-#: ../../source/network-admin/06_firewall.rst:118
+#: ../../source/network-admin/06_firewall.rst:131
 #: 8f61f77afaef4c6790edc76325ee1e35
 msgid "Added ``WebSockets`` field"
 msgstr "``WebSockets`` フィールドを追加しました。"
 
-#: ../../source/network-admin/06_firewall.rst:119
+#: ../../source/network-admin/06_firewall.rst:132
 #: d8384c4a4c484a068160f810e70b47c5
 msgid "Added ``ICMP Blocked`` field"
 msgstr "``ICMP Blocked`` を追加しました。"
 
-#: ../../source/network-admin/06_firewall.rst:121
+#: ../../source/network-admin/06_firewall.rst:134
 #: b5fa1b1fedfa4de7960d408ade00c09d
 msgid "**temi_firewall_settings_202108.csv**"
 msgstr ""
 
-#: ../../source/network-admin/06_firewall.rst:123
+#: ../../source/network-admin/06_firewall.rst:136
 #: a19d019519da432da94580c8e5b86d5b
 msgid "Fixes a typo in row 29. Previously wrote port 444. It should be port 443."
 msgstr "行29のタイプミスを修正しています。以前は、ポート444と記載していましたが、このポート443です。"
 
-#: ../../source/network-admin/06_firewall.rst:125
+#: ../../source/network-admin/06_firewall.rst:138
 #: ef0969d6a59f43ccb52b895bfe5e7c22
 msgid "**temi_firewall_settings_202107.csv**"
 msgstr ""
 
-#: ../../source/network-admin/06_firewall.rst:127
+#: ../../source/network-admin/06_firewall.rst:140
 #: a53d0244460d4410ab564e7a4edb0e97
 msgid "Initial release"
 msgstr "初回リリース版"
 
 #~ msgid ""
 #~ ":download:`Latest Firewall Settings (2021/09) "
+#~ "<assets/temi_firewall_settings_202109.csv>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":download:`Firewall Settings (2021/09) "
 #~ "<assets/temi_firewall_settings_202109.csv>`"
 #~ msgstr ""
 

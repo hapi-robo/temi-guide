@@ -105,7 +105,7 @@ Proxy Settings
 Your proxy servers may not allow for WebSocket connections. You can test your WebSocket with `this <https://libwebsockets.org/testserver/>`_. If the WebSocket connection is working, you should see:
 
 - You should see a number incrementing
-- The number resets if you click on the `Reset counter` button
+- The number resets if you click on the ``Reset counter`` button
 
 Web Browser
 -----------
