@@ -35,4 +35,4 @@ You should see a pull-down bar at the top of the screen. This can be used to gai
 
   temi's ActionBar.
 
-At this time, this feature cannot be removed or locked for standard off-the-shelf Android apps. However, it is possible to remove the ActionBar for custom Android applications that uses temi's SDK. For details, see :ref:`hide-actionbar-pull-down-bar`.
+At this time, this feature cannot be removed or locked for standard off-the-shelf Android apps. However, it is possible to remove the ActionBar for custom Android applications that uses temi's SDK. For details, see :doc:`../developer/10_hide-actionbar`.

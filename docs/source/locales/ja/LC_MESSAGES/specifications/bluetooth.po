@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-12 11:24+0900\n"
+"POT-Creation-Date: 2021-10-12 14:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,62 +17,82 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/specifications/bluetooth.rst:3 d7b79e5d77bd45a389b32f22af50a777
+#: ../../source/specifications/bluetooth.rst:3 80f3d42e81d24b9aaf7d1bdac34897bb
 msgid "Bluetooth"
 msgstr ""
 
-#: ../../source/specifications/bluetooth.rst:6 60bb5eb9fa7d4367939d8c6fe8638c16
+#: ../../source/specifications/bluetooth.rst:6 a302d43b354b4b58a439548b717e2697
+msgid "Hardware"
+msgstr ""
+
+#: ../../source/specifications/bluetooth.rst:7 1d6e4147bc184c139cd07a38b08285cc
+msgid "The temi Robot is equipped with a Bluetooth 4.1 module."
+msgstr ""
+
+#: ../../source/specifications/bluetooth.rst:11
+#: 2ce475da017e4988aedb835b4b8d6acb
 msgid "Profiles"
-msgstr ""
+msgstr "プロファイル"
 
-#: ../../source/specifications/bluetooth.rst:7 b8eb97340c9742db97e84c4fff0c5fbf
-msgid "The following is a list of supported Bluetooth profiles on temi Robots."
+#: ../../source/specifications/bluetooth.rst:12
+#: 8139ec3fea74401da313c3d2359c1f8c
+msgid ""
+"The following is a list of supported Bluetooth profiles on temi Robots "
+"using Firmware version 20201216.xxxxxx."
 msgstr ""
+"下記のリストがtemiの使用しているファームウエアバージョン　"
+"20201216xxxxxxでサポートしているBluetoothのプロファイルリストです。"
 
-#: ../../source/specifications/bluetooth.rst:9 7462e520a6ac4c208aaaa2e2d0399a0c
+#: ../../source/specifications/bluetooth.rst:14
+#: 9defe6bc52fc4e0c8ac3915ff56f817b
 msgid ""
 ":download:`Bluetooth Profiles (2021/10/12) "
 "<assets/temi_bluetooth_profiles_20211012.csv>`"
 msgstr ""
 
-#: ../../source/specifications/bluetooth.rst:12
-#: 6175d58a597849c9a798a7895bda9753
+#: ../../source/specifications/bluetooth.rst:18
+#: 677eea9897304c0c8471827c9c489027
 msgid "Master vs. Slave"
-msgstr ""
+msgstr "マスター vs. スレーブ"
 
-#: ../../source/specifications/bluetooth.rst:14
-#: 18d7bbc7873545b2bf528a7f40bdb1f8
+#: ../../source/specifications/bluetooth.rst:20
+#: 0af512496eec479dae425e5e367538ec
 msgid "A bluetooth connection consists of:"
-msgstr ""
+msgstr "Bluetooth接続は、次のもので交際されます："
 
-#: ../../source/specifications/bluetooth.rst:16
-#: 7eb072cf832a4924aa9831f279b6f1e8
+#: ../../source/specifications/bluetooth.rst:22
+#: acad9b27e7e0431897be1268fecda315
 msgid ""
 "**Master** (or \"**Source**\") device, which scans for other devices and "
 "initiates the connection."
-msgstr ""
+msgstr "**マスター** （または「 **ソース** 」）デバイス。他のデバイスをスキャンして接続をします。 "
 
-#: ../../source/specifications/bluetooth.rst:17
-#: c9b18b4fa4ce45dc9b9d70fe74687c62
+#: ../../source/specifications/bluetooth.rst:23
+#: b636910666754ff68f95dc3cd50ab7da
 msgid ""
 "**Slave** (or \"**Sink**\") device, which advertises its availability and"
 " waits for a connection."
-msgstr ""
+msgstr "**スレーブ** （または「 **シンク** 」）デバイス。稼働できる状態であることを通知し、接続を待ちます。"
 
-#: ../../source/specifications/bluetooth.rst:19
-#: 6e1ebbe6693f41f88e49391e41597a09
+#: ../../source/specifications/bluetooth.rst:25
+#: 0f40458b39714bff994c59d0e33abd1a
 msgid ""
 "By default, temi behaves as a **Slave** device. In ``Settings`` > "
 "``Bluetooth``, you can turn ``ON`` or ``OFF`` temi's Bluetooth module. By"
 " turning Bluetooth ``ON`` temi will advertise its availability using it's"
 " nickname."
 msgstr ""
+"デフォルトでは、temiはスレーブデバイスとして動作します。 ``設定`` > ``Bluetooth`` "
+"で、temiのBluetoothモジュールを ``オン`` または ``オフ`` にできます。 "
+"Bluetoothをオンにすると、temiは、そのニックネームで稼働できる状態であることを通知します。"
 
-#: ../../source/specifications/bluetooth.rst:21
-#: bdc43e7354b5462fa2e60c339f04629f
+#: ../../source/specifications/bluetooth.rst:27
+#: 87183215f3634dfdb92928d1b45ece6f
 msgid ""
 "To use temi as a **Master** device, developers will need to use "
 "`Android's Bluetooth network stack "
 "<https://developer.android.com/guide/topics/connectivity/bluetooth>`_."
 msgstr ""
-
+"temiを **マスター** デバイスとして使用するには、開発者は `Bluetooth ネットワーク スタック "
+"<https://developer.android.com/guide/topics/connectivity/bluetooth>`_ "
+"を使用する必要があります。"

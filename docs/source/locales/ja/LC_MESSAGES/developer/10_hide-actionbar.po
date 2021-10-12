@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-30 12:27+0900\n"
+"POT-Creation-Date: 2021-10-12 14:20+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,87 +17,91 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/developer/hide-actionbar.rst:2 6854c7f20f524f3baf31d66b715c04f5
+#: ../../source/developer/10_hide-actionbar.rst:4
+#: 6b8bff5f47b54aff9f7aff7c07a368fd
 msgid "Hide ActionBar & Pull-Down Bar"
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:4 054983cb5c8a417db04c370b4e3524a8
+#: ../../source/developer/10_hide-actionbar.rst:6
+#: 22b506204c1a4ed9b3c3e2680e0964c2
 msgid ""
 "For Kiosk applications, you'll want to hide the temi's `ActionBar "
 "<https://developer.android.com/reference/androidx/appcompat/app/ActionBar>`_."
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:9 5adba21882df4bf89abaa004cc42626b
+#: ../../source/developer/10_hide-actionbar.rst:11
+#: 0cf0308e7c6e4ff0b7507ad464393238
 msgid "temi ActionBar"
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:9 09bf581503ad42a6bc26d00aef98cc6e
+#: ../../source/developer/10_hide-actionbar.rst:11
+#: 31849afe207946bbbe3f3cef9e3d6aa5
 msgid "temi's ActionBar."
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:11
-#: 0a3926f3484648d7aabdc0ba81c7d61f
+#: ../../source/developer/10_hide-actionbar.rst:13
+#: fa677709fbe6429ebf70962e2a169412
 msgid "You can hide the ActionBar with the following command."
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:17
-#: 079b5a240d244c1fbfd9e768522f66ff
+#: ../../source/developer/10_hide-actionbar.rst:19
+#: f4120f8bc9604de18db34fd966e21347
 msgid ""
 "But that will still leave a pull-down bar, which users can use to get "
 "access to temi's ActionBar."
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:22
-#: 6d17058699c344bd9224553f0c77d756
+#: ../../source/developer/10_hide-actionbar.rst:24
+#: 7c57d27ce8bc441bb1196c571326614a
 msgid "temi Pull-Down Bar"
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:22
-#: 74d6ad637de34fb8b8782b2d945551ed
+#: ../../source/developer/10_hide-actionbar.rst:24
+#: bfe5b99cb6b6494f991b3e7494d8c0b7
 msgid ""
 "temi's pull-down bar. By pulling down on this, the user can reveal temi's"
 " ActionBar."
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:25
-#: 148f700e041c47e188cef26541b04072
+#: ../../source/developer/10_hide-actionbar.rst:27
+#: 574074a61cf541168d94fdd8ed1b2f86
 msgid "How To"
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:26
-#: 3bde1e2126d74c8bb3d941db133387a8
+#: ../../source/developer/10_hide-actionbar.rst:28
+#: 23481dec917048ba8d5c02c650387503
 msgid ""
 "To completely hide temi's ActionBar (including the pull-down bar), you'll"
 " need to make the following changes."
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:30
-#: c23000901f6140f6a26c328ecd3ba689
+#: ../../source/developer/10_hide-actionbar.rst:32
+#: e1d68f4897ff45dd95c39e61d0f926ca
 msgid "AndroidManifest.xml"
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:31
-#: cf2b68f28a7944559b5e17f01d1ea325
+#: ../../source/developer/10_hide-actionbar.rst:33
+#: 825a7444ef1142fb8510479766ca73b2
 msgid "Add the following ``meta-data`` to your ``MainActivity``."
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:45
-#: b139e31f24544cf8808982d81e06c2be
+#: ../../source/developer/10_hide-actionbar.rst:47
+#: 4d42fc7cb26f408b94e777b0569908e9
 msgid "onRobotReady()"
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:46
-#: b21c1640be804a769bf9f6c5c848272a
+#: ../../source/developer/10_hide-actionbar.rst:48
+#: 74e7a6a637d947b4814c14025bac6416
 msgid "Add the following code after the robot is ready."
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:64
-#: 06a1c6b6bb6649c38fb96acecaffe7dd
+#: ../../source/developer/10_hide-actionbar.rst:66
+#: 4661c28647da49a88c9958e99654750a
 msgid "Exit Button"
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:65
-#: af27548f6c6d4866b1a00f1fb384a5d1
+#: ../../source/developer/10_hide-actionbar.rst:67
+#: 4e0423321f7147eda5b4e140717774fa
 msgid ""
 "Now that you've completely removed the ActionBar, you will need a way to "
 "exit the application. For a Kiosk application, you'll probably want to "
@@ -105,13 +109,13 @@ msgid ""
 "tampered with."
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:67
-#: a6ac6e0073134695b900b4a27ca038ea
+#: ../../source/developer/10_hide-actionbar.rst:69
+#: aa6222c2e0b242c09d2c2f347036c452
 msgid "To return to the Launcher menu, use the following command."
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:74
-#: dd651558d8f240a08a0820fe5332ea56
+#: ../../source/developer/10_hide-actionbar.rst:76
+#: 9f9ce9db98b94bea9c7cfcdb4ee7d4ef
 msgid ""
 "In case you've made a Kiosk app and forgot to include the exit button, "
 "one way to get out of it is to call your robot. Starting a telepresence "
@@ -119,25 +123,25 @@ msgid ""
 "up temi's ActionBar."
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:78
-#: 6e4401047c684b8a801fc28c2985c3ad
+#: ../../source/developer/10_hide-actionbar.rst:80
+#: e3b38cd49a6940e3b57f42320848f50d
 msgid "Example"
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:79
-#: bbd7ab4a1c0748e8ab2fdeda173e7637
+#: ../../source/developer/10_hide-actionbar.rst:81
+#: 9dac4b0b890746cca97161e0708179e8
 msgid ""
 "`Hide ActionBar <https://github.com/hapi-robo/temi-"
 "guide/tree/master/examples/hide-actionbar>`_"
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:83
-#: 926de026381d4e72a155ab7dff3cc2b2
+#: ../../source/developer/10_hide-actionbar.rst:85
+#: 83b516a86e7a4b9abbb52664d16beae7
 msgid "References"
 msgstr ""
 
-#: ../../source/developer/hide-actionbar.rst:84
-#: 1c89f69b4d3e44218a69729b68b57f0f
+#: ../../source/developer/10_hide-actionbar.rst:86
+#: 8c9ac8dd7c2b4c89aa9c82b4538719b0
 msgid "`GitHub Issue #89 <https://github.com/robotemi/sdk/issues/89>`_"
 msgstr ""
 

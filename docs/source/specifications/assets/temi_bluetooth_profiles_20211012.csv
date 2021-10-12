@@ -1,7 +1,6 @@
 Profile Name,Profile Abbreviation,Description,Supported,More Information
 Advanced Audio Distribution Profile,A2DP,"Defines how multimedia audio can be streamed from one device to another over a Bluetooth connection (it is also called Bluetooth Audio Streaming).
-
-Bi-directional support profiles, i.e. temi can be used as a bluetooth speaker and temi can stream audio to a bluetooth speaker.",Yes,https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Advanced_Audio_Distribution_Profile_(A2DP)
+temi Robot can be used as both A2DP master/source and A2DP slave/sink.",Yes,https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Advanced_Audio_Distribution_Profile_(A2DP)
 Audio/Video Remote Control Profile,AVRCP,"This profile is designed to provide a standard interface to control TVs, Hi-fi equipment, etc. to allow a single remote control (or other device) to control all of the A/V equipment to which a user has access. It may be used in concert with A2DP or VDP.",Yes,https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Audio/Video_Remote_Control_Profile_(AVRCP)
 Basic Printing Profile,BPP,"This allows devices to send text, e-mails, vCards, or other items to printers based on print jobs. ",No,https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Basic_Printing_Profile_(BPP)
 Generic Attribute Profile,GATT,Provides profile discovery and description services for Bluetooth Low Energy protocol. It defines how ATT attributes are grouped together into sets to form services.,Yes,https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Generic_Attribute_Profile_(GATT)

@@ -4,7 +4,7 @@ Bluetooth
 
 Hardware
 ========
-temi Robot uses the Ampak AP6356 Wi-Fi + Bluetooth 4.1 module.
+The temi Robot is equipped with a Bluetooth 4.1 module.
 
 
 Profiles

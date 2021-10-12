@@ -1,5 +1,6 @@
+*************************
 User Detection & Tracking
-==========================
+*************************
 
 The temi SDK allows the developer to `detect` when a person is standing in front and/or interacting with the robot. In addition to this, there are methods that can be used to `track` a person when he/she is within its field of view.
 
@@ -7,11 +8,11 @@ The temi SDK allows the developer to `detect` when a person is standing in front
   * **Tracking Mode**. Configures the robot in `Constraint Follow Mode <https://github.com/robotemi/sdk/wiki/Follow#constraintBeWith>`_. The robot will turn its base and tilt its screen to follow a person when that person is detected.
 
 Usage
------
+=====
 For detection and/or tracking to work properly, the app must be set to `Kiosk Mode <https://github.com/robotemi/sdk/wiki/Kiosk-Mode>`_.
 
 The app must have `Settings Permissions` in order to use
-`setDetectionModeOn <https://github.com/robotemi/sdk/wiki/Detection-&-Interaction#setdetectionmodeon->`_ and `setTrackUserOn() <https://github.com/robotemi/sdk/wiki/Detection-&-Interaction#setTrackUserOn>`_, which are used to turn on detection mode and tracking mode, respectively. To enable `Settings Permissions` and other permissions, refer to :doc:`permissions`.
+`setDetectionModeOn <https://github.com/robotemi/sdk/wiki/Detection-&-Interaction#setdetectionmodeon->`_ and `setTrackUserOn() <https://github.com/robotemi/sdk/wiki/Detection-&-Interaction#setTrackUserOn>`_, which are used to turn on detection mode and tracking mode, respectively. To enable `Settings Permissions` and other permissions, refer to :doc:`20_permissions`.
 
 +--------------------+------------------+-----------------------------------------------------+
 | setDetectionMode() | setTrackUserOn() | Result                                              |
@@ -38,11 +39,11 @@ For example, to enable detection mode and tracking mode, add the following code 
   }
 
 setDetectionModeOn()
---------------------
+====================
 Enables or disables detection mode. Optionally, you can configure the detection range.
 
 Syntax
-++++++
+------
 .. code-block:: Java
 
   setDetectionModeOn(enable, maxRange);
@@ -52,11 +53,11 @@ Syntax
 
 
 setTrackUserOn()
-----------------
+================
 Enables or disables tracking mode. Alternatively, `tracking` can be enabled/disabled by going to ``Settings`` > ``General Settings`` > ``Tracking User``. 
 
 Syntax
-++++++
+------
 .. code-block:: Java
 
   setTrackUserOn(enable);
@@ -68,11 +69,11 @@ Syntax
 
 
 Example
--------
+=======
 * `User-Detection <https://github.com/hapi-robo/temi-guide/tree/master/examples/user-detection>`_
 
 
 References
-----------
+==========
 * `temi SDK: Detection & Interaction <https://github.com/robotemi/sdk/wiki/Detection-&-Interaction>`_
 * `Permissions <https://github.com/robotemi/sdk/wiki/permission>`_
