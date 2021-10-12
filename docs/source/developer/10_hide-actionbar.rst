@@ -1,7 +1,6 @@
-.. _hide-actionbar-pull-down-bar:
-
+******************************
 Hide ActionBar & Pull-Down Bar
-==============================
+******************************
 
 For Kiosk applications, you'll want to hide the temi's `ActionBar <https://developer.android.com/reference/androidx/appcompat/app/ActionBar>`_.
 
@@ -24,12 +23,12 @@ But that will still leave a pull-down bar, which users can use to get access to 
   temi's pull-down bar. By pulling down on this, the user can reveal temi's ActionBar.
 
 How To
-------
+======
 To completely hide temi's ActionBar (including the pull-down bar), you'll need to make the following changes.
 
 
 AndroidManifest.xml
-+++++++++++++++++++
+-------------------
 Add the following ``meta-data`` to your ``MainActivity``.
 
 .. code-block:: xml
@@ -44,7 +43,7 @@ Add the following ``meta-data`` to your ``MainActivity``.
 
   
 onRobotReady()
-+++++++++++++++++
+--------------
 Add the following code after the robot is ready.
 
 .. code-block:: Java
@@ -63,7 +62,7 @@ Add the following code after the robot is ready.
 
 
 Exit Button
------------
+===========
 Now that you've completely removed the ActionBar, you will need a way to exit the application. For a Kiosk application, you'll probably want to hide the exit button and use a password to prevent the device from being tampered with.
 
 To return to the Launcher menu, use the following command.
@@ -77,10 +76,10 @@ To return to the Launcher menu, use the following command.
 
 
 Example
--------
+=======
 * `Hide ActionBar <https://github.com/hapi-robo/temi-guide/tree/master/examples/hide-actionbar>`_
 
 
 References
-----------
+==========
 * `GitHub Issue #89 <https://github.com/robotemi/sdk/issues/89>`_

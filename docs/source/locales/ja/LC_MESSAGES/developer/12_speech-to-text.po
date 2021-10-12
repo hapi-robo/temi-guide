@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-30 12:27+0900\n"
+"POT-Creation-Date: 2021-10-12 14:20+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,47 +17,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/developer/speech-to-text.rst:2 2865cfcc65d44243a57d355ae2ce1070
+#: ../../source/developer/12_speech-to-text.rst:2
+#: f54c4269f8434caa8346b0f0fc71d709
 msgid "Speech-to-Text"
 msgstr ""
 
-#: ../../source/developer/speech-to-text.rst:5 1fb8233c89494c689298ac2f3f059f9a
+#: ../../source/developer/12_speech-to-text.rst:5
+#: 60db4601a4634c8eb55ccf673e0e1d5f
 msgid "Conversation Status"
 msgstr ""
 
-#: ../../source/developer/speech-to-text.rst:6 2fdbb358f5394dbd9500a8d0f1f3c29f
+#: ../../source/developer/12_speech-to-text.rst:6
+#: 30e862070f384c66843f7e1c4b56e61f
 msgid ""
 "If you want to detect situations where the user does not respond "
 "immediately to ``askQuestion()``, you can use the "
 "``OnConversationStatusChangedListener``."
 msgstr ""
 
-#: ../../source/developer/speech-to-text.rst:9 5a6aff5d4f61463e975b543100e714c5
+#: ../../source/developer/12_speech-to-text.rst:9
+#: 54e99cc2d37746268f8f389d1329e424
 msgid ""
 "For `OnConversationStatusChangedListener` to work correctly, the skill "
 "must be set to `Kiosk Mode <https://github.com/robotemi/sdk/wiki/Kiosk-"
 "Mode>`_."
 msgstr ""
 
-#: ../../source/developer/speech-to-text.rst:13
-#: d44b12014fa84f3aad4e70e7180aa8ab
+#: ../../source/developer/12_speech-to-text.rst:13
+#: a92e33cf8c59483ebd179088cd0f4574
 msgid "Example"
 msgstr ""
 
-#: ../../source/developer/speech-to-text.rst:14
-#: 8d16c6bc33ef4042a8096a6d750ffc77
+#: ../../source/developer/12_speech-to-text.rst:14
+#: e84d0678bf4a44948275568e7a065e3c
 msgid ""
 "`Speech-to-Text <https://github.com/hapi-robo/temi-"
 "guide/tree/master/examples/speech-to-text>`_"
 msgstr ""
 
-#: ../../source/developer/speech-to-text.rst:18
-#: 703421a3b90b4f64a37b8f9a0ffff4d6
+#: ../../source/developer/12_speech-to-text.rst:18
+#: 4fa4f84b5e8f491d9b794dd89260d9af
 msgid "References"
 msgstr ""
 
-#: ../../source/developer/speech-to-text.rst:19
-#: 42c38fe525de481d8364ee6f490405cd
+#: ../../source/developer/12_speech-to-text.rst:19
+#: 822fffa262a8453794aea25c3231e781
 msgid "`temi SDK: Speech <https://github.com/robotemi/sdk/wiki/Speech>`_"
 msgstr ""
 

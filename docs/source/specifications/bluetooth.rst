@@ -2,11 +2,17 @@
 Bluetooth
 *********
 
+Hardware
+========
+The temi Robot is equipped with a Bluetooth 4.1 module.
+
+
 Profiles
 ========
 The following is a list of supported Bluetooth profiles on temi Robots using Firmware version 20201216.xxxxxx.
 
 :download:`Bluetooth Profiles (2021/10/12) <assets/temi_bluetooth_profiles_20211012.csv>`
+
 
 Master vs. Slave
 ================

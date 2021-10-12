@@ -1,0 +1,282 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-12 14:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/developer/50_adb-commands.rst:2
+#: 65863f459dbf4cb39692b9d963b4da50
+msgid "ADB Commands"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:5
+#: 7ee1bc28829d496282903d166385f4fb
+msgid "Connect to ADB"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:6
+#: fbf1d8a61780429fbd333d7bc3e43c2e
+msgid "Connect to specific device:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:12
+#: db67cd5343684a97bff6d76e4522fdfb
+msgid "Enable ADB over Wi-Fi:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:20
+#: f26b6ce71b434413a6fcb4608f6a2fd7
+msgid "Input / Output"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:21
+#: 0fbb0aaf015f4be6a4a57c8272d2e0b2
+msgid "Copy Android → PC:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:28
+#: 68355ab8eec34467a211b39825fb5034
+msgid "Copy PC → device:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:34
+#: 6a13b5e1b57147d7b17334805aace7cd
+msgid "Logcat on Linux:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:40
+#: 0b6aba7b7b5d4874bb2c8bff23113d2b
+msgid "Logcat on Windows:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:48
+#: 69f6ac51b99b4557b492c07cf140882c
+msgid "Package Information"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:49
+#: 0e7fc1a4e9a147528a4775aff94c60e5
+msgid "List installed packages:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:55
+#: 952bb9907462468ea2cce1d001709480
+msgid "Package path:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:61
+#: aa237a410de842ee9381451178b118dd
+msgid "Package settings:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:67
+#: 87cc0e03e45b426a83c395f5fcb3a49a
+msgid "Shared preferences:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:75
+#: ca9a3b0cdb06426da5178323175f3364
+msgid "Device  Information"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:76
+#: 2fef6bcb93ec461e950019fb354a453c
+msgid "Hardware information:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:82
+#: dc8a73c44ea94053b93acff53e7848da
+msgid "Get SDK version:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:90
+#: 3496282641d84ab09f9698a9f86ab3c9
+msgid "Open Applications"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:91
+#: 1ab372c542514e208f96ea360b93d5c6
+msgid "Run activity:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:97
+#: f054e4232412444899fcb12f7187d108
+msgid "Open Android Play Store:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:103
+#: 6269e0953c9348239859f5ed15666c40
+msgid "Open Android settings menu:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:111
+#: dd06579663274d08a16ff8be27500445
+msgid "Install & Remove Packages"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:112
+#: d50eaea45c114160bf945f62e26c6506
+msgid "Reinstall package:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:118
+#: 7b7025c708064680b5843fb3c018dcac
+msgid "Uninstall package:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:124
+#: 2e509dd58bad4e0098d623f9d14539d2
+msgid "Uninstall package (root):"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:130
+#: 6878ee2bcec04d648cb122ff3b4856c2
+msgid "Install if the `testOnly` attribute is enabled:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:138
+#: 99e8a0016cc647f5aa1ef849786ba756
+msgid "Cache & Storage"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:139
+#: bd5a953108bd4c73aa17fd23c84b0b43
+msgid "Clear package storage and cache:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:145
+#: 8e853c2d351549268fd4d44325b99471
+msgid "Clear Launcher storage and cache:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:151
+#: 5b783d0fd6534f1583cbcb347e1e51f6
+msgid "Clear Keyboard storage and cache:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:159
+#: 5bdfe4b8a1ae41f789b481c918396840
+msgid "Media Capture"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:160
+#: 28863c85bab74893b57e20be2f24bcea
+msgid "Screenshot:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:166
+#: b5bf2baa88da4c50b4487407a39424b2
+msgid "Screen recording:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:174
+#: 9b195cb1c8694f17872abd61115992af
+msgid "Ports"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:175
+#: eb93e2e32a334bbe89b06f7387a67b9f
+msgid "To see which app has an open port (TCP): .. code-block:: Shell"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:178
+#: 35ee5e9344af4e90b8e5b6d3e82e9640
+msgid ""
+"cat /proc/net/tcp sl  local_address rem_address   st tx_queue rx_queue tr"
+" tm->when retrnsmt   uid  timeout inode 0: 0100007F:1C23 00000000:0000 0A"
+" 00000000:00000000 00:00000000 00000000  1001        0 2111 1 e22cc000 "
+"300 0 0 2 -1"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:182
+#: ad60fb187a044555bb8aa782dee0a6ff
+msgid "where,"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:184
+#: 268e21a27cdd49feb381a1666437aacd
+msgid ""
+"``0100007F:1C23`` is the ``IP-address``:``port`` in hex notation, here is"
+" 127.0.0.1:7203"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:185
+#: 5a533e146ce44388996304d0affd522b
+msgid "``00000000:0000`` is the remote address empty (listening)"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:186
+#: d8215feb92e4422d82720b858a0a88e1
+msgid "``1001`` is the UID of the app"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:188
+#: 2876752a9cf8456583bf79eaf765f47f
+msgid ""
+"Use `this <https://www.browserling.com/tools/hex-to-ip>`_ tool for "
+"converter hex notation to an IP address."
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:190
+#: 50b4d77ee9124da787ee99d548a2846d
+msgid "To identify app by UID:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:196
+#: 99f5330d6bcc4b98a9c550aceb2f58bd
+msgid ""
+"For details, see `here <https://android.stackexchange.com/questions/8452"
+"/how-can-i-find-app-name-by-uid>`_:"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:200
+#: ff1c9980a98d4d41a9d3f229d9af4365
+msgid "References"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:201
+#: 888bff32028d4c06b62993087902871a
+msgid "`ADB Cheat Sheet <https://www.automatetheplanet.com/adb-cheat-sheet/>`_"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:202
+#: b07f719d1cc84c26882d6d07670beba7
+msgid ""
+"`List All Activities <https://stackoverflow.com/questions/6547703/list-"
+"all-activities-within-an-apk-from-the-shell>`_"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:203
+#: 5b85befb4fa34c9bb945910ab4639f27
+msgid ""
+"`Examine Shared Preferences <https://stackoverflow.com/questions/1243079"
+"/how-to-examine-sharedpreferences-from-adb-shell>`_"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:204
+#: 88b87c8682c0461bbbbfca0f59ea2f24
+msgid ""
+"`Status of system services <https://stackoverflow.com/questions/11201659"
+"/whats-the-android-adb-shell-dumpsys-tool-and-what-are-its-benefits>`_"
+msgstr ""
+
+#: ../../source/developer/50_adb-commands.rst:205
+#: 41985372e2c242489848e7714cd76de5
+msgid ""
+"`Connect to Wi-Fi with ADB <https://developer.android.com/things/hardware"
+"/wifi-adb>`_"
+msgstr ""
+

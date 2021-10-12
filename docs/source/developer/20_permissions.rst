@@ -1,11 +1,12 @@
+***********
 Permissions
-===========
+***********
 
 Permissions must be enabled for certain features to work. There are 4 types of permissions: (1) Face Recognition, (2) Map, (3) Settings, and (4) Sequence.
 
 
 How To
-------
+======
 Add the following ``meta-data`` tag so that you can configure the app's permissions through temi's launcher.
 
 .. code-block:: xml
@@ -44,5 +45,5 @@ Then in ``Settings`` > ``Apps`` > ``Permissions`` menu, select the appropriate p
 
 
 References
-----------
+==========
 * `temi SDK: Permissions <https://github.com/robotemi/sdk/wiki/permission>`_
