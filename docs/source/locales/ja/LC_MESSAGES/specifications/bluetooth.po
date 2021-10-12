@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../source/specifications/bluetooth.rst:6 a302d43b354b4b58a439548b717e2697
 msgid "Hardware"
-msgstr ""
+msgstr "ハードウエア"
 
 #: ../../source/specifications/bluetooth.rst:7 1d6e4147bc184c139cd07a38b08285cc
 msgid "The temi Robot is equipped with a Bluetooth 4.1 module."
-msgstr ""
+msgstr "temiには、Bluetooth 4.1のモジュールが搭載されています。"
 
 #: ../../source/specifications/bluetooth.rst:11
 #: 2ce475da017e4988aedb835b4b8d6acb
@@ -58,7 +58,7 @@ msgstr "マスター vs. スレーブ"
 #: ../../source/specifications/bluetooth.rst:20
 #: 0af512496eec479dae425e5e367538ec
 msgid "A bluetooth connection consists of:"
-msgstr "Bluetooth接続は、次のもので交際されます："
+msgstr "Bluetooth接続は、次のもので構成されます："
 
 #: ../../source/specifications/bluetooth.rst:22
 #: acad9b27e7e0431897be1268fecda315
