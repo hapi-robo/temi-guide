@@ -10,8 +10,6 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
 
    basics/01_connect-wifi
    basics/02_keyboard
-   basics/10_environment
-   basics/20_temi_center
 
 .. toctree::
    :maxdepth: 2
@@ -27,6 +25,15 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    network-admin/07_security-privacy
    network-admin/10_appendix
    network-admin/21_faq
+
+.. toctree::
+   :maxdepth: 1
+   :numbered:
+   :caption: Specifications
+
+   specifications/environment
+   specifications/temi_center
+   specifications/bluetooth
 
 .. toctree::
    :maxdepth: 1

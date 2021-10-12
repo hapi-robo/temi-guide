@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-12 11:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/specifications/bluetooth.rst:3 d7b79e5d77bd45a389b32f22af50a777
+msgid "Bluetooth"
+msgstr ""
+
+#: ../../source/specifications/bluetooth.rst:6 60bb5eb9fa7d4367939d8c6fe8638c16
+msgid "Profiles"
+msgstr ""
+
+#: ../../source/specifications/bluetooth.rst:7 b8eb97340c9742db97e84c4fff0c5fbf
+msgid "The following is a list of supported Bluetooth profiles on temi Robots."
+msgstr ""
+
+#: ../../source/specifications/bluetooth.rst:9 7462e520a6ac4c208aaaa2e2d0399a0c
+msgid ""
+":download:`Bluetooth Profiles (2021/10/12) "
+"<assets/temi_bluetooth_profiles_20211012.csv>`"
+msgstr ""
+
+#: ../../source/specifications/bluetooth.rst:12
+#: 6175d58a597849c9a798a7895bda9753
+msgid "Master vs. Slave"
+msgstr ""
+
+#: ../../source/specifications/bluetooth.rst:14
+#: 18d7bbc7873545b2bf528a7f40bdb1f8
+msgid "A bluetooth connection consists of:"
+msgstr ""
+
+#: ../../source/specifications/bluetooth.rst:16
+#: 7eb072cf832a4924aa9831f279b6f1e8
+msgid ""
+"**Master** (or \"**Source**\") device, which scans for other devices and "
+"initiates the connection."
+msgstr ""
+
+#: ../../source/specifications/bluetooth.rst:17
+#: c9b18b4fa4ce45dc9b9d70fe74687c62
+msgid ""
+"**Slave** (or \"**Sink**\") device, which advertises its availability and"
+" waits for a connection."
+msgstr ""
+
+#: ../../source/specifications/bluetooth.rst:19
+#: 6e1ebbe6693f41f88e49391e41597a09
+msgid ""
+"By default, temi behaves as a **Slave** device. In ``Settings`` > "
+"``Bluetooth``, you can turn ``ON`` or ``OFF`` temi's Bluetooth module. By"
+" turning Bluetooth ``ON`` temi will advertise its availability using it's"
+" nickname."
+msgstr ""
+
+#: ../../source/specifications/bluetooth.rst:21
+#: bdc43e7354b5462fa2e60c339f04629f
+msgid ""
+"To use temi as a **Master** device, developers will need to use "
+"`Android's Bluetooth network stack "
+"<https://developer.android.com/guide/topics/connectivity/bluetooth>`_."
+msgstr ""
+

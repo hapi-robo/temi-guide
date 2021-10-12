@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-25 15:08+0900\n"
+"POT-Creation-Date: 2021-10-12 11:24+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/index.rst:6 36e2ead2a2a14e9aaf3db6acf4877c63
+#: ../../source/index.rst:6 fca7c7789a84401a903c43858573d5b0
 msgid "Basics"
 msgstr ""
 
-#: ../../source/index.rst:14 2f3953b15e1c4110ba581ca3e42505ac
+#: ../../source/index.rst:14 ba6b72726171451fa44185bbefa928ba
 msgid "Network Administration"
 msgstr ""
 
-#: ../../source/index.rst:29 b31c49df65ea4b71bdcaad6f8ff8a25d
+#: ../../source/index.rst:29 b95f45f0b6a6487aae3d9d739f163fb2
+msgid "Specifications"
+msgstr ""
+
+#: ../../source/index.rst:38 a7744d9b60214577a1644ae64159f941
 msgid "Developer / SDK"
 msgstr ""
 
