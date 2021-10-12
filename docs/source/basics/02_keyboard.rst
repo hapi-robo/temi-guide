@@ -8,7 +8,7 @@ Switching Keyboards
 From Japanese to English Keyboard
 =================================
 
-.. figure:: assets/images/keyboard/japanese-keyboard.png 
+.. figure:: assets/images/keyboard/japanese-keyboard-arrow.png 
   :alt: Japanese keyboard
 
   To switch from a Japanese keyboard to an English keyboard, press and hold the globe button |globe|.
@@ -27,7 +27,7 @@ From Japanese to English Keyboard
 From English to Japanese Keyboard
 =================================
 
-.. figure:: assets/images/keyboard/english-keyboard.png 
+.. figure:: assets/images/keyboard/english-keyboard-arrow.png 
   :alt: English keyboard
 
   To switch from an English keyboard to a Japanese keyboard, press and hold the globe button |globe|.

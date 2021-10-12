@@ -1,3 +1,5 @@
+.. _hide-actionbar-pull-down-bar:
+
 Hide ActionBar & Pull-Down Bar
 ==============================
 
