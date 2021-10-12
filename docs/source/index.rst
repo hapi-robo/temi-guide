@@ -10,8 +10,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
 
    basics/01_connect-wifi
    basics/02_keyboard
-   basics/10_environment
-   basics/20_temi_center
+   basics/03_kiosk-mode
 
 .. toctree::
    :maxdepth: 2
@@ -30,16 +29,26 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
 
 .. toctree::
    :maxdepth: 1
+   :numbered:
+   :caption: Specifications
+
+   specifications/environment
+   specifications/temi_center
+   specifications/bluetooth
+
+.. toctree::
+   :maxdepth: 1
    :caption: Developer / SDK
 
-   developer/getting-started
-   developer/hide-actionbar
-   developer/text-to-speech
-   developer/speech-to-text
-   developer/user-detection-tracking
-   developer/set-robot-pose
-   developer/permissions
-   developer/adb-commands
+   developer/01_overview
+   developer/02_getting-started
+   developer/10_hide-actionbar
+   developer/11_text-to-speech
+   developer/12_speech-to-text
+   developer/13_set-robot-pose
+   developer/14_user-detection-tracking
+   developer/20_permissions
+   developer/50_adb-commands
 
 .. Indices and tables
 .. ==================
