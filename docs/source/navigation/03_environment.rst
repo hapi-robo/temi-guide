@@ -45,8 +45,6 @@ Floor
 
   Environments with *cliffs*, such as stairs (top-left), escalators (bottom-right), genkans (bottom-left), etc. are *not* recommended. Ramps with an incline of more than 3 degrees (top-right) should be avoided. If the robot is to be used in such environments, it is strongly recommended to add a ``virtual wall`` around the cliffs in the map.
 
-.. @TODO Floor Gaps
-
 
 Walls
 =====
