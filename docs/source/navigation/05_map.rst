@@ -1,3 +1,12 @@
+***
+Map
+***
+
+- It is very important to make a good map
+- Start small, and work your way up
+
+
+
 Base Map
 - Recommendations
 - Occupancy grids
