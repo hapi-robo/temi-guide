@@ -18,6 +18,7 @@ The robot comes equipped with a suite of optical sensors that are used for navig
 
   Head sensors: (A1) head (or depth sensor), (A2) camera, (A3) wide-angle camera, (A4) RGB camera. 
 
+
 LIDAR
 =====
 The primary navigation sensor is the laser, imaging, detection, and ranging (`LIDAR <https://en.wikipedia.org/wiki/Lidar>`_) sensor. It is used for mapping the environment and it assists with detecting obstacles.

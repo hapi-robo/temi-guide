@@ -6,6 +6,7 @@ Environment
 
 The following is a list of ideal conditions that should ensure reliable navigation.
 
+.. _navigation-environment-operating-area:
 
 Operating Area 
 ==============
@@ -64,4 +65,7 @@ Dynamic Environments
 .. figure:: assets/environment/temporary.jpg
   :alt: Temporary objects
 
-  Warehouse environments where pallets may be in a location one day and gone the next, open-office spaces where tables and chairs can move freely, environments with sliding/movable wall partitions, etc. all require careful planning for robot navigation to work reliably. In these environments, it is recommended to use ``green-paths`` and ``virtual walls`` to define the where a robot can and cannot go. For more details, see :doc:`05_map`.
+  Warehouse environments where pallets may be in a location one day and gone the next, open-office spaces where tables and chairs can move freely, environments with sliding/movable wall partitions, etc. all require careful planning for robot navigation to work reliably. In these environments, it is recommended to use :ref:`navigation-map-green-paths` and :ref:`navigation-map-virtual-walls` to define the where a robot can and cannot go. For more details, see :doc:`05_map`.
+
+
+.. @TODO Featureless Environments 
