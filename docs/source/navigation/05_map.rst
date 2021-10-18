@@ -1,3 +1,5 @@
+.. https://docs.google.com/presentation/d/1iKjgBhx9mxDqpwMDOSewekEN6iDiLzqD/edit#slide=id.gf94671f9e6_1_68
+
 **************
 Creating a Map
 **************
@@ -15,7 +17,7 @@ Good vs. Bad Map
 ----------------
 A good map is an occupancy grid that accurately represents the real world. Sometimes, passing over an area once isn't enough. 
 
-.. figure:: assets/map/good-bad-map.jpg
+.. figure:: assets/map/good-bad/01.jpg
   :alt: Good versus bad map
 
   These images show the occupancy grid of the same environment. The left image shows the map after a quick single pass of the environment. The right image shows the map after multiple slow passes around the environment. Notice that the walls (or ``features``) are darker. In this case, the right image is the better map.
@@ -74,17 +76,57 @@ General Recommendations
 General Process
 ===============
 
-.. figure:: assets/map/mapping-order/mapping-order-01.png
+.. figure:: assets/map/mapping-order/01.png
   :alt: Example office layout
 
   The map that the robot creates should look similar to its physical layout.
 
-.. figure:: assets/map/mapping-order/mapping-order-02.png
+.. figure:: assets/map/mapping-order/02.png
   :alt: Virtual walls
 
   Close off any areas with virtual walls that were not correctly seen by the robot, e.g. glass walls, stairs, etc. Add virtual walls to prevent the robot from going to places it does not need to go or to prevent from considering such paths in its calculations. 
 
-.. figure:: assets/map/mapping-order/mapping-order-03.png
+.. figure:: assets/map/mapping-order/03.png
   :alt: Locations and green-paths
 
   Add locations to the map. Then add green paths to provide the robot with recommended navigation routes, e.g. shortest route, routes with the fewest obstacles, etc.
+
+
+Examples
+========
+The following are some examples of real-world maps, issues and recommendations.
+
+Scenario A
+----------
+
+.. figure:: assets/map/examples/scenario-a/01.jpg
+  :alt: Original map
+
+  This is the original map. Notice that some locations are in the virtual walls. There is no green-path. The environment is also not bounded, leading to large path-planning times.
+
+.. figure:: assets/map/examples/scenario-a/02.jpg
+  :alt: Recommendations
+
+  Recommendations: Bound the environment with virtual walls and add green paths.
+
+.. figure:: assets/map/examples/scenario-a/03.png
+  :alt: Ideal
+
+  All artificial features (i.e. locations, virtual walls, and green-paths) can be added quickly with temi Center.
+
+Scenario B
+----------
+
+.. figure:: assets/map/examples/scenario-b/01.jpg
+  :alt: Recommended map
+
+  Open office space with lots of tables and chairs that can be moved around. Used virtual walls to define a `virtual corridor` for the robot to operate in and defined green-paths to assist with path-planning.
+
+
+Scenario C
+----------
+
+.. figure:: assets/map/examples/scenario-c/01.jpg
+  :alt: Recommended map
+
+  Long corridor with many rooms that are not clearly mapped out. Used virtual walls to define a `virtual corridor` for the robot to operate in and defined green-paths to assist with path-planning.
