@@ -1,8 +1,10 @@
+************
 ADB Commands
-============
+************
 
+==============
 Connect to ADB
---------------
+==============
 Connect to specific device:
 
 .. code-block:: Shell
@@ -16,8 +18,9 @@ Enable ADB over Wi-Fi:
   adb tcpip 5555
 
 
-Input / Output
---------------
+==============
+Input & Output
+==============
 Copy Android → PC:
 
 .. code-block:: Shell
@@ -44,8 +47,9 @@ Logcat on Windows:
   adb logcat | out-file <log-name>.txt -encoding utf8
 
 
+===================
 Package Information
--------------------
+===================
 List installed packages:
 
 .. code-block:: Shell
@@ -70,9 +74,10 @@ Shared preferences:
 
   /data/data/<package-name>/shared_prefs/<filename>.xml
 
-  
-Device  Information
--------------------
+
+==================
+Device Information
+==================
 Hardware information:
 
 .. code-block:: Shell
@@ -86,13 +91,21 @@ Get SDK version:
   adb shell getprop ro.build.version.sdk
   
 
-Open Applications
------------------
-Run activity:
+=========================
+Start & Stop Applications
+=========================
+Start application / activity:
 
 .. code-block:: Shell
 
-  adb shell am start -n com.package.name/com.package.name.ActivityName
+  adb shell am start -n com.package.name/.ActivityName
+
+Stop application:
+
+.. code-block:: Shell
+
+  adb shell am force-stop com.package.name
+
 
 Open Android Play Store:
 
@@ -107,8 +120,9 @@ Open Android settings menu:
   adb shell am start -a android.settings.SETTINGS
 
 
+=========================
 Install & Remove Packages
--------------------------
+=========================
 Reinstall package:
 
 .. code-block:: Shell
@@ -134,8 +148,9 @@ Install if the `testOnly` attribute is enabled:
   adb install -t <apk-file>
 
 
+===============
 Cache & Storage
----------------
+===============
 Clear package storage and cache:
 
 .. code-block:: Shell
@@ -155,8 +170,9 @@ Clear Keyboard storage and cache:
   adb shell pm clear com.google.android.inputmethod.japanese
 
 
+=============
 Media Capture
--------------
+=============
 Screenshot:
 
 .. code-block:: Shell
@@ -170,8 +186,9 @@ Screen recording:
   adb shell screenrecord "/path/to/record.mp4"
 
 
+=====
 Ports
------
+=====
 To see which app has an open port (TCP):
 .. code-block:: Shell
 
@@ -196,8 +213,9 @@ To identify app by UID:
 For details, see `here <https://android.stackexchange.com/questions/8452/how-can-i-find-app-name-by-uid>`_:
 
 
+==========
 References
-----------
+==========
 * `ADB Cheat Sheet <https://www.automatetheplanet.com/adb-cheat-sheet/>`_
 * `List All Activities <https://stackoverflow.com/questions/6547703/list-all-activities-within-an-apk-from-the-shell>`_
 * `Examine Shared Preferences <https://stackoverflow.com/questions/1243079/how-to-examine-sharedpreferences-from-adb-shell>`_
