@@ -27,12 +27,23 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    network-admin/10_appendix
    network-admin/21_faq
 
+..    :maxdepth: 2
+..    :numbered:
+..    :caption: Navigation
+
+..    navigation/01_overview
+..    navigation/02_robot-sensors
+..    navigation/03_environment
+..    navigation/04_obstacles
+..    navigation/05_map
+
 .. toctree::
    :maxdepth: 1
    :numbered:
    :caption: Specifications
 
    specifications/environment
+   specifications/sensors
    specifications/temi_center
    specifications/bluetooth
 
