@@ -11,7 +11,7 @@ Firewall Settings
 
 A list of the IP/FQDNs and port numbers that are used by temi Robots, temi Mobile App, and temi Center are provided in the following CSV file. For changes to previous versions, see :ref:`firewall-changelogs`.
 
-:download:`Firewall Settings (2021/09/27) <assets/temi_firewall_settings_20210927.csv>`
+:download:`Firewall Settings (2021/09/27) <assets/temi_firewall_settings_20211104.csv>`
 
 Whitelist only those IP/FQDNs and port numbers that you want to use. 
 
@@ -24,11 +24,11 @@ The latest firewall settings have been tested on the following software versions
 +---------------------------+------------+
 |                           | Version    |
 +===========================+============+
-| temi Robot (Launcher)     | 15029      |
+| temi Robot (Launcher)     | 15567      |
 +---------------------------+------------+
-| temi Mobile App (Android) | 1.3.8460   |
+| temi Mobile App (Android) | 1.3.8526   |
 +---------------------------+------------+
-| temi Mobile App (iOS)     | 1.1.46     |
+| temi Mobile App (iOS)     | 1.1.49     |
 +---------------------------+------------+
 
 
@@ -121,6 +121,9 @@ Web Browser
 
 Changelogs
 ==========
+**temi_firewall_settings_20211104.csv**
+- Added ``production-temi-resources-private-virginia.oss-us-east-1.aliyuncs.com`` to supported animated faces in temi Robot (Launcher) 15567
+
 **temi_firewall_settings_20210927.csv**
 
 - Removed duplicate host: ``eastus.tts.speech.microsoft.com``
