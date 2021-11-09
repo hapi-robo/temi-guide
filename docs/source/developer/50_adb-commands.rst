@@ -1,3 +1,5 @@
+.. _adb-commands:
+
 ************
 ADB Commands
 ************
