@@ -74,6 +74,12 @@ Shared preferences:
 
   /data/data/<package-name>/shared_prefs/<filename>.xml
 
+Get all activities or current activity in app:
+
+.. code-block:: Shell
+
+  adb shell dumpsys package <package-name>
+
 
 ==================
 Device Information
@@ -113,11 +119,17 @@ Open Android Play Store:
   
   adb shell am start -n com.android.vending/com.google.android.finsky.activities.MainActivity
 
-Open Android settings menu:
+Open Android Settings menu:
 
 .. code-block:: Shell
   
   adb shell am start -a android.settings.SETTINGS
+
+Open Android Cast menu:
+
+.. code-block:: Shell
+  
+  adb shell am start -a android.settings.CAST_SETTINGS
 
 
 =========================
