@@ -9,7 +9,7 @@ Install ADB on Windows
 
 - Download `SDK Platform-Tools for Windows <https://developer.android.com/studio/releases/platform-tools>`_ and extract the downloaded zip file.
 
-.. figure:: assets/images/adb/open-powershell.png
+.. figure:: assets/images/adb/powershell-open.png
   :alt: Open PowerShell window menu
 
   Within the extracted folder, press ``SHIFT`` and ``right-click`` to display this menu. Select ``Open PowerShell window here`` (or ``Open command window here`` on some computers) to open a command prompt. A command prompt should appear.
@@ -38,7 +38,7 @@ Test ADB
 
   adb connect <robot-ip-address>
 
-.. figure:: assets/images/adb/adb-powershell.png
+.. figure:: assets/images/adb/powershell-adb.png
   :alt: Connect to the robot over ADB
 
   If everything goes well, you should see ``connected to <robot-ip-address>``.

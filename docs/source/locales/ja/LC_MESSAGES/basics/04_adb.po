@@ -50,7 +50,7 @@ msgid ""
 "display this menu. Select ``Open PowerShell window here`` (or ``Open "
 "command window here`` on some computers) to open a command prompt. A "
 "command prompt should appear."
-msgstr "解凍したフォルダ内で、``SHIFTキー`` を押しながら ``右クリックして`` このメ​​ニューを表示します。``ここでPowerShellウィンドウを開く`` （または一部のコンピューターでは ``ここでコマンドウィンドウを開く``）を選択して、コマンドプロンプトを開きます。コマンドプロンプトが表示されます。"
+msgstr "解凍したフォルダ内で、``SHIFTキー`` を押しながら ``右クリックして`` このメ​​ニューを表示します。``PowerShellウィンドウをここで開く`` （または一部のコンピューターでは ``コマンドウィンドウをここで開く``）を選択して、コマンドプロンプトを開きます。コマンドプロンプトが表示されます。"
 
 #: ../../source/basics/04_adb.rst:19 ad5b5f849e0948d9ae9f87b8bbd86f7d
 msgid "Enable ADB Port on temi Robot"
@@ -91,7 +91,7 @@ msgstr ""
 msgid ""
 "If everything goes well, you should see ``connected to <robot-ip-"
 "address>``."
-msgstr ""
+msgstr "すべてがうまくいけば、<robot-ip-address>に接続されていることがわかります。"
 
 #: ../../source/basics/04_adb.rst:48 e190606b60a24eefa894a6983b32f284
 msgid "Things You Can Do with ADB"
