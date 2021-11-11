@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-09 17:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/basics/04_adb.rst:3 ea8bee187ee24408baa3ad38eb855b07
+msgid "ADB"
+msgstr ""
+
+#: ../../source/basics/04_adb.rst:4 7a69aff3a44f491a98181ed601a136ca
+msgid ""
+"`Android Debug Bridge (ADB) <https://developer.android.com/studio"
+"/command-line/adb>`_ is a command-line tool that lets you communicate "
+"with Android devices, such as temi Robot."
+msgstr "`Android Debug Bridge (ADB) <https://developer.android.com/studio/command-line/adb>`_ は、temi RobotなどのAndroidデバイスと通信できるようにするコマンドラインツールです。"
+
+#: ../../source/basics/04_adb.rst:8 79d682658ce741bd924d3918eab4f2b2
+msgid "Install ADB on Windows"
+msgstr "WindowsにADBをインストールする"
+
+#: ../../source/basics/04_adb.rst:10 535e82afe333484084a82f2f10a3074f
+msgid ""
+"Download `SDK Platform-Tools for Windows "
+"<https://developer.android.com/studio/releases/platform-tools>`_ and "
+"extract the downloaded zip file."
+msgstr "`SDK Platform-Tools for Windows <https://developer.android.com/studio/releases/platform-tools>`_ をダウンロードし、ダウンロードしたzipファイルを解凍します。"
+
+#: ../../source/basics/04_adb.rst:15 0c46cdd988bc4307ab645d2e1bfb25ee
+#: b9b65e5ed1d9436c858184e11b275862
+msgid "Open PowerShell window menu"
+msgstr ""
+
+#: ../../source/basics/04_adb.rst:15 2dca05fab1bd4b7eb05662f4fc20eca8
+msgid ""
+"Within the extracted folder, press ``SHIFT`` and ``right-click`` to "
+"display this menu. Select ``Open PowerShell window here`` (or ``Open "
+"command window here`` on some computers) to open a command prompt. A "
+"command prompt should appear."
+msgstr "解凍したフォルダ内で、``SHIFTキー`` を押しながら ``右クリックして`` このメ​​ニューを表示します。``PowerShellウィンドウをここで開く`` （または一部のコンピューターでは ``コマンドウィンドウをここで開く``）を選択して、コマンドプロンプトを開きます。コマンドプロンプトが表示されます。"
+
+#: ../../source/basics/04_adb.rst:19 ad5b5f849e0948d9ae9f87b8bbd86f7d
+msgid "Enable ADB Port on temi Robot"
+msgstr "temi RobotでADBポートを有効にする"
+
+#: ../../source/basics/04_adb.rst:20 6338b6dab31d416c8136cb559feb5763
+msgid ""
+"On the temi Robot, select ``Settings`` > ``Developer Tools`` and tap "
+"``ADB Port Opening``. Take note of the robot's IP address in the top-"
+"right corner."
+msgstr "temi Robotで、``設定`` > ``開発者ツール`` を選択し、``ADBポートの有効化`` をタップします。右上隅にあるロボットのIPアドレスをメモします。"
+
+#: ../../source/basics/04_adb.rst:28 81d2648aa1904709a2af59683a545afa
+msgid ""
+"Enabling temi's ADB port posses some risks. For details, see :ref:`adb-"
+"security`."
+msgstr "temiのADBポートを有効にすると、いくつかのリスクがあります。詳細については、:ref:`adb-security` を参照してください。"
+
+#: ../../source/basics/04_adb.rst:32 cff3bc1ed5c94886a7738ec6e6faca5c
+msgid "Test ADB"
+msgstr "ADBのテスト"
+
+#: ../../source/basics/04_adb.rst:34 27560b9a14244d779da642e9e99d6196
+msgid ""
+"Connect your PC (with the installation of ADB) to the same network as the"
+" robot."
+msgstr "PCを（ADBがインストールされている状態で）ロボットと同じネットワークに接続します。"
+
+#: ../../source/basics/04_adb.rst:35 dd91043c16684089adb2ba8258699145
+msgid "Type the following command into the command prompt"
+msgstr "コマンドプロンプトに次のコマンドを入力します"
+
+#: ../../source/basics/04_adb.rst:44 a8a947af1c224e5eaedc344436f52934
+msgid "Connect to the robot over ADB"
+msgstr ""
+
+#: ../../source/basics/04_adb.rst:44 68332294a97f4fefb8f76542f9d23480
+msgid ""
+"If everything goes well, you should see ``connected to <robot-ip-"
+"address>``."
+msgstr "すべてがうまくいけば、<robot-ip-address>に接続されていることがわかります。"
+
+#: ../../source/basics/04_adb.rst:48 e190606b60a24eefa894a6983b32f284
+msgid "Things You Can Do with ADB"
+msgstr "ADBでできること"
+
+#: ../../source/basics/04_adb.rst:49 31ddc4443c8b40fa8f8ee1a2e6a9c323
+msgid ""
+"There are an endless number of things you can do with ADB, see :ref:`adb-"
+"commands` for some examples."
+msgstr "ADBでできることは無数にあります。いくつかの例については、:ref:`adb-commands` を参照してください。"
+

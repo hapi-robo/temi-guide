@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-29 14:02+0900\n"
+"POT-Creation-Date: 2021-11-09 17:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,18 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../source/network-admin/06_firewall.rst:5
-#: 00f9f9d7bcab4ca2a87a4899f002adf9
+#: a265f9108ea24ff9908f8c814df3fe7f
 msgid "Firewall & Proxy Settings"
 msgstr "ファイヤウォールとプロキシ設定"
 
 #: ../../source/network-admin/06_firewall.rst:10
 #: ../../source/network-admin/06_firewall.rst:95
-#: 00f9f9d7bcab4ca2a87a4899f002adf9 b5fa1b1fedfa4de7960d408ade00c09d
+#: 4571fc2b992e427aae4418b2f4c739f7 b8bacc7168f24f89899a63467925cb90
 msgid "Firewall Settings"
 msgstr "ファイヤウォール設定"
 
 #: ../../source/network-admin/06_firewall.rst:12
-#: d0a8d484d94f4764978db5e3b72e975a
+#: d236badfa7f549709d16d144e0d87a37
 msgid ""
 "A list of the IP/FQDNs and port numbers that are used by temi Robots, "
 "temi Mobile App, and temi Center are provided in the following CSV file. "
@@ -39,24 +39,24 @@ msgstr ""
 ":`firewall-changelogs` を参照ください。"
 
 #: ../../source/network-admin/06_firewall.rst:14
-#: 19c9902e84d940b6922b33adbc78fc4c
+#: d8a8f3fa67724f5cb30b1cef19af9e1e
 msgid ""
-":download:`Firewall Settings (2021/09/27) "
-"<assets/temi_firewall_settings_20210927.csv>`"
+":download:`Firewall Settings (2021/11/04) "
+"<assets/temi_firewall_settings_20211104.csv>`"
 msgstr ""
 
 #: ../../source/network-admin/06_firewall.rst:16
-#: 388e19fcf0324f789320e2c07676e935
+#: 4385bf9e4a5c4a8a8db1b87ee8d00166
 msgid "Whitelist only those IP/FQDNs and port numbers that you want to use."
 msgstr "使用するIP / FQDNとポート番号をホワイトリストに登録します。"
 
 #: ../../source/network-admin/06_firewall.rst:18
-#: 0ad6f06b7f464393b34a01660dd545b6
+#: b775cd1f6ffc45ab825537a2c53cd005
 msgid "Recommendations"
 msgstr "推奨"
 
 #: ../../source/network-admin/06_firewall.rst:20
-#: a6bbbc358a614292ada5881e743f861f
+#: 20af6e6bcab645f1a241d30a0f30f232
 msgid ""
 "The last column labeled ``Recommended``, in the CSV file, provides the "
 "minimum set needed for establishing telepresence sessions and OTA "
@@ -64,7 +64,7 @@ msgid ""
 msgstr "CSVファイルの ``推奨`` という最後の列は、テレプレゼンスセッションとOTAソフトウェア・アップデートの確立に必要な最小限の項目です。"
 
 #: ../../source/network-admin/06_firewall.rst:22
-#: 5bf246d4514c470188c2a745c4d5c630
+#: cdcdc271cde4499fa31e5c904236289d
 msgid ""
 "The latest firewall settings have been tested on the following software "
 "versions using a `Netgate 1100 Security Gateway "
@@ -77,59 +77,59 @@ msgstr ""
 "を使用して確認されています。"
 
 #: ../../source/network-admin/06_firewall.rst:25
-#: 0e368acceebe4cfdbcc7a7af56aeafab
+#: d9850a016abf4b19b8453850b67e69ee
 msgid "Version"
 msgstr "バージョン"
 
 #: ../../source/network-admin/06_firewall.rst:27
-#: 3440d0051d8248989debd147c63892c2
+#: 298ca68722a14ab7b1887c7d64e3d48d
 msgid "temi Robot (Launcher)"
 msgstr "temi本体（ランチャー）"
 
 #: ../../source/network-admin/06_firewall.rst:27
-#: cbe7f44c06d44f27a50ba7d4668bb6e0
-msgid "15029"
+#: 012374b13c754a7ab8fc00285f0bb28f
+msgid "15567"
 msgstr ""
 
 #: ../../source/network-admin/06_firewall.rst:29
-#: f8c255078f754542a579df967ee6aa8a
+#: 78ff2fcd43ff43d395555dc715da4f2d
 msgid "temi Mobile App (Android)"
 msgstr "temiモバイルアプリ（Android）"
 
 #: ../../source/network-admin/06_firewall.rst:29
-#: 14c12fcca72d45f98d5d1a88e2ada673
-msgid "1.3.8460"
+#: 2b394b532b754f95aebd840bc0d77521
+msgid "1.3.8526"
 msgstr ""
 
 #: ../../source/network-admin/06_firewall.rst:31
-#: 68b759ce47354672b44e2da21ce2e582
+#: 8566c8c3311947c6a94cfd1bb0bcf1d9
 msgid "temi Mobile App (iOS)"
 msgstr "temiモバイルアプリ（iOS）"
 
 #: ../../source/network-admin/06_firewall.rst:31
-#: 994dc88546f24d8195753cdd0b812ce4
-msgid "1.1.46"
+#: 0059e8f95130446da3da02a28fb9df5f
+msgid "1.1.49"
 msgstr ""
 
 #: ../../source/network-admin/06_firewall.rst:36
-#: 779bc3edb0e645edad2389e94b24e642
+#: 896d83ec25c942618cc47d2e9a49f88d
 msgid "Enabling Firewall"
 msgstr "ファイヤーウォールの有効化"
 
 #: ../../source/network-admin/06_firewall.rst:38
-#: 091e3b0610e0421abc87bd584f78745b
+#: 9f7705ee09744dcb92956e29485a7616
 msgid ""
 "If a firewall is used, you must enable this mode on your device(s). The "
 "instructions for each device can be found in the following sections."
 msgstr "ファイアウォールを使用している場合は、各デバイスでこのモードを有効にする必要があります。各デバイスの手順は、次のセクションに記載されています。"
 
 #: ../../source/network-admin/06_firewall.rst:42
-#: 98ef063b387a443c8a6c85e3f8b92860
+#: b4058709b11a46499afc3e6dfc4ad567
 msgid "temi Robot"
 msgstr "temi本体"
 
 #: ../../source/network-admin/06_firewall.rst:43
-#: 0e3f5772880648638b88964f6bc38c34
+#: 3f314ca80820465fa573d85dfadd9409
 msgid "Under ``Settings`` > ``General Settings``, turn ``ON`` `Firewall Mode`."
 msgstr "設定画面から　``設定`` > ``一般設定`` > ``ファイアウォール・モード``　``オン``"
 
@@ -137,40 +137,40 @@ msgstr "設定画面から　``設定`` > ``一般設定`` > ``ファイアウ�
 #: ../../source/network-admin/06_firewall.rst:65
 #: ../../source/network-admin/06_firewall.rst:73
 #: ../../source/network-admin/06_firewall.rst:81
-#: 31c42983473d469f801a76c3bcadddf1 323473a58450406e9d6b5d20dc8e426f
-#: 9bf9b7e6061342b68eb70e3dc51bdb37 cfcd88938f1f434e9b473ecc157dc497
+#: 84aa3d391a0547408b224e2b714e513e 99221052dc2744c1852dbf003dcfe0b5
+#: aec6c72394854d80a27dc7ed1b7c9381 eb48e5df53ac4479ace9dd28d1154097
 msgid "Settings"
 msgstr "設定"
 
 #: ../../source/network-admin/06_firewall.rst:48
-#: 5ed3ca9332ab4829890f744b6c4cc492
+#: 0a76c46468cd4de28d97468c9f4de04c
 msgid ""
 "Tap on ``General Settings`` in the ``Settings`` menu to bring up the "
 "General Settings menu. `[Image taken from Launcher OS 14759]`"
 msgstr "​​"
 
 #: ../../source/network-admin/06_firewall.rst:53
-#: d96a2151c0044a1bb779573cd7f01926
+#: 061a2d198de741fe92371955a9904c30
 msgid "General Settings"
 msgstr "一般設定"
 
 #: ../../source/network-admin/06_firewall.rst:53
-#: 981b2f8b9b9d47a5956d1eeb0964a747
+#: 5674bc8f50064c26ab0f954b0c8fa7c8
 msgid "Turn ``ON`` `Firewall Mode`. `[Image taken from Launcher OS 14759]`"
 msgstr "​​"
 
 #: ../../source/network-admin/06_firewall.rst:57
-#: ba8db3fdc90046ca9a6a491bdecc352e
+#: 0afacf2fa386433fae811e0d6d668387
 msgid "temi Mobile App"
 msgstr "temiモバイルアプリ"
 
 #: ../../source/network-admin/06_firewall.rst:60
-#: eb7e3356d3224208a3e79926eedf4477
+#: 8b8e4c9397d542d98ff7b0fa454a10b1
 msgid "iOS"
 msgstr "iOS"
 
 #: ../../source/network-admin/06_firewall.rst:65
-#: e633e2a91f474d039cbdfef8687f6568
+#: 250e8b4f0e794539b2281df8c95d3156
 msgid ""
 "Tap on ``More`` to bring up the Settings page. Then turn ``ON`` `Firewall"
 " Mode`. `[Image taken from iOS mobile app 1.1.45]`"
@@ -179,12 +179,12 @@ msgstr ""
 "［iOSモバイルアプリ1.1.46のイメージ］"
 
 #: ../../source/network-admin/06_firewall.rst:68
-#: 784b567f9b3b4e978d6aa7f3c88b2a67
+#: 4e2812cdeaf947b1adf7e9436b948fcd
 msgid "Android"
 msgstr "Android"
 
 #: ../../source/network-admin/06_firewall.rst:73
-#: 823ff785f8364f219424f76c510754ec
+#: b519b09b4a04480bb8ddae3804d86c4c
 msgid ""
 "Tap on ``More`` to bring up the Settings page. Then turn ``ON`` `Firewall"
 " Mode`. `[Image taken from Android mobile app 1.3.8425]`"
@@ -193,12 +193,12 @@ msgstr ""
 "［Androidモバイルアプリ1.3.8425のイメージ］"
 
 #: ../../source/network-admin/06_firewall.rst:77
-#: ed78ff165e274fc2a635d8cf23565929
+#: f2b94e980859471387fa289fa084d971
 msgid "temi Center"
 msgstr "temiセンター"
 
 #: ../../source/network-admin/06_firewall.rst:81
-#: d9c4a88d5e8e44eab67c59023ad39a53
+#: 7d8596aa947044e2be2149b95330cbb7
 msgid ""
 "Hover over the user icon in the top right-hand corner and tap ``Account "
 "Settings`` to bring up the Account Settings page. Then enable `Firewall "
@@ -209,12 +209,12 @@ msgstr ""
 
 #: ../../source/network-admin/06_firewall.rst:87
 #: ../../source/network-admin/06_firewall.rst:104
-#: 00f9f9d7bcab4ca2a87a4899f002adf9 1077afbfc34e4ef8b1ee18be8a737dbf
+#: 78b5089dc2774f8faa9402d6b95aa681 a2e25ecc6f574268b6dcd4842004d301
 msgid "Proxy Settings"
 msgstr "プロキシ設定"
 
 #: ../../source/network-admin/06_firewall.rst:88
-#: bf1ea96fb75c459cad427697775c488e
+#: 26489dd18f064f12b688bd844179efcc
 msgid ""
 "temi Center uses WebSockets for establishing video connection and for "
 "controlling the robot remotely. Therefore, proxy servers should be "
@@ -228,12 +228,12 @@ msgstr ""
 "IPとポートがWebSocketを使用するかを示すWebSocketsというラベルの付いた列（フィールド）があります。参照ください。"
 
 #: ../../source/network-admin/06_firewall.rst:91
-#: 00f9f9d7bcab4ca2a87a4899f002adf9
+#: 7d635262988241a99d6fd501cb815a5a
 msgid "Troubleshooting"
 msgstr "トラブルシューティング"
 
 #: ../../source/network-admin/06_firewall.rst:92
-#: c4dad1577aea41498908a8a6e303d722
+#: ff02efbe1e404d7eb93cc98341288dd7
 msgid ""
 "After configuring your network with the settings described above, if you "
 "are still not able to use the temi Robot, temi Mobile App, and/or temi "
@@ -243,21 +243,21 @@ msgstr ""
 "センターを使用できない場合は、以下を確認してください。"
 
 #: ../../source/network-admin/06_firewall.rst:96
-#: 4da14189c1bd45c38d80e7a4ae08019f
+#: dbe8746b458c40299d425bccf6d46622
 msgid ""
 "Use the most recent firewall settings. The latest version is provided as "
 "a CSV file at the top of this page."
 msgstr "最新のファイヤウォール設定を使用していますか？最新バージョンは、このページの上部にCSVファイルとして提供されています。"
 
 #: ../../source/network-admin/06_firewall.rst:97
-#: ee753ccf61ef45f6b19b87c81593c7f6
+#: ba1e8c2e9418445fbe35eb880894e41f
 msgid ""
 "Do not convert FQDN addresses to IP addresses. FQDNs are used because the"
 " underlying IP addresses may change without notice."
 msgstr "FQDNアドレスをIPアドレスに変換しないでください。基になるIPアドレスが予告なしに変更される可能性があるため、FQDNを使用してください。"
 
 #: ../../source/network-admin/06_firewall.rst:98
-#: f7e41fc5f5f049f9898304d1e2398210
+#: cb7b2305527e45e78c14e47c9774baa5
 msgid ""
 "Connect a PC to your firewall-configured network and check if it is able "
 "to reach each of the FQDN/IPs listed in your firewall settings. Note that"
@@ -272,7 +272,7 @@ msgstr ""
 "Blocked`列を参照ください。）、pingを使用してこれを確認することができないことがあります。この場合、次のいずれかを使用できます::"
 
 #: ../../source/network-admin/06_firewall.rst:105
-#: 680048bac32f40e2b56341d4c3de5521
+#: d3bebedeb194465aa9db8f8b0a3ed988
 msgid ""
 "Your proxy servers may not allow for WebSocket connections. You can test "
 "your WebSocket with `this <https://libwebsockets.org/testserver/>`_. If "
@@ -283,101 +283,109 @@ msgstr ""
 "WebSocket接続が機能している場合は、次のように表示されます。"
 
 #: ../../source/network-admin/06_firewall.rst:107
-#: 09e2b1059e96419787578c2449d8c6bf
+#: 2449ef0efc914ed388fd7eb10e3c1314
 msgid "You should see a number incrementing"
 msgstr "数字が増加するのが見えるはずです。"
 
 #: ../../source/network-admin/06_firewall.rst:108
-#: d5acd0fc8f274c92a6cf5df977b6063a
+#: fda4c74d7cb04090819ff14ff88c94d0
 msgid "The number resets if you click on the ``Reset counter`` button"
 msgstr "``Reset counter`` ボタンをクリックすると、番号がリセットされます。"
 
 #: ../../source/network-admin/06_firewall.rst:111
-#: d4e4f53e8f484cf8a5f4cb09224b2ed4
+#: f6867107e69142c9811ded5397bcbe35
 msgid "Web Browser"
 msgstr ""
 
 #: ../../source/network-admin/06_firewall.rst:112
-#: 628aef34b8bb41f5ac77f986b1795e0c
+#: 0e2786c656f3461c8d3573a150bb99f7
 msgid "Are you using the latest version of a supported web-browser?"
 msgstr "サポートされているWebブラウザの最新バージョンを使用していますか？"
 
 #: ../../source/network-admin/06_firewall.rst:113
-#: ed05e135e8264b01b20fdfbd9c3e2f34
+#: dff9cae3b3c84d7cbda75b36ba46de4f
 msgid ""
 "Do you have any additional web-browser security features (apart from the "
 "default set) enabled?"
 msgstr "（デフォルトセット以外の）追加のWebブラウザセキュリティ機能を有効にしていますか？"
 
 #: ../../source/network-admin/06_firewall.rst:114
-#: 69356c4337c64f85a2866966f799a32a
+#: b7d41be9ea1d41149f8944fedb3d33d6
 msgid "Are microphone and video allowed to operate through the web-browser?"
 msgstr "マイクとビデオはWebブラウザを介して操作できますか？"
 
 #: ../../source/network-admin/06_firewall.rst:116
-#: 7a6daa59c4374420bbe855fcb7ad9416
+#: 59bb4077a0494c18ac9f4fe76da2b01a
 msgid "Test microphone: https://webcammictest.com/check-mic.html"
 msgstr "マイクテスト: https://webcammictest.com/check-mic.html"
 
 #: ../../source/network-admin/06_firewall.rst:117
-#: 745f38722c4a4937872f8a4d868380a4
+#: 251ab5ba193e489380e7bdf125f2ac6d
 msgid "Test video: https://webcammictest.com/"
 msgstr "ビデオテスト: https://webcammictest.com/"
 
 #: ../../source/network-admin/06_firewall.rst:123
-#: a26e92174bc441618b351368e4079815
+#: f2c6d76d6b594e81894513e2ce6507bd
 msgid "Changelogs"
 msgstr "変更履歴"
 
 #: ../../source/network-admin/06_firewall.rst:124
-#: ef0969d6a59f43ccb52b895bfe5e7c22
+#: 892ea5d46d594554b9ada16c41088de5
+msgid ""
+"**temi_firewall_settings_20211104.csv** - Added ``production-temi-"
+"resources-private-virginia.oss-us-east-1.aliyuncs.com`` to supported "
+"animated faces in temi Robot (Launcher) 15567"
+msgstr ""
+
+#: ../../source/network-admin/06_firewall.rst:127
+#: 41c2287d4c3840b78e95428ebb6df24c
 msgid "**temi_firewall_settings_20210927.csv**"
 msgstr ""
 
-#: ../../source/network-admin/06_firewall.rst:126
-#: 3d737a9c106f426fb4b528169dcb457c
+#: ../../source/network-admin/06_firewall.rst:129
+#: de20be6d994040668b662528909632a0
 msgid "Removed duplicate host: ``eastus.tts.speech.microsoft.com``"
 msgstr "重複するホストを削除しました：``eastus.tts.speech.microsoft.com``"
 
-#: ../../source/network-admin/06_firewall.rst:127
-#: fc62eba8f24d4cf18d5eb05f2d6c02a5
+#: ../../source/network-admin/06_firewall.rst:130
+#: 2d6eacb358944176b3f926e347226008
 msgid ""
 "Added ``Notes`` field, and included some comments about text-to-speech "
 "services"
 msgstr "``Notes`` フィールドを追加し、テキスト読み上げサービスに関するコメントを含めました。"
 
-#: ../../source/network-admin/06_firewall.rst:129
-#: b5fa1b1fedfa4de7960d408ade00c09d
+#: ../../source/network-admin/06_firewall.rst:132
+#: d19bc984258f447087fe1a2e11ba6e49
 msgid "**temi_firewall_settings_202109.csv**"
 msgstr ""
 
-#: ../../source/network-admin/06_firewall.rst:131
-#: 8f61f77afaef4c6790edc76325ee1e35
+#: ../../source/network-admin/06_firewall.rst:134
+#: 845a5c67f346417db5d6d39f9d797b56
 msgid "Added ``WebSockets`` field"
 msgstr "``WebSockets`` フィールドを追加しました。"
 
-#: ../../source/network-admin/06_firewall.rst:132
-#: d8384c4a4c484a068160f810e70b47c5
+#: ../../source/network-admin/06_firewall.rst:135
+#: 5dfb13fd728149e495ef7ae2de86079e
 msgid "Added ``ICMP Blocked`` field"
 msgstr "``ICMP Blocked`` を追加しました。"
 
-#: ../../source/network-admin/06_firewall.rst:134
-#: b5fa1b1fedfa4de7960d408ade00c09d
+#: ../../source/network-admin/06_firewall.rst:137
+#: b783b0aa5be048cb80910bc3c6f1e79f
 msgid "**temi_firewall_settings_202108.csv**"
 msgstr ""
 
-#: ../../source/network-admin/06_firewall.rst:136
-#: a19d019519da432da94580c8e5b86d5b
+#: ../../source/network-admin/06_firewall.rst:139
+#: ee680e6708a14e708ad815b33dd75b7d
 msgid "Fixes a typo in row 29. Previously wrote port 444. It should be port 443."
 msgstr "行29のタイプミスを修正しています。以前は、ポート444と記載していましたが、このポート443です。"
 
-#: ../../source/network-admin/06_firewall.rst:138
-#: ef0969d6a59f43ccb52b895bfe5e7c22
+#: ../../source/network-admin/06_firewall.rst:141
+#: 1a165dc5bcfd47cda453c0d87121db8e
 msgid "**temi_firewall_settings_202107.csv**"
 msgstr ""
 
-#: ../../source/network-admin/06_firewall.rst:140
-#: a53d0244460d4410ab564e7a4edb0e97
+#: ../../source/network-admin/06_firewall.rst:143
+#: c1f40cf74094400aa8ea03aa7678bc4a
 msgid "Initial release"
 msgstr "初回リリース版"
 
@@ -389,5 +397,19 @@ msgstr "初回リリース版"
 #~ msgid ""
 #~ ":download:`Firewall Settings (2021/09) "
 #~ "<assets/temi_firewall_settings_202109.csv>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":download:`Firewall Settings (2021/09/27) "
+#~ "<assets/temi_firewall_settings_20210927.csv>`"
+#~ msgstr ""
+
+#~ msgid "15029"
+#~ msgstr ""
+
+#~ msgid "1.3.8460"
+#~ msgstr ""
+
+#~ msgid "1.1.46"
 #~ msgstr ""
 

@@ -11,6 +11,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    basics/01_connect-wifi
    basics/02_keyboard
    basics/03_kiosk-mode
+   basics/04_adb
 
 .. toctree::
    :maxdepth: 2
