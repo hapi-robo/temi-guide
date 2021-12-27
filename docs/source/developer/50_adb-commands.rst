@@ -127,7 +127,19 @@ Open Android Settings menu:
   
   adb shell am start -a android.settings.SETTINGS
 
-Open Android Cast menu:
+Open Android Wi-Fi settings menu:
+
+.. code-block:: Shell
+  
+  adb shell am start -a android.settings.WIFI_SETTINGS
+
+Open Android Bluetooth settings menu:
+
+.. code-block:: Shell
+  
+  adb shell am start -a android.settings.BLUETOOTH_SETTINGS
+
+Open Android cast settings menu:
 
 .. code-block:: Shell
   
