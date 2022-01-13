@@ -17,7 +17,7 @@ Storage Conditions
 
 References
 ----------
-:download:`temi S1 CE Technical Specifications (2020/11) <assets/docs/temi_s1_ce_technical_specifications_20201123.pdf>`
+:download:`temi S1 CE Technical Specifications (2021/10) <assets/docs/temi_s1_ce_technical_specifications_20211027.pdf>`
 
 Operating Conditions
 ====================

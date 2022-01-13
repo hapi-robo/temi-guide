@@ -48,6 +48,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    specifications/sensors
    specifications/temi_center
    specifications/bluetooth
+   specifications/usb
 
 .. toctree::
    :maxdepth: 1
