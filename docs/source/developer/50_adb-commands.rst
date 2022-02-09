@@ -58,6 +58,12 @@ List installed packages:
 
   adb shell pm list packages
 
+Use ``grep`` to filter the output, e.g.:
+
+.. code-block:: Shell
+
+  adb shell pm list packages | grep "roboteam"
+
 Package path:
 
 .. code-block:: Shell
@@ -203,14 +209,19 @@ Screenshot:
 
 .. code-block:: Shell
 
-  adb shell screencap -p "/path/to/screenshot.png"
+  adb shell screencap -p /path/to/screenshot.png
 
-Screen recording:
+Screen video recording:
 
 .. code-block:: Shell
 
-  adb shell screenrecord "/path/to/record.mp4"
+  adb shell screenrecord /path/to/video.mp4
 
+To change resolution and rotate screen:
+
+.. code-block:: Shell
+
+  adb shell screenrecord --size 640x480 --rotate /path/to/video.mp4
 
 =====
 Ports

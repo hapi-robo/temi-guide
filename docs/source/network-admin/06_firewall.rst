@@ -11,7 +11,7 @@ Firewall Settings
 
 A list of the IP/FQDNs and port numbers that are used by temi Robots, temi Mobile App, and temi Center are provided in the following CSV file. For changes to previous versions, see :ref:`firewall-changelogs`.
 
-:download:`Firewall Settings (2021/11/04) <assets/temi_firewall_settings_20211104.csv>`
+:download:`Firewall Settings (2022/02/09) <assets/temi_firewall_settings_20220209.csv>`
 
 Whitelist only those IP/FQDNs and port numbers that you want to use. 
 
@@ -121,7 +121,12 @@ Web Browser
 
 Changelogs
 ==========
+**temi_firewall_settings_20220209.csv**
+
+- Removed duplicate ``s.youtube.com`` entry for YouTube Video Skill service
+
 **temi_firewall_settings_20211104.csv**
+
 - Added ``production-temi-resources-private-virginia.oss-us-east-1.aliyuncs.com`` to supported animated faces in temi Robot (Launcher) 15567
 
 **temi_firewall_settings_20210927.csv**

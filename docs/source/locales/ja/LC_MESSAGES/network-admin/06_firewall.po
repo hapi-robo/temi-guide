@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 17:29+0900\n"
+"POT-Creation-Date: 2022-02-09 12:39+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,8 +41,8 @@ msgstr ""
 #: ../../source/network-admin/06_firewall.rst:14
 #: d8a8f3fa67724f5cb30b1cef19af9e1e
 msgid ""
-":download:`Firewall Settings (2021/11/04) "
-"<assets/temi_firewall_settings_20211104.csv>`"
+":download:`Firewall Settings (2022/02/09) "
+"<assets/temi_firewall_settings_20220209.csv>`"
 msgstr ""
 
 #: ../../source/network-admin/06_firewall.rst:16
@@ -330,61 +330,76 @@ msgid "Changelogs"
 msgstr "変更履歴"
 
 #: ../../source/network-admin/06_firewall.rst:124
-#: 892ea5d46d594554b9ada16c41088de5
-msgid ""
-"**temi_firewall_settings_20211104.csv** - Added ``production-temi-"
-"resources-private-virginia.oss-us-east-1.aliyuncs.com`` to supported "
-"animated faces in temi Robot (Launcher) 15567"
+#: d19bc984258f447087fe1a2e11ba6e49
+msgid "**temi_firewall_settings_20220209.csv**"
 msgstr ""
 
-#: ../../source/network-admin/06_firewall.rst:127
+#: ../../source/network-admin/06_firewall.rst:126
+#: 892ea5d46d594554b9ada16c41088de5
+msgid "Removed duplicate ``s.youtube.com`` entry for YouTube Video Skill service"
+msgstr "YouTube Video Skillサービスの重複するs.youtube.comのエントリーを削除しました。"
+
+#: ../../source/network-admin/06_firewall.rst:128
+#: d19bc984258f447087fe1a2e11ba6e49
+msgid "**temi_firewall_settings_20211104.csv**"
+msgstr ""
+
+#: ../../source/network-admin/06_firewall.rst:130
+#: 892ea5d46d594554b9ada16c41088de5
+msgid ""
+"Added ``production-temi-resources-private-virginia.oss-us-"
+"east-1.aliyuncs.com`` to supported animated faces in temi Robot "
+"(Launcher) 15567"
+msgstr ""
+
+#: ../../source/network-admin/06_firewall.rst:132
 #: 41c2287d4c3840b78e95428ebb6df24c
 msgid "**temi_firewall_settings_20210927.csv**"
 msgstr ""
 
-#: ../../source/network-admin/06_firewall.rst:129
+#: ../../source/network-admin/06_firewall.rst:134
 #: de20be6d994040668b662528909632a0
 msgid "Removed duplicate host: ``eastus.tts.speech.microsoft.com``"
 msgstr "重複するホストを削除しました：``eastus.tts.speech.microsoft.com``"
 
-#: ../../source/network-admin/06_firewall.rst:130
+#: ../../source/network-admin/06_firewall.rst:135
 #: 2d6eacb358944176b3f926e347226008
 msgid ""
 "Added ``Notes`` field, and included some comments about text-to-speech "
 "services"
 msgstr "``Notes`` フィールドを追加し、テキスト読み上げサービスに関するコメントを含めました。"
 
-#: ../../source/network-admin/06_firewall.rst:132
+#: ../../source/network-admin/06_firewall.rst:137
 #: d19bc984258f447087fe1a2e11ba6e49
 msgid "**temi_firewall_settings_202109.csv**"
 msgstr ""
 
-#: ../../source/network-admin/06_firewall.rst:134
+#: ../../source/network-admin/06_firewall.rst:139
 #: 845a5c67f346417db5d6d39f9d797b56
 msgid "Added ``WebSockets`` field"
 msgstr "``WebSockets`` フィールドを追加しました。"
 
-#: ../../source/network-admin/06_firewall.rst:135
+#: ../../source/network-admin/06_firewall.rst:140
 #: 5dfb13fd728149e495ef7ae2de86079e
 msgid "Added ``ICMP Blocked`` field"
 msgstr "``ICMP Blocked`` を追加しました。"
 
-#: ../../source/network-admin/06_firewall.rst:137
+#: ../../source/network-admin/06_firewall.rst:142
 #: b783b0aa5be048cb80910bc3c6f1e79f
 msgid "**temi_firewall_settings_202108.csv**"
 msgstr ""
 
-#: ../../source/network-admin/06_firewall.rst:139
+#: ../../source/network-admin/06_firewall.rst:144
 #: ee680e6708a14e708ad815b33dd75b7d
 msgid "Fixes a typo in row 29. Previously wrote port 444. It should be port 443."
 msgstr "行29のタイプミスを修正しています。以前は、ポート444と記載していましたが、このポート443です。"
 
-#: ../../source/network-admin/06_firewall.rst:141
+#: ../../source/network-admin/06_firewall.rst:146
 #: 1a165dc5bcfd47cda453c0d87121db8e
 msgid "**temi_firewall_settings_202107.csv**"
 msgstr ""
 
-#: ../../source/network-admin/06_firewall.rst:143
+#: ../../source/network-admin/06_firewall.rst:148
 #: c1f40cf74094400aa8ea03aa7678bc4a
 msgid "Initial release"
 msgstr "初回リリース版"
@@ -411,5 +426,29 @@ msgstr "初回リリース版"
 #~ msgstr ""
 
 #~ msgid "1.1.46"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":download:`Firewall Settings (2021/11/04) "
+#~ "<assets/temi_firewall_settings_20211104.csv>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":download:`Firewall Settings (2022/01/09) "
+#~ "<assets/temi_firewall_settings_20220209.csv>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**temi_firewall_settings_20220209.csv** - Removed "
+#~ "duplicate ``s.youtube.com`` entry for YouTube"
+#~ " Video Skill service"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**temi_firewall_settings_20211104.csv** - Added "
+#~ "``production-temi-resources-private-virginia"
+#~ ".oss-us-east-1.aliyuncs.com`` to supported "
+#~ "animated faces in temi Robot (Launcher)"
+#~ " 15567"
 #~ msgstr ""
 

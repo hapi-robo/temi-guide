@@ -62,6 +62,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    developer/13_set-robot-pose
    developer/14_user-detection-tracking
    developer/20_permissions
+   developer/30_shortcuts
    developer/50_adb-commands
 
 .. toctree::
@@ -69,6 +70,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    :caption: Technician
 
    technician/01_android_logs
+   technician/02_slam_bags
 
 .. Indices and tables
 .. ==================

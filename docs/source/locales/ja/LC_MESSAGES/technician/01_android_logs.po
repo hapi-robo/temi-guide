@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-09 12:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/technician/01_android_logs.rst:3
+#: d40182d3c4ce4caab68073bbe33151d8
+msgid "Android Logs"
+msgstr ""
+
+#: ../../source/technician/01_android_logs.rst:5
+#: f9e27e11eae7464aacc248049b66eb7e
+msgid "To get Android logs:"
+msgstr ""
+
+#: ../../source/technician/01_android_logs.rst:7
+#: 5d0441282be249eeae4b091098c89689
+msgid "Open the Technician Tools"
+msgstr ""
+
+#: ../../source/technician/01_android_logs.rst:8
+#: 75ca6f7777914ac5bc3b882a55ace87c
+msgid "Enable technician logs: Select ``Debug message`` > ``Plant a Timber tree``"
+msgstr ""
+
+#: ../../source/technician/01_android_logs.rst:9
+#: 8359f11437bf4261a25f62aad828332d
+msgid "Connect to the robot over ADB"
+msgstr ""
+
+#: ../../source/technician/01_android_logs.rst:10
+#: a7d2cfc2895d4685aaa6b9c9f49d8d23
+msgid "Reproduce the issue"
+msgstr ""
+
+#: ../../source/technician/01_android_logs.rst:11
+#: dffa8dc5f13b4c22924dbb367c8a2364
+msgid "Collect the ``logcat`` logs:"
+msgstr ""
+
+#: ../../source/technician/01_android_logs.rst:17
+#: 96e42a8481144bb9949594237cd753f8
+msgid ""
+"Wait a few seconds for logs to fill up, then press ``CTRL+c`` to stop. "
+"Check to make sure that the most recent timestamp is in the log. Then do "
+"the same thing for ``bugreport`` logs:"
+msgstr ""
+
+#: ../../source/technician/01_android_logs.rst:23
+#: d25cfd9770c84720a494c943ec38e987
+msgid "Wait a few seconds for the logs to fill up, then press ``CTRL+c`` to stop."
+msgstr ""
+
+#: ../../source/technician/01_android_logs.rst:25
+#: 2922f3a1602343c5a4a0e3261658c35f
+msgid ""
+"You should now have two log-files ``logcat.txt`` and ``bugreport.txt`` on"
+" your computer."
+msgstr ""
+
+#: ../../source/technician/01_android_logs.rst:26
+#: 87898e53a70c41b291043a03f35c2f4b
+msgid ""
+"Disable technician logs: Select ``Debug message`` > ``Plant a Timber "
+"tree``"
+msgstr ""
+

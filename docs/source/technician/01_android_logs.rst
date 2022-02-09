@@ -24,4 +24,3 @@ To get Android logs:
 
    You should now have two log-files ``logcat.txt`` and ``bugreport.txt`` on your computer.
 #. Disable technician logs: Select ``Debug message`` > ``Plant a Timber tree``
-
