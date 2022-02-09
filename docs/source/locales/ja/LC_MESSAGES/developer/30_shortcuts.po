@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-09 15:38+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/developer/30_shortcuts.rst:3 6c49a65267b44091a60d705db3873d8e
+msgid "Launcher Shortcuts"
+msgstr ""
+
+#: ../../source/developer/30_shortcuts.rst:6 d83b274667d1445982150fa83875a39e
+msgid "Setup"
+msgstr ""
+
+#: ../../source/developer/30_shortcuts.rst:7 01745f3c9df841ababa63442eb574532
+msgid "To create a Launcher shortcut for a generic Android package:"
+msgstr ""
+
+#: ../../source/developer/30_shortcuts.rst:9 1927f94d279242478df74be7244361e3
+msgid "Clone the repository:"
+msgstr ""
+
+#: ../../source/developer/30_shortcuts.rst:18 3f2dbb955bc94ed68660c69810d20ae8
+msgid "APK Package Name"
+msgstr ""
+
+#: ../../source/developer/30_shortcuts.rst:19 23e54c7da2ef45d393c2b5b2dfeb525d
+msgid ""
+"To create a shortcut, you need to have the ``package-name``. For example,"
+" the package name for Chrome is ``com.android.chrome``."
+msgstr ""
+
+#: ../../source/developer/30_shortcuts.rst:21 56f6cd911ac84a6b8b15399fdda8c0a9
+msgid ""
+"If the package is already installed on the device, you can look for it "
+"using:"
+msgstr ""
+
+#: ../../source/developer/30_shortcuts.rst:27 361021f3c3f044aeb2747e56d3a7fc39
+msgid ""
+"If the package (or APK) is on your computer, you can run the following "
+"script to get the package name:"
+msgstr ""
+
+#: ../../source/developer/30_shortcuts.rst:35 df0f5c0323f545608f72051744d9f775
+msgid "Create Shortcut"
+msgstr ""
+
+#: ../../source/developer/30_shortcuts.rst:36 fc39a2232fd848c3bf2f05d9460a9369
+msgid "To create a Launcher shortcut:"
+msgstr ""
+
+#: ../../source/developer/30_shortcuts.rst:42 748ecb7a1035451fa810c5b1228733dd
+msgid "For example, to create a shortcut for Chrome:"
+msgstr ""
+
+#: ../../source/developer/30_shortcuts.rst:48 de01bd2515ca4a598c7f04bd0288b51d
+msgid ""
+"The file ``chrome_shortcut.apk`` should then appear in the same "
+"directory. Install it onto your device, along with the package that it "
+"links to. For this example:"
+msgstr ""
+
+#: ../../source/developer/30_shortcuts.rst:57 eb5bcd9273c24a5bb34301982230a211
+msgid "Reference"
+msgstr ""
+
+#: ../../source/developer/30_shortcuts.rst:59 1134822fbe7e4b9aa0ab06a6608a895d
+msgid "https://github.com/hapi-robo/temi-shortcut"
+msgstr ""
+

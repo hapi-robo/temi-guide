@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-09 15:38+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/technician/02_slam_bags.rst:3 a6c1c22a6dc343ceada205aafad6d515
+msgid "SLAM Bags"
+msgstr ""
+
+#: ../../source/technician/02_slam_bags.rst:5 2ab1a4f00df347abb108a0cf29202e4c
+msgid "To get SLAM bags:"
+msgstr ""
+
+#: ../../source/technician/02_slam_bags.rst:7 1af3218f1bf946788d96fde5b1a7de93
+msgid "Open the Technician Tools"
+msgstr ""
+
+#: ../../source/technician/02_slam_bags.rst:8 3c360b0d78cb49c5b24422250e279f98
+msgid "Start recording: Select ``ROBOX`` > ``Start SLAM Recording``"
+msgstr ""
+
+#: ../../source/technician/02_slam_bags.rst:9 b80209390d2f47288e84121bc35a18e4
+msgid "Move the robot around the area of interest"
+msgstr ""
+
+#: ../../source/technician/02_slam_bags.rst:10 6eb8bdbc9bab44c2bdda4ac4275621f9
+msgid "Stop recording: Select ``ROBOX`` > ``Stop SLAM Recording``"
+msgstr ""
+
+#: ../../source/technician/02_slam_bags.rst:11 7c8e7201f1314761810ea8b22d5c5d57
+msgid "Wait 30 seconds and copy the SLAM bags over to your computer:"
+msgstr ""
+
+#: ../../source/technician/02_slam_bags.rst:17 07be6b39f5a04075b0ed4bdce1b6d7bd
+msgid "You should now have ``xxx_debug_logs.tar.gz`` on  your computer."
+msgstr ""
+
