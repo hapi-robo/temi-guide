@@ -337,7 +337,7 @@ msgstr ""
 #: ../../source/network-admin/06_firewall.rst:126
 #: 892ea5d46d594554b9ada16c41088de5
 msgid "Removed duplicate ``s.youtube.com`` entry for YouTube Video Skill service"
-msgstr ""
+msgstr "YouTube Video Skillサービスの重複するs.youtube.comのエントリーを削除しました。"
 
 #: ../../source/network-admin/06_firewall.rst:128
 #: d19bc984258f447087fe1a2e11ba6e49
