@@ -12,6 +12,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    basics/02_keyboard
    basics/03_kiosk-mode
    basics/04_adb
+   basics/05_factory-reset
 
 .. toctree::
    :maxdepth: 2
@@ -47,6 +48,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    specifications/sensors
    specifications/temi_center
    specifications/bluetooth
+   specifications/usb
 
 .. toctree::
    :maxdepth: 1
@@ -61,6 +63,12 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    developer/14_user-detection-tracking
    developer/20_permissions
    developer/50_adb-commands
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Technician
+
+   technician/01_android_logs
 
 .. Indices and tables
 .. ==================
