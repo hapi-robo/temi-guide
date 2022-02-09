@@ -11,7 +11,7 @@ Firewall Settings
 
 A list of the IP/FQDNs and port numbers that are used by temi Robots, temi Mobile App, and temi Center are provided in the following CSV file. For changes to previous versions, see :ref:`firewall-changelogs`.
 
-:download:`Firewall Settings (2022/01/09) <assets/temi_firewall_settings_20220209.csv>`
+:download:`Firewall Settings (2022/02/09) <assets/temi_firewall_settings_20220209.csv>`
 
 Whitelist only those IP/FQDNs and port numbers that you want to use. 
 
