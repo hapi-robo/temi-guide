@@ -64,6 +64,12 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    developer/20_permissions
    developer/50_adb-commands
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Technician
+
+   technician/01_android_logs
+
 .. Indices and tables
 .. ==================
 
