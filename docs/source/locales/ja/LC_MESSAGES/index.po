@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-12 11:24+0900\n"
+"POT-Creation-Date: 2022-02-09 12:31+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,27 +17,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/index.rst:6 fca7c7789a84401a903c43858573d5b0
+#: ../../source/index.rst:6 73bd29c98e4d47a392acdc01a4d459b5
 msgid "Basics"
 msgstr ""
 
-#: ../../source/index.rst:14 ba6b72726171451fa44185bbefa928ba
+#: ../../source/index.rst:17 0660b77f305546d7b181304eb7923a75
 msgid "Network Administration"
 msgstr ""
 
-#: ../../source/index.rst:29 b95f45f0b6a6487aae3d9d739f163fb2
+#: ../../source/index.rst:42 3da03c1baf9e4daba6946b938f21cd3e
 msgid "Specifications"
 msgstr ""
 
-#: ../../source/index.rst:38 a7744d9b60214577a1644ae64159f941
+#: ../../source/index.rst:53 7e429cdfcc3a46f5bef85cd9a40c75c5
 msgid "Developer / SDK"
 msgstr ""
 
-#: ../../source/index.rst:2 9a894ac3cc9942c1b5eec1a332020530
+#: ../../source/index.rst:67 7513710522aa46b5846d18661100c9f4
+msgid "Technician"
+msgstr ""
+
+#: ../../source/index.rst:2 d676e7c371a9478c911b75ce76a66430
 msgid "temi Guide"
 msgstr ""
 
-#: ../../source/index.rst:4 08b290694d52422bbc4561b5c8d56664
+#: ../../source/index.rst:4 c9c2c96f7ba443f496d024d405cbb53a
 msgid ""
 "This guide provides some examples of using `temi's SDK "
 "<https://github.com/robotemi/sdk/>`_. The official documentation for "
