@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 14:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/navigation/04_obstacles.rst:3 29ff1b05b9da449db2364674b1c2a9b2
+msgid "Obstacles"
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:4 fe25a762b7fc4acd8a8aacdc13cb1600
+msgid ""
+"It is recommended that the robot operate in environments with few moving "
+"obstacles. Environments where there are many people and/or objects that "
+"moving about can result in poor navigation performance."
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:8 a792c88c07d244b08f61f48d37bc2c76
+msgid "Small Objects"
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:12 1b586d39a85743a2aa1bc502802dfc90
+msgid "Small objects"
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:12 127798f2416c48489551e97db093f7d5
+msgid ""
+"Operating in cluttered environments (left) is not recommended. Objects "
+"with a height lower than 22 cm (LIDAR height) (right) will not be "
+"detected by temi."
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:16 725bead02afa473cb48c95afe82b7130
+msgid "Chairs & Tables"
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:20 c706feab76144193b87f4aeabaa9bbd1
+msgid "Objects with legs"
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:20 0da91d4e68ea4ad8b479018ff20edc1d
+msgid ""
+"Objects with a legs, such as chairs and tables, will cannot reliably be "
+"detected. In environments with these obstacles, it is recommended to draw"
+" a ``virtual wall`` around them. In general, objects with a diameter of "
+"less than 7 cm will not reliably be detected."
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:24 852df7a0e8a34b459c556a4ade9cf68e
+msgid "Uneven Floors"
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:28 c866e5a8925b416d9778bba911aac2b0
+msgid "Uneven floors"
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:28 9af763e7f50547a68b22f9f9964f21bf
+msgid ""
+"Avoid uneven floors. The robot cannot drive over obstacles that are more "
+"than 5 mm in height, e.g. thick carpet, gaps in the floor, etc."
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:32 ddf2791029a2433aa8f35113f25b1c68
+msgid "Crowded Spaces"
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:36 6e457e5a607e441e855314001c34853d
+msgid "Crowded spaces"
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:36 b62eb7b8e9c544ec9aaff9daded67246
+msgid ""
+"Do not expect the robot to smoothly navigate crowded spaces. Even in "
+"large areas, where it might seem appropriate to use the robot when empty,"
+" may not be appropriate when full of people. Plan appropriately."
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:40
+#: ../../source/navigation/04_obstacles.rst:44 341974a4d8194b68aa093a85e60cf60c
+#: 912103004b484e2b9822f6edaf2dfe4d
+msgid "Robots"
+msgstr ""
+
+#: ../../source/navigation/04_obstacles.rst:44 7e2a5a3b20994f2095273d6652686455
+msgid ""
+"The temi Robot cannot detect other robots. Using multiple robots in the "
+"same environment may result in collisions."
+msgstr ""
+

@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-13 09:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/basics/05_factory-reset.rst:3 fb74314daaa3461ab4867ad3db6f7864
+msgid "Factory Reset"
+msgstr ""
+
+#: ../../source/basics/05_factory-reset.rst:5 6e354de0752d422eb133ba5068141210
+msgid "The temi Robot has 2 types of factory resets:"
+msgstr ""
+
+#: ../../source/basics/05_factory-reset.rst:7
+#: ../../source/basics/05_factory-reset.rst:12 ba025842d520466fa619513b0a02804b
+#: bba4d09a857f4e0cb65adf11e9822cb3
+msgid "Launcher Reset"
+msgstr ""
+
+#: ../../source/basics/05_factory-reset.rst:8
+#: ../../source/basics/05_factory-reset.rst:26 382858e7731542b587b764228f49de55
+#: 4822dc47e912416a996f2c56facf2570
+msgid "Tablet Factory Reset"
+msgstr ""
+
+#: ../../source/basics/05_factory-reset.rst:13 21293d95bad44eb6bea1b42ddf0a795a
+msgid ""
+"This is the factory reset you may have seen in the Robot's ``Settings`` "
+"menu. This will safely remove the robot from the owner's account, clear "
+"the Robox OS of the current map and all currently saved locations, and "
+"remove all saved Wi-Fi settings. Things that will not be removed, include"
+" (but are not limited to):"
+msgstr ""
+
+#: ../../source/basics/05_factory-reset.rst:15 b01c299a3f8c4bd59ec7482454f3dbf5
+msgid "Apps that were installed via ADB and all associated data"
+msgstr ""
+
+#: ../../source/basics/05_factory-reset.rst:16 07538e1c1941463ab96140f9f43e8e4d
+msgid "Android accounts"
+msgstr ""
+
+#: ../../source/basics/05_factory-reset.rst:18 ef2727f706f14fdc94f5c8c7565afe82
+msgid ""
+"This can be accomplished by selecting ``Settings`` > ``Factory Reset``. "
+"Note that this is equivalent to clearing the storage data and cache of "
+"the ``com.roboteam.teamy.usa`` package:"
+msgstr ""
+
+#: ../../source/basics/05_factory-reset.rst:27 f7ae40795b9d4258a28ac6fb43c4e8c6
+msgid ""
+"This is the factory reset most Android users are familiar with. This will"
+" remove all data from the tablet and return it to the original factory "
+"state. This is equivalent to using the native Android settings menu and "
+"selecting ``Factory data reset``."
+msgstr ""
+
+#: ../../source/basics/05_factory-reset.rst:29 5bafdc74a0a444babb3398b1fd771d21
+msgid ""
+"This may not safely remove the robot from the owner's account. It will "
+"also not clear the Robox OS of its map and saved locations."
+msgstr ""
+
+#: ../../source/basics/05_factory-reset.rst:31 0fd7b7290a424dae8deb9a64183bbc11
+msgid "This can be accomplished with the following command:"
+msgstr ""
+
+#: ../../source/basics/05_factory-reset.rst:37 9a5c3db201bc4c938a53807049d19c8e
+msgid ""
+"Again, this will return the robot's tablet to the factory state. You will"
+" still have a usable temi Launcher, but it may be an older version. So "
+"make sure to select ``Software Upgrade`` in the ``Settings`` menu to "
+"update temi's Launcher."
+msgstr ""
+

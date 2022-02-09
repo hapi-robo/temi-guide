@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-29 13:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/basics/20_temi_center.rst:2 cf0f52c662834af7bacb946c41250bcb
+msgid "temi Center Requirements"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:5 442c89cf7491471eae66f76140633652
+msgid "Hardware Requirements"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:8 edbec37623184b119f58219b795f37ff
+msgid "Requirements"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:10 ce5a4abbd23642c7be432da4f712807b
+msgid "CPU"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:10 77ca19aa2cec4225958e3143346b1f5e
+msgid "i3/i5/i7 or AMD equivalent"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:12 a4a5e5759fb14609a8172d2c0e2ef16c
+msgid "RAM"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:12 0cf665787b19447ea20ec8afce628454
+msgid "8 GB"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:14 af02653778b04d7aa658ba77a0659f18
+msgid "Speaker/Microphone"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:14 748a777998ab4a93916ed240fca0398a
+msgid "Built-in, USB plug-in, or wireless Bluetooth"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:16 49a496a31ed7495783e7d5ebaf2385aa
+msgid "Webcam"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:16 4ed90718461f4c039bffd3d26a64338a
+msgid "Built-in, USB plug-in, or HD camcorder with video-capture card"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:20 6e911c956db8438f8bc4c749d5ba0809
+msgid "Network Requirements"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:21 07064a8a638b434b8db179f092cb3bb9
+msgid "Refer to :ref:`temi-center-network-requirements` for details."
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:25 c8799a004cd74f1e9941b779d70e4e34
+msgid "Supported Web-browsers"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:26 5db4eaa4a9f94a0cbb87528f9036378a
+msgid "`Google Chrome <https://www.google.com/chrome/index.html>`_"
+msgstr ""
+
+#: ../../source/basics/20_temi_center.rst:27 f59c5b692ee54333848b0c28976cb8bb
+msgid "`Apple Safari <https://www.apple.com/safari/>`_"
+msgstr ""
+

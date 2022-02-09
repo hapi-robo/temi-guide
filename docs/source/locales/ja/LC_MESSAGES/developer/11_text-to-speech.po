@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-12 14:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/developer/11_text-to-speech.rst:3
+#: 12c8d205233d463f866405ea0e6e35ab
+msgid "Text-to-Speech"
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:6
+#: 000a2c8ad8fd4065b67652a3feed34a3
+msgid "Single Line of Text"
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:7
+#: b3409b59698341bca1ce7b97c084ee34
+msgid "Speak with text displayed:"
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:18
+#: 9c3dd0b26bdb444392022882e25cf166
+msgid "Speak without text displayed:"
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:30
+#: 527c18c14dbc4b219028f19f8d8d58b9
+msgid "Multiple Lines of Text"
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:31
+#: 4edd27b105844ee9982bc568a80073c8
+msgid ""
+"``speak()`` is an asynchronous method. Therefore, you *cannot* do the "
+"following to speak multiple lines of text:"
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:38
+#: 2d3e836e73ba4bffa7a4bfad808c55f8
+msgid ""
+"To speak multiple lines of text, you must wait for the robot to finish "
+"speaking the first line of text before starting the second line of text. "
+"To check when the robot has finished speaking, you can use the "
+"`TtsListener <https://github.com/robotemi/sdk/wiki/Speech#ttsListener>`_ "
+"interface. For example:"
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:64
+#: a2e3ac37cb8d4487987c85470cdf6de5
+msgid "Languages"
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:65
+#: 66c66bab67054282932dd0059efea17c
+msgid ""
+"The 3rd parameter (```Language``) of ``Tts.create()`` allows the user to "
+"set the language of the TTS system, independent of the system's language "
+"settings. This may be useful if a developer wants to create an app with "
+"TTS that supports multiple languages within the app without having to "
+"switch system language settings."
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:67
+#: 3b6eadb49de34ed0a8413d1568a66c7e
+msgid ""
+"For example, to command the robot to speak in Japanese while the system's"
+" language is set to English:"
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:80
+#: ca68a4679b18419786f1c4ad37fea5bb
+msgid ""
+"When using the ``language`` parameter, TTS may redirect to a different "
+"TTS service provider. For example in Japanese:"
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:82
+#: 44c8fafb350e4317ad8ec7ad9a7ea34f
+msgid ""
+"When the parameter is set to ``TtsRequest.Language.SYSTEM`` (or not set "
+"at all), the robot will use `Google's Text-to-Speech "
+"<https://cloud.google.com/text-to-speech/>`_ service."
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:84
+#: d8e1f13c8afe4c8482c3e229fdc1fbe8
+msgid ""
+"When the parameter is set to ``TtsRequest.Language.JA_JP``, the device "
+"will use `Microsoft's Speech-to-Text service <https://azure.microsoft.com"
+"/en-us/services/cognitive-services/text-to-speech/>`_."
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:86
+#: 16d8dcdb7c5b45ce885b8bc27b494ae1
+msgid ""
+"Since these are different service providers, this may have an impact on "
+"latency."
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:88
+#: 42eb561d373e46c0b68f3ed77e5f89df
+msgid "Please note that this may also affect :ref:`firewall-settings`."
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:92
+#: 5d687687dd664f98b85499d4e8bd0623
+msgid "Example"
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:93
+#: 701dab20d2624870841d4bdcf633b857
+msgid ""
+"`Text-to-Speech <https://github.com/hapi-robo/temi-"
+"guide/tree/master/examples/text-to-speech>`_"
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:97
+#: 1c66ff2597bb42768070b4f0e44b4210
+msgid "References"
+msgstr ""
+
+#: ../../source/developer/11_text-to-speech.rst:98
+#: 1d8f98179c93430b8a1f01188cffb55e
+msgid "`temi SDK: Speech <https://github.com/robotemi/sdk/wiki/Speech>`_"
+msgstr ""
+

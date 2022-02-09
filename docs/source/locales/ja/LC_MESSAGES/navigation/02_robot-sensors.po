@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 14:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/navigation/02_robot-sensors.rst:3
+#: 04a7d22f6db74e1e852ce9770aa2a6fd
+msgid "Navigation Sensors"
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:5
+#: 4d69d9abc57547268a6e697057770cfd
+msgid ""
+"The robot comes equipped with a suite of optical sensors that are used "
+"for navigation. As with all optical sensors, environmental lighting, as "
+"well as surface reflection, transmission, and absorption affect what the "
+"sensors are able to detect. In turn, these can affect navigation "
+"performance."
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:8
+#: e178e02d2e6640d8855e2b0cb291bdb9
+msgid ""
+"Ensure that the sensors are free of dust, fingerprints, or any occlusion."
+" A micro-fiber cloth and/or compressed air duster can be used to clean "
+"the sensors."
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:13
+#: ../../source/navigation/02_robot-sensors.rst:19
+#: 95632b73086a4cdfb15f2872970f7095 b73b4a2a1c634a38bad886372a782778
+msgid "Robot front and rear views"
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:13
+#: 9dce9a4797ac459da565d5273769456f
+msgid ""
+"Robot sensors: (A) Head sensors (see below for details), (B) ground "
+"camera (or depth camera), (C) front ToF sensors, (D) rear ToF sensors, "
+"(E) LIDAR."
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:19
+#: 74331b956f534f9eafd538b526a9e0c1
+msgid ""
+"Head sensors: (A1) head (or depth sensor), (A2) camera, (A3) wide-angle "
+"camera, (A4) RGB camera."
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:23
+#: 6422d90b5e3848c68ff3dfc29ccd2cac
+msgid "LIDAR"
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:24
+#: 8a6e316a74e24fd28f10f7309e5b585c
+msgid ""
+"The primary navigation sensor is the laser, imaging, detection, and "
+"ranging (`LIDAR <https://en.wikipedia.org/wiki/Lidar>`_) sensor. It is "
+"used for mapping the environment and it assists with detecting obstacles."
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:30
+#: 0602aeafe4014d47b30d19088bd72563
+msgid "Depth Camera"
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:31
+#: b883a7b04b1848448d9acc481027de02
+msgid ""
+"The robot has 2 depth cameras. One embedded into the tablet and pointing "
+"in the direction of the tablet, and one just above the LIDAR pointing "
+"forwards towards the ground:"
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:33
+#: c531a419d51f45fabecff33e3b2fea4a
+msgid "**Tablet Camera**: This is used to assist with tracking people."
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:34
+#: c14d928b38154ac28dd4da36101f4566
+msgid ""
+"**Ground Camera**: This is used to detect obstacles directly in front of "
+"the robot on the floor."
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:41
+#: 30b7f2b00d5643449b6a7aee0f708d6e
+msgid "ToF Sensors"
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:42
+#: 69755c751cdd4438b43928366e93c897
+msgid ""
+"The robot has 2 sets of Time-of-Flight (ToF) sensors. Three in the front "
+"pointing upwards, and three on the back (under the tray) pointing "
+"downwards:"
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:44
+#: 9c573cdc4bd648e7a43f213d3205ed26
+msgid ""
+"**Front Sensors**: These are used to detects obstacles, such as tables "
+"directly in front of the robot."
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:45
+#: 3fc800d9c71444c59f6359820b314212
+msgid ""
+"**Back Sensors**: These are used to detect *cliffs*, e.g. stairs, "
+"escalators, genkan, etc. directly behind the robot when moving backwards."
+msgstr ""
+
+#: ../../source/navigation/02_robot-sensors.rst:47
+#: e929880dc4db4bad8ca1e5fb7f4037bf
+msgid ""
+"Do not rely on the depth cameras or the ToF sensors. From our tests they "
+"do not work reliably. We recommend reducing their use (e.g. lower the "
+"obstacle avoidance sensitivity or turn them off completely), and to use "
+"virtual walls in the map."
+msgstr ""
+

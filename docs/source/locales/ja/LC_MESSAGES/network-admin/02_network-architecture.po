@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 12:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/network-admin/02_network-architecture.rst:3
+#: ../../source/network-admin/02_network-architecture.rst:8
+#: ac1d75643ef7477ebd524953949adf39 d5ed8a2aef304777923b9fcb69c99a23
+msgid "Network Architecture"
+msgstr "ネットワークアーキテクチャー"
+
+#: ../../source/network-admin/02_network-architecture.rst:8
+#: b27b6d483e5c4a16b6bcd1c6d3987b16
+msgid "temi network consists of 4 major components: (1) temi Robot, (2) temi Mobile App, (3) temi Center, and (4) temi Cloud."
+msgstr "temiのネットワークは、（1）temi （本体）、（2）temi モバイルアプリ、（3）temi センター、および（4）temiクラウドの4つの主要コンポーネントで構成されています。"
+
+#: ../../source/network-admin/02_network-architecture.rst:10
+#: 91dab1f0dd784302ad8d25bd47984ce6
+msgid "The temi network consists of the following components:"
+msgstr "temiネットワークは、次のコンポーネントで構成されています。"
+
+#: ../../source/network-admin/02_network-architecture.rst:13
+#: 3f37bb45c2d84889a370ee207ee6051c
+msgid "temi Robot"
+msgstr "temi（本体）"
+
+#: ../../source/network-admin/02_network-architecture.rst:15
+#: c90253885eff4b8fb43e52270df7b953
+msgid "A robot with autonomous navigation and remote telepresence capabilities."
+msgstr "自律ナビゲーションとリモートテレプレゼンス機能を備えたロボット。"
+
+#: ../../source/network-admin/02_network-architecture.rst:16
+#: 90611034b95241a790e541b5714b2f3c
+msgid "temi Mobile App"
+msgstr "temiモバイルアプリ"
+
+#: ../../source/network-admin/02_network-architecture.rst:18
+#: cc1c00416844426aa13a726076732d55
+msgid ""
+"A smartphone app (`iOS "
+"<https://apps.apple.com/jp/app/temi/id1332976710?l=en>`_ and `Android "
+"<https://play.google.com/store/apps/details?id=com.robotemi>`_) that can "
+"start a telepresence session with temi Robot."
+msgstr "temi （本体）とのテレプレゼンスセッションを開始できるスマートフォンアプリ（`iOS <https://apps.apple.com/jp/app/temi/id1332976710?l=en>`_ および `Android <https://play.google.com/store/apps/details?id=com.robotemi>`_）。"
+
+#: ../../source/network-admin/02_network-architecture.rst:19
+#: 5882f82b460e4311a855b053e437433a
+msgid "temi Center"
+msgstr "temiセンター"
+
+#: ../../source/network-admin/02_network-architecture.rst:21
+#: 5cd1738847264b60a3cd0da1cf9a5874
+msgid ""
+"A `web-browser application <https://center.robotemi.com/>`_ that can "
+"remotely manage and start a telepresence sessions with temi Robot."
+msgstr "temi（本体）とのテレプレゼンスセッションをリモートで管理、及び開始できる `Webブラウザアプリケーション <https://center.robotemi.com/>`_。"
+
+#: ../../source/network-admin/02_network-architecture.rst:22
+#: 0cb567e901cd410eaaa3038c3cfebe6a
+msgid "temi Cloud"
+msgstr "temiクラウド"
+
+#: ../../source/network-admin/02_network-architecture.rst:24
+#: 1afb880c46c9430f9ef311b03979bfee
+msgid ""
+"A set of web-services. It's primary purposes is to stores user "
+"information and assist with establishing telepresence sessions between "
+"temi Robot and temi Mobile or temi Center."
+msgstr "Webサービスのシステム。主な目的は、ユーザー情報を保存し、temi(本体)とtemiモバイル、又はtemiセンターとの間のテレプレゼンスセッションの確立を支援することです。"
+
+#: ../../source/network-admin/02_network-architecture.rst:26
+#: 78f46fba9b384ba6b9a37b3f7cd4e680
+msgid ""
+"When the temi Robot is connected to the internet, it connects to temi "
+"Cloud to signal its state. When temi `Clients` (i.e. temi Mobile, temi "
+"Center) are started, it also connects to temi Cloud to determine which "
+"robots are available. temi Cloud assists both temi Robots and temi "
+"Clients in establishing telepresence sessions. It is also used to send "
+"software updates, upload diagnostics information, and manage temi Robots "
+"and user permissions."
+msgstr "temi (本体)がインターネットに接続されると、temiクラウドに接続して、状態を通知します。同様に temi `クライアント` （temi モバイル、temi センター）が起動すると、temi クラウドに接続して、使用可能なロボットを判別します。temi クラウドは、temi(本体)とtemiクライアントの両方でテレプレゼンスセッションを確立するのを支援します。また、ソフトウェア・アップデートの送信、診断情報のアップロード、temi(本体)とユーザー権限の管理にも使用されます。"
+

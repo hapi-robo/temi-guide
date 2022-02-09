@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-12 14:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/developer/01_overview.rst:3 a835d1a6aea04ccaa8de3548a31ff978
+msgid "Overview"
+msgstr ""
+
+#: ../../source/developer/01_overview.rst:5 3a63c8a1f4524d889f85b9bcbb0ca65d
+msgid ""
+"Official source code and documentation for temi's SDK can be found at the"
+" following:"
+msgstr ""
+
+#: ../../source/developer/01_overview.rst:7 0022099609944c06924e6e8984becfb5
+msgid "`Source Code <https://github.com/robotemi/sdk>`_"
+msgstr ""
+
+#: ../../source/developer/01_overview.rst:8 aac3eb3a89574bce971b9be270832d1e
+msgid "`Documentation <https://github.com/robotemi/sdk/wiki>`_"
+msgstr ""
+
+#: ../../source/developer/01_overview.rst:10 f8e6ca1e867d4f978fe9c08ad7017f35
+msgid ""
+"The documentation here acts as supplementary material. It goes into more "
+"detail and provides various examples. For any issues concerning the "
+"documentation and/or examples, please raise an `issue <https://github.com"
+"/hapi-robo/temi-guide/issues>`_."
+msgstr ""
+

@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-13 09:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/specifications/usb.rst:3 11f2cf28eb204c338916ffc71805d25c
+msgid "USB"
+msgstr ""
+
+#: ../../source/specifications/usb.rst:6 7d2da0317c95476ea7d8cbcfb2bb96b5
+msgid "Hardware"
+msgstr ""
+
+#: ../../source/specifications/usb.rst:7 88a492352dea4027b3fbe3a1bdb96f75
+msgid "The temi Robot v2 CE is equipped with a USB Host port (5V/900mA, 4.5W)."
+msgstr ""
+
+#: ../../source/specifications/usb.rst:11 3546a4ecbd304bb091d83ce567132da6
+msgid "USB Host Ports"
+msgstr ""
+
+#: ../../source/specifications/usb.rst:12 13eb6f509eec4896939da11acda3b9da
+msgid ""
+"USB host ports are the standard ports found on desktop computers and "
+"laptops. They can be used to attach USB peripherals, like mouse, "
+"keyboard, microphone, webcam, etc."
+msgstr ""
+
+#: ../../source/specifications/usb.rst:14 e4f94d5892cb450794ca0f27ab598986
+msgid ""
+"temi's USB Host port is meant to be used by an Android developer that "
+"wants to create an application that, for example, uses a USB thermal "
+"camera. It is also compatible with some 4G/LTE dongles aimed specifically"
+" at the Chinese market, which allows temi to operate on a mobile "
+"connection instead of Wi-Fi."
+msgstr ""
+
+#: ../../source/specifications/usb.rst:18 04c4d69923644b4c82652b39a23fcba4
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/specifications/usb.rst:19 ea28275b9ad5481294fe04258d4837d7
+msgid "`Q: Can this port be used to access Android like wired ADB?`"
+msgstr ""
+
+#: ../../source/specifications/usb.rst:21 6eb86564f13f4dbc835032b6d43f3193
+msgid "No. USB host ports cannot be used for wired ADB."
+msgstr ""
+
+#: ../../source/specifications/usb.rst:23 6983d952ee4a42fcbcb7014dd40a572d
+msgid "`Q: Is it possible to set permissions on this USB port?`"
+msgstr ""
+
+#: ../../source/specifications/usb.rst:25 ffdd5d456759439a8730566153326696
+msgid "No, this is not possible."
+msgstr ""
+
+#: ../../source/specifications/usb.rst:27 9e61193a21da47cbb1edb1a14e69c8dc
+msgid ""
+"`Q: Can I use a USB camera and/or microphone with temi's video calling "
+"app?`"
+msgstr ""
+
+#: ../../source/specifications/usb.rst:29 25e39304773144baa9eafdf32f9fd0b1
+msgid ""
+"No. temi's current set of applications, including video calling app, do "
+"not support USB cameras or microphones."
+msgstr ""
+

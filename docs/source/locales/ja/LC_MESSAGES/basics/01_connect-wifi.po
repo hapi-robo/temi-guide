@@ -1,0 +1,351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-25 15:08+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/basics/01_connect-wifi.rst:1 36acfd94e6e64284b355c05e7aafa06e
+#: 7d403de3368c4c57a755a568bef01af4
+msgid "wifi"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:4 0ae68f2c76404204b26007f0f1352b77
+#: 492ad76752974938b2547f7d0878377e d6778142f972498c911bb283758e9d39
+msgid "info"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:9 ae29cece46174586bb9ee267f0ed0f0f
+msgid "Robot Wi-Fi Network Setup"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:11 1e59bc2e26a3499e8d8fb357513e9bfd
+msgid ""
+"Use the following instructions to connect your robot to your local Wi-Fi "
+"network. For detailed network requirements, refer to :doc:`Network "
+"Administration: temi Robot <../network-admin/03_temi-robot>`."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:16 77fbf3a1aabe485c9db84e94f6ddfa65
+msgid "Home screen"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:16 b089ef3680d94cb79ecbba5d73496504
+msgid ""
+"Tap on the Wi-Fi icon |wifi| in the top left-hand corner of the screen to"
+" bring up the Wi-Fi network selection menu."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:21 4a2ae02375214d7d9a09d703a3539159
+#: fed6faa76d0d47fd8f117ec1af2898b4
+msgid "Wi-Fi network selection menu"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:21 588c23d038764ab48a5dfa07f1372243
+msgid ""
+"The Wi-Fi network selection menu lists all Wi-Fi networks visible to the "
+"robot."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:25 da1cb72baf344dd2bb3c30cd05f92f75
+msgid "General Wi-Fi Network"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:29 78485618e18b4fc4b5106c7af9a4ff1b
+msgid ""
+"Your Wi-Fi network SSID should appear in the list. If it does not, try "
+"resetting the robot's Wi-Fi by switching it ``オフ`` and then ``オン`` again "
+"(see top right-hand corner of the screen)."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:31 33c56b8d39724bba82712fd45dc69301
+msgid ""
+"If you see your Wi-Fi network, tap on it. It should ask you to enter the "
+"Wi-Fi network's password."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst 11ffbfe1641c4e3e9f354fa5e618ff63
+msgid "Wi-Fi password page"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:36 74feb447437c4eb099681982d8d770f9
+msgid ""
+"Enter your Wi-Fi network's password. Your password will be hidden as you "
+"type. To unhide the password, tap ``表示``. If you want to use a different "
+"keyboard layout, refer to the section about :doc:`Switching Keyboards "
+"<02_keyboard>`."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:38
+#: ../../source/basics/01_connect-wifi.rst:110 5bab79576d9c4894bf9e0c3e784ad6bf
+#: c6b7d6c466b149559a80acd262bf13aa
+msgid "Wi-Fi passwords are case-sensitive."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:43
+#: ../../source/basics/01_connect-wifi.rst:115 645e0545c9224897b141908c9405fe3d
+#: 6b9c83cc81574d929423d5d98420e973
+msgid "Wi-Fi password page (password entered)"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:43 e0a1a6503e79483d85dcb64ee70ec5e6
+msgid ""
+"After entering a valid password, ``接続する`` should appear highlighted in "
+"the top right-hand corner of the screen. Tap this to connect to the Wi-Fi"
+" network."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:135 164d9e8df12e407c9f9bfec6746ae65c
+#: ae646a0c026543498d95be3e0aa54638
+msgid "Successfully connected to Wi-Fi network"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:48
+#: ../../source/basics/01_connect-wifi.rst:135 98b519ff3ead463bb1181a56c2d2f7db
+#: d78c5eab17664f989d449be9194f055a
+msgid ""
+"If your robot is successfully connected to a Wi-Fi network, you will see "
+"``接続されました`` directly below the Wi-Fi network name (or SSID)."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:50 51c21a174bb14b10a1f3006aa20ff1b2
+msgid ""
+"To the right of your connected Wi-Fi network, there should be an "
+"information icon |info|. Tap this to see some Wi-Fi connection details."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:160 170113fe2a2b4e8399686050c1b2f66c
+#: f68c4d29de824ed284d59e460848b059
+msgid "Wi-Fi connection details"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:55 267265eb2d2d453eb415734a8fb6e6ee
+msgid "The Wi-Fi connection details page show:"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:57 101b2bc00ae64f1a8771a6611c69070a
+msgid "Network name (or SSID)"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:58 2d4b5786f767474b958d93b1349dfd4c
+msgid "Status information,"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:59 7bf747138d8341a38d07254d3e6f9085
+msgid "Signal strength (see :ref:`temi-robot-wifi-requirements` for requirements)"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:60 3cbf326ee3284889ada068e09defdf0b
+msgid "Network bandwidth"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:63 f50a79fb6a9843ce9f114ba72757cad8
+msgid ""
+"The ``network bandwidth`` value in the connection details page is the "
+"connection bandwidth between the robot and Wi-Fi access point. It is "
+"`not` the internet bandwidth."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:67 da1d0e6ed1104a42b774425c2c7bb58e
+msgid "Hidden Wi-Fi Network"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:68 032352922d7a4f29b66160aab1f9bf8b
+msgid ""
+"If you are using a hidden Wi-Fi network, you will need to enter your Wi-"
+"Fi network details manually. To do this, scroll down to the bottom of the"
+" Wi-Fi network selection menu."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:73 0ae84a7e7d444594b54253ab128adcaf
+msgid "Add Wi-Fi network"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:73 a1e1761ee74d4591969d2cc77ca8a7eb
+msgid ""
+"At the bottom of the Wi-Fi network selection menu, there should be an "
+"option ``ネットワークを追加``, which will allow you to enter network details "
+"manually. Tap this to get started."
+msgstr ""
+
+#: b0be9dabcbf548bca90423961ba8bd2b
+msgid "Manually enter Wi-Fi network details"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:78 f06185db37f7401a838957f8c00cc8b6
+msgid ""
+"This is the ``ネットワークを追加`` page for manually entering Wi-Fi network "
+"details."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:80 68728990176e41429e35c8c22b7b2561
+msgid "Tap ``ネットワーク名`` to enter the Wi-Fi network's name (or SSID)."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst e4a4f9515c1e40369cca64699d79f34e
+msgid "Wi-Fi SSID name"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:85 99a022fbcc83499db2ce45c9c8774659
+msgid "Enter the name of your Wi-Fi network (or SSID)."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:87 a17f8ee840df407a9140677681c1881f
+msgid "Wi-Fi network names (or SSIDs) are case-sensitive."
+msgstr ""
+
+#: 6498a2d92636431fa3d847dd3257448b
+msgid "Wi-Fi SSID name (name entered)"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:92 646a5042d2dd4efc803fbbb6e1e6800a
+msgid ""
+"After entering a name, ``完了`` should appear highlighted in the top right-"
+"hand corner of the screen. Tap this to save and return the ``ネットワークを追加`` "
+"page."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:94 1775b8fe22c84cd9b14935ad76523011
+msgid ""
+"From the ``ネットワークを追加`` page, tap ``セキュリテイ`` to select the Wi-Fi network's"
+" security type."
+msgstr ""
+
+#: 500b1dbac7b74d14ac7e2128b549c6e4
+msgid "Wi-Fi security"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:99 541e1ba58a974eb1909e0ffd1360578e
+msgid ""
+"Select your Wi-Fi network's security type. Tap ``完了`` to save the "
+"selection and return to the ``ネットワークを追加`` page."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:101 ae5fbe28851b437c9ef3e98caa82e0a3
+msgid ""
+"For general home and/or small business networks, the Wi-Fi network's "
+"security type for a modern access point is usually ``WPA/WPA2 PSK``."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:103 2f538121813b464493f524fba4929695
+msgid ""
+"If you have selected a Wi-Fi security type that is not ``なし``, you should"
+" see an option to enter your password. Tap ``パスワード`` to enter your Wi-Fi "
+"network's password."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst 2a4c95859136406a91f64a07261a42a6
+msgid "Wi-Fi password"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:108 8056dec85ce04d77bb1b100117bf63ab
+msgid ""
+"Enter your Wi-Fi network's password. Your password will be hidden as you "
+"type. To unhide the password, tap ``表示``."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:115 1e012e0a8cf644ba8f8fd2a0f3fcabf9
+msgid ""
+"After entering a valid password, ``完了`` should appear highlighted in the "
+"top right-hand corner of the screen. Tap this to save the password and "
+"return to the ``ネットワークを追加`` page."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:120
+#: ../../source/basics/01_connect-wifi.rst:125 41222ff1ab4743a0bcf71d22d2e2d68c
+#: 4e73d37272e245f593e558f27ee4e18e
+msgid "Hidden network option"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:120 14a333384e8a4c2ca0147062d0c9bc9e
+msgid ""
+"Finally, scroll down to the bottom of the ``ネットワークを追加`` page. There "
+"should be an option ``非表示(ステルス)のネットワーク``. Tap this option to make your "
+"selection."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:125 a0ca7a57467345be95a90b0b9b0fd51e
+msgid ""
+"Select ``はい`` to confirm that the network is hidden. Then tap ``完了`` in "
+"the top right-hand corner of the screen to save the selection and return "
+"to the ``ネットワークを追加`` page."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:130 bf33c485e53547498233017f1daa4789
+msgid "Add Wi-Fi Network page (Complete)"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:130 195c7c83fcf24530b85028f825ffdc7a
+msgid ""
+"In the ``ネットワークを追加`` page, carefully review your network details. If "
+"everything is correct, tap ``追加`` to save these settings and connect to "
+"the Wi-Fi network."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:139 993fcb1280fe4aaaaa2b67a9ab8ee98b
+msgid "Multiple Wi-Fi Networks"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:141 6e5cd1f92d384aa199d98834603fcccf
+msgid ""
+"If you have connected your robot to multiple Wi-Fi networks, you will see"
+" those networks displayed in the Wi-Fi network selection menu."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:146 67ee3f7cfe7749618edb34222894ca11
+msgid "Multiple Wi-Fi networks"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:146 6b046fae82df488b823a646d7d5ad3a7
+msgid ""
+"All Wi-Fi networks that you have previously connected to will be shown in"
+" the Wi-Fi network selection menu as either ``接続されました`` or ``保存しました``."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:148 f0ea1e5885a84978b587d098489ecff4
+msgid "The robot will automatically switch between Wi-Fi networks."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:150 4d6c3b3b38b34534a8a368fd2e40b864
+msgid ""
+"To improve network stability, it is generally recommended to save and to "
+"connect to only one Wi-Fi network."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:152 edad65be6e884d138d6ca2ff1e531333
+msgid ""
+"To forget previously saved Wi-Fi networks: Go to the Wi-Fi network "
+"selection menu, and next to the Wi-Fi network that you want the robot to "
+"forget:"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:154 9572e7a7126949988c219804e4dd86d6
+msgid ""
+"Tap on ``解除`` (if the robot is currently not connected to this Wi-Fi "
+"network), or"
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:155 c95ddd431be645ae97265d7e6572d99c
+msgid ""
+"Tap on the information icon |info| (if the robot is currently connected "
+"to this Wi-Fi network), and select ``解除``."
+msgstr ""
+
+#: ../../source/basics/01_connect-wifi.rst:160 b8ce0e714c3c440d9072b605e91ef626
+msgid ""
+"From the Wi-Fi connection details page, tap on ``解除`` to forget this Wi-"
+"Fi network."
+msgstr ""
+

@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-12 14:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/developer/12_speech-to-text.rst:2
+#: f54c4269f8434caa8346b0f0fc71d709
+msgid "Speech-to-Text"
+msgstr ""
+
+#: ../../source/developer/12_speech-to-text.rst:5
+#: 60db4601a4634c8eb55ccf673e0e1d5f
+msgid "Conversation Status"
+msgstr ""
+
+#: ../../source/developer/12_speech-to-text.rst:6
+#: 30e862070f384c66843f7e1c4b56e61f
+msgid ""
+"If you want to detect situations where the user does not respond "
+"immediately to ``askQuestion()``, you can use the "
+"``OnConversationStatusChangedListener``."
+msgstr ""
+
+#: ../../source/developer/12_speech-to-text.rst:9
+#: 54e99cc2d37746268f8f389d1329e424
+msgid ""
+"For `OnConversationStatusChangedListener` to work correctly, the skill "
+"must be set to `Kiosk Mode <https://github.com/robotemi/sdk/wiki/Kiosk-"
+"Mode>`_."
+msgstr ""
+
+#: ../../source/developer/12_speech-to-text.rst:13
+#: a92e33cf8c59483ebd179088cd0f4574
+msgid "Example"
+msgstr ""
+
+#: ../../source/developer/12_speech-to-text.rst:14
+#: e84d0678bf4a44948275568e7a065e3c
+msgid ""
+"`Speech-to-Text <https://github.com/hapi-robo/temi-"
+"guide/tree/master/examples/speech-to-text>`_"
+msgstr ""
+
+#: ../../source/developer/12_speech-to-text.rst:18
+#: 4fa4f84b5e8f491d9b794dd89260d9af
+msgid "References"
+msgstr ""
+
+#: ../../source/developer/12_speech-to-text.rst:19
+#: 822fffa262a8453794aea25c3231e781
+msgid "`temi SDK: Speech <https://github.com/robotemi/sdk/wiki/Speech>`_"
+msgstr ""
+

@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-12 14:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/developer/20_permissions.rst:2 2ff9ce7dd2f74a6e8edfb8251f6ae1f7
+msgid "Permissions"
+msgstr ""
+
+#: ../../source/developer/20_permissions.rst:4 28f79583d13049e09fbccc890ffd3e54
+msgid ""
+"Permissions must be enabled for certain features to work. There are 4 "
+"types of permissions: (1) Face Recognition, (2) Map, (3) Settings, and "
+"(4) Sequence."
+msgstr ""
+
+#: ../../source/developer/20_permissions.rst:8 26a9917630a34070b166530a9908d679
+msgid "How To"
+msgstr ""
+
+#: ../../source/developer/20_permissions.rst:9 45c36157365449ae88b41a90490ea51b
+msgid ""
+"Add the following ``meta-data`` tag so that you can configure the app's "
+"permissions through temi's launcher."
+msgstr ""
+
+#: ../../source/developer/20_permissions.rst:22
+#: dc0a319ec929465a9a7da4fa8d95e70c
+msgid ""
+"To request multiple permissions, append and separate them with a comma "
+"(,)."
+msgstr ""
+
+#: ../../source/developer/20_permissions.rst:38
+#: 670481f066e14ab6a45509b01fc661f0
+msgid ""
+"Then in ``Settings`` > ``Apps`` > ``Permissions`` menu, select the "
+"appropriate permission and enable the permission in your app."
+msgstr ""
+
+#: ../../source/developer/20_permissions.rst:43
+#: 7f1e7d38093f425d90a986d8040e9161
+msgid "Settings > Apps > Permissions"
+msgstr ""
+
+#: ../../source/developer/20_permissions.rst:43
+#: 88c09e61b9ee4d72aec84fdeefae727c
+msgid "temi's Settings permissions page (Launcher OS 14759)."
+msgstr ""
+
+#: ../../source/developer/20_permissions.rst:47
+#: 8a21f2978a6141eaa227db61b240436f
+msgid "References"
+msgstr ""
+
+#: ../../source/developer/20_permissions.rst:48
+#: 953c00e524b54499873f1e8611fdef66
+msgid "`temi SDK: Permissions <https://github.com/robotemi/sdk/wiki/permission>`_"
+msgstr ""
+

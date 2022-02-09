@@ -1,0 +1,306 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 14:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/navigation/05_map.rst:5 6e777b819b0a41328704cdc72cff1cf0
+msgid "Creating a Map"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:7 6b00e37e5faa42c6b5f109e1b05dc571
+msgid ""
+"For the robot to navigate reliably, it is very important to build a good "
+"quality map."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:10 d23df3a55590428abeb3254b250b7d1d
+msgid "Occupany Grid"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:11 86e1349360214fe8a534a2179a8ca248
+msgid ""
+"The map that is shown in the robot's ``Settings`` > ``Map`` menu and in "
+"temi Center is what is called an `Occupany Grid "
+"<https://en.wikipedia.org/wiki/Occupancy_grid_mapping>`_. Each pixel in "
+"the map represents the probabiliy of an obstacle at that location as seen"
+" by the LIDAR."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:13 e76a37c1c29440bd979209993af2069b
+msgid "Dark-colored pixels (black) represent high-probability of an obstacle"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:14 943276ae385149968fa8de00987c09e6
+msgid "Light-colored pixel (white) represent low-probability of an obstacle"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:17 2b8facc6f3044670aa684c5eb1723f7c
+msgid "Good vs. Bad Map"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:18 da5542a63e1e4e3c9382e8c15a319d48
+msgid ""
+"A good map is an occupancy grid that accurately represents the real "
+"world. Sometimes, passing over an area once isn't enough."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:23 43d142775c3e42228d9841cf2a3e9fc0
+msgid "Good versus bad map"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:23 5193b3124cdd4545a78b46d8a72579d9
+msgid ""
+"These images show the occupancy grid of the same environment. The left "
+"image shows the map after a quick single pass of the environment. The "
+"right image shows the map after multiple slow passes around the "
+"environment. Notice that the walls (or ``features``) are darker. In this "
+"case, the right image is the better map."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:27 d96de7fd77e14b0aa27b938526470dcb
+msgid "Features"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:30 8b6f9c98d81e41068321b706ea597487
+msgid "Natural"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:31 6d64a936f3b448cfbb6b3e59ff918b1c
+msgid ""
+"Dark-colored pixels are what we refer to as `natural features`, and they "
+"are what helps the robot to estimate its location in the map. Without "
+"`natrual features`, the robot would be lost. Therefore, for reliable "
+"navigation it is important to have lots of features in the map."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:36 18e4b68d8c3e47d6a2a27b7401e38484
+msgid "Feature versus featureless map"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:36 6483c43c73e241e088c15922ae03539b
+msgid ""
+"The left image shows a featureless corridor. The right image shows a "
+"corridor with many features, e.g. bookshelf, column, etc. The robot will "
+"more reliably navigate the corridor shown in the right image."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:39 aea3a3ce4a3b41e79404972a88853707
+msgid "Artificial"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:44 f2bfb090b84b4664941963327a4b4cd7
+msgid "Virtual Walls"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:45 b7ddf6ebf5284ca2b50840dc07aa65f5
+msgid "Virtual walls can be created directly with the robot or in temi Center."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:47 44ad565b8a76474693a071fedd018a82
+msgid ""
+"Virtual walls should be used to block off areas that are not clearly "
+"shown in the map, e.g. chairs, glass walls, tables, stairs, escalators, "
+"genkan, ramps, etc. They should also be used to areas that you don't want"
+" the robot to go."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:49 8294b5016b2149bc8b86b5dfd9d202f7
+msgid ""
+"Use virtual walls to also block off areas that have not been mapped (map "
+"edges) to reduce path planning time."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:51 65efb3199ee5474585ab06c19aaa939f
+msgid ""
+"In open dynamic environments, we recommend building a `virtual corridor` "
+"using virtual walls to keep the robot from moving too far off course."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:56 554ba88d8c2f4f69a5834de0d4e96968
+msgid "Using virtual walls to create a virtual road"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:56 df5917f8313747658a98c9003e107e08
+msgid ""
+"This is an example of a large open dynamic environment. In this case, it "
+"was better to use virtual walls to create a virtual corridor for the "
+"robot to reliably navigate."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:62 218d6808b7bf4d01921ad154449f9ba3
+msgid "Green-Paths"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:63 09f30afae0924f768b9eece892b67cad
+msgid ""
+"Green paths can be created directly with the robot and/or in temi Center."
+" We recommend doing this in temi Center after virtual walls and locations"
+" have been defined."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:65 3f226a6ef9d74c069e48682fede262fc
+msgid ""
+"Adding green-paths can reduce path-planning time and in general improve "
+"navigation reliability. We recommend drawing green-paths between each "
+"location."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:69 f3e3103ac3c34d7684858f81f9c0e0bf
+msgid "General Recommendations"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:70 e64667025ad84adbb3fed489eee1f230
+msgid ""
+"**Start small.** Start with a small area (e.g. 50 m\\ :sup:`2`), and as "
+"you become more comfortable with the robot's ability to navigate, "
+"increase the area. Keep in mind the :ref:`navigation-environment-"
+"operating-area`."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:71 e3547c3e9b894c22bd9a1563a1d58037
+msgid ""
+"**Move slowly.** Maintain a distance of approximately 1.0 - 1.5 m with "
+"the robot following you around the environment during mapping. Watch the "
+"map on the screen as it's being built. Make sure it correctly captures "
+"all the features. Go around the area again and/or walk-in a circle to "
+"capture as many features as possible."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:72 302b5276089f49adb71ca470d826d9d3
+msgid ""
+"**Loop closure.** Avoid building maps that are just straight lines, e.g. "
+"hallway, a single shopping aisle, etc. Map generation works best when the"
+" robot is led around the environment in a loop and is allowed to revisit "
+"the same locations from different trajectories."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:73 221a86db7ab3453588f85b9e85cbf1dc
+msgid ""
+"**Green-paths and virtual walls.** Use :ref:`_navigation-map-virtual-"
+"walls` to constrain the robot's operating environment, and use :ref"
+":`navigation-map-green-paths` to assist the robot with finding the best "
+"route to a location."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:77 3838a8dfd55840dfaa5c41c8f1776c01
+msgid "General Process"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:82 e757c196f2e04d3292efdcc3b1d2eb44
+msgid "Example office layout"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:82 6823654c724b46db995bac003344f40c
+msgid "The map that the robot creates should look similar to its physical layout."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:87 936589b571844488bae3d5518d75ed63
+msgid "Virtual walls"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:87 ab94686f997942c7819f3b58a4881908
+msgid ""
+"Close off any areas with virtual walls that were not correctly seen by "
+"the robot, e.g. glass walls, stairs, etc. Add virtual walls to prevent "
+"the robot from going to places it does not need to go or to prevent from "
+"considering such paths in its calculations."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:92 c8185c7a77164c5a96559540cffd06a0
+msgid "Locations and green-paths"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:92 bab1389209ab4f8e8485e4e3467f04dc
+msgid ""
+"Add locations to the map. Then add green paths to provide the robot with "
+"recommended navigation routes, e.g. shortest route, routes with the "
+"fewest obstacles, etc."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:96 ec69de47c52c4789ab867c06a6a8b94c
+msgid "Examples"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:97 ba78e20449454e25a20751f795347c49
+msgid ""
+"The following are some examples of real-world maps, issues and "
+"recommendations."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:100 a17e2a6ef2554124969eec7541b4384b
+msgid "Scenario A"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:105 c07c376d1369434f8c596fbca48a8de4
+msgid "Original map"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:105 68c6d66d21874f8fbecb2365a8b7decb
+msgid ""
+"This is the original map. Notice that some locations are in the virtual "
+"walls. There is no green-path. The environment is also not bounded, "
+"leading to large path-planning times."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:110 706cfd8d91ec4342aaeceee4e6ac194a
+msgid "Recommendations"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:110 11c6821a1b4043c4b263888161e46666
+msgid ""
+"Recommendations: Bound the environment with virtual walls and add green "
+"paths."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:115 9f2ad1d2a2604cfab2ee3ecb33f4857e
+msgid "Ideal"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:115 b14d1d9f62504098b3339e1c133e32fb
+msgid ""
+"All artificial features (i.e. locations, virtual walls, and green-paths) "
+"can be added quickly with temi Center."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:118 dc3abf72f33b4ffb94a78e6df5876b07
+msgid "Scenario B"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:123
+#: ../../source/navigation/05_map.rst:132 325088ee22de4877b7b19fd840ce22b7
+#: e3aee01a2fdb44e888caa7ba6fd8f238
+msgid "Recommended map"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:123 36b471a9ad9e40a89ab4b1d32d0286e1
+msgid ""
+"Open office space with lots of tables and chairs that can be moved "
+"around. Used virtual walls to define a `virtual corridor` for the robot "
+"to operate in and defined green-paths to assist with path-planning."
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:127 5266358e59b94c4fa6c91e83de45253d
+msgid "Scenario C"
+msgstr ""
+
+#: ../../source/navigation/05_map.rst:132 e9bbd1f321284b50bfb40372fed53b17
+msgid ""
+"Long corridor with many rooms that are not clearly mapped out. Used "
+"virtual walls to define a `virtual corridor` for the robot to operate in "
+"and defined green-paths to assist with path-planning."
+msgstr ""
+

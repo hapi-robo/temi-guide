@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 12:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/network-admin/01_overview.rst:6
+#: 97196f5960484c7fbe9b1711a2c5d634
+msgid "Overview"
+msgstr "概要"
+
+#: ../../source/network-admin/01_overview.rst:8
+#: 32292798246044d4850d1660f4a96700
+msgid "This guide should assist in the understanding of the following concepts:"
+msgstr "temiを快適にお使いいただくためのネットワーク環境のガイドラインとして参考にしてください。"
+
+#: ../../source/network-admin/01_overview.rst:10
+#: 8cb4fb963416467aa7914faaee08bbda
+msgid "Best practices"
+msgstr ""
+
+#: ../../source/network-admin/01_overview.rst:11
+#: 8c41c86e3d414a3cba56467762b15d2f
+msgid "Network Architecture"
+msgstr ""
+
+#: ../../source/network-admin/01_overview.rst:12
+#: de53fd3388a44b2697bdb33b547ebaf4
+msgid "Security and privacy policies"
+msgstr ""
+
+#: ../../source/network-admin/01_overview.rst:13
+#: b6986e682d4d42ffaf7f6ebfaa694cb4
+msgid "Requirements and considerations for proper setup and operation"
+msgstr ""
+
+#: ../../source/network-admin/01_overview.rst:15
+#: 121d8320726041deae7d204cba19ee65
+msgid ""
+"This guide is written for system administrators responsible for managing "
+"business networks and hardware. It assumes that you are familiar with:"
+msgstr "このガイドは、ビジネスネットワークとハードウェアの管理を担当するシステム管理者で、下記の内容を良く理解されていることを前提としています："
+
+#: ../../source/network-admin/01_overview.rst:17
+#: b2892751f8a44928977a8bf2222a0759
+msgid "Network configuration"
+msgstr ""
+
+#: ../../source/network-admin/01_overview.rst:18
+#: 8b5979c1661546889ffd6bc55bb62c9d
+msgid "Network security"
+msgstr ""
+

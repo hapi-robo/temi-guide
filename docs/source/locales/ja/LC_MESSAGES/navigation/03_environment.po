@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 14:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/navigation/03_environment.rst:5
+#: c20bc69f4c224516bcbf83d324adfc0d
+msgid "Environment"
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:7
+#: 0aa979d49fc748cdb83d4920e6375692
+msgid ""
+"The following is a list of ideal conditions that should ensure reliable "
+"navigation."
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:12
+#: e69203216abf4081a83660b36b1cf432
+msgid "Operating Area"
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:16
+#: ../../source/navigation/03_environment.rst:21
+#: 0595d59e2dd241ed96204d31531c11f4 e87620b27ec442208eac3155d41f6a0b
+msgid "Operating area"
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:16
+#: be6b3137cd374f17b131d070259b6e88
+msgid ""
+"The map should not be more than 50 m radius (``r``) from the Home Base. "
+"In comparison to a small area, a large are will require more memory and "
+"computational power. This generally will result in lower navigation "
+"performance."
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:21
+#: 5f9efe96c1084969826e656da7d74746
+msgid ""
+"The Home Base should be placed against a flat wall/surface, and a 50 cm "
+"radius (``r``) around the Home Base should be free of obstacles."
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:25
+#: 8b379a4eb4444e15a5207da0c6b5f6f0
+msgid "Lighting"
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:29
+#: ../../source/navigation/03_environment.rst:34
+#: 20dd130f490541b392e7a296276bd6e0 c1f4c5acafc54f139985b836c6b0c039
+msgid "Lights"
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:29
+#: dc6a532afd32475d888788005f8ac706
+msgid ""
+"Due to its use of optical sensors, it is best to use the robot in "
+"environments with artificial light (left). It is preferable to avoid area"
+" of bright direct sunlight (right). For more details, see below."
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:34
+#: 78e82891d0db4633b80695f467ecc3a8
+msgid ""
+"Avoid using the robot in areas of bright direct sunlight. High intensity "
+"light can blind the robot's sensors, resulting in poor navigation "
+"performance."
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:38
+#: 1767552c65ca4c5b947775478e69296b
+msgid "Floor"
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:42
+#: e91a371bc7164d4fa5e888b4e3b60253
+msgid "Floors"
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:42
+#: 950ef11d4d634a5daae4a56ae77786ab
+msgid ""
+"Floors should be of a light color, non-reflective, and solid (left). Dark"
+" colored,  reflective, and/or transparent floors (right) can confuse the "
+"robot's optical sensors, resulting in poor navigation performance."
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:47
+#: 823af0f830f54f3b98112c20b33d207e
+msgid "Cliffs"
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:47
+#: 80e055176fec47809012672e8d948ea2
+msgid ""
+"Environments with *cliffs*, such as stairs (top-left), escalators "
+"(bottom-right), genkans (bottom-left), etc. are *not* recommended. Ramps "
+"with an incline of more than 3 degrees (top-right) should be avoided. If "
+"the robot is to be used in such environments, it is strongly recommended "
+"to add a ``virtual wall`` around the cliffs in the map."
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:51
+#: ../../source/navigation/03_environment.rst:55
+#: 51de0c24608e4c818b189ed71548fe57 7b531dd026224137ae089598f7754d77
+msgid "Walls"
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:55
+#: 7dd1dbeea2b04944940c512ab54e4a0b
+msgid ""
+"Walls should be of a light color, non-reflective, and solid (left). Dark "
+"colored,  reflective, and/or transparent walls (right) can confuse the "
+"robot's optical sensors, resulting in poor navigation performance."
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:60
+#: f6661d9c922b472c910cda511dfdf9fc
+msgid "Space"
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:60
+#: 0df176f628524f03b8357baea1309eba
+msgid ""
+"Give penty of room for the robot to navigate (left). Narrow corridors "
+"(right) will lower navigation performance. We recommend that the minimum "
+"width (for corridors, doorways, etc.) be at least 100 cm."
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:64
+#: 0e84f4cde18542f2ab892622e2a3fee8
+msgid "Dynamic Environments"
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:68
+#: de241aedab0c407baa60b8de39d5ac6f
+msgid "Temporary objects"
+msgstr ""
+
+#: ../../source/navigation/03_environment.rst:68
+#: 06d8672a5fe54b57a6b14d75183f6271
+msgid ""
+"Warehouse environments where pallets may be in a location one day and "
+"gone the next, open-office spaces where tables and chairs can move "
+"freely, environments with sliding/movable wall partitions, etc. all "
+"require careful planning for robot navigation to work reliably. In these "
+"environments, it is recommended to use :ref:`navigation-map-green-paths` "
+"and :ref:`navigation-map-virtual-walls` to define the where a robot can "
+"and cannot go. For more details, see :doc:`05_map`."
+msgstr ""
+
+#~ msgid "Environment limitations"
+#~ msgstr ""
+

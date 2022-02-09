@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-12 14:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/developer/14_user-detection-tracking.rst:3
+#: e971370603a845d2a3ce0b5dbb5e96d8
+msgid "User Detection & Tracking"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:5
+#: 30fe0fbc7cc94c498987a638f96aa23f
+msgid ""
+"The temi SDK allows the developer to `detect` when a person is standing "
+"in front and/or interacting with the robot. In addition to this, there "
+"are methods that can be used to `track` a person when he/she is within "
+"its field of view."
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:7
+#: 85490a29db2b4dd4b8b99ba63586a6c7
+msgid ""
+"**Detection Mode**. Senses the presence of 1 or more persons within the "
+"field of view of the RGB camera."
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:8
+#: ff1a4b1fc41e441da895be9e417edbf3
+msgid ""
+"**Tracking Mode**. Configures the robot in `Constraint Follow Mode "
+"<https://github.com/robotemi/sdk/wiki/Follow#constraintBeWith>`_. The "
+"robot will turn its base and tilt its screen to follow a person when that"
+" person is detected."
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:11
+#: 505622094a724f2aa88ffec43d910530
+msgid "Usage"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:12
+#: 68ed66ffe94549b093e885cc8cee8041
+msgid ""
+"For detection and/or tracking to work properly, the app must be set to "
+"`Kiosk Mode <https://github.com/robotemi/sdk/wiki/Kiosk-Mode>`_."
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:14
+#: 3d08ce7ce6494e9bab0525349b70a945
+msgid ""
+"The app must have `Settings Permissions` in order to use "
+"`setDetectionModeOn "
+"<https://github.com/robotemi/sdk/wiki/Detection-&-Interaction#setdetectionmodeon->`_"
+" and `setTrackUserOn() "
+"<https://github.com/robotemi/sdk/wiki/Detection-&-Interaction#setTrackUserOn>`_,"
+" which are used to turn on detection mode and tracking mode, "
+"respectively. To enable `Settings Permissions` and other permissions, "
+"refer to :doc:`20_permissions`."
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:18
+#: a8869f48558b42029883056535f60b8f
+msgid "setDetectionMode()"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:18
+#: ../../source/developer/14_user-detection-tracking.rst:56
+#: 0843d7802e244261b9a88770d5ac3c82 a0ab0e12c8a14a898b6a87ad3cb5f20d
+msgid "setTrackUserOn()"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:18
+#: 58daf00ca5ed4233854582d1733e1957
+msgid "Result"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:20
+#: ../../source/developer/14_user-detection-tracking.rst:22
+#: ../../source/developer/14_user-detection-tracking.rst:24
+#: 240fa2bd8d6d484cb36196c3ba4d462f 447568c9334c4f43a8a7ba49e87d1452
+#: 706022c6815e45909d39ea8acd37a950 ca9bf7be0fdf4fabbce7c991014d19e7
+msgid "True"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:20
+#: e9f29b911d704ae88e16e4c0c252a67d
+msgid "Detection mode is on and tracking is on"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:22
+#: ../../source/developer/14_user-detection-tracking.rst:24
+#: ../../source/developer/14_user-detection-tracking.rst:26
+#: 106e5829668d4b8fb586deba6c616fee 122fca87dd73497aa4560d1f530a00ad
+#: 126b9344f7e24e3d81ef499b3aec9796 285bb3e7d532430aac0c0591ab58279b
+msgid "False"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:22
+#: a7b072eb98014e42aad379297b3a347d
+msgid "Detection mode is on and tracking is off"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:24
+#: 83d8429b6fbb49ba81ddf9e746db2257
+msgid "Detection mode is **on** and tracking is on"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:26
+#: a23d44e87baa46a3a3246a514e12be74
+msgid "Detection mode is off and tracking is off"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:29
+#: 09bc777826a64592a2cd352d8842e7c0
+msgid ""
+"For example, to enable detection mode and tracking mode, add the "
+"following code after the robot is ready."
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:42
+#: 867ca36b524c41039e1ee6b7be97b26d
+msgid "setDetectionModeOn()"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:43
+#: 3c7ae1a6605e4fee97c6fd9da824a187
+msgid ""
+"Enables or disables detection mode. Optionally, you can configure the "
+"detection range."
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:46
+#: ../../source/developer/14_user-detection-tracking.rst:60
+#: 9cf9172887f34a9db9d980af10607506 b02fbcc383864634bfef8c5913ff47c0
+msgid "Syntax"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst
+#: 0376a0eadf7e4b648d99ac1dc3933f23 fc1d2d8a7d9d42e880b87be8ffcd650e
+msgid "enable"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:51
+#: 85d168efb4664538aa5cf51e198bea5c
+msgid ""
+"Boolean value that enables (``true``) or disables (``false``) detection "
+"mode."
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst
+#: 0df8dd029b0743939e25a3718a700518
+msgid "maxRange"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:52
+#: 19f6ac6fcc63473d841a17999775bb1e
+msgid ""
+"A floating-point value that can be set between 0.5 and 2.0 (units are in "
+"meters). Do not expect accurate results. The sensor that is used for "
+"detection is not calibrated for this type of application. You should "
+"expect different robots to show different results."
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:57
+#: 2e0294a5438448d2b0b90243afd48e72
+msgid ""
+"Enables or disables tracking mode. Alternatively, `tracking` can be "
+"enabled/disabled by going to ``Settings`` > ``General Settings`` > "
+"``Tracking User``."
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:65
+#: a5e9ab15fb8a41c58b49ba353c5cd3fb
+msgid ""
+"Boolean value that enables (``true``) or disables (``false``) tracking "
+"mode."
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:68
+#: b4f62b0e8da34f29a31b08eb9d3092d0
+msgid ""
+"If ``setTrackUserOn(true)`` is used, tracking will still be enabled even "
+"after the application exits. You can verify this by going to ``Settings``"
+" > ``General Settings`` > ``Tracking User``."
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:72
+#: 7c64f4f584994d1ab26fb88810da1e88
+msgid "Example"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:73
+#: 9caecf8f19bb4a3586118e13a53a0178
+msgid ""
+"`User-Detection <https://github.com/hapi-robo/temi-"
+"guide/tree/master/examples/user-detection>`_"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:77
+#: 462ea55cad7246cc8e51c6459217a948
+msgid "References"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:78
+#: 70bb643d4b2144558843ca49a3b760c0
+msgid ""
+"`temi SDK: Detection & Interaction "
+"<https://github.com/robotemi/sdk/wiki/Detection-&-Interaction>`_"
+msgstr ""
+
+#: ../../source/developer/14_user-detection-tracking.rst:79
+#: cb6413f204b4451d967635d85fce02fc
+msgid "`Permissions <https://github.com/robotemi/sdk/wiki/permission>`_"
+msgstr ""
+
+#~ msgid ""
+#~ "The app must have `Settings Permissions`"
+#~ " in order to use `setDetectionModeOn "
+#~ "<https://github.com/robotemi/sdk/wiki/Detection-&-Interaction#setdetectionmodeon->`_"
+#~ " and `setTrackUserOn() "
+#~ "<https://github.com/robotemi/sdk/wiki/Detection-&-Interaction#setTrackUserOn>`_,"
+#~ " which are used to turn on "
+#~ "detection mode and tracking mode, "
+#~ "respectively. To enable `Settings Permissions`"
+#~ " and other permissions, refer to "
+#~ ":doc:`permissions`."
+#~ msgstr ""
+

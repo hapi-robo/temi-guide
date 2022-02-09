@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-30 12:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/network-admin/21_faq.rst:3 8306c60a388c442eb71d30ef7a6ce620
+msgid "Frequently Asked Questions"
+msgstr "よくある質問"
+
+#: ../../source/network-admin/21_faq.rst:5 4f1b74dd25d043e892cbdd3802ae0057
+msgid ""
+"`Q: Are there signal strength requirements for temi Mobile App and/or "
+"temi Center?`"
+msgstr "`Q：temiモバイルアプリやtemiセンターの信号強度条件はありますか？`"
+
+#: ../../source/network-admin/21_faq.rst:7 ee3af644b044484eb09175d2f79d5c44
+msgid ""
+"First some background information: Signal strength for the robot is "
+"provided because the robot moves around in the environment. The signal "
+"strength changes depending on where it is. Access points have a tendency "
+"to automatically lower connection bandwidth if the signal strength is "
+"below a threshold."
+msgstr "いくつかの背景情報：ロボットがその環境内を動き回るため、ロボットのための信号強度が必要とされます。信号強度は場所によって変化します。信号強度がしきい値を下回ると、アクセスポイントは接続帯域幅を自動的に下げる傾向があります。"
+
+#: ../../source/network-admin/21_faq.rst:9 004a3adeef3445fc9f7cc8c6bfa1f314
+msgid ""
+"In general, a user that is using the temi Mobile App and/or temi Center "
+"(on a PC) will not continuously move around the environment like the "
+"robot. In general, the signal strength will remain the same. So if the "
+"bandwidth requirement is met for these devices, there should be no issue."
+msgstr "一般に、temiモバイルアプリやtemiセンター（PC上）を使用しているユーザーは、ロボットのように環境内を継続的に移動することはありません。一般に、信号強度は同じままです。したがって、これらのデバイスの帯域幅要件が満たされていれば問題はありません。"
+
+#: ../../source/network-admin/21_faq.rst:11 82654d6d208a440ab837635605150c9f
+msgid ""
+"`Q: What is the range of activity achievable by temi? Can we cover a radius of 50 m from the home base?`"
+msgstr "`Q：temiが活動できる範囲はどのくらいですか？ホームベースを中心に半径50mをカバーできますか？`"
+
+#: ../../source/network-admin/21_faq.rst:13 04a69a4e1379445380dc9f22923985ee
+msgid ""
+"The range of activity is limited by Wi-Fi signal strength and this is "
+"dependent on hundreds of environmental factors. See :ref:`temi-robot-"
+"wifi-requirements` for details."
+msgstr "活動範囲はWi-Fi信号強度によって制限され、これは何百もの環境要因に依存します。詳しくは  :ref:`temi-robot-wifi-requirements` をご覧ください。"
+
+#: ../../source/network-admin/21_faq.rst:15 386b8eec1c6649b3ac6f1a482fa5e1b6
+msgid ""
+"`Q: The recommendation is to use 5 GHz for Wi-Fi connection, but I "
+"understand that 5 GHz has a shorter range in comparison to 2.4 GHz.`"
+msgstr "`Q：Wi-Fi接続には5 GHzを使用することが推奨されていますが、5GHzの方が2.4GHzに比べて範囲が短いのではないですか？`"
+
+#: ../../source/network-admin/21_faq.rst:17 9b88b18a815b4838b5bbbec7a2f6a745
+msgid ""
+"It is true that for the same amount of power 5 GHz has a shorter range "
+"than 2.4 GHz, but that is not important here. What is important is the "
+"Wi-Fi signal strength. If the signal strength meets the requirements, the"
+" robot can use either 2.4 GHz or 5.0 GHz."
+msgstr "同じ電力量の場合、5GHzの範囲は2.4GHzよりも短いのは事実ですが、ここでは重要ではありません。重要なのはWi-Fi信号強度です。信号強度が要件を満たしている場合、ロボットは2.4GHzまたは5.0GHzのいずれかでも使用できます。"
+
+#: ../../source/network-admin/21_faq.rst:19 75f4f263030842279def9ad94947138a
+msgid ""
+"`Q: When trying to start an app, I get the following error: \"This "
+"feature is not available while temi is offline\"`"
+msgstr "`Q：アプリを起動しようとすると、「この機能はtemiがオフラインのときは利用できません」というエラーが表示されます。`"
+
+#: ../../source/network-admin/21_faq.rst 6d7c92215a404f7ca93a073c987d1a86
+msgid "Offline error"
+msgstr "オフラインエラー"
+
+#: ../../source/network-admin/21_faq.rst:24 e6a031b4dda54dd6906fa305a5cbd76c
+msgid ""
+"This error message may appear when selecting an app while temi is not "
+"connected to the internet."
+msgstr "このエラーメッセージは、temiがインターネットに接続されていないときにアプリを選択すると表示される場合があります。"
+
+#: ../../source/network-admin/21_faq.rst:26 03cc0b7d0aa04ae4a72154aa2a8e9215
+msgid "This error generally means that temi is unable to connect to the internet."
+msgstr "このエラーは通常、temiがインターネットに接続できないことを意味します。"
+
+#: ../../source/network-admin/21_faq.rst:28 a7a5b0be213d43989a278df1ed943d03
+msgid "temi is not connected to a Wi-Fi access point."
+msgstr "temiはWi-Fiアクセスポイントに接続されていません。"
+
+#: ../../source/network-admin/21_faq.rst:29 8261da33272f444888e5251bc4a37396
+msgid "Access point / router is not connected to the internet."
+msgstr "アクセスポイント/ルーターがインターネットに接続されていません。"
+
+#: ../../source/network-admin/21_faq.rst:30 9751d444daaf4ba890d33c304e085c2e
+msgid "temi's API server (api.temi.cloud) may be down for maintenance."
+msgstr "temiのAPIサーバー（api.temi.cloud）がメンテナンスのためにダウンしている可能性があります。"
+

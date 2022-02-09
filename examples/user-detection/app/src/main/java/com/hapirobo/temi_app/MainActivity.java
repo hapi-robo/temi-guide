@@ -71,10 +71,11 @@ public class MainActivity extends AppCompatActivity implements
              * |----------------------|------------------|---------------------------------------------|
              */
             Log.i(TAG, "Set detection mode: ON");
-            mRobot.setDetectionModeOn(true, 2.0f);
+            mRobot.setDetectionModeOn(true, 2.0f); // Set detection mode on; set detection distance to be 2.0 m
 
             Log.i(TAG, "Set track user: ON");
-            mRobot.setTrackUserOn(true); // Note: When exiting the application, track user will still be enabled unless manually disabled
+            mRobot.setTrackUserOn(true); // Set tracking mode on
+                                         // Note: When exiting the application, track user will still be enabled unless manually disabled
         }
     }
 

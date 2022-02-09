@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 14:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/specifications/sensors.rst:3 83120e0a26734e3eaafcb4ef853befd4
+msgid "Robot Sensors"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:8
+#: ../../source/specifications/sensors.rst:14 027c0768988c4eaea32f153abd21accf
+#: 69f60da3c97c4286b1e042528b4b4ab8
+msgid "Robot front and rear views"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:8 e364465c373d47f79d66bb6c4446a2e5
+msgid ""
+"Robot sensors: (A) Head sensors (see below for details), (B) ground depth"
+" sensor, (C) front ToF sensors, (D) rear ToF sensors, (E) LIDAR."
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:14 b6dc4d66fa454cb3b745b9e4e9e918c7
+msgid ""
+"Head sensors: (A1) head depth sensor, (A2) narrow-angle camera, (A3) "
+"wide-angle camera, (A4) RGB camera."
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:18 c9c02b949b494e54989b832af2ac712f
+msgid ""
+"Ensure that the sensors are free of dust, fingerprints, or any occlusion."
+" A micro-fiber cloth and/or compressed air duster can be used to clean "
+"the sensors."
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:24 b239dcb75210419696b7f8dddcf2087c
+msgid "Cameras"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:25 3c46fd9637644a228c03fa86c17a4738
+msgid ""
+"The two cameras located in the robot's head can be used by apps for "
+"taking photos and/or videos. They are not used for navigation."
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:28 6e23749580c848efac386abc8dd93d9f
+msgid "HFOV"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:28 87e3c8d0b7b94f06aea14d98bd681ddb
+msgid "VFOV"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:30 f6ef54f973d540c8a51f72be31b621e8
+msgid "Narrow-angle camera"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:30
+#: ../../source/specifications/sensors.rst:32 e4e0de7847aa408b8b2604abe7789617
+#: e5ea1d9527ea45f79472e7e10e4acc6c
+msgid "60°"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:30 12c5b04035794c5398c8e7e269ba7e31
+msgid "48°"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:32 13822f4b3784451b98f2273e584a4bfc
+msgid "Wide-angle camera"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:32 9487aa09bd7d415d9ebc5760be3e4553
+msgid "95°"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:37 845f5571401e441e9857cec675e75ea5
+msgid "RGB Camera"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:38 22dee0bc98724688bf34486a0fc11a82
+msgid ""
+"This is a camera that is dedicated to tracking people. Blocking this "
+"camera will prevent the robot from following."
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:42 612c5a33de1f415fa7d7fd16482d8da3
+msgid "LIDAR"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:43 d2175bf6d1074bb5ad8b64e9c7862d3a
+msgid ""
+"The primary navigation sensor is the laser, imaging, detection, and "
+"ranging (`LIDAR <https://en.wikipedia.org/wiki/Lidar>`_) sensor. It is "
+"used for mapping the environment and it assists with detecting obstacles."
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:49 8c40b1916f85472c85b19f732f234ea8
+msgid "Depth Sensors"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:50 380fae20ee274bc79a280f4d4fd9e778
+msgid ""
+"The robot has 2 depth cameras. One that is embedded into the head, and "
+"one just above the LIDAR:"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:52 83b3124f255c4214a1c90fd949e7b2fb
+msgid "**Head Depth Sensor**: This is used to assist with tracking people."
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:53 70cf10dd610a4009b2783314e297e1aa
+msgid ""
+"**Ground Depth Sensor**: This is used to detect obstacles directly in "
+"front of the robot on the floor."
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:60 b56aefedc4b442fb8cf0d667aabe4f37
+msgid "ToF Sensors"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:61 556445538bd84b77b1588aa9c2569159
+msgid ""
+"The robot has two sets of Time-of-Flight (ToF) sensors. Three in the "
+"front pointing upwards, and three in the rear (under the tray) pointing "
+"downwards:"
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:63 f144a0da8fb34f39b42d830e6da09c0a
+msgid ""
+"**Front ToF Sensors**: These are used to detects obstacles, such as "
+"tables directly in front of the robot."
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:64 10cf713eb28046aa94422ae373d94b9a
+msgid ""
+"**Rear ToF Sensors**: These are used to detect *cliffs*, e.g. stairs, "
+"escalators, genkan, etc. directly behind the robot when moving backwards."
+msgstr ""
+
+#: ../../source/specifications/sensors.rst:66 a654bc6919ed40aa8fa1507ca0314377
+msgid ""
+"Do not rely on the depth cameras or the ToF sensors. They do not work "
+"reliably. We recommend reducing their use (e.g. lower the obstacle "
+"avoidance sensitivity or turn them off completely), and to use virtual "
+"walls in the map."
+msgstr ""
+

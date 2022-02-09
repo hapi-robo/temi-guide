@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-12 14:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/developer/10_hide-actionbar.rst:4
+#: 6b8bff5f47b54aff9f7aff7c07a368fd
+msgid "Hide ActionBar & Pull-Down Bar"
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:6
+#: 22b506204c1a4ed9b3c3e2680e0964c2
+msgid ""
+"For Kiosk applications, you'll want to hide the temi's `ActionBar "
+"<https://developer.android.com/reference/androidx/appcompat/app/ActionBar>`_."
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:11
+#: 0cf0308e7c6e4ff0b7507ad464393238
+msgid "temi ActionBar"
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:11
+#: 31849afe207946bbbe3f3cef9e3d6aa5
+msgid "temi's ActionBar."
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:13
+#: fa677709fbe6429ebf70962e2a169412
+msgid "You can hide the ActionBar with the following command."
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:19
+#: f4120f8bc9604de18db34fd966e21347
+msgid ""
+"But that will still leave a pull-down bar, which users can use to get "
+"access to temi's ActionBar."
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:24
+#: 7c57d27ce8bc441bb1196c571326614a
+msgid "temi Pull-Down Bar"
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:24
+#: bfe5b99cb6b6494f991b3e7494d8c0b7
+msgid ""
+"temi's pull-down bar. By pulling down on this, the user can reveal temi's"
+" ActionBar."
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:27
+#: 574074a61cf541168d94fdd8ed1b2f86
+msgid "How To"
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:28
+#: 23481dec917048ba8d5c02c650387503
+msgid ""
+"To completely hide temi's ActionBar (including the pull-down bar), you'll"
+" need to make the following changes."
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:32
+#: e1d68f4897ff45dd95c39e61d0f926ca
+msgid "AndroidManifest.xml"
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:33
+#: 825a7444ef1142fb8510479766ca73b2
+msgid "Add the following ``meta-data`` to your ``MainActivity``."
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:47
+#: 4d42fc7cb26f408b94e777b0569908e9
+msgid "onRobotReady()"
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:48
+#: 74e7a6a637d947b4814c14025bac6416
+msgid "Add the following code after the robot is ready."
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:66
+#: 4661c28647da49a88c9958e99654750a
+msgid "Exit Button"
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:67
+#: 4e0423321f7147eda5b4e140717774fa
+msgid ""
+"Now that you've completely removed the ActionBar, you will need a way to "
+"exit the application. For a Kiosk application, you'll probably want to "
+"hide the exit button and use a password to prevent the device from being "
+"tampered with."
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:69
+#: aa6222c2e0b242c09d2c2f347036c452
+msgid "To return to the Launcher menu, use the following command."
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:76
+#: 9f9ce9db98b94bea9c7cfcdb4ee7d4ef
+msgid ""
+"In case you've made a Kiosk app and forgot to include the exit button, "
+"one way to get out of it is to call your robot. Starting a telepresence "
+"session with the robot (from temi Mobile App or temi Center) will bring "
+"up temi's ActionBar."
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:80
+#: e3b38cd49a6940e3b57f42320848f50d
+msgid "Example"
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:81
+#: 9dac4b0b890746cca97161e0708179e8
+msgid ""
+"`Hide ActionBar <https://github.com/hapi-robo/temi-"
+"guide/tree/master/examples/hide-actionbar>`_"
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:85
+#: 83b516a86e7a4b9abbb52664d16beae7
+msgid "References"
+msgstr ""
+
+#: ../../source/developer/10_hide-actionbar.rst:86
+#: 8c9ac8dd7c2b4c89aa9c82b4538719b0
+msgid "`GitHub Issue #89 <https://github.com/robotemi/sdk/issues/89>`_"
+msgstr ""
+

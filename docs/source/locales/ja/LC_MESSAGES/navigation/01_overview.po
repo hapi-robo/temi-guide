@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 14:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/navigation/01_overview.rst:3 e8c212534cb54543bb6d589437885470
+msgid "Overview"
+msgstr ""
+
+#: ../../source/navigation/01_overview.rst:4 ba873107a2c241b5ab561c6f37aae329
+msgid "This guide should assist in the understanding of the following concepts:"
+msgstr ""
+
+#: ../../source/navigation/01_overview.rst:6 42d39f1845bc45e9857d7b65480c33e0
+msgid "Robot sensors"
+msgstr ""
+
+#: ../../source/navigation/01_overview.rst:7 407407e7478a42bfa5d8f9aaea604926
+msgid "Ideal operating environments and robot limitations"
+msgstr ""
+
+#: ../../source/navigation/01_overview.rst:8 4b5a47d66336462da5b481a4c2412cbc
+msgid "Generating useful maps"
+msgstr ""
+
+#: ../../source/navigation/01_overview.rst:10 99aca72597b74657a29f5202a63f8245
+msgid "This guide is written for users responsible for:"
+msgstr ""
+
+#: ../../source/navigation/01_overview.rst:12 02a3a0288a04409a9af2c5d3387fafd2
+msgid "Evaluating environments where the robot can be used."
+msgstr ""
+
+#: ../../source/navigation/01_overview.rst:13 ac4749e6e6ca431cba27e5c0cfc5c580
+msgid "Provisioning and deploying robots in a real-world operating environment."
+msgstr ""
+
+#: ../../source/navigation/01_overview.rst:15 d7257833a2d34655b5ea7dadaeb23389
+msgid "If assumes this person is familiar with:"
+msgstr ""
+
+#: ../../source/navigation/01_overview.rst:17 1b78200fdf2947be95f112519855cc05
+msgid "Physics of light and/or basic camera optics"
+msgstr ""
+

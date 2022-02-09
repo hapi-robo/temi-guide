@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-29 14:08+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/basics/10_environment.rst:3 e557a18512ca4706a2c976f71e2d7fb7
+msgid "Storage & Operating Conditions"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:5 0744ce00754c41d5a03aa794fccd5e72
+msgid ""
+"The robot should be stored and operated in an indoor, dry environment, on"
+" dry, flat flooring. Avoid storing the robot in direct sunlight as this "
+"can result in discoloration and oil leaks."
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:8 a7b805d5e1214863886149d5b9185489
+msgid "Storage Conditions"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:11
+#: ../../source/basics/10_environment.rst:26 9490196ffa324325b675d296a1739924
+#: d5e947de610b4c68a93c4e90c50c9d6e
+msgid "Minimum"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:11
+#: ../../source/basics/10_environment.rst:26 806a8c30b8414710a5aab75dfafab554
+#: abe895fd3635455d8ff47aba1b95fb65
+msgid "Maximum"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:11 9fec6b42206c42bbb43a9828bb945665
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:13 9aa8039c4996469680746f104aec1a08
+msgid "Humidity"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:13 e9dfa0de91d9460faecfb0a165a1b7c6
+msgid "15% R.H."
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:13 e9dfa0de91d9460faecfb0a165a1b7c6
+msgid "65% R.H."
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:13 8b6777311865462bb070d940f76791b3
+msgid "< 60% R.H."
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:15
+#: ../../source/basics/10_environment.rst:28 26e9f109aa9444e39b05b236c820e089
+msgid "Temperature"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:15
+#: ../../source/basics/10_environment.rst:28 b33b68f8c0264f3ca9a382478eb9b403
+msgid "0°C"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:15 f1ff51e6417443cd80fd3c9113bf5993
+msgid "45°C"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:15 fb02669d83194eefa5c7cee3e50ffb8e
+msgid "25°C"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:19
+#: ../../source/basics/10_environment.rst:32 124e991ea5474f1eb03a6980a1a6ebba
+msgid "References"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:20 91394b3dbded4286a5f80d2d693ce555
+msgid ""
+":download:`temi S1 CE Technical Specifications (2020/11) "
+"<assets/docs/temi_s1_ce_technical_specifications_20201123.pdf>`"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:23 db9dbba75fa54c0ca1564e9b849c8c25
+msgid "Operating Conditions"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:28 b33b68f8c0264f3ca9a382478eb9b403
+msgid "40°C"
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:33 919d1d19a2aa444c871c7a46871a0681
+msgid "Available from temi's `Helpdesk <https://www.robotemi.com/helpdesk/>`_."
+msgstr ""
+
+#: ../../source/basics/10_environment.rst:35 5e1359bda9d74840b6f42dce93c432eb
+msgid ""
+":download:`temi User Manual (2020/11) "
+"<assets/docs/temi_user_manual_20210720.pdf>`"
+msgstr ""
+

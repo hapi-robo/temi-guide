@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-12 11:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/specifications/temi_center.rst:2
+#: a3b843562f904e7eb059fa683b95a9bf
+msgid "temi Center Requirements"
+msgstr "temi センター要件"
+
+#: ../../source/specifications/temi_center.rst:5
+#: a3c53d5882bf4e0ca14650ca8544727c
+msgid "Hardware Requirements"
+msgstr "ハードウエア要件"
+
+#: ../../source/specifications/temi_center.rst:8
+#: 42f509e9d4bc404fbaa67b613dc283df
+msgid "Requirements"
+msgstr "ハードウエア要件"
+
+#: ../../source/specifications/temi_center.rst:10
+#: a650583d5c4d4205b347e76e3314fb93
+msgid "CPU"
+msgstr ""
+
+#: ../../source/specifications/temi_center.rst:10
+#: 078bdcc71ce74b7cb081a71fc3c240f7
+msgid "i3/i5/i7 or AMD equivalent"
+msgstr "i3/i5/i7又はAMDでの相当品"
+
+#: ../../source/specifications/temi_center.rst:12
+#: bdfb489f0ece4f9c93b476a58de37b22
+msgid "RAM"
+msgstr ""
+
+#: ../../source/specifications/temi_center.rst:12
+#: 9685341875c144bdb65769ec1a370f89
+msgid "8 GB"
+msgstr ""
+
+#: ../../source/specifications/temi_center.rst:14
+#: 361be238e2904feda1ff71daf4b1ebdb
+msgid "Speaker/Microphone"
+msgstr "スピーカー/マイク"
+
+#: ../../source/specifications/temi_center.rst:14
+#: a68af68b81c0464fac6a2b3530d4a1cc
+msgid "Built-in, USB plug-in, or wireless Bluetooth"
+msgstr "内蔵型, USB プラグイン型, 或いはBluetooth接続型"
+
+#: ../../source/specifications/temi_center.rst:16
+#: ec5ad618b5ae45cfabf2feb7a57aedda
+msgid "Webcam"
+msgstr "ウエブCAM"
+
+#: ../../source/specifications/temi_center.rst:16
+#: f93be17deb6845b99f021221fef751f5
+msgid "Built-in, USB plug-in, or HD camcorder with video-capture card"
+msgstr "内蔵型, USB プラグイン型, 或いはVideoキャプチャーカード付きHD ビデオカメラ"
+
+#: ../../source/specifications/temi_center.rst:20
+#: 4e140b4c11b545509d1086bf6f4200be
+msgid "Network Requirements"
+msgstr "ネットワーク要件"
+
+#: ../../source/specifications/temi_center.rst:21
+#: 116de6641afb40b899de4ba3174cade1
+msgid "Refer to :ref:`temi-center-network-requirements` for details."
+msgstr ":ref:`temi-center-network-requirements` を参照ください。"
+
+#: ../../source/specifications/temi_center.rst:25
+#: 635ce82cea16492db054ddc761c8fa3a
+msgid "Supported Web-browsers"
+msgstr "サポートされているウエブブラウザー"
+
+#: ../../source/specifications/temi_center.rst:26
+#: 959aa8a8dfa3403aa6101ab25b4c29a1
+msgid "`Google Chrome <https://www.google.com/chrome/index.html>`_"
+msgstr ""
+
+#: ../../source/specifications/temi_center.rst:27
+#: 653c921fc17444bc871f9259c66cd9f6
+msgid "`Apple Safari <https://www.apple.com/safari/>`_"
+msgstr ""
+

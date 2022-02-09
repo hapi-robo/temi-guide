@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-09 17:29+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/network-admin/07_security-privacy.rst:3
+#: 2e4bb8bbf8d84af88ad0b28b7faf9d01
+msgid "Security and Privacy"
+msgstr "セキュリティーとプライバシー"
+
+#: ../../source/network-admin/07_security-privacy.rst:8
+#: a0977841f5354c7199aadd8dec380adf
+msgid "Android Debug Bridge"
+msgstr "Android Debug Bridge"
+
+#: ../../source/network-admin/07_security-privacy.rst:9
+#: e4a6ce231fd843ffad17e2980296c23f
+msgid ""
+"`Android Debug Bridge (ADB) <https://developer.android.com/studio"
+"/command-line/adb>`_ is a tool that let's developers communicate with the"
+" temi Robot. One can enable this feature under ``Settings`` > ``Developer"
+" Tools``, then tap `ADB Port Opening`. This will open port ``5555`` on "
+"the robot. To disable this feature and close the port, you must reboot "
+"the robot."
+msgstr ""
+"`Android Debug Bridge (ADB) <https://developer.android.com/studio"
+"/command-line/adb>`_ は、開発者がtemiと通信できるようにするツールです。 ``設定`` > ``開発者ツール`` "
+"でこの機能を有効にしてから、[ADBポートを開く]をタップします。これにより、ロボットのポート ``5555`` "
+"が開きます。この機能を無効にしてポートを閉じるには、ロボットを再起動する必要があります。"
+
+#: ../../source/network-admin/07_security-privacy.rst:13
+#: 75ed1b003506435da3342a93f464e1e8
+msgid ""
+"Enabling temi's ADB port posses some risks. There exists malware/viruses "
+"that specifically target this port. If there are devices on the network "
+"that have such malware, temi Robot can be infected. We recommend the "
+"following:"
+msgstr "temiのADBポートを有効にすると、いくつかのリスクがあります。このポートを特に標的とするマルウェア/ウイルスが存在します。このようなマルウェアを含むデバイスがネットワーク上にある場合、temiが感染する可能性があります。次のことをお勧めします。"
+
+#: ../../source/network-admin/07_security-privacy.rst:15
+#: 6b4438b3015f44e88145bdde273ee24f
+msgid ""
+"Only connect temi Robot to a closed network that is malware-free for "
+"development."
+msgstr "temi は、マルウェアが存在しない開発用の閉じたネットワークにのみ接続してください。"
+
+#: ../../source/network-admin/07_security-privacy.rst:16
+#: bc568710a181430a9ba34bb91c3ceff2
+msgid "Never enable the ADB port in production or on a public network."
+msgstr "使用環境またはパブリックネットワークでADBポートを有効にしないでください。"
+
+#: ../../source/network-admin/07_security-privacy.rst:18
+#: 2eb0c4992e2848539fb3a8e6e601d3ee
+msgid ""
+"It is impossible to know if the ADB port was accidentally opened. When in"
+" doubt, reboot the robot to close the port."
+msgstr "ADBポートが誤って開かれたかどうかを知ることは不可能です。疑わしい場合は、temiを再起動してポートを閉じます。"
+
+#: ../../source/network-admin/07_security-privacy.rst:22
+#: e048e2c3460d4c3893724e9d73732e9c
+msgid "Auditing"
+msgstr "セキュリティ監査"
+
+#: ../../source/network-admin/07_security-privacy.rst:23
+#: 3fd2d24a1ebc4d448c2f3022ee72b0f9
+msgid ""
+"temi has had security reviews by `McAfee <https://www.mcafee.com/blogs"
+"/other-blogs/mcafee-labs/call-an-exorcist-my-robots-possessed/>`_ "
+"(2020/05) and `Firedome <https://firedome.io/>`_ (2021). As of release "
+"124 (Launcher OS 14759), temi Robot comes installed with the Firedome "
+"client for continuous security monitoring."
+msgstr ""
+"temiは `McAfee <https://www.mcafee.com/blogs/other-blogs/mcafee-labs/call-"
+"an-exorcist-my-robots-possessed/>`_ (2020/05)と `Firedome "
+"<https://firedome.io/>`_ (2021)でセキュリティ対策をしました。Version 124（Launcher OS "
+"14759）をリリースしてからtemiロボットは継続したセキュリティ監視のために クライアントをインストールしています。"
+
+#: ../../source/network-admin/07_security-privacy.rst:32
+#: ../../source/network-admin/07_security-privacy.rst:47
+#: 00998ff41b6a45fc97fc0f489e432b0e 235eec3f485e467c8e2755bb4f7ce20c
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: ../../source/network-admin/07_security-privacy.rst:34
+#: fa59558afd454052b378b3603665738f
+msgid "For more information, see temi's Privacy Policies:"
+msgstr "詳細な情報は、下記のtemiのプライバシーポリシーを参照ください。"
+
+#: ../../source/network-admin/07_security-privacy.rst:36
+#: 365c9019568e4d7a9b63eb8909253a3b
+msgid "`USA <https://www.robotemi.com/privacy-policy/>`_"
+msgstr "`米国 <https://www.robotemi.com/privacy-policy/>`_"
+
+#: ../../source/network-admin/07_security-privacy.rst:37
+#: fc6ebac609764236aa8c4e1955bec42f
+msgid "`Japan <https://www.robotemi.jp/privacy-policy/>`_"
+msgstr "`日本 <https://www.robotemi.jp/privacy-policy/>`_"
+
+#: ../../source/network-admin/07_security-privacy.rst:39
+#: 000393382ed2413b9db640f6c91f875d
+msgid "Privacy policies of 3rd-party services used by temi:"
+msgstr "temiが使用するサードパーティサービスのプライバシーポリシー： "
+
+#: ../../source/network-admin/07_security-privacy.rst:45
+#: d460f165db73433992c2cb0a92dd0b32
+msgid "Services"
+msgstr ""
+
+#: ../../source/network-admin/07_security-privacy.rst:46
+#: 70dd558f95ce46a886e8e5328b16f141
+msgid "Company"
+msgstr ""
+
+#: ../../source/network-admin/07_security-privacy.rst:48
+#: 4547752e17a84feaa85eb34dfb70db92
+msgid "Video Call"
+msgstr ""
+
+#: ../../source/network-admin/07_security-privacy.rst:49
+#: 1e72328ce5e84d15a18629d5988f1367
+msgid "Agora"
+msgstr ""
+
+#: ../../source/network-admin/07_security-privacy.rst:50
+#: 38f1bcc9af1a4e7281298e2144e31169
+msgid "https://www.agora.io/en/compliance/"
+msgstr ""
+
+#: ../../source/network-admin/07_security-privacy.rst:55
+#: ad6aa3aed5cd4d0e8d41db9de58d7632
+msgid "Infrastructure"
+msgstr "インフラストラクチャー"
+
+#: ../../source/network-admin/07_security-privacy.rst:57
+#: d07d7114a2ad4b4aaffe1b444f69103e
+msgid ""
+"The status of temi Cloud can be reviewed online at "
+"http://status.robotemi.com/."
+msgstr "temiクラウドのステータスは http://status.robotemi.com/ から、オンライン確認出来ます。"
+

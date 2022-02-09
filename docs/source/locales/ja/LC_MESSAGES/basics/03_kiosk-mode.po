@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-12 14:38+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/basics/03_kiosk-mode.rst:3 9ffedfe380c14a6eb584c0e51b4908bd
+msgid "Kiosk Mode"
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:5 c0300d6ae6df451db567004705a1872c
+msgid ""
+"Launching a native Android application at start up and keeping it on your"
+" Home Screen is known as *Kiosk Mode*."
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:7 6f259e8315ba48c3b8fd0e9f52708eec
+msgid "The following instructions are for Launcher version 15029:"
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:12 9ec646df90fa452489c121748db248b7
+msgid "Settings > Home Screen"
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:12 7dad5209c09f4c969b75ffe75c6997ba
+msgid "Go to the ``Settings`` menu and tap on ``Home Screen``."
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:17
+#: ../../source/basics/03_kiosk-mode.rst:22 4f8dc75073c8449396e3a0e7a61cbfd6
+#: acbce5a1b6bb4fdd82c58e435a5182a3
+msgid "Home Screen"
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:17 15cc7b0915f74ea187576ae261690482
+msgid "Then tap on ``Application``. Make sure the radio button is selected."
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:22 f2e74d8676d346a4bb544ab8275e5cff
+msgid "Finally, tap on the application you wish to use as your Home Screen."
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:24 e91e92ba60524ba296db7445fe6ef058
+msgid ""
+"Now return to your Home Screen and instead of the default desktop, you "
+"should see the selected Android application activity screen."
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:26 e8520400d682427fbbc3fb28cd2fb1b0
+msgid ""
+"You should see a pull-down bar at the top of the screen. This can be used"
+" to gain access to temi's ActionBar."
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:31 9be19e292f5b4865888cfd8281c6798e
+msgid "temi Pull-Down Bar"
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:31 cebdf08d44f440f092ca777194a5fa68
+msgid ""
+"temi's pull-down bar. By pulling down on this, the user can reveal temi's"
+" ActionBar."
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:36 08bb7c57dbb446f188850e33fe02110f
+msgid "temi ActionBar"
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:36 10edd678cedb4466bd538e297a326c03
+msgid "temi's ActionBar."
+msgstr ""
+
+#: ../../source/basics/03_kiosk-mode.rst:38 85e45d584b2742c1974dec29899e2aa2
+msgid ""
+"At this time, this feature cannot be removed or locked for standard off-"
+"the-shelf Android apps. However, it is possible to remove the ActionBar "
+"for custom Android applications that uses temi's SDK. For details, see "
+":doc:`../developer/10_hide-actionbar`."
+msgstr ""

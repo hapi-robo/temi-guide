@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-02 16:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/network-admin/10_appendix.rst:1
+#: 3d90404f6a484d4bbb949ff5a223b52f 53a643ecc43840ca8ab8a627f7d5862f
+msgid "wifi"
+msgstr "wifi"
+
+#: ../../source/network-admin/10_appendix.rst:4
+#: afc187ebfa1b4a8abca06a587aaaf30c d67906c06a7d44aba25bb06f2e722ce5
+msgid "info"
+msgstr "info"
+
+#: ../../source/network-admin/10_appendix.rst:9
+#: 53b682d953504ba0937b9a11750361f5
+msgid "Appendix"
+msgstr "付録"
+
+#: ../../source/network-admin/10_appendix.rst:14
+#: 0f315d73704e4d08925dd13b309548bb
+msgid "Measuring Wi-Fi Signal Strength"
+msgstr "Wi-Fi信号強度測定"
+
+#: ../../source/network-admin/10_appendix.rst:16
+#: 55a8b7fe2d264f25adb3f22f55035849
+msgid ""
+"Wi-Fi signal strength must be measured using the wireless device that "
+"will be using Wi-Fi. For example, do not measure Wi-Fi signal strength "
+"using a smartphone when the Wi-Fi signal will be used by the robot. The "
+"antennas on the smartphone and robot are different, which will make the "
+"Wi-Fi signal strength measurements different."
+msgstr ""
+"Wi-Fi信号強度はWi-Fiを使用しているデバイスを使って測ってください。例えば、temiの使用しているWi-Fi信号は"
+"、スマートフォンを使ってWi-Fi信号強度測定をしないでくださいと言うことです。temiとスマートフォンで使用しているアンテナが違うからです。"
+
+#: ../../source/network-admin/10_appendix.rst:18
+#: 565dd94560994e36a2135e4b6657735b
+msgid ""
+"Use the following instructions to measure Wi-Fi signal strength on the "
+"robot."
+msgstr "temiのWi-Fi信号強度を測定するには次の方法で確認ください。"
+
+#: ../../source/network-admin/10_appendix.rst:20
+#: 9504346b2df44b66bfa75c2b8b3a4d0b
+msgid ""
+"Remember to check the robot's Wi-Fi signal strength across its entire "
+"operating environment. Signal strength changes depending on where the "
+"robot is in the environment, and in general signal strength decreases the"
+" further you are away from the Wi-Fi access point."
+msgstr ""
+"動作環境全体でロボットのWi-"
+"Fi信号強度を確認することを忘れないでください。信号強度は、ロボットが環境内のどこにあるかによって変化します。一般に、信号強度は、Wi-"
+"Fiアクセスポイントから離れるほど低下します。"
+
+#: ../../source/network-admin/10_appendix.rst:25
+#: 45f586a1caa44879be9cf8ead551ac61
+msgid "Home screen"
+msgstr ""
+
+#: ../../source/network-admin/10_appendix.rst:25
+#: cfb97b30d4b14ff7aff4ce07a6036eb4
+msgid ""
+"Tap on the Wi-Fi icon |wifi| in the top left-hand corner of the screen to"
+" bring up the Wi-Fi network selection menu."
+msgstr "左上隅にあるWi-Fiアイコン |wifi| をタップして、Wi-Fiネットワーク選択メニューを表示します。"
+
+#: ../../source/network-admin/10_appendix.rst:30
+#: 1a5423a7b2f0490a9e0ae5a08932129d
+msgid "Wi-Fi network selection menu"
+msgstr ""
+
+#: ../../source/network-admin/10_appendix.rst:30
+#: 4d938f4c7c934731915c84589104f86a
+msgid ""
+"Tap on the information icon |info| on the right-hand side of the "
+"connected network to bring up the network settings page."
+msgstr "ネットワーク設定画面を開くために接続されたネットワークの右の情報アイコン |info| をタップして下さい。"
+
+#: ../../source/network-admin/10_appendix.rst:35
+#: 961eec2325f3426c9fca52102fc490fb
+msgid "Wi-Fi network connection details"
+msgstr ""
+
+#: ../../source/network-admin/10_appendix.rst:35
+#: 3cf87e890d6b44e088648ba4fdff2a7a
+msgid ""
+"Here you should see a line displaying the ``Signal strength`` in the "
+"units of `dBm`. This represents the Wi-Fi signal strength for the robot."
+msgstr ""
+"dBmの単位で信号強度を表しているシグナル強度のラインをみて下さい。temiが受信しているWi-"
+"Fi信号強度を表しています。“-（マイナス）”で表される数字が小さいほど、信号の強度は強いことを表しています。"
+
+#: ../../source/network-admin/10_appendix.rst:39
+#: 347c8d56aefc45ef83ac70cdf2476570
+msgid "Installing Android CA System Certificates"
+msgstr "Android CAシステム証明書のインストール"
+
+#: ../../source/network-admin/10_appendix.rst:40
+#: 25c12748a54e4f498e1c1b0b413b033e
+msgid ""
+"temi cannot be used with WPA-Enterprise and/or environments requiring "
+"802.1X EAP authentication (2021/07)."
+msgstr "temiは、WPA-Enterpriseおよび/または802.1X EAP認証（2021/07）を必要とする環境では使用できません。"
+
+#: ../../source/network-admin/10_appendix.rst:42
+#: 3da8add53c4842b38aa9884331b7fd46
+msgid ""
+"Instructions for installing Android CA System Certificates manually over "
+"ADB can be found `here <https://github.com/hapi-robo/temi-"
+"guide/tree/master/scripts/ca_certificates>`_. This should be applicable "
+"to temi and any other Android device."
+msgstr ""
+"ADBを介してAndroid CAシステム証明書を手動でインストールする手順については、 `こちら <https://github.com"
+"/hapi-robo/temi-guide/tree/master/scripts/ca_certificates>`_ を参照ください。"
+
+#~ msgid "Wi-Fi network settings page"
+#~ msgstr ""
+

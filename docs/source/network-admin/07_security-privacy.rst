@@ -2,9 +2,11 @@
 Security and Privacy
 ********************
 
+.. _adb-security:
+
 Android Debug Bridge
 ====================
-`Android Debug Bridge (ADB) <https://developer.android.com/studio/command-line/adb>`_ is a tool that let's developers communicate with the temi Robot. One can enable this feature under ``Settings`` > ``Developer Tools``, then tapping `ADB Port Opening`. This will open port ``5555`` on the robot. To disable this feature and close the port, you must reboot the robot.
+`Android Debug Bridge (ADB) <https://developer.android.com/studio/command-line/adb>`_ is a tool that let's developers communicate with the temi Robot. One can enable this feature under ``Settings`` > ``Developer Tools``, then tap `ADB Port Opening`. This will open port ``5555`` on the robot. To disable this feature and close the port, you must reboot the robot.
 
 .. Caution:: 
 

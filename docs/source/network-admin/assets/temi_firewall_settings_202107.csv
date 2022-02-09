@@ -53,10 +53,10 @@ us.api.iheart.com,443,TCP,iHeartRadio Skill,Worldwide,O,,,,
 *.revma.ihrhls.com,443,TCP,iHeartRadio Skill,Worldwide,O,,,,
 image.iheart.com,443,TCP,iHeartRadio Skill,Worldwide,O,,,,
 us.api.iheart.com,"80, 443",TCP,iHeartRadio Skill,Worldwide,O,,,,
-dualstack.prod.iheart.map.fastly.net,"80, 444",TCP,iHeartRadio Skill,Worldwide,O,,,,
-stream.revma.ihrhls.com,"80, 445",TCP,iHeartRadio Skill,Worldwide,O,,,,
-stream-a.revma.ihrhls.com,"80, 446",TCP,iHeartRadio Skill,Worldwide,O,,,,
-n3ca-e2.revma.ihrhls.com,"80, 447",TCP,iHeartRadio Skill,Worldwide,O,,,,
+dualstack.prod.iheart.map.fastly.net,"80, 443",TCP,iHeartRadio Skill,Worldwide,O,,,,
+stream.revma.ihrhls.com,"80, 443",TCP,iHeartRadio Skill,Worldwide,O,,,,
+stream-a.revma.ihrhls.com,"80, 443",TCP,iHeartRadio Skill,Worldwide,O,,,,
+n3ca-e2.revma.ihrhls.com,"80, 443",TCP,iHeartRadio Skill,Worldwide,O,,,,
 alexa.eu.gateway.devices.a2z.com,443,TCP,Alexa voice-assistant,Worldwide,O,,,,
 alexa.fe.gateway.devices.a2z.com,443,TCP,Alexa voice-assistant,Worldwide,O,,,,
 alexa.na.gateway.devices.a2z.com,443,TCP,Alexa voice-assistant,Worldwide,O,,,,
@@ -80,12 +80,12 @@ api.amazonalexa.com,443,TCP,Alexa voice-assistant,Worldwide,O,,,,
 125.88.159.163,8443,UDP,Video calls (Signal Host),Worldwide,O,O,,O,O
 140.210.77.68,8443,UDP,Video calls (Signal Host),Worldwide,O,O,,O,O
 148.153.53.106,"8001-8005, 4590-4600",UDP,Video calls (Media Host),Worldwide,O,O,,O,O
-148.153.53.105,"8001-8005, 4590-4601",UDP,Video calls (Media Host),Worldwide,O,O,,O,O
-128.1.78.94,"8001-8005, 4590-4602",UDP,Video calls (Media Host),Worldwide,O,O,,O,O
-164.52.53.78,"8001-8005, 4590-4603",UDP,Video calls (Media Host),Worldwide,O,O,,O,O
-164.52.53.77,"8001-8005, 4590-4604",UDP,Video calls (Media Host),Worldwide,O,O,,O,O
-106.3.140.195,"8001-8005, 4590-4605",UDP,Video calls (Media Host),Worldwide,O,O,,O,O
-106.3.140.194,"8001-8005, 4590-4606",UDP,Video calls (Media Host),Worldwide,O,O,,O,O
+148.153.53.105,"8001-8005, 4590-4600",UDP,Video calls (Media Host),Worldwide,O,O,,O,O
+128.1.78.94,"8001-8005, 4590-4600",UDP,Video calls (Media Host),Worldwide,O,O,,O,O
+164.52.53.78,"8001-8005, 4590-4600",UDP,Video calls (Media Host),Worldwide,O,O,,O,O
+164.52.53.77,"8001-8005, 4590-4600",UDP,Video calls (Media Host),Worldwide,O,O,,O,O
+106.3.140.195,"8001-8005, 4590-4600",UDP,Video calls (Media Host),Worldwide,O,O,,O,O
+106.3.140.194,"8001-8005, 4590-4600",UDP,Video calls (Media Host),Worldwide,O,O,,O,O
 *.cloudfront.net,443,TCP,temi Store,Worldwide,O,,,,
 us1-cdn.openchannel.io,443,TCP,temi Store,Worldwide,O,,,,
 *.pushy.me,443,TCP,Background push notifications,Worldwide,,O,O,,
