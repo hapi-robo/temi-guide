@@ -38,7 +38,7 @@ Use temi's ``SkillTheme`` to remove the app's default `ActionBar <https://develo
 
 .. code-block:: xml
 
-  <application>
+  <application
     ...
     android:theme="@style/SkillTheme">
     ...
@@ -70,7 +70,9 @@ Instantiate a ``Robot`` class.
 
 .. code-block:: Java
   :linenos:
-  :emphasize-lines: 7
+  :emphasize-lines: 9
+
+  Robot mRobot;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -115,7 +117,6 @@ In ``MainActivity.java``, log a message to the console and hide temi's ActionBar
   @Override
   public void onRobotReady(boolean isReady) {
       if (isReady) {
-          Log.i(TAG, "Robot is ready");
           mRobot.hideTopBar(); // hide temi's top action bar when skill is active
       }
   }
