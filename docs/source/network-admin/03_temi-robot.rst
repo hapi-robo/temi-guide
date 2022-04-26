@@ -35,6 +35,10 @@ Wi-Fi Roaming
 -------------
 Roaming is when a wireless client leaves one :term:`BSSID` and authenticates/associates with a new BSSID. If the device is to be used for telepresence in a large environment, roaming becomes critical as it can affect control, voice, and video quality as the device transitions between access points.
 
+.. admonition:: Important
+
+  During boot, the robot will randomly connect to an authenticated Wi-Fi access-point with a signal strength that is stronger than or equal to -70 dBm. During run-time, the robot will automatically switch to a stronger access-point when the signal strength falls below -70 dBm.
+
 The following are general recommendations to minimize roaming interuptions:
 
 - 5.0 GHz is highly recommended and using (n) is preferred

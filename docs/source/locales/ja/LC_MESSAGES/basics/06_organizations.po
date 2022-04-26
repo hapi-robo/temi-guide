@@ -1,0 +1,315 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 16:19+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/basics/06_organizations.rst:3 24e1f0b6e6464304b6a0dd2407df17a0
+msgid "Organizations"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:5 dd820f438a23430381cf683b28df19ab
+msgid "The following information was validated on April 13, 2022."
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:7 4d23d8ecf0f64066b0a5fcdaa26ccc04
+msgid ""
+"Starting with release 128, activated users and robots will be divided "
+"into Organizations."
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:9 691729bc2704455b98b3253fdf597ca4
+msgid ""
+"In the following, a *Member* is someone that can use the robot. A Member "
+"can play one of the following roles in an Organization:"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:11
+#: ../../source/basics/06_organizations.rst:27
+#: ../../source/basics/06_organizations.rst:73 0b7fb05ef8214a5db06f4e180ff6bc11
+#: 37b280ab10ee4c60910f7a8bdbcf4f2f dc75e970efd74e7cac3e2754bcf06ef8
+msgid "Root Admin"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:12
+#: ../../source/basics/06_organizations.rst:26
+#: ../../source/basics/06_organizations.rst:80
+#: ../../source/basics/06_organizations.rst:105
+#: 1ea401bdfab34a6ab866d7172fd27fef 2c070a6f624d4abc8648f2967fdb83a2
+#: b96fd31a837143098f037ac96a321205 dbaacdfdd59d4bc5b7581cdf680745f6
+msgid "Admin"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:13 42dd3e5a7f5d4ff8aaa05c4a68711f7b
+msgid "Collaborators"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:14
+#: ../../source/basics/06_organizations.rst:55 8e87dd9fbfa74f3482c13c00f28bbafd
+#: 9af14c6a9d3a4273a934271f84d89d97
+msgid "Guests"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:18 8ca3ecfdb6e94e10bbc67fc8af8d2080
+msgid "Roles"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:19 419c3b8b324841f5b5ad39e0f1fb84fc
+msgid "temi Roles"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:23 38ecf538c477473ab9fed3bd6f998590
+msgid "Capability"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:24
+#: ../../source/basics/06_organizations.rst:90
+#: ../../source/basics/06_organizations.rst:120
+#: 14394434042c412fa2cb8327946ec41e 2666a6283dad4e2cae5d669ceea04f95
+#: 2804558826214c98924bfa4153232aed
+msgid "Guest"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:25
+#: ../../source/basics/06_organizations.rst:86
+#: ../../source/basics/06_organizations.rst:112
+#: 0c54c58ffde6446dae0813f93e502ae7 730862ba1c2244929c8b59f64cc5cc41
+#: e4b68b7f53d646b0ab4450f361e126dd
+msgid "Collaborator"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:28 24d45957b1b74ee4852999b0ca7e0b64
+msgid "Can add robots to Organization"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:29
+#: ../../source/basics/06_organizations.rst:34
+#: ../../source/basics/06_organizations.rst:35
+#: ../../source/basics/06_organizations.rst:39
+#: ../../source/basics/06_organizations.rst:44
+#: ../../source/basics/06_organizations.rst:49
+#: ../../source/basics/06_organizations.rst:50 03e87604630946efacbab946997131ef
+#: 0dad630ad6e549709d78f393e293804c 4d95ea0a456a41f0afa3c7462df331a6
+#: 63b018de4ead456c95ca79f6d969c5ff 9d15151127394ccfad7c777a2c3efbcc
+#: b76c24c0702d4efaa24927d1abd77258 f020dd7fa40f4ab9b272f9f065b4be47
+msgid "No"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:30
+#: ../../source/basics/06_organizations.rst:31
+#: ../../source/basics/06_organizations.rst:32
+#: ../../source/basics/06_organizations.rst:36
+#: ../../source/basics/06_organizations.rst:37
+#: ../../source/basics/06_organizations.rst:40
+#: ../../source/basics/06_organizations.rst:41
+#: ../../source/basics/06_organizations.rst:42
+#: ../../source/basics/06_organizations.rst:45
+#: ../../source/basics/06_organizations.rst:46
+#: ../../source/basics/06_organizations.rst:47
+#: ../../source/basics/06_organizations.rst:51
+#: ../../source/basics/06_organizations.rst:52
+#: ../../source/basics/06_organizations.rst:64
+#: ../../source/basics/06_organizations.rst:65
+#: ../../source/basics/06_organizations.rst:66 0e9c2e4fd77a4c0394dee5836eace7fe
+#: 164e9147eac84bf18b9be191dd6fc9cc 25121bb641be4ade92a1cb2368831eb3
+#: 352c5ad4a78749888c433e4365e3498e 3aff2bb927f54cefbc5ba339c4bf3d1b
+#: 5df80c51fab942c2b514455e810b2bed 6bfb24b3f2274a95b22a569813ceea07
+#: 7031c30dc107440ab71aa631dcbc0ec7 7e914cb43f6d492e80a30db220d3ccee
+#: 9f18e2d37e6144898af07a919a7c5bb2 a3f51f7d5dba465a924fee7ceae16e75
+#: b05fc22d973245ecb1b2b8307edabfcc c55b749d0a164e8bb97dbb2fab504e09
+#: ce8aa5d9e9964b68b01c1f9c67873714 d046d904479946449de4af2635b7410a
+#: f706681f808440a18ad5bf4dd9983076
+msgid "Yes"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:33 2349d72729674b69b60891cdfe5a7207
+msgid "Can add Users to Organization via Organization Settings"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:38 12b5fc53061449afa8a8903c9a57e673
+msgid "Can add Users to Organization via Robot Members Settings"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:43 de88864c0c164230b45eaf3820d665e3
+msgid "Can assign Robots to Members"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:48 4bff7c699ca94ef5821a44eb9d45c359
+msgid "Can edit Roles of Members"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:53 b8edbdb242d64ef4a04f5a5f3b6dc1bf
+msgid "Permission of Members that can be edited"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:54 961fe2cf2f8146a4bf80f34a1865d5c5
+msgid "None"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:56
+#: ../../source/basics/06_organizations.rst:57 565e51780f14424689fc68f995be0fd2
+#: 6868dd07692f435dbd5b4eac4d7c2630
+msgid "Admins, Collaborators, Guests"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:58 5ee80085bfe94557884bbccbd6749776
+msgid "Robot access"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:59 9458b9fc40714713bd0bf0a11f1fc7d4
+msgid "Selected by Admin and/or Collaborators"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:60 85aee1d80eaa4e52aa1a5eb04f570c2b
+msgid "Selected by Admin"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:61
+#: ../../source/basics/06_organizations.rst:62 e1d0e62ba57245ac852d44c74fe19d70
+#: f8fb4bf4727543c5bc999ffc195d3767
+msgid "All"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:63 e8a655dc347547388a20e284c8503904
+msgid "Can leave Organization"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:67 c934c729f2e54e7796800810c8da4336
+msgid "Only through Transfer of Ownership"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:70 e2ae32187ec04d5887d48fecf7dfdb9d
+msgid "Robots are added to an Organization during robot activation."
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:74 467a6afb079f42f08a57d1ceaa663c4a
+msgid "Each Organization will always have one (and only one) Root Admin."
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:75 f123068c16c9496281d05d1559917482
+msgid ""
+"When activating a temi account, the User is automatically assigned an "
+"Organization and is made the Root Admin of that Organization."
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:76 8a431d13d7d94f6eafbe39808ff3f1d9
+msgid ""
+"Root Admin’s cannot leave an Organization, unless they assign their "
+"Organization to another Admin."
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:77 9f4ee64d94fa4453bc68302c9740b81b
+msgid "Roles and permissions of the Root Admin cannot be changed by any User."
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:81 e7714854ed8f4b9fb3b98b01433c3fa3
+msgid ""
+"Each Organization can have multiple Admins. Admins can do everything a "
+"Root Admin can do except:"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:83 d14e7fa590d6478f8f789e1d94ae08fd
+msgid "Edit the roles and permissions of the Root Admin"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:87 e3eeb33f63cc42c79dd08d4193725230
+msgid ""
+"Each Organization can have multiple Collaborators. Collaborators have "
+"access only to robots that have been granted by an Admin. They can change"
+" the roles and permissions of Guest users only."
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:91 2b3f0ad17c424005b2d917c7b829e47a
+msgid ""
+"Each Organization can have multiple Guests. Guests have access only to "
+"robots that have been granted by an Admin, and/or Collaborators. They "
+"have no access to Organization settings, and therefore cannot change the "
+"roles and permissions of other Members in the Organization."
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:95 cd04c7592e914bb19c5939650b359e3a
+msgid "Permission"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:96 97c7a41f22f34800945489c84554a4e0
+msgid "Each robot has the following permissions settings:"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:98 ed9921b446bd424b8e1eb8e8e064b599
+msgid "Add Members"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:99 cb79b723529e4a39a09274f3c62c308a
+msgid "Hop-in temi"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:100
+#: dc92c4be76204537b40c0a988e6cc498
+msgid "Control temi"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:101
+#: 62aeb4f4fb68481eb997936644b7a885
+msgid "Edit Map"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:102
+#: 8ea3922c371c45369471717dee0a2fab
+msgid "Edit Settings"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:106
+#: e53a85c9927c47bb95c0dd935f301f57
+msgid "Root Admins and Admins can edit all permission, i.e. (1) - (5)"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:108
+#: dd719bd8384f4ff2af126a0c61dbd1d6
+msgid ""
+"If (1) is enabled, all other permissions are automatically enabled and "
+"locked."
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:109
+#: 6a5a4a5759b84f1ab8b17b0b39918f34
+msgid ""
+"If (1) is disabled, permissions (2) - (5) can selectively be disabled. "
+"Collaborators will not be able to edit the permission of this robot."
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:113
+#: 5d653f752c7449aba0da8d5d562bd5d8
+msgid "Collaborators can edit permissions: (2) - (5)"
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:115
+#: 417871876383458a86141ff5c936cce9
+msgid "As indicated above, this can only be done when (1) is disabled."
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:117
+#: 6ad4b92f20214c56962bc8857eacab0e
+msgid ""
+"It is possible for Collaborators to disable (1) for themselves. If this "
+"is done, this User will lose all access to managing the permission of "
+"this robot."
+msgstr ""
+
+#: ../../source/basics/06_organizations.rst:121
+#: 1a9d2b09067b4a5293b86c3b684d9c19
+msgid "Guests cannot edit any permissions."
+msgstr ""
+
