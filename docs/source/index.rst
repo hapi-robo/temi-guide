@@ -14,6 +14,7 @@ This guide provides some examples of using `temi's SDK <https://github.com/robot
    basics/04_adb
    basics/05_factory-reset
    basics/06_organizations
+   basics/07_software-update
 
 .. toctree::
    :maxdepth: 2

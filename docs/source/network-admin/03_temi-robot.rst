@@ -37,7 +37,7 @@ Roaming is when a wireless client leaves one :term:`BSSID` and authenticates/ass
 
 .. admonition:: Important
 
-  During boot, the robot will randomly connect to an authenticated Wi-Fi access-point with a signal strength that is stronger than or equal to -70 dBm. During run-time, the robot will automatically switch to a stronger access-point when the signal strength falls below -70 dBm.
+  During boot, the robot will randomly connect to an authenticated Wi-Fi access-point with a signal strength that is stronger than or equal to -70 dBm. During run-time, if the signal strength falls below -70 dBm and there is an authenticated access-point in the environment with a stronger signal, the robot will automatically switch to that access point.
 
 The following are general recommendations to minimize roaming interuptions:
 
@@ -65,17 +65,6 @@ The following are general recommendations to minimize roaming interuptions:
 Quality of Service (QoS) Recommendations
 ========================================
 QoS should be set to prioritize any temi media traffic on the Wi-Fi network and on the uplink to the ISP. When using :ref:`firewall-settings`, give high priority to UDP traffic (media traffic) to and from the device.
-
-
-Over-the-Air Updates
-====================
-When temi releases a software update, the default behaviour of the robot will be to automatically update itself overnight. When the update is received, the robot will display a `Software Update` dialog screen. Software versions can be found under ``Settings`` > ``About``. The 3 most important ones are: ``Launcher OS``, ``Robox OS``, and ``Firmware``.
-
-The update process should only take a few minutes and the robot will restart itself when the update has completed. Robot settings such as Wi-Fi configurations will be preserved across software updates and should not require user interaction.
-
-.. DANGER:: Do not attempt to turn-off the robot during a software update. If the software update is taking longer than expected, call customer support.
-
-Software updates are not required, but strongly recommended. Failure to update temi Robot software may result in loss of features. 
 
 
 DHCP
