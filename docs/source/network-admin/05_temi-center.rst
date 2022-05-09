@@ -23,6 +23,7 @@ Quality of Service (QoS) Recommendations
 QoS should be set to prioritize any temi media traffic on the Wi-Fi network and on the uplink to the ISP. When using :ref:`firewall-settings`, give high priority to UDP traffic (media traffic) to and from the device.
 
 
+.. Move to another section???
 .. PC Hardware Requirements
 .. ========================
 

@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 16:19+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/technician/03_custom_commands.rst:3
+#: 31e1fff0ea4648608f75051176e6d861
+msgid "Custom Commands"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: 038db6966c09441da8a7b182aca48197
+msgid "Command"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: 628e8acccab342f7ba90fdac40e7b5f4
+msgid "Description"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: b1e0ce1d20d143808cb4c90246ce6021
+msgid "lpm off"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: da98f261f8fc4e499235b60ef5421253
+msgid "Disable LIDAR sleep, i.e. force LIDAR on"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: 2285050c4b9448f688171a98cd5ec7a9
+msgid "cal lidar"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: 927782191e564d8c9fbcf73feea1a38d
+msgid "Start LIDAR calibration"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: 3f709fe0e8484bb0b061c98880078c30
+msgid "lidar d"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: eafa1b420925497aa169b8ee31c2347f
+msgid "Read LIDAR measurement and calibration results"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: 623fdf66a47a4d6b971897860428c5e5
+msgid "cal ground"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: e519357495c24c7e9277168dc16912e0
+msgid "Start ground camera calibration"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: 3391e21c1fe741549da242e7411f9d88
+msgid "cal tilt"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: f5ae7649682b4878b6c4845974a1c038
+msgid "Start tablet tilt motor calibration"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: 46481e306dc04a5188b264461b701eb4
+msgid "start_cal_mb"
+msgstr ""
+
+#: ../../source/technician/03_custom_commands.rst:1
+#: f4caf132366f4ecaa55ee7c87b04a7cd
+msgid "Start wheel encoder calibration"
+msgstr ""
+
