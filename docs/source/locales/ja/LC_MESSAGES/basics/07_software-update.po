@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-09 14:37+0900\n"
+"POT-Creation-Date: 2022-05-09 14:55+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/basics/07_software-update.rst:12
-#: ../../source/basics/07_software-update.rst:51
+#: ../../source/basics/07_software-update.rst:50
 #: b02075a135fd44b7b61503a00db3809d f6d7974738b44fdd9ab008b7f6b6ebe1
 msgid ":guilabel:`Settings` > :guilabel:`About`"
 msgstr ""
@@ -99,7 +99,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/basics/07_software-update.rst:33
-#: ../../source/basics/07_software-update.rst:78
+#: ../../source/basics/07_software-update.rst:77
 #: 764db0a7520448ecbd491048799ad630 b1bd28f078114e8595b576b5e4615f17
 msgid "Software update notification screen"
 msgstr ""
@@ -124,9 +124,9 @@ msgstr ""
 #: ../../source/basics/07_software-update.rst:37
 #: f690fa9377c84a449f8744fb150bdcc2
 msgid ""
-"Robot should remain on the Docking Station during the software update. Do"
-" not attempt to turn-off the robot during a software update. If the "
-"software update is taking longer than expected, contact customer support."
+"Robot should remain on the Home Base during the software update. Do not "
+"attempt to turn-off the robot during a software update. If the software "
+"update is taking longer than expected, contact customer support."
 msgstr ""
 
 #: ../../source/basics/07_software-update.rst:39
@@ -148,77 +148,72 @@ msgstr ""
 msgid "Manually Check for Software Updates"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:46
-#: d8a09503b3a04abfaa6fd3672b2c59aa
-msgid "To manually check for software updates:"
-msgstr ""
-
-#: ../../source/basics/07_software-update.rst:51
+#: ../../source/basics/07_software-update.rst:50
 #: 7711b84c2917499d9d9c3dd9e08b9a55
 msgid ""
-"Go to :guilabel:`Settings` > :guilabel:`About` > :guilabel:`Software "
+"Select :guilabel:`Settings` > :guilabel:`About` > :guilabel:`Software "
 "Update`."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:56
+#: ../../source/basics/07_software-update.rst:55
 #: c34e73a99efd4da1954ce192aba282ab
 msgid "Checking for software updates"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:56
+#: ../../source/basics/07_software-update.rst:55
 #: e6d774f7657a4b7f82c17b1d0edd512d
-msgid "To robot will start searching for available software updates."
+msgid "The robot will start searching for available software updates."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:61
+#: ../../source/basics/07_software-update.rst:60
 #: 359cd47e22cd4223a1d7cda2892b2b7c
 msgid "Confirm software update"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:61
+#: ../../source/basics/07_software-update.rst:60
 #: 407d2a8745744e209377c5627da5307a
 msgid ""
 "If a software update is available, the user can select "
 ":guilabel:`Download & Install` to start the software update."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:66
+#: ../../source/basics/07_software-update.rst:65
 #: d8c434d53cb74e3babd9a79018d92d31
 msgid "Installation screen"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:66
+#: ../../source/basics/07_software-update.rst:65
 #: e17cf76c98534305a90380a4d2726189
 msgid ""
 "A robot may generally take up to 20 minutes to download and install a new"
 " update (depending on the speed of the internet connection)."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:68
+#: ../../source/basics/07_software-update.rst:67
 #: 0bab33e06936496fab89635054264656
 msgid "After the software installation is complete, `Check Software Version`_."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:72
+#: ../../source/basics/07_software-update.rst:71
 #: 94e9f5d294364fdeb8c0b2fcad902638
 msgid "First Time Activation"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:73
+#: ../../source/basics/07_software-update.rst:72
 #: 7a3f3f751c1c444ea3f5e085aa09e512
 msgid ""
 "Users may encounter problems with software updates if the Robox OS "
 "version is below 115. We recommend the following steps for users "
 "receiving a Software Update notification after activating a robot for the"
-" first time:"
+" first time."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:78
+#: ../../source/basics/07_software-update.rst:77
 #: 5a4cfa6b53bf47c9b340e83ba9d59d84
 msgid "Cancel the software update by selecting :guilabel:`Later`."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:80
+#: ../../source/basics/07_software-update.rst:79
 #: 3f0959167da54a90b139fff22efbd691
 msgid ""
 "`Check Software Version`_. If the ``Robox OS`` is above ``114``, "
@@ -226,12 +221,12 @@ msgid ""
 " OS 114 or Earlier`_."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:84
+#: ../../source/basics/07_software-update.rst:83
 #: 54252bb8298b486f90e4871b8264fe6a
 msgid "Robox OS 114 or Earlier"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:85
+#: ../../source/basics/07_software-update.rst:84
 #: 635b5ed1dae6433380e87f34e679a863
 msgid ""
 "All robots with Robox OS 114 or earlier need to be updated in stages. If "
@@ -240,46 +235,46 @@ msgid ""
 ":guilabel:`Settings` > :guilabel:`About`):"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:87
-#: ../../source/basics/07_software-update.rst:111
+#: ../../source/basics/07_software-update.rst:86
+#: ../../source/basics/07_software-update.rst:112
 #: 6557dd88890b4d4bb9bf0af0ace85b64 87c3f82693bc44de9efae038d2f8cbe5
 msgid "temi Robot serial number"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:88
-#: ../../source/basics/07_software-update.rst:112
+#: ../../source/basics/07_software-update.rst:87
+#: ../../source/basics/07_software-update.rst:113
 #: 570db494318c4fc5a8afb4f82b5fa4a2 e4f48b7d4be14f16894477b96bb61db8
 msgid "Launcher OS version"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:89
-#: ../../source/basics/07_software-update.rst:113
+#: ../../source/basics/07_software-update.rst:88
+#: ../../source/basics/07_software-update.rst:114
 #: 07107122f5d54d5a88401f461025bcc2 6531d5c7eb854f2ab629fd0349ce5802
 msgid "Robox OS version"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:91
+#: ../../source/basics/07_software-update.rst:90
 #: ca451ff15140475087269bbf692ebd91
 msgid ""
 "The robot will be updated in 2 stages and will be require the user's "
-"participation in the installation process:"
+"participation in the installation process."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:93
+#: ../../source/basics/07_software-update.rst:92
 #: 42c0be67a1be45b3b15f5435173872f9
 msgid ""
-"temi will manually push the **first-stage** software update via OTA_ to "
-"the robot."
+"First, temi will manually push the **first-stage** software update via "
+"OTA_ to the robot."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:98
+#: ../../source/basics/07_software-update.rst:97
 #: 6d318778927341d5bf93bf2438ef4a65
 msgid ""
 "Software Update notifcation when temi manually pushes an update to a "
 "specified robot."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:98
+#: ../../source/basics/07_software-update.rst:97
 #: 5ffe8b12a93b4dccab88e8b81fe6e2d4
 msgid ""
 "Once the software update has been pushed to the robot, a notification "
@@ -287,18 +282,23 @@ msgid ""
 "to proceed with the software update."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:100
+#: ../../source/basics/07_software-update.rst:99
 #: 2c11ea92faa14daf8cd5cf3cbe117f24
 msgid ""
-"After the software installation is complete, `Check Software Version`_, "
-"and notify customer support with the software version numbers. temi will "
-"then push the **second-stage** software update via OTA to the robot. "
-"Repeat the download-installation process again. After the software "
-"installation is complete, `Check Software Version`_ to make sure it is on"
-" the most recent software release."
+"After the software installation is complete, notify customer support with"
+" the software version numbers (see `Check Software Version`_). temi will "
+"then push the **second-stage** software update via OTA_ to the robot. "
+"Repeat the download-installation process again."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:104
+#: ../../source/basics/07_software-update.rst:101
+#: b4809c6af68f4171b00afb8a5de75c96
+msgid ""
+"After the software installation is complete, `Check Software Version`_ to"
+" make sure the robot is on the most recent software release."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:105
 #: da698405a7ee4078bcdb2186211cfa6e
 msgid "Software Update Unavailable"
 msgstr ""
@@ -307,7 +307,7 @@ msgstr ""
 msgid "No software update available"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:109
+#: ../../source/basics/07_software-update.rst:110
 #: b0b057e9ead94465910e5a3f1c8b1da1
 msgid ""
 "If no software updates are available, contact customer support and be "
@@ -315,29 +315,94 @@ msgid ""
 ":guilabel:`Settings` > :guilabel:`About`):"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:115
+#: ../../source/basics/07_software-update.rst:116
 #: 9473e53a2ae045638fcd97102e3b1946
 msgid "temi will push the software update via OTA_ to the robot."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:120
-#: 675919660fac45ffa899507e512280f0
+#: ../../source/basics/07_software-update.rst:121
+#: 6d318778927341d5bf93bf2438ef4a65
 msgid ""
 "Software update notification when temi manually pushes an update to a "
 "specified robot."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:120
-#: 665a53302801490b8ac4fd861539c55a
+#: ../../source/basics/07_software-update.rst:121
+#: 5ffe8b12a93b4dccab88e8b81fe6e2d4
 msgid ""
 "Once the software update has been pushed to the robot, this notification "
-"will appear on the robot's screen. Select :guilabel:`Download & Install`."
+"will appear on the robot's screen. Select :guilabel:`Download & Install` "
+"to proceed with the software update."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:122
+#: ../../source/basics/07_software-update.rst:123
 #: 84f82497b22043febf46e3ae2a4e5f20
 msgid ""
 "After the software installation is complete, `Check Software Version`_ to"
 " make sure it is on the most recent software release."
 msgstr ""
+
+#~ msgid ""
+#~ "Robot should remain on the Docking "
+#~ "Station during the software update. Do"
+#~ " not attempt to turn-off the "
+#~ "robot during a software update. If "
+#~ "the software update is taking longer "
+#~ "than expected, contact customer support."
+#~ msgstr ""
+
+#~ msgid "To manually check for software updates:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Go to :guilabel:`Settings` > :guilabel:`About`"
+#~ " > :guilabel:`Software Update`."
+#~ msgstr ""
+
+#~ msgid "To robot will start searching for available software updates."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Users may encounter problems with "
+#~ "software updates if the Robox OS "
+#~ "version is below 115. We recommend "
+#~ "the following steps for users receiving"
+#~ " a Software Update notification after "
+#~ "activating a robot for the first "
+#~ "time:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The robot will be updated in 2 "
+#~ "stages and will be require the "
+#~ "user's participation in the installation "
+#~ "process:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "temi will manually push the **first-"
+#~ "stage** software update via OTA_ to "
+#~ "the robot."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After the software installation is "
+#~ "complete, `Check Software Version`_, and "
+#~ "notify customer support with the "
+#~ "software version numbers. temi will then"
+#~ " push the **second-stage** software "
+#~ "update via OTA to the robot. "
+#~ "Repeat the download-installation process "
+#~ "again. After the software installation "
+#~ "is complete, `Check Software Version`_ "
+#~ "to make sure it is on the "
+#~ "most recent software release."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once the software update has been "
+#~ "pushed to the robot, this notification"
+#~ " will appear on the robot's screen."
+#~ " Select :guilabel:`Download & Install`."
+#~ msgstr ""
 

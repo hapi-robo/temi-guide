@@ -34,26 +34,25 @@ When temi releases a software update, the default behaviour of the robot will be
 
 The update process may generally take up to 20 minutes (depending on the speed of the internet connection) and the robot will restart itself when the update has completed. Robot settings such as Wi-Fi configurations will be preserved across software updates and should not require user interaction.
 
-.. DANGER:: Robot should remain on the Docking Station during the software update. Do not attempt to turn-off the robot during a software update. If the software update is taking longer than expected, contact customer support.
+.. DANGER:: Robot should remain on the Home Base during the software update. Do not attempt to turn-off the robot during a software update. If the software update is taking longer than expected, contact customer support.
 
-Software updates are not required, but strongly recommended. Failure to update temi Robot software may result in loss of features. 
+.. TIP:: Software updates are not required, but strongly recommended. Failure to update temi Robot software may result in loss of features. 
 
 In the event that a Software Update notification is not displayed, the user can `Manually Check for Software Updates`_. 
 
 
 Manually Check for Software Updates
 ===================================
-To manually check for software updates:
 
 .. figure:: assets/images/software-update/settings-about-software-update.jpg
   :alt: :guilabel:`Settings` > :guilabel:`About`
 
-  Go to :guilabel:`Settings` > :guilabel:`About` > :guilabel:`Software Update`.
+  Select :guilabel:`Settings` > :guilabel:`About` > :guilabel:`Software Update`.
 
 .. figure:: assets/images/software-update/checking-for-updates.png
   :alt: Checking for software updates
 
-  To robot will start searching for available software updates.
+  The robot will start searching for available software updates.
 
 .. figure:: assets/images/software-update/confirm-update-settings-install.jpg
   :alt: Confirm software update
@@ -70,7 +69,7 @@ After the software installation is complete, `Check Software Version`_.
 
 First Time Activation
 =====================
-Users may encounter problems with software updates if the Robox OS version is below 115. We recommend the following steps for users receiving a Software Update notification after activating a robot for the first time:
+Users may encounter problems with software updates if the Robox OS version is below 115. We recommend the following steps for users receiving a Software Update notification after activating a robot for the first time.
 
 .. figure:: assets/images/software-update/confirm-update-settings-later.jpg
   :alt: Software update notification screen
@@ -88,16 +87,18 @@ All robots with Robox OS 114 or earlier need to be updated in stages. If you hav
 - Launcher OS version
 - Robox OS version
 
-The robot will be updated in 2 stages and will be require the user's participation in the installation process: 
+The robot will be updated in 2 stages and will be require the user's participation in the installation process.
 
-temi will manually push the **first-stage** software update via OTA_ to the robot.
+First, temi will manually push the **first-stage** software update via OTA_ to the robot.
 
 .. figure:: assets/images/software-update/confirm-update-pushed.jpg
   :alt: Software Update notifcation when temi manually pushes an update to a specified robot.
 
   Once the software update has been pushed to the robot, a notification will appear on the robot's screen. Select :guilabel:`Download & Install` to proceed with the software update.
 
-After the software installation is complete, `Check Software Version`_, and notify customer support with the software version numbers. temi will then push the **second-stage** software update via OTA to the robot. Repeat the download-installation process again. After the software installation is complete, `Check Software Version`_ to make sure it is on the most recent software release.
+After the software installation is complete, notify customer support with the software version numbers (see `Check Software Version`_). temi will then push the **second-stage** software update via OTA_ to the robot. Repeat the download-installation process again.
+
+After the software installation is complete, `Check Software Version`_ to make sure the robot is on the most recent software release.
 
 
 Software Update Unavailable
@@ -117,7 +118,7 @@ temi will push the software update via OTA_ to the robot.
 .. figure:: assets/images/software-update/confirm-update-pushed.jpg
   :alt: Software update notification when temi manually pushes an update to a specified robot.
 
-  Once the software update has been pushed to the robot, this notification will appear on the robot's screen. Select :guilabel:`Download & Install`.
+  Once the software update has been pushed to the robot, this notification will appear on the robot's screen. Select :guilabel:`Download & Install` to proceed with the software update.
 
 After the software installation is complete, `Check Software Version`_ to make sure it is on the most recent software release.
 
