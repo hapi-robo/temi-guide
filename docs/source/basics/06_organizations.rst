@@ -2,7 +2,7 @@
 Organizations
 *************
 
-.. Attention:: The following information was validated on April 13, 2022.
+.. Note:: The following information was validated on April 13, 2022.
 
 Starting with release 128, activated users and robots will be divided into Organizations.
 

@@ -2,6 +2,8 @@
 Software Update
 ***************
 
+.. Note:: The following information was validated on May 9, 2022 using Launcher OS 16080.
+
 Check Software Version
 ======================
 To check the robot's current software version, go to :guilabel:`Settings` > :guilabel:`About`.
