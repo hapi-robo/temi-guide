@@ -1,0 +1,343 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, hapi-robo s.t., Inc.
+# This file is distributed under the same license as the temi Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: temi Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-09 14:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/basics/07_software-update.rst:3
+#: 26f9d673172a43c888c9125eec875d6b
+msgid "Software Update"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:6
+#: ec8602c4c7b747d8892146374c72f1db
+msgid "Check Software Version"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:7
+#: eec461dc091f4a5383b979714dea4509
+msgid ""
+"To check the robot's current software version, go to :guilabel:`Settings`"
+" > :guilabel:`About`."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:12
+#: ../../source/basics/07_software-update.rst:51
+#: b02075a135fd44b7b61503a00db3809d f6d7974738b44fdd9ab008b7f6b6ebe1
+msgid ":guilabel:`Settings` > :guilabel:`About`"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:12
+#: 2abf23b5eb39458aaa2a1c0cf8a612c0
+msgid ""
+"In the :guilabel:`Settings` > :guilabel:`About` screen, you will see 3 "
+"software versions: ``Launcher OS``, ``Robox OS``, and ``Firmware``."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:15
+#: 308c23f143414fb99db2ab7fd111e73d
+msgid "**Launcher OS**"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:15
+#: c4559c0404f5477d92b647c8353549c6
+msgid "Tablet Android launcher software version."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:17
+#: 84a65a3bd0d94df18937b9b148fef07e
+msgid "**Robox OS**"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:17
+#: e9e00fb429a9433caff5cd9f7473467d
+msgid "Navigation computer's software version."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:19
+#: c9da622bb6f7400bb2f79f96b7ff6606
+msgid "**Firmware**"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:19
+#: 2c8eab16d0854bd2bb5cdc5ca7514cd0
+msgid "Tablet operating system's software version."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:22
+#: 2fdd43f6eb5e4026a824dde963200f87
+msgid ""
+"For the most updated software version numbers, please refer to the "
+"Software Release Notes, which can be found on the `temi Support "
+"<https://www.robotemi.jp/support/>`_ page."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:27
+#: 6c7721fa51d045fc86b83c8160127dac
+msgid "Over-the-Air Updates (OTA)"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:28
+#: 63385aee519e43beabb9f5462ac85569
+msgid ""
+"When temi releases a software update, the default behaviour of the robot "
+"will be to automatically update itself overnight. When the update is "
+"received, the robot will display a `Software Update` notification screen."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:33
+#: ../../source/basics/07_software-update.rst:78
+#: 764db0a7520448ecbd491048799ad630 b1bd28f078114e8595b576b5e4615f17
+msgid "Software update notification screen"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:33
+#: 7c483bd135c845f680deeb0baea994ce
+msgid ""
+"When a software update is available, the robot will display a "
+"notification screen."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:35
+#: aa68a237363c4fe388c8137b51606afa
+msgid ""
+"The update process may generally take up to 20 minutes (depending on the "
+"speed of the internet connection) and the robot will restart itself when "
+"the update has completed. Robot settings such as Wi-Fi configurations "
+"will be preserved across software updates and should not require user "
+"interaction."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:37
+#: f690fa9377c84a449f8744fb150bdcc2
+msgid ""
+"Robot should remain on the Docking Station during the software update. Do"
+" not attempt to turn-off the robot during a software update. If the "
+"software update is taking longer than expected, contact customer support."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:39
+#: 5bc8b8dc6b9e42e6984e5a50f869e478
+msgid ""
+"Software updates are not required, but strongly recommended. Failure to "
+"update temi Robot software may result in loss of features."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:41
+#: db8b4a5e16ff4b95a91ef3dc702adfbc
+msgid ""
+"In the event that a Software Update notification is not displayed, the "
+"user can `Manually Check for Software Updates`_."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:45
+#: d5b291c18e60492fa5b4c1b54b462819
+msgid "Manually Check for Software Updates"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:46
+#: d8a09503b3a04abfaa6fd3672b2c59aa
+msgid "To manually check for software updates:"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:51
+#: 7711b84c2917499d9d9c3dd9e08b9a55
+msgid ""
+"Go to :guilabel:`Settings` > :guilabel:`About` > :guilabel:`Software "
+"Update`."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:56
+#: c34e73a99efd4da1954ce192aba282ab
+msgid "Checking for software updates"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:56
+#: e6d774f7657a4b7f82c17b1d0edd512d
+msgid "To robot will start searching for available software updates."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:61
+#: 359cd47e22cd4223a1d7cda2892b2b7c
+msgid "Confirm software update"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:61
+#: 407d2a8745744e209377c5627da5307a
+msgid ""
+"If a software update is available, the user can select "
+":guilabel:`Download & Install` to start the software update."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:66
+#: d8c434d53cb74e3babd9a79018d92d31
+msgid "Installation screen"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:66
+#: e17cf76c98534305a90380a4d2726189
+msgid ""
+"A robot may generally take up to 20 minutes to download and install a new"
+" update (depending on the speed of the internet connection)."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:68
+#: 0bab33e06936496fab89635054264656
+msgid "After the software installation is complete, `Check Software Version`_."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:72
+#: 94e9f5d294364fdeb8c0b2fcad902638
+msgid "First Time Activation"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:73
+#: 7a3f3f751c1c444ea3f5e085aa09e512
+msgid ""
+"Users may encounter problems with software updates if the Robox OS "
+"version is below 115. We recommend the following steps for users "
+"receiving a Software Update notification after activating a robot for the"
+" first time:"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:78
+#: 5a4cfa6b53bf47c9b340e83ba9d59d84
+msgid "Cancel the software update by selecting :guilabel:`Later`."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:80
+#: 3f0959167da54a90b139fff22efbd691
+msgid ""
+"`Check Software Version`_. If the ``Robox OS`` is above ``114``, "
+"`Manually Check for Software Updates`_. Otherwise, skip to section `Robox"
+" OS 114 or Earlier`_."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:84
+#: 54252bb8298b486f90e4871b8264fe6a
+msgid "Robox OS 114 or Earlier"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:85
+#: 635b5ed1dae6433380e87f34e679a863
+msgid ""
+"All robots with Robox OS 114 or earlier need to be updated in stages. If "
+"you have a robot with Robox OS 114 or earlier, contact customer support "
+"and be ready to provide the following information (which can be found in "
+":guilabel:`Settings` > :guilabel:`About`):"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:87
+#: ../../source/basics/07_software-update.rst:111
+#: 6557dd88890b4d4bb9bf0af0ace85b64 87c3f82693bc44de9efae038d2f8cbe5
+msgid "temi Robot serial number"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:88
+#: ../../source/basics/07_software-update.rst:112
+#: 570db494318c4fc5a8afb4f82b5fa4a2 e4f48b7d4be14f16894477b96bb61db8
+msgid "Launcher OS version"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:89
+#: ../../source/basics/07_software-update.rst:113
+#: 07107122f5d54d5a88401f461025bcc2 6531d5c7eb854f2ab629fd0349ce5802
+msgid "Robox OS version"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:91
+#: ca451ff15140475087269bbf692ebd91
+msgid ""
+"The robot will be updated in 2 stages and will be require the user's "
+"participation in the installation process:"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:93
+#: 42c0be67a1be45b3b15f5435173872f9
+msgid ""
+"temi will manually push the **first-stage** software update via OTA_ to "
+"the robot."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:98
+#: 6d318778927341d5bf93bf2438ef4a65
+msgid ""
+"Software Update notifcation when temi manually pushes an update to a "
+"specified robot."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:98
+#: 5ffe8b12a93b4dccab88e8b81fe6e2d4
+msgid ""
+"Once the software update has been pushed to the robot, a notification "
+"will appear on the robot's screen. Select :guilabel:`Download & Install` "
+"to proceed with the software update."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:100
+#: 2c11ea92faa14daf8cd5cf3cbe117f24
+msgid ""
+"After the software installation is complete, `Check Software Version`_, "
+"and notify customer support with the software version numbers. temi will "
+"then push the **second-stage** software update via OTA to the robot. "
+"Repeat the download-installation process again. After the software "
+"installation is complete, `Check Software Version`_ to make sure it is on"
+" the most recent software release."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:104
+#: da698405a7ee4078bcdb2186211cfa6e
+msgid "Software Update Unavailable"
+msgstr ""
+
+#: 44c6ff60c11245f9a703abb6b5097df4
+msgid "No software update available"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:109
+#: b0b057e9ead94465910e5a3f1c8b1da1
+msgid ""
+"If no software updates are available, contact customer support and be "
+"ready to provide the following information (which can be found in "
+":guilabel:`Settings` > :guilabel:`About`):"
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:115
+#: 9473e53a2ae045638fcd97102e3b1946
+msgid "temi will push the software update via OTA_ to the robot."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:120
+#: 675919660fac45ffa899507e512280f0
+msgid ""
+"Software update notification when temi manually pushes an update to a "
+"specified robot."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:120
+#: 665a53302801490b8ac4fd861539c55a
+msgid ""
+"Once the software update has been pushed to the robot, this notification "
+"will appear on the robot's screen. Select :guilabel:`Download & Install`."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:122
+#: 84f82497b22043febf46e3ae2a4e5f20
+msgid ""
+"After the software installation is complete, `Check Software Version`_ to"
+" make sure it is on the most recent software release."
+msgstr ""
+

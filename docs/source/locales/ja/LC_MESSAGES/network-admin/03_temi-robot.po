@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-26 16:25+0900\n"
+"POT-Creation-Date: 2022-05-09 14:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,8 +146,9 @@ msgstr ""
 msgid ""
 "During boot, the robot will randomly connect to an authenticated Wi-Fi "
 "access-point with a signal strength that is stronger than or equal to -70"
-" dBm. During run-time, the robot will automatically switch to a stronger "
-"access-point when the signal strength falls below -70 dBm."
+" dBm. During run-time, if the signal strength falls below -70 dBm and "
+"there is an authenticated access-point in the environment with a stronger"
+" signal, the robot will automatically switch to that access point."
 msgstr ""
 
 #: ../../source/network-admin/03_temi-robot.rst:42
@@ -240,53 +241,11 @@ msgstr ""
 ":`firewall-settings` を使用する場合は、デバイスとの間のUDPトラフィック（メディアトラフィック）を優先します。"
 
 #: ../../source/network-admin/03_temi-robot.rst:71
-#: 6150628951214333869da7ba474bb3a5
-msgid "Over-the-Air Updates"
-msgstr "OTA（over-the-air）ソフトウエア・アップデート"
-
-#: ../../source/network-admin/03_temi-robot.rst:72
-#: 1d08785ad67a44ac8a69ebfee53b7301
-msgid ""
-"When temi releases a software update, the default behaviour of the robot "
-"will be to automatically update itself overnight. When the update is "
-"received, the robot will display a `Software Update` dialog screen. "
-"Software versions can be found under ``Settings`` > ``About``. The 3 most"
-" important ones are: ``Launcher OS``, ``Robox OS``, and ``Firmware``."
-msgstr ""
-"temiにソフトウエアのアップデートがリリースされるのは夜間に自動的に更新されます。アップデートを受信したtemiはソフトウエア・アップデートがあった旨をスクリーンに表示します。ソフトウエアのバージョンは設定画面から確認することができます。3つのバージョンがあります。：``ランチャーOS``、``Robox"
-" OS``、``ファームウエア`` です。"
-
-#: ../../source/network-admin/03_temi-robot.rst:74
-#: 9790770bcdcd43e2aaaf2c11258b9b2b
-msgid ""
-"The update process should only take a few minutes and the robot will "
-"restart itself when the update has completed. Robot settings such as Wi-"
-"Fi configurations will be preserved across software updates and should "
-"not require user interaction."
-msgstr ""
-"アップデート自体は短い時間で、アップデートが終了次第、temiは再起動します。temiで既に設定されているWi-"
-"Fi構成などは、そのままアプデート時にも保存されており、ユーザーの再度の設定などは不要です。"
-
-#: ../../source/network-admin/03_temi-robot.rst:76
-#: 8860f25d6f764080ac4463514549f92f
-msgid ""
-"Do not attempt to turn-off the robot during a software update. If the "
-"software update is taking longer than expected, call customer support."
-msgstr "temiのソフトウエア・アップデート中に電源を落とさないでください。もしもソフトウエア・アップデートが思ったよりも長い時間かかるような場合には、カスタマーサポートに連絡して下さい。"
-
-#: ../../source/network-admin/03_temi-robot.rst:78
-#: ef9fc7929102481083d4d81aad8cc8e4
-msgid ""
-"Software updates are not required, but strongly recommended. Failure to "
-"update temi Robot software may result in loss of features."
-msgstr "ソフトウエア・アップデートは必須ではありませんが、アップデートをなさることを強くお勧めします。temiのソフトウエア・アップデートに失敗した場合、機能を損失する結果になるかもしれません。"
-
-#: ../../source/network-admin/03_temi-robot.rst:82
 #: 9e3e62d9d9bc4a11a4830d538301b59b
 msgid "DHCP"
 msgstr "DHCP"
 
-#: ../../source/network-admin/03_temi-robot.rst:83
+#: ../../source/network-admin/03_temi-robot.rst:72
 #: 3036bdc06f14447c89037dd9a51ba5d7
 msgid ""
 "temi Robot can use DHCP to obtain its configurations. The DHCP hostnames "
@@ -299,12 +258,12 @@ msgstr ""
 "。temiのWi-FiインターフェースのMACアドレスは ``設定`` > ``情報`` > ``Wi-Fi　MAC　アドレス`` "
 "で確認することが出来ます。（Launcher OS14759の場合)"
 
-#: ../../source/network-admin/03_temi-robot.rst:87
+#: ../../source/network-admin/03_temi-robot.rst:76
 #: dcfa9233817f4f20bdb743158882554e
 msgid "Captive Portals"
 msgstr "キャプティブ・ポータル機能"
 
-#: ../../source/network-admin/03_temi-robot.rst:88
+#: ../../source/network-admin/03_temi-robot.rst:77
 #: fd4071702aa54c10880ddfe2becdd321
 msgid ""
 "It is recommended to avoid using captive portals with temi Robot. If the "
@@ -313,7 +272,7 @@ msgid ""
 "network."
 msgstr "temiではキャプティブ・ポータル認証機能は使用しないでください。もしtemiが一時的に再配置、或いは再起動した際、ネットワークに再接続した時にサインインのプロセスを要求されるためです。"
 
-#: ../../source/network-admin/03_temi-robot.rst:90
+#: ../../source/network-admin/03_temi-robot.rst:79
 #: 68600d243c984636ad99039d6f52916d
 msgid ""
 "Instead, it is recommended to whitelist the temi Robot's Wi-Fi interface "
@@ -329,17 +288,17 @@ msgstr ""
 "Fiインターフェースがホワイトリストに登録されている場合、キャプティブ・ポータルの登録は必要無くなります。多くのキャプティブ・ポータルでは、MACアドレスをホワイト・リストに指定できます。MACアドレスは"
 " ``設定`` > ``情報`` > ``Wi-Fi　MAC　アドレス`` で確認できます。（Launcher OS14759の場合)"
 
-#: ../../source/network-admin/03_temi-robot.rst:94
+#: ../../source/network-admin/03_temi-robot.rst:83
 #: 6e719339749346d9904068997746ba32
 msgid "Glossary"
 msgstr ""
 
-#: ../../source/network-admin/03_temi-robot.rst:97
+#: ../../source/network-admin/03_temi-robot.rst:86
 #: 6b9492f362404bfc943ffe1007537027
 msgid "BSSID"
 msgstr ""
 
-#: ../../source/network-admin/03_temi-robot.rst:99
+#: ../../source/network-admin/03_temi-robot.rst:88
 #: c8ff92023af940b5887c388370ac5711
 msgid ""
 "For a definition of BSSID, see `Wikipedia Service set (802.11 network) "
@@ -372,4 +331,59 @@ msgstr ""
 
 #~ msgid "Note"
 #~ msgstr ""
+
+#~ msgid ""
+#~ "During boot, the robot will randomly "
+#~ "connect to an authenticated Wi-Fi "
+#~ "access-point with a signal strength "
+#~ "that is stronger than or equal to"
+#~ " -70 dBm. During run-time, the "
+#~ "robot will automatically switch to a "
+#~ "stronger access-point when the signal"
+#~ " strength falls below -70 dBm."
+#~ msgstr ""
+
+#~ msgid "Over-the-Air Updates"
+#~ msgstr "OTA（over-the-air）ソフトウエア・アップデート"
+
+#~ msgid ""
+#~ "When temi releases a software update,"
+#~ " the default behaviour of the robot"
+#~ " will be to automatically update "
+#~ "itself overnight. When the update is "
+#~ "received, the robot will display a "
+#~ "`Software Update` dialog screen. Software "
+#~ "versions can be found under ``Settings``"
+#~ " > ``About``. The 3 most important"
+#~ " ones are: ``Launcher OS``, ``Robox "
+#~ "OS``, and ``Firmware``."
+#~ msgstr ""
+#~ "temiにソフトウエアのアップデートがリリースされるのは夜間に自動的に更新されます。アップデートを受信したtemiはソフトウエア・アップデートがあった旨をスクリーンに表示します。ソフトウエアのバージョンは設定画面から確認することができます。3つのバージョンがあります。：``ランチャーOS``、``Robox"
+#~ " OS``、``ファームウエア`` です。"
+
+#~ msgid ""
+#~ "The update process should only take "
+#~ "a few minutes and the robot will"
+#~ " restart itself when the update has"
+#~ " completed. Robot settings such as "
+#~ "Wi-Fi configurations will be preserved "
+#~ "across software updates and should not"
+#~ " require user interaction."
+#~ msgstr ""
+#~ "アップデート自体は短い時間で、アップデートが終了次第、temiは再起動します。temiで既に設定されているWi-"
+#~ "Fi構成などは、そのままアプデート時にも保存されており、ユーザーの再度の設定などは不要です。"
+
+#~ msgid ""
+#~ "Do not attempt to turn-off the "
+#~ "robot during a software update. If "
+#~ "the software update is taking longer "
+#~ "than expected, call customer support."
+#~ msgstr "temiのソフトウエア・アップデート中に電源を落とさないでください。もしもソフトウエア・アップデートが思ったよりも長い時間かかるような場合には、カスタマーサポートに連絡して下さい。"
+
+#~ msgid ""
+#~ "Software updates are not required, but"
+#~ " strongly recommended. Failure to update"
+#~ " temi Robot software may result in"
+#~ " loss of features."
+#~ msgstr "ソフトウエア・アップデートは必須ではありませんが、アップデートをなさることを強くお勧めします。temiのソフトウエア・アップデートに失敗した場合、機能を損失する結果になるかもしれません。"
 
