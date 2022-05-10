@@ -43,6 +43,18 @@ The update process may generally take up to 20 minutes (depending on the speed o
 In the event that a Software Update notification is not displayed, the user can `Manually Check for Software Updates`_. 
 
 
+First Time Activation
+=====================
+Users may encounter problems with software updates if the Robox OS version is below 115. We recommend the following steps for users receiving a Software Update notification after activating a robot for the first time.
+
+.. figure:: assets/images/software-update/confirm-update-settings-later.jpg
+  :alt: Software update notification screen
+
+  Cancel the software update by selecting :guilabel:`Later`.
+
+`Check Software Version`_. If the ``Robox OS`` is above ``114``, `Manually Check for Software Updates`_. Otherwise, skip to section `Robox OS 114 or Earlier`_.
+
+
 Manually Check for Software Updates
 ===================================
 
@@ -66,41 +78,29 @@ Manually Check for Software Updates
 
   A robot may generally take up to 20 minutes to download and install a new update (depending on the speed of the internet connection).
 
-After the software installation is complete, `Check Software Version`_.
+After the software installation is complete, `Check Software Version`_. Repeat this process until the software version is up to date. If a software update is unavailable, go to section `Software Update Unavailable`_.
 
 
-First Time Activation
-=====================
-Users may encounter problems with software updates if the Robox OS version is below 115. We recommend the following steps for users receiving a Software Update notification after activating a robot for the first time.
+.. Robox OS 114 or Earlier
+.. =======================
+.. All robots with Robox OS 114 or earlier need to be updated in stages. If you have a robot with Robox OS 114 or earlier, contact customer support and be ready to provide the following information (which can be found in :guilabel:`Settings` > :guilabel:`About`):
 
-.. figure:: assets/images/software-update/confirm-update-settings-later.jpg
-  :alt: Software update notification screen
+.. - temi Robot serial number
+.. - Launcher OS version
+.. - Robox OS version
 
-  Cancel the software update by selecting :guilabel:`Later`.
+.. The robot will be updated in 2 stages and will be require the user's participation in the installation process.
 
-`Check Software Version`_. If the ``Robox OS`` is above ``114``, `Manually Check for Software Updates`_. Otherwise, skip to section `Robox OS 114 or Earlier`_.
+.. First, temi will manually push the **first-stage** software update via OTA_ to the robot.
 
+.. .. figure:: assets/images/software-update/confirm-update-pushed.jpg
+..   :alt: Software Update notifcation when temi manually pushes an update to a specified robot.
 
-Robox OS 114 or Earlier
-=======================
-All robots with Robox OS 114 or earlier need to be updated in stages. If you have a robot with Robox OS 114 or earlier, contact customer support and be ready to provide the following information (which can be found in :guilabel:`Settings` > :guilabel:`About`):
+..   Once the software update has been pushed to the robot, a notification will appear on the robot's screen. Select :guilabel:`Download & Install` to proceed with the software update.
 
-- temi Robot serial number
-- Launcher OS version
-- Robox OS version
+.. After the software installation is complete, notify customer support with the software version numbers (see `Check Software Version`_). temi will then push the **second-stage** software update via OTA_ to the robot. Repeat the download-installation process again.
 
-The robot will be updated in 2 stages and will be require the user's participation in the installation process.
-
-First, temi will manually push the **first-stage** software update via OTA_ to the robot.
-
-.. figure:: assets/images/software-update/confirm-update-pushed.jpg
-  :alt: Software Update notifcation when temi manually pushes an update to a specified robot.
-
-  Once the software update has been pushed to the robot, a notification will appear on the robot's screen. Select :guilabel:`Download & Install` to proceed with the software update.
-
-After the software installation is complete, notify customer support with the software version numbers (see `Check Software Version`_). temi will then push the **second-stage** software update via OTA_ to the robot. Repeat the download-installation process again.
-
-After the software installation is complete, `Check Software Version`_ to make sure the robot is on the most recent software release.
+.. After the software installation is complete, `Check Software Version`_ to make sure the robot is on the most recent software release.
 
 
 Software Update Unavailable
