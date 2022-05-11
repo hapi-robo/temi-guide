@@ -47,12 +47,16 @@ First Time Activation
 =====================
 We recommend the following steps for users receiving a Software Update notification after activating a robot for the first time.
 
+#. Cancel the software update by selecting :guilabel:`Later` (see figure below)
+#. `Check Software Version`_
+#. `Manually Check for Software Updates`_
+
+Repeat the update process until the software version is up-to-date.
+
 .. figure:: assets/images/software-update/confirm-update-settings-later.jpg
   :alt: Software update notification screen
 
   Cancel the software update by selecting :guilabel:`Later`.
-
-`Check Software Version`_. If the ``Robox OS`` is ``118`` or below, contact Customer Support. Otherwise, `Manually Check for Software Updates`_.
 
 
 Manually Check for Software Updates
