@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-10 15:05+0900\n"
+"POT-Creation-Date: 2022-05-11 15:25+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,32 +20,32 @@ msgstr ""
 #: ../../source/basics/07_software-update.rst:3
 #: 26f9d673172a43c888c9125eec875d6b
 msgid "Software Update"
-msgstr ""
+msgstr "ソフトウェアアップデート"
 
 #: ../../source/basics/07_software-update.rst:5
 #: 461f3ba5f4b34fb8aa855402de60db45
 msgid ""
 "The following information was validated on May 9, 2022 using Launcher OS "
 "16080."
-msgstr ""
+msgstr "以下の情報は、2022年5月9日現在、Launcher OS 16080を使用して検証したものです。"
 
 #: ../../source/basics/07_software-update.rst:8
 #: ec8602c4c7b747d8892146374c72f1db
 msgid "Check Software Version"
-msgstr ""
+msgstr "ソフトウェアバージョンの確認 "
 
 #: ../../source/basics/07_software-update.rst:9
 #: eec461dc091f4a5383b979714dea4509
 msgid ""
 "To check the robot's current software version, go to :guilabel:`Settings`"
 " > :guilabel:`About`."
-msgstr ""
+msgstr "ロボットの現在のソフトウェアバージョンを確認するには、 :guilabel:`設定` >  :guilabel:`情報` に進みます。"
 
 #: ../../source/basics/07_software-update.rst:14
 #: ../../source/basics/07_software-update.rst:64
 #: b02075a135fd44b7b61503a00db3809d f6d7974738b44fdd9ab008b7f6b6ebe1
 msgid ":guilabel:`Settings` > :guilabel:`About`"
-msgstr ""
+msgstr ":guilabel:`設定` >  :guilabel:`情報`"
 
 #: ../../source/basics/07_software-update.rst:14
 #: 2abf23b5eb39458aaa2a1c0cf8a612c0
@@ -53,16 +53,18 @@ msgid ""
 "In the :guilabel:`Settings` > :guilabel:`About` screen, you will see 3 "
 "software versions: ``Launcher OS``, ``Robox OS``, and ``Firmware``."
 msgstr ""
+":guilabel:`設定` > :guilabel:`設定` の画面では、3つのソフトウェアバージョンが表示されます。 ``ランチャー "
+"OS``、``Robox OS``、``ファームウエア`` です。 "
 
 #: ../../source/basics/07_software-update.rst:17
 #: 308c23f143414fb99db2ab7fd111e73d
 msgid "**Launcher OS**"
-msgstr ""
+msgstr "**ランチャー OS**"
 
 #: ../../source/basics/07_software-update.rst:17
 #: c4559c0404f5477d92b647c8353549c6
 msgid "Tablet Android launcher software version."
-msgstr ""
+msgstr "Androidランチャー・ソフトウエア・バージョン"
 
 #: ../../source/basics/07_software-update.rst:19
 #: 84a65a3bd0d94df18937b9b148fef07e
@@ -72,17 +74,17 @@ msgstr ""
 #: ../../source/basics/07_software-update.rst:19
 #: e9e00fb429a9433caff5cd9f7473467d
 msgid "Navigation computer's software version."
-msgstr ""
+msgstr "ナビゲーション用ソフトウエア　バージョン"
 
 #: ../../source/basics/07_software-update.rst:21
 #: c9da622bb6f7400bb2f79f96b7ff6606
 msgid "**Firmware**"
-msgstr ""
+msgstr "**ファームウエア**"
 
 #: ../../source/basics/07_software-update.rst:21
 #: 2c8eab16d0854bd2bb5cdc5ca7514cd0
 msgid "Tablet operating system's software version."
-msgstr ""
+msgstr "タブレット部OSバージョン"
 
 #: ../../source/basics/07_software-update.rst:24
 #: 2fdd43f6eb5e4026a824dde963200f87
@@ -91,11 +93,13 @@ msgid ""
 "Software Release Notes, which can be found on the `temi Support "
 "<https://www.robotemi.jp/support/>`_ page."
 msgstr ""
+"最新のソフトウェアバージョン番号については、 `temiサポートページ <https://www.robotemi.jp/support/>`_ "
+"にあるソフトウェアリリースノートを参照してください。 "
 
 #: ../../source/basics/07_software-update.rst:29
 #: 6c7721fa51d045fc86b83c8160127dac
 msgid "Over-the-Air Updates (OTA)"
-msgstr ""
+msgstr "Over-the-Air Updates (OTA) (無線配信によるアップデート) "
 
 #: ../../source/basics/07_software-update.rst:30
 #: 63385aee519e43beabb9f5462ac85569
@@ -104,6 +108,9 @@ msgid ""
 "will be to automatically update itself overnight. When the update is "
 "received, the robot will display a `Software Update` notification screen."
 msgstr ""
+"temi "
+"がソフトウェアアップデートをリリースした場合、ロボットは、夜間に自動的にアップデートされます。アップデートを受信すると、ディスプレーにソフトウェアアップデートの通知画面が表示されます。"
+" "
 
 #: ../../source/basics/07_software-update.rst:35
 #: ../../source/basics/07_software-update.rst:53
@@ -116,7 +123,7 @@ msgstr ""
 msgid ""
 "When a software update is available, the robot will display a "
 "notification screen."
-msgstr ""
+msgstr "ソフトウェアアップデートが可能な場合、ロボットに通知画面が表示されます。 "
 
 #: ../../source/basics/07_software-update.rst:37
 #: aa68a237363c4fe388c8137b51606afa
@@ -127,6 +134,8 @@ msgid ""
 "will be preserved across software updates and should not require user "
 "interaction."
 msgstr ""
+"アップデートは通常20分程度（インターネット回線の速度により異なります）かかり、アップデートが完了するとロボットは再起動します。Wi-"
+"Fi設定などのロボットの設定は、ソフトウェアの更新後も保持されますので、ユーザーによる特別な操作は必要ありません。 "
 
 #: ../../source/basics/07_software-update.rst:39
 #: f690fa9377c84a449f8744fb150bdcc2
@@ -134,14 +143,14 @@ msgid ""
 "Robot should remain on the Home Base during the software update. Do not "
 "attempt to turn-off the robot during a software update. If the software "
 "update is taking longer than expected, contact customer support."
-msgstr ""
+msgstr "ソフトウェアアップデートの間、ロボットはホームベース上にいる必要があります。ソフトウェアアップデート中にロボットの電源を切ろうとしないでください。ソフトウェアアップデートに予想以上の時間がかかる場合は、カスタマーサポートにご連絡ください。"
 
 #: ../../source/basics/07_software-update.rst:41
 #: 5bc8b8dc6b9e42e6984e5a50f869e478
 msgid ""
 "Software updates are not required, but strongly recommended. Failure to "
 "update temi Robot software may result in loss of features."
-msgstr ""
+msgstr "ソフトウェアのアップデートは必須ではありませんが、強くお勧めします。ソフトウェアアップデートを行わない場合、機能が失われる可能性があります。 "
 
 #: ../../source/basics/07_software-update.rst:43
 #: db8b4a5e16ff4b95a91ef3dc702adfbc
@@ -149,45 +158,46 @@ msgid ""
 "In the event that a Software Update notification is not displayed, the "
 "user can `Manually Check for Software Updates`_."
 msgstr ""
+"ソフトウェアアップデートのお知らせが表示されない場合は、 `手動でソフトウェアアップデートを確認する`_ ことができます。"
+" "
 
 #: ../../source/basics/07_software-update.rst:47
 #: 94e9f5d294364fdeb8c0b2fcad902638
 msgid "First Time Activation"
-msgstr ""
+msgstr "初回起動時"
 
 #: ../../source/basics/07_software-update.rst:48
 #: 7a3f3f751c1c444ea3f5e085aa09e512
+#, fuzzy
 msgid ""
-"Users may encounter problems with software updates if the Robox OS "
-"version is below 115. We recommend the following steps for users "
-"receiving a Software Update notification after activating a robot for the"
-" first time."
-msgstr ""
+"We recommend the following steps for users receiving a Software Update "
+"notification after activating a robot for the first time."
+msgstr "ロボックスOSのバージョンが115以下の場合、ユーザーはソフトウェアアップデートに問題が発生する可能性があります。ロボットを初めて起動した後、ソフトウェアアップデートの通知を受けたユーザーには以下の手順を推奨します。"
 
 #: ../../source/basics/07_software-update.rst:53
 #: 5a4cfa6b53bf47c9b340e83ba9d59d84
 msgid "Cancel the software update by selecting :guilabel:`Later`."
-msgstr ""
+msgstr "ソフトウェアアップデートをキャンセルするには、:guilabel:`あとで` を選択します。 "
 
 #: ../../source/basics/07_software-update.rst:55
 #: 3f0959167da54a90b139fff22efbd691
 msgid ""
-"`Check Software Version`_. If the ``Robox OS`` is above ``114``, "
-"`Manually Check for Software Updates`_. Otherwise, skip to section `Robox"
-" OS 114 or Earlier`_."
+"`Check Software Version`_. If the ``Robox OS`` is ``118`` or below, "
+"contact Customer Support. Otherwise, `Manually Check for Software "
+"Updates`_."
 msgstr ""
 
 #: ../../source/basics/07_software-update.rst:59
 #: d5b291c18e60492fa5b4c1b54b462819
 msgid "Manually Check for Software Updates"
-msgstr ""
+msgstr "手動でソフトウェアのアップデートを確認する "
 
 #: ../../source/basics/07_software-update.rst:64
 #: 7711b84c2917499d9d9c3dd9e08b9a55
 msgid ""
 "Select :guilabel:`Settings` > :guilabel:`About` > :guilabel:`Software "
 "Update`."
-msgstr ""
+msgstr ":guilabel:`設定` > :guilabel:`バージョン情報` > :guilabel:`ソフトウェアの更新` を選択します。"
 
 #: ../../source/basics/07_software-update.rst:69
 #: c34e73a99efd4da1954ce192aba282ab
@@ -197,7 +207,7 @@ msgstr ""
 #: ../../source/basics/07_software-update.rst:69
 #: e6d774f7657a4b7f82c17b1d0edd512d
 msgid "The robot will start searching for available software updates."
-msgstr ""
+msgstr "ロボットが利用可能なソフトウェア・アップデートの検索を開始します。 "
 
 #: ../../source/basics/07_software-update.rst:74
 #: 359cd47e22cd4223a1d7cda2892b2b7c
@@ -210,6 +220,8 @@ msgid ""
 "If a software update is available, the user can select "
 ":guilabel:`Download & Install` to start the software update."
 msgstr ""
+"ソフトウェアアップデートが可能な場合、 :guilabel:`ダウンロードとインストール` "
+"を選択し、ソフトウェアアップデートを開始することができます。 "
 
 #: ../../source/basics/07_software-update.rst:79
 #: d8c434d53cb74e3babd9a79018d92d31
@@ -221,7 +233,7 @@ msgstr ""
 msgid ""
 "A robot may generally take up to 20 minutes to download and install a new"
 " update (depending on the speed of the internet connection)."
-msgstr ""
+msgstr "ロボットは通常、新しいアップデートのダウンロードとインストールに20分ほどかかります。（接続されたインターネットの速度に依存します。） "
 
 #: ../../source/basics/07_software-update.rst:81
 #: 2c11ea92faa14daf8cd5cf3cbe117f24
@@ -231,11 +243,14 @@ msgid ""
 "software update is unavailable, go to section `Software Update "
 "Unavailable`_."
 msgstr ""
+"ソフトウェアのインストールが完了しましたら、 `ソフトウエア・バージョンの確認`_ "
+"を行ってください。ソフトウェアのバージョンが最新になるまで、このプロセスを繰り返します。ソフトウェア・アップデートが利用できない場合は、 "
+"`ソフトウェアアップデートが利用できない`_ のセクションに進みます。 "
 
 #: ../../source/basics/07_software-update.rst:107
 #: da698405a7ee4078bcdb2186211cfa6e
 msgid "Software Update Unavailable"
-msgstr ""
+msgstr "ソフトウェアアップデートが利用できない "
 
 #: 44c6ff60c11245f9a703abb6b5097df4
 msgid "No software update available"
@@ -248,26 +263,28 @@ msgid ""
 "ready to provide the following information (which can be found in "
 ":guilabel:`Settings` > :guilabel:`About`):"
 msgstr ""
+"ソフトウェアアップデートが利用できない場合は、カスタマーサポートに連絡し、以下の情報を提供してください（ :guilabel:`設定` > "
+":guilabel:`情報` で確認いただけます。） "
 
 #: ../../source/basics/07_software-update.rst:114
 #: 6557dd88890b4d4bb9bf0af0ace85b64
 msgid "temi Robot serial number"
-msgstr ""
+msgstr "temi Robotシリアル番号"
 
 #: ../../source/basics/07_software-update.rst:115
 #: e4f48b7d4be14f16894477b96bb61db8
 msgid "Launcher OS version"
-msgstr ""
+msgstr "ランチャーOSバージョン"
 
 #: ../../source/basics/07_software-update.rst:116
 #: 6531d5c7eb854f2ab629fd0349ce5802
 msgid "Robox OS version"
-msgstr ""
+msgstr "Robox OSバージョン"
 
 #: ../../source/basics/07_software-update.rst:118
 #: 9473e53a2ae045638fcd97102e3b1946
 msgid "temi will push the software update via OTA_ to the robot."
-msgstr ""
+msgstr "temiは OTA_ によるプッシュ方式でソフトウェア・アップデートをロボットに行います。 "
 
 #: ../../source/basics/07_software-update.rst:123
 #: 6d318778927341d5bf93bf2438ef4a65
@@ -283,13 +300,15 @@ msgid ""
 "will appear on the robot's screen. Select :guilabel:`Download & Install` "
 "to proceed with the software update."
 msgstr ""
+"temiが上記内容で指定されたロボットに手動でアップデートをプッシュすると、ディスプレーにソフトウェアアップデートの通知が表示されます。 "
+":guilabel:`ダウンロードとインストール` を選択し、ソフトウェアアップデートを実行します。"
 
 #: ../../source/basics/07_software-update.rst:125
 #: 84f82497b22043febf46e3ae2a4e5f20
 msgid ""
 "After the software installation is complete, `Check Software Version`_ to"
 " make sure it is on the most recent software release."
-msgstr ""
+msgstr "ソフトウェアのインストールが完了しましたら、 `ソフトウエア・バージョンの確認`_ で最新のリリースされたソフトウェアであることを確認します。 "
 
 #~ msgid ""
 #~ "Robot should remain on the Docking "
@@ -416,4 +435,15 @@ msgstr ""
 #~ "make sure the robot is on the "
 #~ "most recent software release."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "`Check Software Version`_. If the "
+#~ "``Robox OS`` is above ``114``, `Manually"
+#~ " Check for Software Updates`_. Otherwise,"
+#~ " skip to section `Robox OS 114 "
+#~ "or Earlier`_."
+#~ msgstr ""
+#~ "`ソフトウェアバージョンを確認`_ してください。Robox "
+#~ "OSが114以上の場合、｢ソフトウエアの更新｣を手動で行ってください。それ以外の場合は、`Robox OS 114"
+#~ " or Earlier`_のセクションにスキップしてください。 "
 

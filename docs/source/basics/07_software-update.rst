@@ -45,14 +45,14 @@ In the event that a Software Update notification is not displayed, the user can 
 
 First Time Activation
 =====================
-Users may encounter problems with software updates if the Robox OS version is below 115. We recommend the following steps for users receiving a Software Update notification after activating a robot for the first time.
+We recommend the following steps for users receiving a Software Update notification after activating a robot for the first time.
 
 .. figure:: assets/images/software-update/confirm-update-settings-later.jpg
   :alt: Software update notification screen
 
   Cancel the software update by selecting :guilabel:`Later`.
 
-`Check Software Version`_. If the ``Robox OS`` is above ``114``, `Manually Check for Software Updates`_. Otherwise, skip to section `Robox OS 114 or Earlier`_.
+`Check Software Version`_. If the ``Robox OS`` is ``118`` or below, contact Customer Support. Otherwise, `Manually Check for Software Updates`_.
 
 
 Manually Check for Software Updates
