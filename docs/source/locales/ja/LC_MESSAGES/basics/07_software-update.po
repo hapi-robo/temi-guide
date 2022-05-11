@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: temi Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-11 15:25+0900\n"
+"POT-Creation-Date: 2022-05-11 17:17+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,7 +42,7 @@ msgid ""
 msgstr "ロボットの現在のソフトウェアバージョンを確認するには、 :guilabel:`設定` >  :guilabel:`情報` に進みます。"
 
 #: ../../source/basics/07_software-update.rst:14
-#: ../../source/basics/07_software-update.rst:64
+#: ../../source/basics/07_software-update.rst:68
 #: b02075a135fd44b7b61503a00db3809d f6d7974738b44fdd9ab008b7f6b6ebe1
 msgid ":guilabel:`Settings` > :guilabel:`About`"
 msgstr ":guilabel:`設定` >  :guilabel:`情報`"
@@ -113,7 +113,7 @@ msgstr ""
 " "
 
 #: ../../source/basics/07_software-update.rst:35
-#: ../../source/basics/07_software-update.rst:53
+#: ../../source/basics/07_software-update.rst:59
 #: 764db0a7520448ecbd491048799ad630 b1bd28f078114e8595b576b5e4615f17
 msgid "Software update notification screen"
 msgstr ""
@@ -157,9 +157,7 @@ msgstr "ソフトウェアのアップデートは必須ではありませんが
 msgid ""
 "In the event that a Software Update notification is not displayed, the "
 "user can `Manually Check for Software Updates`_."
-msgstr ""
-"ソフトウェアアップデートのお知らせが表示されない場合は、 `手動でソフトウェアアップデートを確認する`_ ことができます。"
-" "
+msgstr "ソフトウェアアップデートのお知らせが表示されない場合は、 `手動でソフトウェアアップデートを確認する`_ ことができます。 "
 
 #: ../../source/basics/07_software-update.rst:47
 #: 94e9f5d294364fdeb8c0b2fcad902638
@@ -174,47 +172,64 @@ msgid ""
 "notification after activating a robot for the first time."
 msgstr "ロボックスOSのバージョンが115以下の場合、ユーザーはソフトウェアアップデートに問題が発生する可能性があります。ロボットを初めて起動した後、ソフトウェアアップデートの通知を受けたユーザーには以下の手順を推奨します。"
 
-#: ../../source/basics/07_software-update.rst:53
+#: ../../source/basics/07_software-update.rst:50
+#: 5a4cfa6b53bf47c9b340e83ba9d59d84
+#, fuzzy
+msgid ""
+"Cancel the software update by selecting :guilabel:`Later` (see figure "
+"below)"
+msgstr "ソフトウェアアップデートをキャンセルするには、:guilabel:`あとで` を選択します。 "
+
+#: ../../source/basics/07_software-update.rst:51
+#: d5b291c18e60492fa5b4c1b54b462819
+#, fuzzy
+msgid "`Check Software Version`_"
+msgstr "ソフトウェアバージョンの確認 "
+
+#: ../../source/basics/07_software-update.rst:52
+#: d5b291c18e60492fa5b4c1b54b462819
+#, fuzzy
+msgid "`Manually Check for Software Updates`_"
+msgstr "手動でソフトウェアのアップデートを確認する "
+
+#: ../../source/basics/07_software-update.rst:54
+#: 340fe83283ac4113a6802e16e3cf4616
+msgid "Repeat the update process until the software version is up-to-date."
+msgstr ""
+
+#: ../../source/basics/07_software-update.rst:59
 #: 5a4cfa6b53bf47c9b340e83ba9d59d84
 msgid "Cancel the software update by selecting :guilabel:`Later`."
 msgstr "ソフトウェアアップデートをキャンセルするには、:guilabel:`あとで` を選択します。 "
 
-#: ../../source/basics/07_software-update.rst:55
-#: 3f0959167da54a90b139fff22efbd691
-msgid ""
-"`Check Software Version`_. If the ``Robox OS`` is ``118`` or below, "
-"contact Customer Support. Otherwise, `Manually Check for Software "
-"Updates`_."
-msgstr ""
-
-#: ../../source/basics/07_software-update.rst:59
+#: ../../source/basics/07_software-update.rst:63
 #: d5b291c18e60492fa5b4c1b54b462819
 msgid "Manually Check for Software Updates"
 msgstr "手動でソフトウェアのアップデートを確認する "
 
-#: ../../source/basics/07_software-update.rst:64
+#: ../../source/basics/07_software-update.rst:68
 #: 7711b84c2917499d9d9c3dd9e08b9a55
 msgid ""
 "Select :guilabel:`Settings` > :guilabel:`About` > :guilabel:`Software "
 "Update`."
 msgstr ":guilabel:`設定` > :guilabel:`バージョン情報` > :guilabel:`ソフトウェアの更新` を選択します。"
 
-#: ../../source/basics/07_software-update.rst:69
+#: ../../source/basics/07_software-update.rst:73
 #: c34e73a99efd4da1954ce192aba282ab
 msgid "Checking for software updates"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:69
+#: ../../source/basics/07_software-update.rst:73
 #: e6d774f7657a4b7f82c17b1d0edd512d
 msgid "The robot will start searching for available software updates."
 msgstr "ロボットが利用可能なソフトウェア・アップデートの検索を開始します。 "
 
-#: ../../source/basics/07_software-update.rst:74
+#: ../../source/basics/07_software-update.rst:78
 #: 359cd47e22cd4223a1d7cda2892b2b7c
 msgid "Confirm software update"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:74
+#: ../../source/basics/07_software-update.rst:78
 #: 407d2a8745744e209377c5627da5307a
 msgid ""
 "If a software update is available, the user can select "
@@ -223,19 +238,19 @@ msgstr ""
 "ソフトウェアアップデートが可能な場合、 :guilabel:`ダウンロードとインストール` "
 "を選択し、ソフトウェアアップデートを開始することができます。 "
 
-#: ../../source/basics/07_software-update.rst:79
+#: ../../source/basics/07_software-update.rst:83
 #: d8c434d53cb74e3babd9a79018d92d31
 msgid "Installation screen"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:79
+#: ../../source/basics/07_software-update.rst:83
 #: e17cf76c98534305a90380a4d2726189
 msgid ""
 "A robot may generally take up to 20 minutes to download and install a new"
 " update (depending on the speed of the internet connection)."
 msgstr "ロボットは通常、新しいアップデートのダウンロードとインストールに20分ほどかかります。（接続されたインターネットの速度に依存します。） "
 
-#: ../../source/basics/07_software-update.rst:81
+#: ../../source/basics/07_software-update.rst:85
 #: 2c11ea92faa14daf8cd5cf3cbe117f24
 msgid ""
 "After the software installation is complete, `Check Software Version`_. "
@@ -247,7 +262,7 @@ msgstr ""
 "を行ってください。ソフトウェアのバージョンが最新になるまで、このプロセスを繰り返します。ソフトウェア・アップデートが利用できない場合は、 "
 "`ソフトウェアアップデートが利用できない`_ のセクションに進みます。 "
 
-#: ../../source/basics/07_software-update.rst:107
+#: ../../source/basics/07_software-update.rst:111
 #: da698405a7ee4078bcdb2186211cfa6e
 msgid "Software Update Unavailable"
 msgstr "ソフトウェアアップデートが利用できない "
@@ -256,7 +271,7 @@ msgstr "ソフトウェアアップデートが利用できない "
 msgid "No software update available"
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:112
+#: ../../source/basics/07_software-update.rst:116
 #: b0b057e9ead94465910e5a3f1c8b1da1
 msgid ""
 "If no software updates are available, contact customer support and be "
@@ -266,34 +281,34 @@ msgstr ""
 "ソフトウェアアップデートが利用できない場合は、カスタマーサポートに連絡し、以下の情報を提供してください（ :guilabel:`設定` > "
 ":guilabel:`情報` で確認いただけます。） "
 
-#: ../../source/basics/07_software-update.rst:114
+#: ../../source/basics/07_software-update.rst:118
 #: 6557dd88890b4d4bb9bf0af0ace85b64
 msgid "temi Robot serial number"
 msgstr "temi Robotシリアル番号"
 
-#: ../../source/basics/07_software-update.rst:115
+#: ../../source/basics/07_software-update.rst:119
 #: e4f48b7d4be14f16894477b96bb61db8
 msgid "Launcher OS version"
 msgstr "ランチャーOSバージョン"
 
-#: ../../source/basics/07_software-update.rst:116
+#: ../../source/basics/07_software-update.rst:120
 #: 6531d5c7eb854f2ab629fd0349ce5802
 msgid "Robox OS version"
 msgstr "Robox OSバージョン"
 
-#: ../../source/basics/07_software-update.rst:118
+#: ../../source/basics/07_software-update.rst:122
 #: 9473e53a2ae045638fcd97102e3b1946
 msgid "temi will push the software update via OTA_ to the robot."
 msgstr "temiは OTA_ によるプッシュ方式でソフトウェア・アップデートをロボットに行います。 "
 
-#: ../../source/basics/07_software-update.rst:123
+#: ../../source/basics/07_software-update.rst:127
 #: 6d318778927341d5bf93bf2438ef4a65
 msgid ""
 "Software update notification when temi manually pushes an update to a "
 "specified robot."
 msgstr ""
 
-#: ../../source/basics/07_software-update.rst:123
+#: ../../source/basics/07_software-update.rst:127
 #: 5ffe8b12a93b4dccab88e8b81fe6e2d4
 msgid ""
 "Once the software update has been pushed to the robot, this notification "
@@ -303,7 +318,7 @@ msgstr ""
 "temiが上記内容で指定されたロボットに手動でアップデートをプッシュすると、ディスプレーにソフトウェアアップデートの通知が表示されます。 "
 ":guilabel:`ダウンロードとインストール` を選択し、ソフトウェアアップデートを実行します。"
 
-#: ../../source/basics/07_software-update.rst:125
+#: ../../source/basics/07_software-update.rst:129
 #: 84f82497b22043febf46e3ae2a4e5f20
 msgid ""
 "After the software installation is complete, `Check Software Version`_ to"
@@ -446,4 +461,11 @@ msgstr "ソフトウェアのインストールが完了しましたら、 `ソ�
 #~ "`ソフトウェアバージョンを確認`_ してください。Robox "
 #~ "OSが114以上の場合、｢ソフトウエアの更新｣を手動で行ってください。それ以外の場合は、`Robox OS 114"
 #~ " or Earlier`_のセクションにスキップしてください。 "
+
+#~ msgid ""
+#~ "`Check Software Version`_. If the "
+#~ "``Robox OS`` is ``118`` or below, "
+#~ "contact Customer Support. Otherwise, `Manually"
+#~ " Check for Software Updates`_."
+#~ msgstr ""
 
