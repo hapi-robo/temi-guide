@@ -12,6 +12,9 @@ Firewall Settings
 A list of the IP/FQDNs and port numbers that are used by temi Robots, temi Mobile App, and temi Center are provided in the following CSV file. For changes to previous versions, see :ref:`firewall-changelogs`.
 
 :download:`Firewall Settings (2022/02/09) <assets/temi_firewall_settings_20220209.csv>`
+.. https://docs-preprod.agora.io/en/Video/cloud_proxy_na?platform=Android
+.. SLA: https://docs.agora.io/en/Agora%20Platform/agora_platform?platform=All%20Platforms
+.. Support Plans: https://www.agora.io/en/pricing/support-plans/
 
 Whitelist only those IP/FQDNs and port numbers that you want to use. 
 
