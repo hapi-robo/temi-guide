@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kupka Tomas/AndroidStudioProjects/FromRaysRepo/temi-guide/examples/showroom-mode/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Kupka Tomas/AndroidStudioProjects/FromRaysRepo/temi-guide/examples/showroom-mode/app/src/main/res/layout/fragment_car.xml" value="0.20987654320987653" />
+        <entry key="..\:/Users/Kupka Tomas/AndroidStudioProjects/FromRaysRepo/temi-guide/examples/showroom-mode/app/src/main/res/layout/fragment_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/Kupka Tomas/AndroidStudioProjects/FromRaysRepo/temi-guide/examples/showroom-mode/app/src/main/res/layout/fragment_video.xml" value="0.3625" />
+        <entry key="..\:/Users/Kupka Tomas/AndroidStudioProjects/showroom-mode/app/src/main/res/layout/activity_main.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Kupka Tomas/AndroidStudioProjects/showroom-mode/app/src/main/res/layout/fragment_menu.xml" value="0.43072916666666666" />
+        <entry key="..\:/Users/Kupka Tomas/AndroidStudioProjects/showroom-mode/app/src/main/res/layout/fragment_video.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

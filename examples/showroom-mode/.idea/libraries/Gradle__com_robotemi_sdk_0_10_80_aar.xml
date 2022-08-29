@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.robotemi:sdk:0.10.80@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/743c35cb3a82b998baabdaebb99f97b9/transformed/sdk-0.10.80/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/743c35cb3a82b998baabdaebb99f97b9/transformed/sdk-0.10.80/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/743c35cb3a82b998baabdaebb99f97b9/transformed/sdk-0.10.80/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
