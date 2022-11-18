@@ -1,27 +1,93 @@
-# Usage
-Make document (default: English)
+# temi Guide Documentation
+
+## Prerequisites
+### Python
+This repository has been tested on version [3.8.10](https://www.python.org/downloads/release/python-3810/).
+
+On Windows, install using the Windows installer provided on [www.python.org](https://www.python.org/). Avoid using the version of Python available from Windows Marketplace.
+
+### Bash Terminal
+If you are on Windows, it is recommend that you install a linux terminal like [Git BASH](https://gitforwindows.org/).
+
+
+## Setup
+### Linux
+```shell
+./setup.sh
 ```
+
+### Windows Git BASH
+Create a virtual environment:
+```shell
+python3 -m venv venv/
+```
+
+Activate the virtual environment:
+```shell
+source .\venv\Scripts\activate
+```
+
+To disable the virtual environment:
+```shell
+deactivate
+```
+
+With an active virtual environment, install project requirements:
+```shell
+pip install -r requirements.txt
+```
+
+
+## Usage
+### Linux
+Make document (default: English)
+```shell
 make html
 ```
 
 Extract document's translatable messages into pot (.po) files
-```
+```shell
 make gettext
 ```
 This invokes the sphinx gettext builder that generates pot files under `build/gettext` folder.
 
 Update your local pot files:
-```
+```shell
 sphinx-intl update -p build/gettext -l ja
 ```
 
 Make translated document
-```
+```shell
 make -e SPHINXOPTS="-Dlanguage='ja'" html
 ```
 
+
+### Windows Git BASH
+Make document (default: English)
+```shell
+mingw32-make html
+```
+
+Extract document's translatable messages into pot (.po) files
+```shell
+mingw32-make gettext
+```
+This invokes the sphinx gettext builder that generates pot files under `build/gettext` folder.
+
+Update your local pot files:
+```shell
+sphinx-intl update -p build/gettext -l ja
+```
+
+Make translated document
+```shell
+mingw32-make -e SPHINXOPTS="-Dlanguage='ja'" html
+```
+
+
 ## Tips
 For empty strings, use ['ZERO WIDTH SPACE' (U+200B)](https://stackoverflow.com/a/14414266). Copy this character from [here](https://unicode-table.com/en/200B/).
+
 
 ## References
 - [Localization Quickstart](https://sphinx-intl.readthedocs.io/en/master/quickstart.html)
