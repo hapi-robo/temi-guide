@@ -6,9 +6,6 @@ This repository has been tested on version [3.8.10](https://www.python.org/downl
 
 On Windows, install using the Windows installer provided on [www.python.org](https://www.python.org/). Avoid using the version of Python available from Windows Marketplace.
 
-### Bash Terminal
-If you are on Windows, it is recommend that you install a linux terminal like [Git BASH](https://gitforwindows.org/).
-
 
 ## Setup
 ### Linux
@@ -16,15 +13,15 @@ If you are on Windows, it is recommend that you install a linux terminal like [G
 ./setup.sh
 ```
 
-### Windows Git BASH
+### Windows PowerShell
 Create a virtual environment:
 ```shell
-python3 -m venv venv/
+python -m venv venv/
 ```
 
 Activate the virtual environment:
 ```shell
-source .\venv\Scripts\activate
+.\venv\Scripts\activate
 ```
 
 To disable the virtual environment:
@@ -62,7 +59,7 @@ make -e SPHINXOPTS="-Dlanguage='ja'" html
 ```
 
 
-### Windows Git BASH
+### Windows PowerShell
 Make document (default: English)
 ```shell
 mingw32-make html
