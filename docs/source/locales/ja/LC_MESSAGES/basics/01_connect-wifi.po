@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../source/basics/01_connect-wifi.rst:9 ae29cece46174586bb9ee267f0ed0f0f
 msgid "Robot Wi-Fi Network Setup"
-msgstr "ロボット Wi-Fi ネットワークのセットアップ"
+msgstr ""
 
 #: ../../source/basics/01_connect-wifi.rst:11 1e59bc2e26a3499e8d8fb357513e9bfd
 msgid ""
