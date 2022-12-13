@@ -12,3 +12,4 @@ Custom Commands
    "cal ground", "Start ground camera calibration"
    "cal tilt", "Start tablet tilt motor calibration"
    "start_cal_mb", "Start wheel encoder calibration"
+   "disable cliff", "Disable cliff sensors, i.e. for robots without cliff sensors"

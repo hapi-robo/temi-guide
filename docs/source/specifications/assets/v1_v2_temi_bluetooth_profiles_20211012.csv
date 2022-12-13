@@ -1,3 +1,5 @@
+V1 & V2 Robot Blueooth Profile,,,,
+,,,,
 Profile Name,Profile Abbreviation,Description,Supported,More Information
 Advanced Audio Distribution Profile,A2DP,"Defines how multimedia audio can be streamed from one device to another over a Bluetooth connection (it is also called Bluetooth Audio Streaming).
 temi Robot can be used as both A2DP master/source and A2DP slave/sink.",Yes,https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Advanced_Audio_Distribution_Profile_(A2DP)
