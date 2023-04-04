@@ -37,6 +37,9 @@ Use the following instructions to measure Wi-Fi signal strength on the robot.
 
 Installing Android CA System Certificates
 =========================================
-temi cannot be used with WPA-Enterprise and/or environments requiring 802.1X EAP authentication (2021/07).
+
+temi cannot be used with WPA-Enterprise and/or environments requiring 802.1X EAP authentication (2021/07)*.
 
 Instructions for installing Android CA System Certificates manually over ADB can be found `here <https://github.com/hapi-robo/temi-guide/tree/master/scripts/ca_certificates>`_. This should be applicable to temi and any other Android device.
+
+*v3 robot has no restrictions on WPA-Enterprise.*
